@@ -116,7 +116,7 @@ if __name__=="__main__":
   db=crusher.Broker("test_crusherdict")
   test=CrusherDict(db, "test")
   
-  for i in range(0,100000):
+  for i in range(0,1000000):
    try:
     test.getKey("Hiddleston","name")
    except:
