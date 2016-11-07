@@ -1,0 +1,20 @@
+VOTER
+CAST	VANZY53
+VOTER
+CAST	VDEULPW
+VOTER
+VOTE	Secretary of the Vote	Charles Lindbergh
+VOTE	Governor	Mary Potter
+CAST	VO7562J
+VOTER
+VOTE	Governor	Mickey Mouse
+VOTE	Surgenn General	Say what?
+CAST	VBKX5J2
+VOTER
+VOTE	Governor	Mickey Mouse
+VOTE	Secretary of the Vote	Stoney Jackson
+CAST	V5RFX2U
+VOTER
+VOTE	President	Stanley Gordon
+VOTE	Lt. Governor	Merlin
+CAST	VAFERHK

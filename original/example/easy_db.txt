@@ -1,0 +1,43 @@
+('V3G7OH1', 'X', ('Governor', 'Mickey Mouse'))	1
+('VJ9VQC8', 'N')	2
+('T', 'E', 0)	(('Governor', 'Mickey Mouse'), 4, 'VRVF12N')
+('VNZDWTH', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V3G7OH1', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V3G7OH1', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VRVF12N', 'E', 0)	(('President', 'Donald Trump'), None)
+('VNZDWTH', 'X', ('Lt. Governor', 'Microsoft'))	1
+('T', 'X', ('Lt. Governor', 'Melinda Gates'))	5
+('T', 'X', ('Governor', 'Paul Johnson'))	3
+('V4RL5NY', 'X', ('Governor', 'Paul Johnson'))	0
+('V7K5EFJ', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V3G7OH1', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VRVF12N', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VNZDWTH', 'X', ('Governor', 'Mickey Mouse'))	0
+('V7K5EFJ', 'N')	1
+('VRVF12N', 'X', ('President', 'Donald Trump'))	0
+('V3G7OH1', 'X', ('President', 'Donald Trump'))	0
+('V3G7OH1', 'E', 0)	(('President', 'Donald Trump'), None)
+('V4RL5NY', 'N')	1
+('T', 'E', 5)	(('Lt. Governor', 'Melinda Gates'), 2, 'VRVF12N')
+('VRVF12N', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VRVF12N', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VJ9VQC8', 'X', ('Governor', 'Mickey Mouse'))	0
+('VRVF12N', 'X', ('Governor', 'Mickey Mouse'))	1
+('T', 'E', 4)	(('President', 'Donald Trump'), 2, 'VRVF12N')
+('T', 'X', ('Governor', 'Mickey Mouse'))	0
+('T', 'X', 'voters')	2
+('VNZDWTH', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VRVF12N', 'N')	3
+('V4RL5NY', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('T', 'E', 3)	(('Governor', 'Paul Johnson'), 2, 'V4RL5NY')
+('VNZDWTH', 'N')	2
+('T', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VJ9VQC8', 'X', ('Lt. Governor', 'Microsoft'))	1
+('T', 'E', 2)	('voters', 6, 'VRVF12N')
+('T', 'X', ('President', 'Donald Trump'))	4
+('VJ9VQC8', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V3G7OH1', 'N')	3
+TN	6
+('T', 'E', 1)	(('Lt. Governor', 'Microsoft'), 2, 'VNZDWTH')
+('V7K5EFJ', 'X', ('Governor', 'Paul Johnson'))	0
+('VJ9VQC8', 'E', 0)	(('Governor', 'Mickey Mouse'), None)

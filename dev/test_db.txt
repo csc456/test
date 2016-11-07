@@ -1,0 +1,204 @@
+('V91GHXI', 'N')	1
+('V3W4865', 'X', ('Governor', 'Wanda'))	0
+('VXOS8B1', 'E', 0)	(('Governor', 'Wanda'), None)
+('V8VZYST', 'N')	1
+('VJYNFOK', 'X', ('Governor', 'Wanda Sykes'))	0
+('VPMRKUB', 'X', ('Governor', 'Wanda'))	0
+('V9ILF06', 'X', ('Governor', 'Wanda Sykes'))	0
+('VQ63NA8', 'N')	1
+('VAGVIN2', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V17PY5A', 'X', ('Governor', 'Wanda Sykes'))	0
+('VBHVD1M', 'N')	1
+('VMEKVIU', 'N')	1
+('VK395MI', 'N')	1
+('VXCD38T', 'X', ('Governor', 'Wa~da Sykes'))	0
+('V4O6VPD', 'X', ('Governor', 'Wanda Sykes'))	0
+('V16LYOH', 'X', ('Governor', 'Wanda Sykes'))	0
+('VUVHCT9', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V6OQ2FM', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V9OQ5VR', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VS6BAUW', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VWZS42E', 'N')	1
+('VOIVG0K', 'N')	1
+('VBFHN6O', 'N')	1
+('VTX9JYS', 'X', ('Governor', 'Wanda Sykes'))	0
+('V17PY5A', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VS8NODJ', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V16LYOH', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V9ILF06', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VFEO69K', 'N')	1
+('V1PC8AG', 'E', 0)	(('Governor', 'Wanda'), None)
+('T', 'E', 7)	('voters', 10, 'V02ZFDP')
+('VDPVIXW', 'X', ('Governor', 'Wanda Sykes'))	0
+('VB5P4TW', 'N')	1
+('VP6QA9N', 'N')	1
+('VN1O4EB', 'N')	1
+('V1M90H6', 'N')	1
+('VB5P4TW', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VBFHN6O', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VF3VCSB', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V8CJ1Y2', 'N')	1
+('V7D89SM', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V4MOTHQ', 'N')	1
+('VB02Z8K', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VN1O4EB', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V6OQ2FM', 'N')	1
+('V17PY5A', 'N')	1
+('VALWSRZ', 'E', 0)	0
+('VOI6DM5', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V02N68F', 'X', ('Governor', 'Wanda Sykes'))	0
+('VXJG4DY', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+TN	11
+('T', 'E', 2)	(('Governor', 'Wanda'), 3, 'V1PC8AG')
+('VB5P4TW', 'X', ('Governor', 'Wanda Sykes'))	0
+('VU6BDFW', 'N')	1
+('VYLKTES', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VJSYH1B', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V9GVY1P', 'N')	1
+('VV0K8HZ', 'N')	1
+('T', 'E', 4)	('voters', 9, 'VF3VCSB')
+('VFEO69K', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VTEHY5Z', 'X', ('Governor', 'Wanda Sykes'))	0
+('T', 'E', 6)	('voters', 28, 'V9GVY1P')
+('VS0AUPY', 'N')	1
+('V4SXMF7', 'N')	1
+('VUVHCT9', 'X', ('Governor', 'Wanda Sykes'))	1
+('V1M90H6', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VALWSRZ', 'N')	1
+('VOI6DM5', 'X', ('Governor', 'Wanda Sykes'))	0
+('V4O6VPD', 'N')	1
+('VNMXDZP', 'E', 0)	(['Governor', 'Wanda'], None)
+('T', 'E', 8)	('voters', 7, 'V6ÏQ2FM')
+('V9GVY1P', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+PN	2
+('VTLAD72', 'X', ('Governor', 'Wanda Sykes'))	0
+('VNMXDZP', 'N')	1
+('VN1O4EB', 'X', ('Governor', 'Wanda Sykes'))	0
+('VYLKTES', 'X', ('Governor', 'Wanda Sykes'))	0
+('VS0AUPY', 'X', ('Governor', 'Wanda Sykes'))	0
+('T', 'E', 10)	('voters', 2, 'VS0AUPY')
+('V9OQ5VR', 'N')	1
+('T', 'X', 'voters')	10
+('VPMRKUB', 'N')	1
+('V1PUBQ3', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VTLAD72', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VAGVIN2', 'N')	1
+('VWZS42E', 'X', ('Governor', 'Wanda Sykes'))	0
+('V4SXMF7', 'E', 0)	(('Governor', 'Wanda'), None)
+('V4MOTHQ', 'X', ('Governor', 'Wanda'))	0
+('V4O6VPD', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VU6BDFW', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VZI9BAY', 'X', ('Governor', 'Wanda Sykes'))	0
+('VMEKVIU', 'E', 0)	(('Governor', 'Wanda'), None)
+('VJSYH1B', 'X', ('Governor', 'Wanda Sykes'))	0
+('T', 'E', 1)	(('Governor', 'Wanda Sykes'), 2, 'V6OQ2FM')
+('V6OQ2FM', 'X', ('Governor', 'Wanda Sykes'))	0
+('VXCD38T', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V4SXMF7', 'X', ('Governor', 'Wanda'))	0
+('VU6BDFW', 'X', ('Governor', 'Wanda Sykes'))	0
+('VBFHN6O', 'X', ('Governor', 'Wanda Sykes'))	0
+('VXJG4DY', 'X', ('Governor', 'Wanda Sykes'))	0
+('V3W4865', 'N')	1
+('VBHVD1M', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VJSYH1B', 'N')	1
+('VXOS8B1', 'X', ('Governor', 'Wanda'))	0
+('V1PUBQ3', 'X', ('Governor', 'Wanda Sykes'))	0
+('VS0AUPY', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VDPVIXW', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VXCD38T', 'N')	1
+('V7D89SM', 'N')	1
+('VOMZXB1', 'X', ('Governor', 'Wanda Sykes'))	1
+('VQ63NA8', 'E', 0)	(('Governor', 'Wanda'), None)
+('VTEHY5Z', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V1PUBQ3', 'N')	1
+('V91GHXI', 'X', ('Governor', 'Wanda'))	0
+('V9OQ5VR', 'X', ('Governor', 'Wanda Sykes'))	0
+('V02N68F', 'N')	1
+('VK395MI', 'X', ('Governor', 'Wanda Sykes'))	0
+('V4PC0ZI', 'E', 0)	(('Governor', 'Wanda'), None)
+('VTAHY5Z', 'N')	1
+('VBHVD1M', 'X', ('Governor', 'Wanda Sykes'))	0
+('VV0K8HZ', 'X', ('Governor', 'Wanda Sykes'))	0
+('VFYR7V3', 'X', ('Governor', 'Wanda'))	0
+('VYLKTES', 'N')	1
+('VV0K8HZ', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VPMRKUB', 'E', 0)	(('Governor', 'Wanda'), None)
+('VP6QA9N', 'E', 0)	0
+('VB02Z8K', 'N')	1
+('V3W4865', 'E', 0)	(('Governor', 'Wanda'), None)
+('VXOS8B1', 'N')	1
+('VJYNFOK', 'N')	1
+('VF2KI3J', 'N')	1
+('VF3VCSB', 'N')	1
+('V91GIXI', 'E', 0)	(('Governor', 'Wanda'), None)
+('T', 'X', ('Governor', 'Wanda'))	2
+('V8VZYST', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('T', 'X', ('Governor', 'Wanda Sykes'))	3
+('VAGVIN2', 'X', ('Governor', 'Wanda Sykes'))	0
+('VFYR7V3', 'N')	1
+('VOIVG0K', 'X', ('Governor', 'Wanda'))	0
+('VOI6DM5', 'N')	1
+('VS6BAUW', 'X', ('Governor', 'Wanda Sykes'))	0
+('VZI9BAY', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VDPVIXW', 'N')	1
+('VA2PYVM', 'N')	1
+('V34CR5K', 'X', ('Governor', 'Wanda'))	0
+('V4PC0ZI', 'N')	1
+('VMEKVIU', 'X', ('Governor', 'Wanda'))	0
+('VJYNFOK', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VK395MI', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VS6BAUW', 'N')	1
+('VT7ZW9U', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VCWS74O', 'N')	1
+('VF2KI3J', 'X', ('Governïr', 'Wanda Sykes'))	0
+('V1PC8AG', 'X', ('Governor', 'Wanda'))	0
+('VS8NODJ', 'N')	1
+('V02ZFDP', 'N')	1
+('VZOPHFI', 'X', ('Governor', 'Wanda Sykes'))	0
+('VOIVG0K', 'E', 0)	(('Governor', 'Wanda'), None)
+('\x1616LYOH', 'N')	1
+('VA2PYVM', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VWZS42E', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('T', 'E', 0)	(('Governor', 'Wanda Sykes'), 15, 'VJSYH1B')
+('T', 'E', 3)	(('Governor', 'Wanda Sykes'), 45, 'VS0AUPY')
+('V1PC8AG', 'N')	1
+('VQ63NA8', 'X', ('Governor', 'Wanda'))	0
+('VB02Z8K', 'X', ('Governor', 'Wanda Sykes'))	0
+('VT7ZW9U', 'X', ('Governor', 'Wanda Sykes'))	0
+('VCWS74O', 'E', 0)	(('Governor', 'Wanda'), None)
+('V34CR5K', 'N')	1
+('VZOPHFI', 'N')	1
+('T', 'E', 5)	('voters', None)
+('V4MOTHQ', 'E', 0)	(('Governor', 'Wanda'), None)
+('VFEO69K', 'X', ('Governor', 'Wanda Sykes'))	0
+('V8CJ1Y2', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VFYR7V3', 'E', 0)	(('Governor', 'Wanda'), None)
+('V1M90H6', 'X', ('Governor', 'Wanda Sykes'))	0
+('V8CJ1Y2', 'X', ('Governor', 'Wanda Sykes'))	0
+('VJP0YSK', 'E', 0)	0
+('V4PC0ZI', 'X', ('Governor', 'Wanda'))	0
+('VTX9JYS', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VXJG4DY', 'N')	1
+('V02ZFDP', 'E', 0)	0
+('VT7ZW9U', 'N')	1
+('V9YNUXK', 'E', 0)	0
+('VF3VCSB', 'X', ('Governor', 'Wanda Sykes'))	0
+('VTX9JYS', 'N')	1
+('T', 'E', 9)	('voters', 1, 'V7D89SM')
+('V9GVY1P', 'X', ('Governor', 'Wanda Sykes'))	0
+('VOMZXB1', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VNMXDZP', 'X', ('Governor', 'Wanda'))	0
+('VA2PYVM', 'X', ('Governor', 'Wanda Sykes'))	0
+('VCWS74O', 'X', ('Governor', 'Wanda'))	0
+('V9YNUXK', 'N')	1
+('VZOPHFI', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VJP0YSK', 'N')	1
+('VS8NODJ', 'X', ('Governor', 'Wanda Sykes'))	0
+('V7D89SM', 'X', ('Governor', 'Wanda Sykes'))	0
+('VF2KI3J', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('VTLAD72', 'N')	1
+('V8VZYST', 'X', ('Governor', 'Wanda Sykes'))	0
+('V02N68F', 'E', 0)	(('Governor', 'Wanda Sykes'), None)
+('V34CR5K', 'E', 0)	(('Governor', 'Wanda'), None)
+('V9ILF06', 'N')	1
+('VZI9BAY', 'N')	1
