@@ -1,4 +1,0 @@
-VOTER
-VOTE	Treasurer	Jane Wen14
-CAST	VG4FUP9
-VOTER
