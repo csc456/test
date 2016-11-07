@@ -114,11 +114,12 @@ if __name__=="__main__":
  import crusher
  try:
   db=crusher.Broker("test_crusherdict")
-  test=CrusherDict(db, "test")
+  test=CrusherDict(db, "test2")
   
-  for i in range(0,1000000):
+  for i in range(0,100000):
    try:
-    test.getKey("Hiddleston","name")
+    #test.getKey("Hiddleston","name")
+    test.getKey("Hiddleston982374987239847298347982379487239487","name982374092374092740923740923740927304239847")
    except:
     pass
   #print(test.inc("Gov-Muller","voter-809809"))
