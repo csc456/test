@@ -1542,3 +1542,37 @@
 06/11/2016 22:56:28  TOTALS              :      0 |         0/        0 (  0.0%)
 06/11/2016 22:56:28 Statistics             events    Received/ RawEquiv ( saved)
 06/11/2016 22:56:28  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 05:28:27   other clients:
+07/11/2016 05:28:27      24.177.95.76
+07/11/2016 05:28:27 webSocketsHandshake: invalid client header
+07/11/2016 05:28:27 Client 213.48.54.43 gone
+07/11/2016 05:28:27 Statistics             events    Transmit/ RawEquiv ( saved)
+07/11/2016 05:28:27  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 05:28:27 Statistics             events    Received/ RawEquiv ( saved)
+07/11/2016 05:28:27  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 06:50:32   other clients:
+07/11/2016 06:50:32      24.177.95.76
+07/11/2016 06:50:32 webSocketsHandshake: unknown connection error
+07/11/2016 06:50:32 Client 124.124.114.136 gone
+07/11/2016 06:50:32 Statistics             events    Transmit/ RawEquiv ( saved)
+07/11/2016 06:50:32  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 06:50:32 Statistics             events    Received/ RawEquiv ( saved)
+07/11/2016 06:50:32  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 06:50:32   other clients:
+07/11/2016 06:50:32      24.177.95.76
+07/11/2016 06:50:32 webSocketsHandshake: invalid client header
+07/11/2016 06:50:32 Client 124.124.114.136 gone
+07/11/2016 06:50:32 Statistics             events    Transmit/ RawEquiv ( saved)
+07/11/2016 06:50:32  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 06:50:32 Statistics             events    Received/ RawEquiv ( saved)
+07/11/2016 06:50:32  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 10:43:41 Enabling full-color cursor updates for client 24.177.95.76
+07/11/2016 10:43:41 Enabling NewFBSize protocol extension for client 24.177.95.76
+07/11/2016 10:43:41 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+07/11/2016 10:43:41 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+07/11/2016 10:43:41 Enabling LastRect protocol extension for client 24.177.95.76
+07/11/2016 10:43:41 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+07/11/2016 10:43:41 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+07/11/2016 10:43:41 Using image quality level 6 for client 24.177.95.76
+07/11/2016 10:43:41 Using JPEG subsampling 0, Q79 for client 24.177.95.76
+07/11/2016 10:43:41 Switching from tight to tight Encoding for client 24.177.95.76
