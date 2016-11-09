@@ -1576,3 +1576,45 @@
 07/11/2016 10:43:41 Using image quality level 6 for client 24.177.95.76
 07/11/2016 10:43:41 Using JPEG subsampling 0, Q79 for client 24.177.95.76
 07/11/2016 10:43:41 Switching from tight to tight Encoding for client 24.177.95.76
+07/11/2016 13:44:00 Enabling full-color cursor updates for client 24.177.95.76
+07/11/2016 13:44:00 Enabling NewFBSize protocol extension for client 24.177.95.76
+07/11/2016 13:44:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+07/11/2016 13:44:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+07/11/2016 13:44:00 Enabling LastRect protocol extension for client 24.177.95.76
+07/11/2016 13:44:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+07/11/2016 13:44:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+07/11/2016 13:44:00 Using image quality level 8 for client 24.177.95.76
+07/11/2016 13:44:00 Using JPEG subsampling 0, Q92 for client 24.177.95.76
+07/11/2016 13:44:00 Switching from tight to tight Encoding for client 24.177.95.76
+07/11/2016 21:38:37   other clients:
+07/11/2016 21:38:37      24.177.95.76
+07/11/2016 21:38:37 webSocketsHandshake: invalid client header
+07/11/2016 21:38:37 Client 89.248.163.3 gone
+07/11/2016 21:38:37 Statistics             events    Transmit/ RawEquiv ( saved)
+07/11/2016 21:38:37  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 21:38:37 Statistics             events    Received/ RawEquiv ( saved)
+07/11/2016 21:38:37  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 21:38:43   other clients:
+07/11/2016 21:38:43      24.177.95.76
+07/11/2016 21:38:43 webSocketsHandshake: invalid client header
+07/11/2016 21:38:43 Client 89.248.163.3 gone
+07/11/2016 21:38:43 Statistics             events    Transmit/ RawEquiv ( saved)
+07/11/2016 21:38:43  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 21:38:43 Statistics             events    Received/ RawEquiv ( saved)
+07/11/2016 21:38:43  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 21:38:46   other clients:
+07/11/2016 21:38:46      24.177.95.76
+07/11/2016 21:38:46 webSocketsHandshake: invalid client header
+07/11/2016 21:38:46 Client 89.248.163.3 gone
+07/11/2016 21:38:46 Statistics             events    Transmit/ RawEquiv ( saved)
+07/11/2016 21:38:46  TOTALS              :      0 |         0/        0 (  0.0%)
+07/11/2016 21:38:46 Statistics             events    Received/ RawEquiv ( saved)
+07/11/2016 21:38:46  TOTALS              :      0 |         0/        0 (  0.0%)
+08/11/2016 17:44:16   other clients:
+08/11/2016 17:44:16      24.177.95.76
+08/11/2016 17:44:16 webSocketsHandshake: invalid client header
+08/11/2016 17:44:16 Client 189.1.99.108 gone
+08/11/2016 17:44:16 Statistics             events    Transmit/ RawEquiv ( saved)
+08/11/2016 17:44:16  TOTALS              :      0 |         0/        0 (  0.0%)
+08/11/2016 17:44:16 Statistics             events    Received/ RawEquiv ( saved)
+08/11/2016 17:44:16  TOTALS              :      0 |         0/        0 (  0.0%)

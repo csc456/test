@@ -20,9 +20,16 @@ def voter(db, context, log, fields):
  """Perform VOTER command."""
  context.clear()
  try:
+  #i=0
   while True:
-    voterid="V"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",6))
-    db.fetch(crusherdict.countName(voterid))
+   #i+=1
+   #voterid="V"+str(i)
+   #db.fetch(crusherdict.countName(voterid))
+   voterid="V"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",6))
+   db.fetch(crusherdict.countName(voterid))
+ # while True:
+    #voterid="V"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",6))
+    #db.fetch(crusherdict.countName(voterid))
  except KeyError:
   """Good: we don't have this voter yet."""
  context["id"]=voterid
