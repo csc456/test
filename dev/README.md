@@ -1,5 +1,9 @@
 # ...
 
+Running demo.py. Using try-catch to suppress errors. ```$demo.py input/big.txt```. Results in big_db-sorted.txt.
+
+# ...
+
 There is an interesting occurrence when using crusherdict.py. If you run 1,000,000 times test.getKey("Hiddleston", "name"):
 
 ```

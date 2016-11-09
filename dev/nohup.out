@@ -1618,3 +1618,13 @@
 08/11/2016 17:44:16  TOTALS              :      0 |         0/        0 (  0.0%)
 08/11/2016 17:44:16 Statistics             events    Received/ RawEquiv ( saved)
 08/11/2016 17:44:16  TOTALS              :      0 |         0/        0 (  0.0%)
+08/11/2016 23:21:00 Enabling full-color cursor updates for client 24.177.95.76
+08/11/2016 23:21:00 Enabling NewFBSize protocol extension for client 24.177.95.76
+08/11/2016 23:21:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+08/11/2016 23:21:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+08/11/2016 23:21:00 Enabling LastRect protocol extension for client 24.177.95.76
+08/11/2016 23:21:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+08/11/2016 23:21:00 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+08/11/2016 23:21:00 Using image quality level 6 for client 24.177.95.76
+08/11/2016 23:21:00 Using JPEG subsampling 0, Q79 for client 24.177.95.76
+08/11/2016 23:21:00 Switching from tight to tight Encoding for client 24.177.95.76
