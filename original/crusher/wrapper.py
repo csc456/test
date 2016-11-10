@@ -1,13 +1,23 @@
 #!/usr/bin/env python3
 
+############
+###wrapper.py
+###by Brandon Dutko
+###WARNING This whole thing is currently untested.  Expect all types of crashing.  Use at your own risk.
+############
+
 import crusher.Broker as Broken
-"""
-in scripts that use this wrapper:
-import crusher
-import wrapper
-crusher.Broker = wrapper.Broker
-"""
-import re
+
+############
+###This may not work, I've never replaced a class from a module
+###with a child class from a different module in a seperate script that imports
+###both modules before
+###
+###in scripts that use this wrapper:
+###import crusher
+###import wrapper
+###crusher.Broker = wrapper.Broker
+############
 
 #n represents the number of replicas that should be stored
 #this can easily be hard coded if storing n is not allowed
@@ -36,7 +46,7 @@ class Broker(Broken):
 		fetch/store each replica until the fetched value is the same as the stored
 		value to check for validity in the cache (if it's invalid in the cache
 		it's almost certainly invalid in the db)"""
-		for i in range(0, n):
+		for i in range(n):
 			again = True
 			while(again):
 				again = False
@@ -100,12 +110,15 @@ class Broker(Broken):
 		Votes bitwise on a list of strings of the same length and determines the most likely strings
 		returns a list of strings that are created from the bits that occured
 		the most (because there can be ties for each individual bit)
+		This entire process could probably be made more efficient by replacing alot of the
+		code with proper bit manipulation rather than turning the bits into a list of integers to
+		work with.
 		"""
 		finalStringsAsBits = []
 		#finalStringsAsBits will be a list of lists of bits that represent
 		#the voted upon string possibilities
 		#ex: the string possibilites "i"/"I" would be represented as follows
-		#[[0],[1],[1,0],[0],[1],[0],[0],[1]]
+		#[[0],[1],[1,0],[0],[1],[0],[0],[1]] because 01101001 is "i" and 01001001 is "I"
 		
 		#For each character (The strings all have the same number of characters)
 		for i in range(len(listOfStrings[0])):
