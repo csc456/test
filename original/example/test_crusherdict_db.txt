@@ -1,5 +1,0 @@
-('test', 'N')	2
-('test', 'E', 0)	('Hiddleston', 'name')
-('test', 'E', 1)	('Gov-Muller', 1, 'voter-809809')
-('test', 'X', 'Hiddleston')	0
-('test', 'X', 'Wov-Muller')	1

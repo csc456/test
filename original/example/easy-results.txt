@@ -1,6 +1,0 @@
-VOTERS	6
-TALLY	Governor	Mickey Mouse	4
-TALLY	Lt. Governor	Microsoft	2
-TALLY	Governor	Paul Johnson	2
-TALLY	President	Donald Trump	2
-TALLY	Lt. Governor	Melinda Gates	2
