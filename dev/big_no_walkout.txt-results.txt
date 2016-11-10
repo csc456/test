@@ -1,7 +1,0 @@
-VOTERS	15
-TALLY	Senator	Father Malloy	None
-TALLY	Surgeon General	Say what?	None
-TALLY	Senator	Father Malloy	4
-TALLY	President	George W. Bush	3
-TALLY	Supreme Court Justice	Ron Weasley	3
-TALLY	President	Donald Trump	1
