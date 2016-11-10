@@ -63,14 +63,14 @@ class Broker(Broken):
 		valLengths = []
 		for value in values:
 			valLengths.append(len(value))
-		valLengths = self.voteLen(valLengths)
+		valLengths = self.voteInt(valLengths)
 		for lengths in valLengths:
 			valuesWSameLengthTemp = []
 			#For each possible length (if more than one length won the vote)
 			for value in values:
 				if len(value) == lengths:
 					valuesWSameLengthTemp.append(value)
-			possibleValues = self.vote(valuesWSameLengthTemp)
+			possibleValues = self.voteStr(valuesWSameLengthTemp)
 			#TODO
 			
 	def voteInt(listOfInts):
@@ -138,52 +138,9 @@ class Broker(Broken):
 		#Currently this will not work unless it's called with the proper
 		#key which will have a copy identifier on it that the caller
 		#probably doesn't know
-		return super().remove(self, key)
+		return Broken.remove(self, key)
 		
     def exit(self):
 		"""Nothing changes on exit"""
-		super().exit
+		Broken.exit
 		
-class Broker:
-    def __init__(self, filename="demo.txt"):
-        random.seed()
-        self.cache=Cache()
-        self.db=DataBase(filename)
-        self.keyIn=Channel()
-        self.valIn=Channel()
-        self.keyCache=Channel()
-        self.valCacheOut=Channel()
-        self.valCacheIn=Channel()
-        self.keyDB=Channel()
-        self.valDBOut=Channel()
-        self.valDBIn=Channel()
-        self.configurables=(self.cache, self.keyIn, self.valIn, self.keyCache, self.valCacheIn, self.valCacheOut, self.keyDB, self.valDBIn, self.valDBOut)
-        self.doExit=False
-        signal.signal(signal.SIGINT, self.interrupt)
-    def configure(self,s):
-        """Process configuration message s."""
-        s=ast.literal_eval(s)
-        try:
-            for c in s[0]:
-                self.configurables[c].config(s[1:])
-        except TypeError:
-            self.configurables[s[0]].config(s[1:])
-    def interrupt(self, signal, frame):
-        self.doExit=True
-    def store(self,key,val):
-        key=self.keyIn.mangle(key)
-        val=self.valIn.mangle(val)
-        self.cache.store(self.keyCache.mangle(key),self.valCacheOut.mangle(val))
-        self.db.store(self.keyDB.mangle(key),self.valDBOut.mangle(val))
-    def fetch(self,key):
-        key=self.keyIn.mangle(key)
-        try:
-            return self.valCacheIn.mangle(self.cache.fetch(self.keyCache.mangle(key)))
-        except KeyError:
-            return self.valDBIn.mangle(self.db.fetch(self.keyDB.mangle(key)))
-    def remove(self,key):
-        self.cache.remove(self.keyCache.mangle(key))
-        return self.valDBIn.mangle(self.db.remove(self.keyDB.mangle(key)))
-    def exit(self):
-        self.db.save()
-        print("Goodbye!")
