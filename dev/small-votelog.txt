@@ -1,0 +1,15 @@
+VOTER
+CAST	VYA0XJU
+VOTER
+VOTE	Mayor	Slimey Badguy
+CAST	VGUDSIP
+VOTER
+VOTE	Supreme Court Justice	Sherry Parkh5rst
+VOTE	Secretary of the Vote	Charmes Lindbergh
+VOTER
+VOTE	Surgeon General	Say what?
+CAST	V2DHWOY
+VOTER
+VOTE	Governor	Mickey Mouse
+VOTE	Secretary of the Vote	Stoney Jackson
+CAST	VLAPFY6

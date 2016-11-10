@@ -1,0 +1,19 @@
+VOTERS	28
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	1
+TALLY	Lt. Governor	Ronda Spinacoli	10
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	11
+TALLY	Governor	Vickey Walker	2
+TALLY	Surgeon General	Gilderoy Lockhart	5
+TALLY	Governor	Mary Potter	2
+TALLY	Governor	Mary Potter	2
+TALLY	Surgeon Genåral	Say what?	3
+TALLY	President	George Harvey	2
+TALLY	Lt. Governor	Ronda Spinacoli	6
+TALLY	Lt. Governor	Melinda Gatew	1
+TALLY	Secretary of the Vote	Not on my Watch	2
+TALLY	Supreme Court Justice	Sherry Parkhurst	4
+TALLY	Lt. Governor	Ronda Spinacoli	2
+TALLY	Wupreme Court Justice	Ron Weasley	1
+TALLY	Secretary of the Vote	Charles Lindbergh	1
+TALLY	Secretary of the Vote	Stoney Jackson	1
+TALLY	Mayor	Jane Austen	1

@@ -1,0 +1,568 @@
+('V5U3LKN', 'N')	1
+('V0HPSUR', 'X', ('Governor', 'Mickey Mouse'))	1
+('VPD3TSK', 'X', ('Governor', 'Mickey Mouse'))	0
+('VQEU64T', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V8SDU6J', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V28GLS3', 'N')	1
+('VCU1WL5', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VSZ4OF7', 'E', 0)	(('President', 'Donald Trump'), None)
+('V6PBY19', 'N')	3
+('VJ0BW1O', 'X', ('Governor', 'Mickey Mouse'))	1
+('V9LRNDK', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VIDLRNK', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VO3ZLMB', 'N')	1
+('V9OV1BX', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VJSZUV8', 'X', ('Governor', 'Mickey Mouse'))	0
+('VAPEJZY', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VP2QRKC', 'N')	1
+('VJ0BW1O', 'N')	3
+('V7VY9W2', 'N')	2
+('VVE1L3M', 'N')	3
+('VUHCQ7R', 'X', ('President', 'Donald Trump'))	0
+('VXEO7YW', 'N')	3
+('V5AK1DN', 'N')	2
+('V16IZHX', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VQGD4U7', 'X', ('Governor', 'Paul Johnson'))	0
+('VZNPBVQ', 'E', 0)	(('President', 'Donald Trump'), None)
+('VILMUSW', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VHYQ9X2', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VUQY431', 'X', ('President', 'Donald Trump'))	0
+('V6PBY19', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('V9ALP0Z', 'N')	1
+('V9LMW25', 'N')	2
+('VP2QRKC', 'X', ('Governor', 'Paul Johnson'))	0
+('VROCNJG', 'X', ('Governor', 'Mickey Mouse'))	0
+('VMNSF70', 'N')	1
+('V5AK1DN', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VM83CA0', 'X', ('Governor', 'Paul Johnson'))	0
+('VSFCWGL', 'N')	2
+('V9LMW25', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VROCNJG', 'N')	2
+('V8QS0FU', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V41PZC6', 'E', 0)	(('President', 'Donald Trump'), None)
+('V5U3LKN', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VEJN2TM', 'E', 0)	(('President', 'Donald Trump'), None)
+('V0D4JOX', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V8ENIZ3', 'E', 0)	(('President', 'Donald Trump'), None)
+('V5STHV9', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VTROYLV', 'N')	3
+('VJSZUV8', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VIDLRNK', 'X', ('Governor', 'Mickey Mouse'))	1
+('V7VY9W2', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VCNS4QT', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V9LRNDK', 'N')	2
+('VWUYXQM', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VRSMQW9', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VEJN2TM', 'X', ('Governor', 'Mickey Mouse'))	1
+('VJ0BW1O', 'E', 0)	(('President', 'Donald Trump'), None)
+('VE9UQP2', 'X', ('Governor', 'Mickey Mouse'))	1
+('VV0CQKB', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VNQ6LYE', 'X', ('Governor', 'Paul Johnson'))	0
+('V0HPSUR', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VTROYLV', 'X', ('Governor', 'Mickey Mouse'))	1
+('VD4TJY6', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VC01UYE', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VV0CQKB', 'X', ('President', 'Donald Trump'))	0
+('VVWKUX1', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VV0CQKB', 'N')	3
+('VUHCQ7R', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VCZ2M9W', 'N')	1
+('VVE1L3M', 'X', ('Governor', 'Mickey Mouse'))	1
+('VCBS3R8', 'X', ('President', 'Donald Trump'))	0
+('VUQY431', 'N')	3
+('VB1V63O', 'X', ('Governor', 'Mickey Mouse'))	0
+('VYG9R04', 'N')	3
+('V0B4JWK', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VCU1WL5', 'N')	3
+('VJSZUV8', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VQU9S3Z', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VC01UYE', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V9OV1BX', 'N')	2
+('VUF7XYN', 'N')	3
+('VDBVZNP', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VVWKUX1', 'X', ('President', 'Donald Trump'))	0
+('VSFCWGL', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V5PWRKM', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('T', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VCNS4QT', 'N')	2
+('VV0CQKB', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VURD82S', 'N')	1
+('VZNPBVQ', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V59YQV4', 'X', ('President', 'Donald Trump'))	0
+('VM83CA0', 'N')	1
+('V8ENIZ3', 'X', ('Governor', 'Mickey Mouse'))	1
+('VR9HMAN', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V6S2FY1', 'N')	2
+('VWF5X1Y', 'N')	1
+('VABXORU', 'N')	1
+('VGYW79S', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V7CAXP4', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('T', 'E', 4)	(('President', 'Donald Trump'), 37, 'VSZ4OF7')
+('VLNZVG2', 'E', 0)	(('President', 'Donald Trump'), None)
+('V8ENIZ3', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V28GLS3', 'X', ('Governor', 'Paul Johnson'))	0
+('VILMUSW', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VR9HMAN', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VGYW79S', 'X', ('Governor', 'Mickey Mouse'))	1
+('V6S2FY1', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V9ALP0Z', 'X', ('Governor', 'Paul Johnson'))	0
+('VVWKUX1', 'E', 0)	(('President', 'Donald Trump'), None)
+('VXEO7YW', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VUF7XYN', 'X', ('President', 'Donald Trump'))	0
+('VIDLRNK', 'N')	3
+('V7UP3IE', 'N')	2
+('VGQBOSE', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VYG9R04', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VO3QIFJ', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('T', 'E', 0)	(('Governor', 'Mickey Mouse'), 74, 'VSZ4OF7')
+('VRSMQW9', 'N')	3
+('VE9UQP2', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VTROYLV', 'E', 0)	(('President', 'Donald Trump'), None)
+('VRSMQW9', 'E', 0)	(('President', 'Donald Trump'), None)
+('VQU9S3Z', 'X', ('President', 'Donald Trump'))	0
+('VUQY431', 'E', 0)	(('President', 'Donald Trump'), None)
+('VB0VXPL', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V6IP0XW', 'X', ('Governor', 'Mickey Mouse'))	1
+('VSFCWGL', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VRYNVSL', 'X', ('Governor', 'Mickey Mouse'))	0
+('V7VY9W2', 'X', ('Governor', 'Mickey Mouse'))	0
+('VEHMJ2K', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VDBVZNP', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V8ENIZ3', 'N')	3
+('VCZ2M9W', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VCBS3R8', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V374IUF', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VWUYXQM', 'N')	2
+('V6PBY19', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V5CYQDJ', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VG8Q03Z', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VCREJYG', 'E', 0)	(('President', 'Donald Trump'), None)
+('VQGBVN1', 'X', ('Governor', 'Mickey Mouse'))	0
+('VCREJYG', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VJ4DSGW', 'X', ('Governor', 'Mickey Mouse'))	0
+('VQGD4U7', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VD4TJY6', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V0HPSUR', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VZNPBVQ', 'X', ('Governor', 'Mickey Mouse'))	1
+('VKFDVNY', 'N')	1
+('V5O8DK9', 'N')	1
+('VPD3TSK', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VEHMJ2K', 'X', ('Governor', 'Mickey Mouse'))	0
+('VLP6MIT', 'X', ('Governor', 'Paul Johnson'))	0
+('V5NQ9DE', 'N')	2
+('V7CAXP4', 'N')	3
+('V59YQV4', 'N')	3
+('VHCW24U', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('T', 'X', 'voters')	2
+('VHCW24U', 'N')	2
+('VAPEJZY', 'X', ('Governor', 'Mickey Mouse'))	0
+('VDBVZNP', 'X', ('Governor', 'Mickey Mouse'))	1
+('V9LRNDK', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VJ8SDFC', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VIDLRNK', 'E', 0)	(('President', 'Donald Trump'), None)
+('V6S2FY1', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VCL7TOP', 'X', ('Governor', 'Mickey Mouse'))	0
+('V9OV1BX', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VL2QAF0', 'X', ('Governor', 'Paul Johnson'))	0
+('VE9UQP2', 'N')	3
+('V59YQV4', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VV0CQKB', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V7UP3IE', 'X', ('Governor', 'Mickey Mouse'))	0
+('V08241J', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VCNS4QT', 'X', ('Governor', 'Mickey Mouse'))	0
+('VRJHEKN', 'X', ('President', 'Donald Trump'))	0
+('VHCW24U', 'X', ('Governor', 'Mickey Mouse'))	0
+('V0PWOIF', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VG8Q03Z', 'N')	1
+('V59YQV4', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VP2QRKC', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VRYNVSL', 'N')	2
+('VE9UQP2', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VURD82S', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VCEBP8K', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V7CAXP4', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('V6IP0XW', 'N')	3
+('V9LMW25', 'X', ('Governor', 'Mickey Mouse'))	0
+('V16IZHX', 'N')	2
+('VGYW79S', 'N')	3
+('VB1V63O', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V0RVKWT', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('T', 'X', ('President', 'Donald Trump'))	4
+('V08241J', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VYG9R04', 'E', 0)	(('President', 'Donald Trump'), None)
+('VQU9S3Z', 'E', 0)	(('President', 'Donald Trump'), None)
+('V0D4JOX', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V6IP0XW', 'E', 0)	(('President', 'Donald Trump'), None)
+('VR9HMAN', 'N')	2
+('VCNS4QT', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VUHCQ7R', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V0B4JWK', 'X', ('Governor', 'Mickey Mouse'))	0
+('VB0VXPL', 'X', ('Governor', 'Mickey Mouse'))	0
+('V8QS0FU', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VGYW79S', 'X', ('President', 'Donald Trump'))	0
+('V0HPSUR', 'E', 0)	(('President', 'Donald Trump'), None)
+('VRYNVSL', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V5AK1DN', 'X', ('Governor', 'Mickey Mouse'))	0
+('VC6B4V0', 'X', ('Governor', 'Paul Johnson'))	0
+('V0RVKWT', 'X', ('President', 'Donald Trump'))	0
+('VC01UYE', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V8SDU6J', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V7JUEDS', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VUF7XYN', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V0RVKWT', 'N')	3
+('VSVCT8P', 'N')	1
+('V7UP3IE', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VCL7TOP', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V7CAXP4', 'E', 0)	(('President', 'Donald Trump'), None)
+('V6PBY19', 'E', 0)	(('President', 'Donald Trump'), None)
+('VQF932L', 'N')	1
+('V0B4JWK', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VCNS4QT', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VO3QIFJ', 'N')	3
+('VGYW79S', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VL2QAF0', 'N')	1
+('VO4EYA7', 'N')	1
+('VC6B4V0', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V8FL97B', 'X', ('Governor', 'Paul Johnson'))	0
+('VQEU64T', 'N')	2
+('V0HPSUR', 'N')	3
+('VZNPBVQ', 'X', ('President', 'Donald Trump'))	0
+('VJ4DSGW', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VVE1L3M', 'E', 0)	(('President', 'Donald Trump'), None)
+('V0PWOIF', 'N')	1
+('VSUREHW', 'N')	1
+('V8QS0FU', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VR9HMAN', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VQU9S3Z', 'N')	3
+('VEJN2TM', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VQF932L', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VB0VXPL', 'N')	2
+('VCQYTP6', 'X', ('Governor', 'Paul Johnson'))	0
+('VJ8SDFC', 'N')	3
+('VRSMQW9', 'X', ('President', 'Donald Trump'))	0
+('T', 'E', 3)	(('Governor', 'Paul Johnson'), 37, 'VO3ZLMB')
+('V8FL97B', 'N')	1
+('VJ8SDFC', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V0PWOIF', 'X', ('Governor', 'Paul Johnson'))	0
+('VVWKUX1', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VVWKUX1', 'X', ('Governor', 'Mickey Mouse'))	1
+('VILMUSW', 'N')	2
+('T', 'E', 5)	(('Lt. Governor', 'Melinda Gates'), 37, 'VSZ4OF7')
+('V0D4JOX', 'X', ('Governor', 'Mickey Mouse'))	0
+('VCQYTP6', 'N')	1
+('VAPEJZY', 'N')	2
+('VAPEJZY', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VSZ4OF7', 'X', ('President', 'Donald Trump'))	0
+('VV0CQKB', 'E', 0)	(('President', 'Donald Trump'), None)
+('VE9UQP2', 'E', 0)	(('President', 'Donald Trump'), None)
+('V6S2FY1', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VCL7TOP', 'N')	2
+('VD4TJY6', 'X', ('Governor', 'Mickey Mouse'))	0
+('VUF7XYN', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VDBVZNP', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('V0RVKWT', 'E', 0)	(('President', 'Donald Trump'), None)
+('VXEO7YW', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V9LMW25', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VJ4DSGW', 'N')	2
+('VJ0BW1O', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VILMUSW', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VLNZVG2', 'N')	3
+('VPD3TSK', 'N')	2
+('VKGDRLO', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VC01UYE', 'X', ('Governor', 'Mickey Mouse'))	0
+('VXEO7YW', 'X', ('Governor', 'Mickey Mouse'))	1
+('VCL7TOP', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VQU9S3Z', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VQEU64T', 'X', ('Governor', 'Mickey Mouse'))	0
+('VCEBP8K', 'X', ('Governor', 'Mickey Mouse'))	0
+('VHYQ9X2', 'X', ('Governor', 'Paul Johnson'))	0
+('V6PBY19', 'X', ('Governor', 'Mickey Mouse'))	1
+('V5STHV9', 'N')	1
+('VSUREHW', 'X', ('Governor', 'Paul Johnson'))	0
+('V5CYQDJ', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VCZ2M9W', 'X', ('Governor', 'Paul Johnson'))	0
+('VCREJYG', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VEM57KZ', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('T', 'X', ('Lt. Governor', 'Melinda Gates'))	5
+('VNQ6LYE', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VABXORU', 'X', ('Governor', 'Paul Johnson'))	0
+('VSZ4OF7', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VD4TJY6', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V53T4PM', 'X', ('Governor', 'Paul Johnson'))	0
+('V8ENIZ3', 'X', ('President', 'Donald Trump'))	0
+('VRJHEKN', 'N')	3
+('VEHMJ2K', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V6IP0XW', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VVK7DWG', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('V0D4JOX', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V7CAXP4', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VVK7DWG', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VKFDVNY', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VCREJYG', 'N')	3
+('VIDLRNK', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VSVCT8P', 'X', ('Governor', 'Paul Johnson'))	0
+('VHCW24U', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VVK7DWG', 'N')	3
+('VJ8SDFC', 'X', ('President', 'Donald Trump'))	0
+('VLNZVG2', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VG8Q03Z', 'X', ('Governor', 'Paul Johnson'))	0
+('VCBS3R8', 'N')	3
+('V9LMW25', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VCEBP8K', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VSFCWGL', 'X', ('Governor', 'Mickey Mouse'))	0
+('V7CAXP4', 'X', ('President', 'Donald Trump'))	0
+('V28GLS3', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V8QS0FU', 'X', ('Governor', 'Mickey Mouse'))	0
+('VQF932L', 'X', ('Governor', 'Paul Johnson'))	0
+('T', 'X', ('Governor', 'Mickey Mouse'))	0
+('VUF7XYN', 'X', ('Governor', 'Mickey Mouse'))	1
+('VUHCQ7R', 'N')	3
+('VRJHEKN', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VVE1L3M', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('V59YQV4', 'E', 0)	(('President', 'Donald Trump'), None)
+('VEJN2TM', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VB0VXPL', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VHYQ9X2', 'N')	1
+('VQGBVN1', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VQGBVN1', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VO3ZLMB', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VRJHEKN', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V9OV1BX', 'X', ('Governor', 'Mickey Mouse'))	0
+('VEM57KZ', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VLNZVG2', 'X', ('Governor', 'Mickey Mouse'))	1
+('VJ0BW1O', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('V41PZC6', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VUQY431', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VB1V63O', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VYG9R04', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V8SDU6J', 'X', ('Governor', 'Mickey Mouse'))	0
+('VVGL0PX', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V16IZHX', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V41PZC6', 'X', ('Governor', 'Mickey Mouse'))	1
+('VSZ4OF7', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VUHCQ7R', 'E', 0)	(('President', 'Donald Trump'), None)
+('VWF5X1Y', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VI72Z1U', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VEM57KZ', 'X', ('President', 'Donald Trump'))	0
+('VO3QIFJ', 'E', 0)	(('President', 'Donald Trump'), None)
+('V374IUF', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VQGBVN1', 'N')	2
+('VILMUSW', 'X', ('Governor', 'Mickey Mouse'))	0
+('VCEBP8K', 'N')	2
+('V8ENIZ3', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VCBS3R8', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('V7VY9W2', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VUF7XYN', 'E', 0)	(('President', 'Donald Trump'), None)
+('VRSMQW9', 'X', ('Governor', 'Mickey Mouse'))	1
+('VUHCQ7R', 'X', ('Governor', 'Mickey Mouse'))	1
+('V08241J', 'N')	2
+('V5AK1DN', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VJSZUV8', 'N')	2
+('V5CYQDJ', 'N')	3
+('VWUYXQM', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V9SZXNF', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VRYNVSL', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VCU1WL5', 'X', ('Governor', 'Mickey Mouse'))	1
+('V5U3LKN', 'X', ('Governor', 'Paul Johnson'))	0
+('VGQBOSE', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V59YQV4', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VCBS3R8', 'X', ('Governor', 'Mickey Mouse'))	1
+('VLNZVG2', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VO3QIFJ', 'X', ('Governor', 'Mickey Mouse'))	1
+('VI72Z1U', 'X', ('Governor', 'Paul Johnson'))	0
+('V5CYQDJ', 'X', ('President', 'Donald Trump'))	0
+('VUQY431', 'X', ('Governor', 'Mickey Mouse'))	1
+('VVE1L3M', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V08241J', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V41PZC6', 'N')	3
+('VPD3TSK', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VGQBOSE', 'N')	2
+('VNQ6LYE', 'N')	1
+('VJ4DSGW', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V5STHV9', 'X', ('Governor', 'Paul Johnson'))	0
+('T', 'E', 2)	('voters', 111, 'VSZ4OF7')
+('VO4EYA7', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VC01UYE', 'N')	2
+('VJ8SDFC', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VTROYLV', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VKFDVNY', 'X', ('Governor', 'Paul Johnson'))	0
+('V8ENIZ3', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VXEO7YW', 'X', ('President', 'Donald Trump'))	0
+('VUQY431', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VCBS3R8', 'E', 0)	(('President', 'Donald Trump'), None)
+('VYG9R04', 'X', ('President', 'Donald Trump'))	0
+('V0B4JWK', 'N')	2
+('V7JUEDS', 'X', ('Governor', 'Paul Johnson'))	0
+('VDBVZNP', 'N')	3
+('V0B4JWK', 'X', ('Lt. Governor', 'Microsoft'))	1
+('V8SDU6J', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VEM57KZ', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VAPEJZY', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VRSMQW9', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VPD3TSK', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VLMVB3Q', 'X', ('Governor', 'Paul Johnson'))	0
+('V0RVKWT', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VEJN2TM', 'X', ('President', 'Donald Trump'))	0
+('VEHMJ2K', 'N')	2
+('VI72Z1U', 'N')	1
+('VCREJYG', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VROCNJG', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VZNPBVQ', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VL2QAF0', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V7UP3IE', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VEJN2TM', 'N')	3
+('VB1V63O', 'N')	2
+('VROCNJG', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VJ8SDFC', 'X', ('Governor', 'Mickey Mouse'))	1
+('VCU1WL5', 'X', ('President', 'Donald Trump'))	0
+('V6IP0XW', 'X', ('President', 'Donald Trump'))	0
+('V5NQ9DE', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VEM57KZ', 'X', ('Governor', 'Mickey Mouse'))	1
+('VB0VXPL', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VLMVB3Q', 'N')	1
+('VABXORU', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V7CAXP4', 'X', ('Governor', 'Mickey Mouse'))	1
+('VQEU64T', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VCREJYG', 'X', ('President', 'Donald Trump'))	0
+('VSZ4OF7', 'N')	3
+('VCEBP8K', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VMNSF70', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VDBVZNP', 'E', 0)	(('President', 'Donald Trump'), None)
+('V53T4PM', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V16IZHX', 'X', ('Governor', 'Mickey Mouse'))	0
+('VCU1WL5', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VVK7DWG', 'E', 0)	(('President', 'Donald Trump'), None)
+('V6S2FY1', 'X', ('Governor', 'Mickey Mouse'))	0
+('VJSZUV8', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VLMVB3Q', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V6IP0XW', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VCREJYG', 'X', ('Governor', 'Mickey Mouse'))	1
+('V8SDU6J', 'N')	2
+('V374IUF', 'N')	2
+('V0D4JOX', 'N')	2
+('VTROYLV', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VTROYLV', 'X', ('President', 'Donald Trump'))	0
+('V9SZXNF', 'X', ('Governor', 'Paul Johnson'))	0
+('VVK7DWG', 'X', ('President', 'Donald Trump'))	0
+('V16IZHX', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VIDLRNK', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V9ALP0Z', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VCQYTP6', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VZNPBVQ', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VEHMJ2K', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VIDLRNK', 'X', ('President', 'Donald Trump'))	0
+('VT2PDBJ', 'X', ('Governor', 'Paul Johnson'))	0
+('V6PBY19', 'X', ('President', 'Donald Trump'))	0
+('V374IUF', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V374IUF', 'X', ('Governor', 'Mickey Mouse'))	0
+('V5AK1DN', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VO4EYA7', 'X', ('Governor', 'Paul Johnson'))	0
+('VRJHEKN', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VVE1L3M', 'X', ('President', 'Donald Trump'))	0
+('V41PZC6', 'X', ('President', 'Donald Trump'))	0
+('V41PZC6', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VD4TJY6', 'N')	2
+('V5O8DK9', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('V41PZC6', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VCU1WL5', 'E', 0)	(('President', 'Donald Trump'), None)
+('V7JUEDS', 'N')	1
+('VHCW24U', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VEJN2TM', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V08241J', 'X', ('Governor', 'Mickey Mouse'))	0
+('VCL7TOP', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V7VY9W2', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V5O8DK9', 'X', ('Governor', 'Paul Johnson'))	0
+('VWUYXQM', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VO3QIFJ', 'X', ('President', 'Donald Trump'))	0
+('V5NQ9DE', 'X', ('Lt. Governor', 'Microsoft'))	1
+TN	6
+('V7UP3IE', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VJ0BW1O', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V53T4PM', 'N')	1
+('V6PBY19', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VUHCQ7R', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VB1V63O', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VGYW79S', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VYG9R04', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VQGBVN1', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V6IP0XW', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VC6B4V0', 'N')	1
+('V59YQV4', 'X', ('Governor', 'Mickey Mouse'))	1
+('VO3QIFJ', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VDBVZNP', 'X', ('President', 'Donald Trump'))	0
+('VVGL0PX', 'X', ('Governor', 'Paul Johnson'))	0
+('VUF7XYN', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VO3QIFJ', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V5PWRKM', 'X', ('Governor', 'Paul Johnson'))	0
+('VYG9R04', 'X', ('Governor', 'Mickey Mouse'))	1
+('V0HPSUR', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VO3ZLMB', 'X', ('Governor', 'Paul Johnson'))	0
+('VKGDRLO', 'X', ('Governor', 'Paul Johnson'))	0
+('VQU9S3Z', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V5PWRKM', 'N')	1
+('VRJHEKN', 'E', 0)	(('President', 'Donald Trump'), None)
+('VURD82S', 'X', ('Governor', 'Paul Johnson'))	0
+('VR9HMAN', 'X', ('Governor', 'Mickey Mouse'))	0
+('VLNZVG2', 'X', ('President', 'Donald Trump'))	0
+('V9SZXNF', 'N')	1
+('VV0CQKB', 'X', ('Governor', 'Mickey Mouse'))	1
+('VMNSF70', 'X', ('Governor', 'Paul Johnson'))	0
+('VWF5X1Y', 'X', ('Governor', 'Paul Johnson'))	0
+('V9LRNDK', 'X', ('Governor', 'Mickey Mouse'))	0
+('VRYNVSL', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VGYW79S', 'E', 0)	(('President', 'Donald Trump'), None)
+('VQU9S3Z', 'X', ('Governor', 'Mickey Mouse'))	1
+('VKGDRLO', 'N')	1
+('VLP6MIT', 'N')	1
+('VE9UQP2', 'X', ('President', 'Donald Trump'))	0
+('V9LRNDK', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VLNZVG2', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VVE1L3M', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VVWKUX1', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('V0RVKWT', 'X', ('Governor', 'Mickey Mouse'))	1
+('V0HPSUR', 'X', ('President', 'Donald Trump'))	0
+('VZNPBVQ', 'N')	3
+('VROCNJG', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V9OV1BX', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VGQBOSE', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('VJ4DSGW', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VEM57KZ', 'N')	3
+('T', 'E', 1)	(('Lt. Governor', 'Microsoft'), 37, 'V374IUF')
+('V5NQ9DE', 'X', ('Governor', 'Mickey Mouse'))	0
+('VXEO7YW', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VJ8SDFC', 'E', 0)	(('President', 'Donald Trump'), None)
+('VTROYLV', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VUQY431', 'E', 1)	(('Governor', 'Mickey Mouse'), None)
+('VSVCT8P', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VT2PDBJ', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VXEO7YW', 'E', 0)	(('President', 'Donald Trump'), None)
+('VM83CA0', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VRSMQW9', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VSFCWGL', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V5CYQDJ', 'X', ('Governor', 'Mickey Mouse'))	1
+('VVK7DWG', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V8FL97B', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VSZ4OF7', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VE9UQP2', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VCBS3R8', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VVK7DWG', 'X', ('Governor', 'Mickey Mouse'))	1
+('V5CYQDJ', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('VSUREHW', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VT2PDBJ', 'N')	1
+('V0RVKWT', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('V5CYQDJ', 'E', 0)	(('President', 'Donald Trump'), None)
+('VQEU64T', 'X', ('Lt. Governor', 'Microsoft'))	1
+('VEM57KZ', 'E', 0)	(('President', 'Donald Trump'), None)
+('VVWKUX1', 'N')	3
+('VRJHEKN', 'X', ('Governor', 'Mickey Mouse'))	1
+('VGQBOSE', 'X', ('Governor', 'Mickey Mouse'))	0
+('VLP6MIT', 'E', 0)	(('Governor', 'Paul Johnson'), None)
+('VQGD4U7', 'N')	1
+('VWUYXQM', 'X', ('Governor', 'Mickey Mouse'))	0
+('VVGL0PX', 'N')	1
+('VJ0BW1O', 'X', ('President', 'Donald Trump'))	0
+('VCU1WL5', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('VSZ4OF7', 'X', ('Governor', 'Mickey Mouse'))	1
+('V5NQ9DE', 'E', 1)	(('Lt. Governor', 'Microsoft'), None)
+('V8QS0FU', 'N')	2
+('T', 'X', ('Governor', 'Paul Johnson'))	3
