@@ -1,0 +1,593 @@
+('U', 'E', 65)	(('Supreme Court Justice', 'Sherry Parkhurst'), 1, 'V91NL5Q')
+('T', 'E', 73)	(('Mayor', 'Slimey Badguy'), 8, 'VNTBDCH')
+('V97UXH0', 'E', 0)	(('Office of Computer Science Research Grants', 'Jennifer Maize'), None)
+('T', 'E', 30)	1
+('T', 'X', ('President', 'Stanley Gordon'))	9
+('VNTBDCH', 'E', 0)	(('Mayor', 'Slimey Badguy'), None)
+('V91NL5Q', 'E', 18)	(('Mayor', 'Slimey Badguy'), None)
+('VTZQY7W', 'E', 1)	(('Surgeon General', 'Dr. Bones'), None)
+('V6IWRPE', 'E', 5)	(('Governor', 'Jack'), None)
+('VD1V6FS', 'Z', ('Secretary of the Vote', 'Stoney Jackson'))	3
+('VHUGKVB', 'E', 5)	(('Lt. Governor', 'Merlin'), None)
+('VC80M4B', 'E', 15)	(('Senator', 'King Aurthur'), None)
+('VJFM2S3', 'N')	1
+('V9MZL32', 'N')	1
+('VDYAL0W', 'X', ('Lt. Governor', 'Melinda Gates'))	2
+('T', 'E', 84)	(('Secretary of the Vote', 'Not on my Watch'), 7, 'V9T1D74')
+('V975MWZ', 'X', ('Secretary of the Vote', 'G.G. McGeorge'))	1
+('T', 'E', 34)	(('Supreme Court Justice', 'Sherry Parkhurst'), 2, 'VC80M4B')
+('VZEWDFG', 'N')	4
+('VNTBDCH', 'E', 4)	(('Surgeon General', 'Dr. Bones'), None)
+('V8JMFCV', 'X', ('Lt. Governor', 'Merlin'))	0
+('V6IWRPE', 'E', 9)	(('Mayor', 'Slimey Badguy'), None)
+('VBRQUVT', 'E', 1)	(('Layor', 'Edgar Allen Poe'), None)
+('V7CVGMW', 'X', ('President', 'George Harvey'))	6
+('VD1V6FS', 'X', ('Supreme Court Justice', 'Jack Brown'))	2
+('VZEWDFG', 'X', ('Governor', 'Mary Potter'))	1
+('VZVGB9O', 'E', 2)	(('Senator', 'Harry Weasley'), None)
+('T', 'E', 69)	(('President', 'George W. Bush'), 5, 'VCG8X13')
+('VNUZ9XL', 'E', 0)	(('Supreme Court Justice', 'Sherry Parkhurst'), None)
+('V7CVGMW', 'X', ('President', 'George W. Bush'))	1
+('T', 'E', 88)	88
+('V7O2B8J', 'E', 11)	(('President', 'Donald Trump'), None)
+('VYW7S8G', 'N')	3
+('T', 'E', 38)	(('Governor', 'Bill Marlene'), 16, 'VC80M4B')
+('VCG8X13', 'X', ('Secretary of the Vote', 'Not on my Watch'))	0
+('V97UXH0', 'X', ('Office of Computer Science Research Grants', 'Jennifer Maize'))	0
+('T', 'E', 80)	(('Mayor', 'Slimey Badguy'), 2, 'VNTBDCH')
+('V91NL5Q', 'X', ('Senator', 'Harry Weasley'))	20
+('T', 'E', 3)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), 11, 'V97UXH0')
+('VTZQY7W', 'X', ('Surgeon General', 'Monica Lewinski'))	7
+('V9WZGJR', 'X', ('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'))	0
+('V80VLTH', 'E', 0)	(('Surgeon General', "Jack O'Lanterne"), None)
+('T', 'X', ('Governor', 'Bill Marlene'))	62
+('VBRQUVT', 'X', ('Governor', 'Mickey Mouse'))	0
+('VTZQY7W', 'E', 0)	(('Supreme Court Justice', 'Ron Weásley'), None)
+('V7CVGMW', 'X', ('President', 'Harry Potter'))	9
+('V7O2B8J', 'X', ('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'))	13
+('V7OrB8J', 'N')	14
+('T', 'E', 92)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), 1, 'V7O2B8J')
+('T', 'E', 86)	(('Mayor', 'Slimey Badguy'), 7, 'V7O2B8J')
+('T', 'X', ('Supreme Court Justice', 'Ron Weasley'))	17
+('T', 'X', ('Governor', 'Pope John Paul the 19th'))	30
+('VD65ZSG', 'X', ('Lt. Governor', 'Matilda Stalone'))	0
+('T', 'E', 42)	(('Secretary of the Vote', 'G.G. McGeorge'), 4, 'VNTBDCH')
+('T', 'X', ('Surgeon General', 'Say what?'))	8
+('VNTBDCH', 'X', ('Secretary of the Vote', 'G.G. McGeorge'))	3
+('V97UXH0', 'E', 1)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), None)
+('V91NL5Q', 'N')	22
+('VI6LMGU', 'X', ('Secretary of the Vote', "Count 'em twice Jack"))	2
+('T', 'X', ('Secretary of the Vote', 'Charles Lindbergh'))	18
+('V91NL5Q', 'X', ('Mayor', 'Slimey Badguy'))	18
+('T', 'E', 7)	(('Supreme Court Justice', 'Ron Weasley'), 16, 'VD1V6FS')
+('V91NL5Q', 'E', 11)	(('Senator', 'Father Malloy'), None)
+('VTZQY7W', 'E', 4)	(('Mayor', 'Edgar Allen Poe'), None)
+('T', 'E', 96)	(('Lt. Governor', 'Matilda Stalone'), 5, 'V7O2B8J')
+('T', 'X', ('President', 'Harry Potter'))	70
+('VSBI6NV', 'N')	4
+('V7O2B8J', 'E', 3)	3
+('V7O2B8J', 'X', ('Surgeon General', 'Gilderoy Lockhart'))	8
+('VHUGKVB', 'X', ('Lt. Governor', 'Merlin'))	5
+('T', 'X', ('Secretary of the Vote', 'G.G. McGeorge'))	79
+('VZEWDFG', 'E', 1)	(('Governor', 'Mary Potter'), None)
+('T', 'E', 11)	(('Lt. Governor', 'Melinda Gates'), 1, 'VDYAL0W')
+('VNTBDCH', 'X', ('Mayor', 'Slimey Badguy'))	9
+('V975MWZ', 'E', 0)	(('Supreme Court Justice', 'Little John'), None)
+('VZVGB9O', 'X', ('Surgeon General', "Ronald O'Donnelly"))	3
+('VI6LMGU', 'E', 7)	(('PrEsident', 'Stanley Gordon'), None)
+('VTZQY7W', 'E', 8)	(('Governor', 'Jack'), None)
+('V9T1D74', 'X', ('Office of Computer Science Research Grants', 'Stoned Jones'))	7
+('VNUZ9XL', 'E', 1)	(('Senator', 'Father Malloy'), None)
+('VD1V6FS', 'E', 2)	(('Supreme Court Justice', 'Jack Brown'), None)
+('VHUGKVB', 'X', ('Surgeon General', "Ronald O'Donnelly"))	7
+('VI6LMGU', 'X', ('President', 'Stanley Gordon'))	7
+('V7O2B8J', 'X', ('Lt. Governor', 'Matilda Stalone'))	0
+('T', 'E', 50)	(('Senator', 'Father Malloy'), 2, 'V91NL5Q')
+('V6IWRPE', 'X', ('Lt. Governor', 'Orlando Bloom'))	6
+('T', 'E', 65)	(('Supråme Court Justice', 'Sherry Parkhurst'), 3, 'VD1V6FS')
+('V91NL5Q', 'X', ('Secretary of the Vote', 'Not on my Watch'))	7
+('T', 'E', 15)	(('Lt. Governor', 'Ronda Spinacoli'), 2, 'VD1V6FS')
+('VD1V6FS', 'X', ('Lt. Governor', 'Ronda Spinacoli'))	0
+('V91NL5Q', 'E', 3)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), None)
+('V7CVGMW', 'E', 2)	(('Senator', 'Harry Weasley'), None)
+('VI6LMGU', 'E', 3)	(('Lt. Governor', 'Orlando Bloom'), None)
+('VTZQY7W', 'E', 12)	12
+('VD65ZSG', 'N')	2
+('V7O2B8J', 'E', 0)	(('Mayor', 'Slimey Badguy'), None)
+('T', 'X', ('Secretary gf the Vote', 'G.G. McGeorge'))	76
+('T', 'E', 83)	(('Secretary of the Vote', 'Stoney Jackson'), 2, 'V7O2B8J')
+('V9OL3DV', 'E', 1)	(('Governor', 'Pope John Paul the 19th'), None)
+('T', 'E', 54)	(('Surgeon General', 'Monica Lewinski'), 2, 'V91NL5Q')
+('V8JMFCV', 'E', 0)	(('Lt. Governor', 'Merlin'), None)
+('V7I6BVF', 'N')	2
+('VD65ZSG', 'E', 2)	(('Secretary of the Vote', 'Charles Lindbergh'), None)
+('V7O2B8J', 'X', ('Secretary of the Vote', 'Stoney Jackson'))	14
+('VC80M4B', 'X', ('Mayor', 'Slimey Badguy'))	8
+('T', 'X', ('Mayor', 'Robin Hood'))	59
+('T', 'E', 19)	(('Secretary of the Vote', 'Stoney Jackson'), 1, 'VD1V6FS')
+('VBZACIT', 'X', ('Curgeon General', 'Say what?'))	1
+('V91NL5Q', 'E', 7)	(('Mayor', 'Slimey Badguy'), None)
+('V7CVGMW', 'E', 6)	(('President', 'George Harvey'), None)
+('VC80M4B', 'X', ('Supreme Court Justice', 'Sherry Parkhurst'))	17
+('V975MWZ', 'X', ('Office of Computer Science Research Grants', 'Stoned Jones'))	2
+('VZVGB9O', 'N')	5
+('V9T1D74', 'E', 6)	(('President', 'George W. Bush'), None)
+('VC80M4B', 'E', 2)	(('Supreme Court Justice', 'Sherry Parkhurst'), None)
+('T', 'E', 58)	(('Secretary of the Vote', "Count 'em twice Jack"), 6, 'VHUGKVB')
+('VZEWDFG', 'X', ('Mayor', 'Edgar Allen Poe'))	0
+('V91NL5Q', 'X', ('Supreme Court Justice', 'Sherry Parkhurst'))	12
+('V91NL5Q', 'X', ('Mayor', 'Robin Hood'))	13
+('V6IWRPE', 'X', ('Senator', 'King Aurthur'))	11
+('VD1V6FS', 'E', 5)	(('Surgeon General', 'Dr. Bones'), None)
+('V9T1D74', 'X', ('President', 'George W. Bush'))	6
+('T', 'E', 23)	(('Office of Computer Science Research Grants', 'Jennifer Maize'), 14, 'VC80M4B')
+('VZEWDFG', 'E', 2)	(('President', 'Melinda Trump'), None)
+('VI6LMGU', 'X', ('Surgeon General', 'Dr. Bones'))	0
+('VHUGKVJ', 'X', ('Mayor', 'Jane Austen'))	4
+('V7O2B8J', 'X', ('President', 'Harry Potter'))	6
+('VBZACIT', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VC80M4B', 'E', 6)	(('Surgeon General', 'Gilderoy Lockhart'), None)
+('V9WZGJR', 'E', 0)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), None)
+('VHUGKVB', 'X', ('Office of Computer Science Research Grants', 'Stoned Jones'))	1
+('T', 'E', 62)	(('Governor', 'Bill Marlene'), 6, 'V9WZGJR')
+('V9T1D74', 'E', 4)	(('Governor', 'Vickey Walker'), None)
+('V80VLTH', 'N')	1
+('VDYAL0W', 'N')	6
+('T', 'E', 77)	77
+('V9KE6R7', 'N')	1
+('VL0NRZ6', 'X', ('Mayor', 'Jane Austen'))	1
+('VL0NRZ6', 'E', 0)	(('President', 'Donald Trump'), None)
+('T', 'E', 27)	(('Lt. Governor', 'Ginny Potter'), 1, 'VJFM2S3')
+('T', 'X', ('Mayor', 'Mack the Ripoff'))	31
+('V9T1D74', 'E', 0)	0
+('VRS9LZ1', 'N')	2
+('VD1V6FS', 'X', ('Surgeon General', 'Dr. Bones'))	5
+('V975MWZ', 'X', ('Supreme Court Justice', 'Little John'))	0
+('V6IWRPE', 'E', 0)	(('Supreme Court Justice', 'John Simmons'), None)
+('VNUZ9XL', 'X', ('Supreme Court Justice', 'Take em back Alive'))	2
+('V7CVGMW', 'X', ('Supreme Court Justice', 'Little John'))	7
+('VHUGKVB', 'E', 6)	(('Governor', 'Jack'), None)
+('VC80M4B', 'E', 10)	(('Presydent', 'Donald Trump'), None)
+('T', 'X', ('Surgeon General', 'Dr. Bones'))	8
+('T', 'X', ('Supreme Court Justice', 'John Simmons'))	18
+('VSBI6NV', 'E', 0)	(('Supreme Court Justice', 'Sherry Parkhurst'), None)
+('VYDX4IT', 'N')	2
+('V9T1D74', 'X', ('Surgeon General', 'Gilderoy Lockhart'))	1
+('VNTBDCH', 'E', 9)	(('Mayor', 'Slimey Badguy'), None)
+('V92OR47', 'X', ('Secretary of the Vote', 'Stoney Jackson'))	1
+('T', 'E', 31)	(('Mayor', 'Mack the Ripoff'), 3, 'V9OL3DV')
+('V7O2B8J', 'X', ('President', 'Donald Trump'))	11
+('VNTBDCH', 'E', 1)	(('Supreme Court Justice', 'Take em back Alive'), None)
+('V91NL5Q', 'E', 19)	(('Senator', 'Harry Weasley'), 3, 'V91NL5Q')
+('V6IWRPE', 'E', 4)	(('Governor', 'Mickey Mouse'), None)
+('VD1V6FS', 'E', 3)	(('Secretary of the Vote', 'Stoney Jackson'), None)
+('VC80M4B', 'E', 14)	(('Secretary of the Vote', 'G.G. McGeorge'), None)
+('VHUGKVB', 'X', ('Secretary of the Vote', "Count 'em twice Jack"))	2
+('VTZQY7W', 'X', ('Governor', 'Mickey Mouse'))	11
+('VD1V6FS', 'X', ('Secretary of the Vote', 'Stoney Jackson'))	7
+('T', 'E', 32)	('voters', 28, 'V97UXH0')
+('VTZQY7W', 'X', ('Governor', 'Jack'))	8
+('T', 'E', 85)	(('Mayor', 'Slimey Bqdguy'), 1, 'V7O2B8J')
+('V7CVGMW', 'X', ('Office of Computer Science Research Grants', 'Stoned Jones'))	5
+('VSBI6NV', 'X', ('Supreme Court Justice', 'Sherry Parkhurst'))	0
+('V7O2B8J', 'E', 14)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), None)
+('V7O2B8J', 'X', ('Surgeon General', "Jack O'Lanterne"))	7
+('T', 'E', 35)	(('Secretary of the Vote', 'G.G. McGeorge'), 1, 'VC80M4B')
+('V7I6BVF', 'X', ('Senator', 'Mary Schmidt'))	1
+('VYDX4IT', 'X', ('Governor', 'Mickey Mouse'))	0
+('T', 'X', ('Senator', 'Father Malloy'))	57
+('V6IWRPE', 'E', 8)	(('Supreme Court Justice', 'Little John'), None)
+('VL0NRZ6', 'N')	3
+('T', 'X', ('Senator', 'Melissa Gardner'))	63
+('VC80M4B', 'X', ('President', 'Donald Trump'))	10
+('V9T1D74', 'E', 5)	(('Secretary of the Vote', 'Not on my Watch'), None)
+('VZVGB9O', 'E', 1)	1
+('V7O2B8J', 'X', ('Governor', 'Vickey Walker'))	4
+('V91NL5Q', 'X', ('Governor', 'Jack'))	8
+('VD1V6FS', 'X', ('Supreme Court Justice', 'Sherry Parkhurst'))	9
+('T', 'X', ('Lt. Governor', 'Ginny Potter'))	27
+('T', 'E', 89)	(('Lt. Governor', 'Matilda Stalone'), 1, 'V7O2B8J')
+('VC80M4B', 'E', 17)	(('Supreme Court Justice', 'Sherry ParkhUrst'), None)
+('V7O2B8J', 'E', 10)	(('Mayor', 'Slimey Badguy'), None)
+('VTZQY7W', 'X', ('Surgeon General', 'Dr. Bones'))	1
+('VWHSY51', 'E', 0)	(('Supreme Court Justice', 'Ron Weasley'), None)
+('V8JMFCV', '^')	1
+('T', 'X', 'voters')	32
+('T', 'X', ('Surgeon General', 'Monica Lewinski'))	61
+('VBZACIT', 'X', ('Governor', 'Mickey Mouse'))	0
+('V91NL5Q', 'X', ('Senator', 'Melissa Gardner'))	4
+('T', 'E', 0)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), 1, 'V7O2B8J')
+('V91NL5Q', 'X', ('Senator', 'Father Malloy'))	17
+('VD65ZSG', 'X', ('Secretary of the Vote', 'Charles Lindbergh'))	3
+('VI6LMGU', 'X', ('Surgeon General', "Jack O'Lanterne"))	9
+('T', 'E', 93)	(('Secretary of the Vote', 'Stoney Jackson'), 16, 'VD1V6FS')
+('VD1V6FS', 'E', 9)	(('Supreme Court Justice', 'Sherry Parkhurst'), None)
+('V7O2B8J', 'N')	15
+('V9KE6R7', 'X', ('Office of Computer Science Research Grants', 'Jennifer Maize'))	0
+('V7O2B8J', 'E', 6)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), None)
+('T', 'E', 43)	43
+('VTZQY7W', 'X', ('Supreme Court Justice', 'Jack Brown'))	5
+('VI6LMGU', 'X', ('President', 'Harry Potter'))	10
+('T', 'E', 4)	(('Governor', 'Vickey Walker'), 2, 'V7O2B8J')
+('V91NL5Q', 'E', 8)	(('Governor', 'Jack'), None)
+('V7CVGMW', 'E', 8)	(('Office of Computer Science Research Grants', 'Stephen Douglas'), None)
+('VI6LMGU', 'E', 4)	4
+('V6IWRPE', 'X', ('Office of Computer Science Research Grants', 'Stephen Douglas'))	12
+('VWHSY51', 'E', 1)	(('President', 'Harry Potter'), None)
+('VDYAL0W', 'E', 3)	(('President', 'George Harvey'), None)
+('VSBI6NV', 'X', ('Governor', 'Vickey Walker'))	2
+('VC80M4B', 'X', ('Senator', 'Mary Schmidt'))	3
+('VNTBDC@', 'E', 2)	(('Supreme Court Justice', 'Jack Brown'), None)
+('T', 'E', 47)	9
+('V92OR47', 'E', 1)	(('Secretary of the Vote', 'Stoney Jackson'), None)
+('V9OL3DV', 'X', ('Governor', 'Mickey Mouse'))	2
+('T', 'E', 66)	(('Office of Computer Science Research Grants', 'Stoned Jones'), 1, 'V91NL5Q')
+('V975MWZ', 'N')	3
+('VZEWDFG', 'E', 0)	(('Mayor', 'Edgar Allen Poe'), None)
+('T', 'E', 8)	(('Surgeon General', 'Say what?'), 3, 'VNUZ9XL')
+('V975MWZ', 'E', 1)	(('Secretary of the Vote', 'G.G. McGeorge'), None)
+('V91NL5Q', 'E', 12)	(('Supreme Court Justice', 'Sherry Parkhurst'), None)
+('VTZQY7W', 'E', 2)	(('President', 'George Harvey'), None)
+('VI6LMGU', 'E', 0)	(('Surgeon General', 'Dr. Bones'), None)
+('VTZQY7W', 'E', 9)	(('Lt. Governor', 'Merlin'), None)
+('V97UXH0', 'N')	2
+('VD1V6FS', 'E', 1)	(('Supreme Court Justice', 'Sherry Parkhurst'), None)
+('V9WZGJR', 'X', ('Governor', 'Bill Marlene'))	1
+('VNTBDCH', 'X', ('Supreme Court Justice', 'Take em back Alive'))	1
+('T', 'E', 51)	(('Governor', 'Mary Potter'), 7, 'V91NL5Q')
+('V7O2B8J', 'X', ('Office of Computer Science Research Grants', 'Zachary Edwards'))	14
+('VD65ZSG', 'E', 1)	(('Office of Computer Science Research Grants', 'Stoned Jones'), None)
+('T', 'E', 12)	(('Office of Computer Science Research Grants', 'Stoned Jones'), 1, 'V9T1D74')
+('V91NL5Q', 'E', 0)	(('Secretary of the Vote', "Count 'em twice Jack"), None)
+('V7CVGMW', 'E', 3)	(('President', 'Harry Potter'), None)
+('V6IWRPE', 'N')	13
+('T', 'X', ('Lt. Governor', 'Matilda Stalone'))	96
+('VD65ZSG', 'X', ('Office of Computer Science Research Grants', 'Stoned Jones'))	1
+('VCG8X13', 'E', 0)	(('Secretary of the Vote', 'Not on my Watch'), None)
+('VC80M4B', 'E', 1)	1
+('V9OL3DV', 'E', 0)	(('Mayor', 'Mack the Ripoff'), None)
+('VSBI6NV', 'E', 3)	(('Governor', 'Mary Potter'), None)
+('V7CVGMW', 'N')	10
+('VNTBDCH', 'X', ('Surgeon General', 'Dr. Bones'))	7
+('VJFM2S3', 'E', 0)	(('Lt. Governor', 'Ginny Potter'), None)
+('T', 'E', 74)	(('Supreme Court Justice', 'Take em back Alive'), 9, 'VNUZ9XL')
+('T', 'X', ('Office of Computer Science Research Grants', 'Silver Lode'))	13
+('V7CVGMW', 'X', ('Surgeon General', "Jack O'Lanterne"))	0
+('V91NL5Q', 'E', 15)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), None)
+('VUX2CE5', 'N')	1
+('V91NL5Q', 'E', 4)	(('Senator', 'Melissa Gardner'), None)
+('V7CVGMW', 'E', 7)	(('Supreme Court Justice', 'Little John'), None)
+('T', 'X', ('Surgeon General', 'Gilderoy Lockhart'))	5
+('VWHSY51', 'E', 3)	(('Senator', 'Melissa Gardner'), None)
+('VC80M4B', 'E', 5)	5
+('T', 'X', ('President', 'George Harvey'))	9
+('T', 'E', 59)	(('Supreme Court Justice', 'Jack Brown'), 9, 'VTZQY7W')
+('VC80M4B', 'E', 4)	(('Secretary of the Vote', 'G.G. McGeorge'), None)
+('V6IWRPE', 'X', ('Supreme Court Justice', 'Little John'))	1
+('T', 'E', 78)	(('Supreme Court Justice', 'Jack Brown'), 4, 'VD1V6FS')
+('V91NL5Q', 'X', ('Governor', 'Mary Potter'))	1
+('V9WZGJR', 'N')	2
+('VYW7S8G', 'E', 2)	2
+('T', 'E', 20)	(('Mayor', 'Jane Austen'), 1, 'VNUZ9XL')
+('T', 'E', 71)	(('Mayor', 'Edgar Allen Poe'), 4, 'VTZQY7W')
+('VHUGKVB', 'X', ('Secretary of the Vote', 'Not on my Watch'))	3
+('VNUZ9XL', '\x05', 4)	(('Surgeon General', 'Say what?'), None)
+('V7O2B8J', 'X', ('Surgeon General', 'Say what?'))	4
+('VNUZ9XL', 'X', ('Supreme Court Justice', 'Sherry Parkhurst'))	0
+('T', 'X', ('Supreme Court Justice', 'Take em back Alive'))	74
+('VBZACIT', 'E', 1)	(('Surgeon General', 'Say what?'), None)
+('VC80M4B', 'E', 9)	(('Senator', 'King Aurthur'), None)
+('T', 'X', ('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'))	3
+('T', 'E', 63)	(('Senator', 'Melissa Gardner'), 6, 'VWHSY51')
+('VDYAL0W', 'X', ('Senator', 'Harry Weasley'))	1
+('T', 'E', 82)	(('Secretary of the Vote', 'Yes'), 1, 'VHUGKVB')
+('VNTBDCH', 'X', ('Governor', 'Mary Potter'))	5
+('T', 'E', 24)	('voters', 4, 'V7I6BVF')
+('V9T1D74', 'X', ('President', 'Donald Trump'))	2
+('V7I6BVF', 'E', 0)	(('Office of Computer Science Research Grants', 'Stephen Douglas'), None)
+('VCG8X13', 'X', ('President', 'George W. Bush'))	1
+('V6IWRPE', 'E', 3)	(('Senator', 'King Aurthur'), None)
+('V7O2B8J', 'X', ('Mayor', 'Slimey Badguy'))	10
+('VHUGKVB', 'E', 7)	(('Surgeon General', "Ronald O'Donnelly"), None)
+('VC80M4B', 'E', 13)	(('Governor', 'Pope John Paul the 19th'), None)
+('VUX2CE5', 'E', 0)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), None)
+('T', 'E', 67)	(('Supreme Court Justice', 'Ron Weasley'), 1, 'VWHSY51')
+('VNTBDCH', 'X', ('Supreme Court Justice', 'Jack Brown'))	2
+('T', 'E', 1)	2
+('V97UXH0', 'X', ('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'))	1
+('T', 'X', ('Office of Computer Science Research Grants', 'Stephen Douglas'))	3
+('V6IWRPE', 'X', ('Supreme Court Justice', 'John Simmons'))	10
+('VC80M4B', 'X', ('Senator', 'King Aurthur'))	15
+('VHUGKVB', 'N')	9
+('V7O2B8J', 'E', 13)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), None)
+('VD1V6FS', 'E', 8)	(('Secretary of the Vote', 'Charles Lindbergh'), None)
+('T', 'E', 28)	('voters', 1, 'VJFM2S3')
+('T', 'X', ('Mayor', 'Jane Austen'))	20
+('VNTBDCH', 'E', 6)	(('Mayor', 'Slimey Badguy'), None)
+('VHYTC4M', 'N')	2
+('V91NL5Q', 'E', 16)	(('V91NL5Q', 'E', 6), (('Surgeon General', 'Monica Lewinski'), None))
+('T', 'X', ('Office of Computer Science Research Grants', 'Jennifer Maize'))	44
+('V6IWRPE', 'E', 7)	(('Office of Computer Science Research Grants', 'Stephen Douglas'), None)
+('V92OR47', 'X', ('Governor', 'Mickey Mouse'))	2
+('T', 'X', ('Governor', 'Mickey Mouse'))	7
+('T', 'X', ('Senator', 'Harry Weasley'))	19
+('VD1V6FS', 'X', ('Supreme Court Justice', 'Ron Weasley'))	4
+('T', 'X', ('Governor', 'Jack'))	1
+('V92OR47', 'N')	3
+('VHYTC4M', 'X', ('Supreme Court Justice', 'Little John'))	0
+('T', 'E', 90)	(('Secretary of the Vote', 'Not on my Watch'), 3, 'V7O2B8J')
+('T', 'E', 81)	8
+('T', 'E', 18)	(('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VD1V6FS')
+('T', 'X', ('Surgeon General', "Ronald O'Donnelly"))	15
+('\\', 'E', 3)	2
+('V91NL5Q', 'E', 20)	(('Senator', 'Harry Weasley'), None)
+('V91NL5Q', 'X', ('Governor', 'Bill Marlene'))	21
+('V6IWRPE', 'E', 11)	(('Senator', 'King Aurthur'), None)
+('T', 'X', ('Mayor', 'Slimey Badguy'))	86
+('V9T1D74', 'X', ('Secretary of the Vote', 'Not on my Watch'))	5
+('T', 'X', ('Office of Computer Science Research Grants', 'None of the Above'))	7
+('V9T1D74', 'E', 2)	(('President', 'Donald Trump'), None)
+('V7CVGMW', 'X', ('Senator', 'Harry Weasley'))	2
+('T', 'X', ('Office of Computer Science Resaarch Grants', 'Jennifer Maize'))	(('Office of Computer Science Research Grants', 'Jennifer Maize'), 1, 'VC80M4B')
+('V7CVGMW', 'X', ('Governor', 'Jack'))	4
+('VNUZ9XL', 'X', ('Mayor', 'Jane Austen'))	1
+('VYW7S8G', 'X', ('Lt. Governor', 'Merlin'))	1
+('T', 'E', 94)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), 1, 'V7O2B8J')
+('VUX2CE5', 'X', ('Office of Computer Science Research Grants', 'Zachary Edwards'))	0
+('VC80M4B', 'E', 16)	(('Office of Computer Science Research Grants', 'Jennifer Maize'), None)
+('V7O2B8J', 'E', 5)	5
+('VTZQY7W', 'X', ('Mayor', 'Robin Hood'))	6
+('T', 'E', 36)	47
+('VTZQY7W', 'X', ('Secretary of the Vote', 'Stoney Jackson'))	10
+('T', 'X', ('President', 'George W. Bush'))	69
+('T', 'X', ('Supreme Court Justice', 'Jack Brown'))	78
+('VZVGB9O', 'E', 4)	(('Surgeon General', "Back O'Lanterne"), None)
+('VTZQY7W', 'E', 6)	6
+('V6IWRRE', 'N')	12
+('VDYAL0W', 'E', 0)	(('Governor', 'Pope John Paul the 19th'), None)
+('V6IWRPE', 'X', ('Governor', 'Mickey Mouse'))	4
+('T', 'X', ('President', 'Melinda Trump'))	72
+('VC80M4B', 'E', 20)	(('Secretary of the Vote', 'G.G. McGeorge'), None)
+('V7O2B8J', 'E', 1)	(('Surgeon General', "Ronald O'Donnelly"), None)
+('T', 'E', 40)	(('Supreme Court Justice', 'Sherry Parkhurst'), 1, 'VC80M4B')
+('VC80M4B', 'X', ('Surgeon General', 'Gilderoy Lockhart'))	6
+('VDYAL0W', 'X', ('Governor', 'Pope John Paul the 19th'))	0
+('VZEWDFG', 'E', 3)	(('Secretary of the Vote', 'Charles Lindbergh'), None)
+('T', 'E', 5)	(['Surgeon General', 'Gilderoy Lockhart'], 5, 'V9T1D74')
+('V975MWZ', 'E', 2)	(('Office of Computer Science Research Grants', 'Stoned Jones'), None)
+('V91NL5Q', 'E', 9)	(('Office of Computer Science ReseaRch Grants', 'Stoned Jones'), None)
+('VI6LMGU', 'E', 5)	(('Mayor', 'Edgar Allen Poe'), None)
+('VTZQY7W', 'E', 10)	(('Secretary of the Vote', 'Stoney Jabkson'), None)
+('VCG8X13', 'E', 2)	(('Governor', 'Pope John Paul the 19th'), None)
+('VDYAL0W', 'E', 4)	(('Office of Computer Science Research Grants', 'None of the Above'), None)
+('T', 'E', 87)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), 1, 'V7O2B8J')
+('VC80M4B', 'X', ('Secretary of the Vote', 'G.G. McGeorge'))	14
+('T', 'X', ('Secretary of the Vote', 'Not on my Watch'))	13
+('T', 'X', ('Governor', 'Vickey Walker'))	68
+('T', 'X', ('Secretary of the Vote', 'Yes'))	82
+('T', 'X', ('Supreme Court Justice', 'Sherry Párkhurst'))	2
+('T', 'E', 9)	(('President', 'George Harvey'), 2, 'VDYAL0W')
+('VSBI6NV', 'E', 1)	1
+('VI6LMGU', 'E', 1)	(('Lt. Governor', 'Merlin'), None)
+('V7O2B8J', 'E', 12)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), None)
+('T', 'X', ('Lt. Governor', 'Merlin'))	10
+('VP5CB3T', 'X', ('Office of Computer Science Research Grants', 'Silver Lode'))	0
+('VD1V6FS', 'E', 0)	(('Lt. Governor', 'Ronda Spinacoli'), None)
+('VNUZ9XL', 'E', 2)	(('Supreme Court Justice', '\x14ake em back Alive'), None)
+('V91NL5Q', 'X', ('Office of Computer Science Research Grants', 'Stoned Jones'))	10
+('V9OL3DV', 'E', 3)	(('Governor', 'Pope John Paul the 19th'), 8, 'V9OL3DV')
+('T', 'E', 48)	(('Surgeon General', 'Monica Lewinski'), 11, 'V91NL5Q')
+('VDYAL0W', 'E', 2)	(('Lt. Governor', 'Melinda Gates'), None)
+('T', 'X', ('Office of Computer Science Research Grants', 'Zachary Edwards'))	(('Office of Computer Science Research Grants', 'Zachary Edwards'), 4, 'V7O2B8J')
+('VD65ZSG', 'E', 0)	(('Lt. Governor', 'Matilda Stalone'), None)
+('VJFM2S3', 'X', ('Lt. Governor', 'Ginny Potter'))	0
+('VD1V6FS', 'E', 6)	(('Office of Computer Science Research Grants', 'Stephen Douglas'), None)
+('VI6LMGU', 'E', 8)	(('Governor', 'Bill Marlene'), None)
+('T', '\x05', 71)	(('Mayor', 'Edgar Allen Poe'), 2, 'VZEWDFG')
+('T', 'E', 13)	(('Secretary of the Vote', 'Not on my Watch'), 2, 'VCG8X13')
+('VRS9LZ1', 'E', 1)	(('Secretary of the Vote', "Count 'em twice Jack"), None)
+('V91NL5Q', 'E', 1)	(('Governor', 'Bill Marlene'), None)
+('V7CVGMW', 'E', 0)	(('Surgeon General', "Jack O'Lanterne"), None)
+('VNUZ9XL', 'E', 3)	(('Governor', 'Mary Potter'), None)
+('VRS9LZ1', 'X', ('Secretary of the Vote', "Count 'em twice Jack"))	1
+('VC80M4B', 'E', 0)	(('Office of Computer Science Research Grants', 'Jennifer Maize'), None)
+('VYDX4IT', 'E', 1)	1
+('T', 'X', ('President', 'Donald Trump'))	2
+('T', 'E', 52)	(('Senator', 'Father Malloy'), 4, 'V91NL5Q')
+('T', 'E', 75)	(('Supreme Court Justice', 'Jack Brown'), 3, 'VNTBDCH')
+('VWHSY51', 'N')	5
+('VYW7S8G', 'E', 1)	(('Lt. Governor', 'Merlin'), None)
+('T', 'E', 17)	(('Wupreme Court Justice', 'Ron Weasley'), 1, 'VD1V6FS')
+('V9OL3DV', 'X', ('Mayor', 'Mack the Ripoff'))	3
+('VI6LMGU', 'X', ('Office of Computer Science Research Grants', 'Zachary Edwards'))	6
+('V91NL5Q', 'E', 5)	(('Senator', 'Father Malloy'), None)
+('V7CVGMW', 'E', 4)	(('Governor', 'Jack'), None)
+('VI6LMGU', 'E', 9)	(('Surgeon General', "Jack O'Lanterne"), None)
+('VYW7S8G', 'E', 0)	0
+('VI6LMGU', 'X', ('Mayor', 'Edgar Allen Poe'))	5
+('T', 'E', 16)	16
+('V9MZL32', 'E', 0)	(('Mayor', 'Slimey Badguy'), None)
+('VTZQY7W', 'N')	13
+('V92OR47', 'E', 2)	(('Governor', 'Mickey Mouse'), None)
+('T', 'E', 56)	(('Senator', 'Father Malloy'), 2, 'V91NL5Q')
+('V7CVGM\x17', 'X', ('President', 'Harry Potter'))	3
+('VSBI6NV', 'X', ('Governor', 'Mary Potter'))	3
+('T', 'E', 79)	(('Secretary of the Vote', 'G.G. McGeorge'), 5, 'V975MWZ')
+('VL0NRZ6', 'E', 2)	(('Governor', 'Vickey Walker'), None)
+('T', 'E', 21)	21
+('VC80M4B', 'X', ('Governor', 'Bill Marlene'))	19
+('T', 'E', 95)	95
+('V6IWRPE', 'X', ('Governor', 'Jack'))	5
+('VZVGB9O', 'X', ('Senator', 'Harry Weasley'))	2
+('V7O2B8J', 'E', 9)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), None)
+('VDYAL0W', 'X', ('Secretary of the Vote', 'Not on my Watch'))	5
+('VHUGKVB', 'E', 0)	(('Office of Computer Science Research Grants', 'Stephen Douglas'), None)
+('VC80M4B', 'E', 8)	(('Mayor', 'Slimey Badguy'), None)
+('V91NL5Q', 'X', ('Surgeon General', 'Monica Lewinski'))	14
+('V91NL5Q', 'X', ('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'))	19
+('T', 'E', 60)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), 4, 'V7O2B8J')
+('VI6LMGU', 'X', ('Lt. Governor', 'Merlin'))	1
+('VWHSY51', 'E', 4)	(('President', 'George W. Bush'), None)
+('VDYAL0W', 'X', ('Office of Computer Science Research Grants', 'None of the Above'))	4
+('VL0NRZ6', 'X', ('President', 'Donald Trump'))	0
+('VC80M4B', 'E', 18)	18
+('VD1V6FS', 'E', 4)	(('Supreme Court Justice', 'Ron Weasley'), None)
+('VBZACIT', 'N')	2
+('T', 'E', 25)	(('Supreme Court Justice', 'Take em back$Alive'), 1, 'V7I6BVF')
+('VBRQUVT', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('VNTBDCH', 'E', 3)	(('Secretary of the Vote', 'G.G. McGeorge'), None)
+('VD1V6FS', 'X', ('Secretary of the Vote', 'Charles Lindbergh'))	8
+('V7I6BVF', 'E', 1)	(('Senator', 'Mary Schmidt'), None)
+('T', 'X', ('Lt. Governor', 'Ronda Spinacoli'))	15
+('T', 'X', ('Office of Computer Science Research Grants', 'Stoned Jones'))	12
+('V6IWRPE', 'E', 2)	(('Mayor', 'Edgar Allen Poe'), None)
+('V9T1D74', 'X', ('Governor', 'Vickey Walker'))	4
+('VC80M4B', 'X', ('Office of Computer Science Research Grants', 'Jennifer Maize'))	16
+('VHUGKVB', 'E', 4)	(('Mayor', 'Jane Austen'), None)
+('V91NL5Q', 'X', ('Secretary of the Vote', "Count 'em twice Jack"))	21
+('V9T1D74', 'E', 1)	(('Surgeon General', 'Gilderoy Lockhart'), None)
+('T', 'X', ('Surgeon General', "Jack O'Lanterne"))	10
+('V7O2B8J', 'E', 7)	(('Surgeon General', "Jack O'Lanterne"), None)
+('T', 'E', 44)	(('Office of Computer Science Research Grants', 'Jennifer Maize'), 3, 'V97UXH0')
+('T', 'E', 29)	(['Mayor', 'Mack the Ripoff'], 6, 'V9OL3DV')
+('T', 'X', ('Supreme Court Justice', 'Little John'))	16
+('V91NL5Q', 'E', 17)	(('Senator', 'Father Malloy'), None)
+('VHUGKVB', 'X', ('Secretary of the Vote', 'Yes'))	8
+('V9MZL32', 'X', ('Mayor', 'Slimey Badguy'))	0
+('V6IWRPE', 'E', 6)	(('Lt. Governor', 'Orlando Bloom'), None)
+('VCG8X13', 'N')	3
+('VHUGKVB', 'E', 8)	(('Secretary of the Vote', 'Yes'), None)
+('VZVGB9O', 'E', 3)	(('Surgeon General', "Ronald O'Donnelly"), None)
+('V9OL3DV', 'N')	4
+('VZVGB9O', 'X', ('Senator', 'Mary Schmidt'))	0
+('VWHSY51', 'X', ('Supreme Court Justice', 'Ron Weasley'))	0
+('VHYTC4M', 'X', ('Governor', 'Mickey Mouse'))	1
+('VZEWDFG', 'X', ('President', 'Melinda Trump'))	2
+('V7O2B8J', 'E', 8)	(('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'), 4, 'V7O2B8J')
+('VTZQY7W', 'X', ('President', 'George Harvey'))	2
+('VC80M4B', 'N')	21
+('VP5CB3T', 'N')	1
+('V91NL5Q', 'E', 21)	(('Secretary of the Vote', "Count 'em twice Jack"), None)
+TN	21
+('T', 'X', ('Secretary of the Vote', "Count 'em twice Jack"))	58
+('VWHSY51', 'X', ('President', 'George W. Bush'))	4
+('V6IWRPE', 'E', 10)	(('Supreme Court Justice', 'John Simmons'), None)
+('T', 'E', 2)	(('Lt. Governor', 'Ronda Spinacoli'), 10, 'VD1V6FS')
+('V9T1D74', 'E', 3)	(('Governor', 'Vickey Walker'), None)
+('VCG8X13', 'X', ('Governor', 'Pope John Paul the 19th'))	2
+('VTZQY7W', 'E', 3)	3
+('T', 'E', 33)	(('Governor', 'Bill Marlene'), 3, 'VC80M4B')
+('VNTBDCH', 'E', 5)	(('Governor', 'Mary Potter'), None)
+('VC80M4B', 'E', 19)	(('Governor', 'Bill Marlene'), None)
+('V7O2B8J', 'E', 4)	(('Surgeon General', 'Say what?'), None)
+('VWHSY51', 'E', 2)	2
+('VP5CB3T', 'E', 0)	(('Office of Computer Science Research Grants', 'Silver Lode'), None)
+('V7O2B8J', 'X', ('Governor', 'Mary Potter'))	5
+('VTZQY7W', 'X', ('Supreme Court Justice', 'Ron Weasley'))	0
+('V92OR47', 'X', ('Surgeon Genebal', 'Monica Lewinski'))	0
+('T', 'E', 76)	(('Secretary of the Vote', 'G.G. McGeorge'), 2, 'VNTBDCH')
+('V6IWRPE', 'X', ('Senator', 'Harry Weasley'))	11
+('VI6LMGU', 'X', ('Governor', 'Bill Marlene'))	8
+('T', 'X', ('Supreme Court Justice', 'Sherry Parkhurst'))	14
+('T', 'E', 6)	(('Governor', 'Mary Potter'), 2, 'VNUZ9XL')
+('VZEWDFG', 'X', ('Secretary of the Vote', 'Charles Lindbergh'))	3
+('V91NL5Q', 'E', 10)	(('Office of Computer Science Research Grants', 'Stoned Jones'), None)
+('T', 'X', ('Secretary of the Vote', 'Stoney Jackson'))	19
+('VTZQY7W', 'E', 7)	(('Surgeon General', 'Monica Lewinski'), None)
+('VDYAL0W', 'E', 1)	(('Senator', 'Harry Weasley'), None)
+('VD1V6FS', 'E', 7)	(('Secretary of the Vote', 'Stoney Jackson'), None)
+('V91NL5Q', 'X', ('Mayor', 'John Silveste2, 204\x00Rhodes St, Plattsburgh, NY 12901'))	3
+('T', 'E', 41)	41
+('VNUZ9XL', 'N')	3
+('VI6LMGU', 'X', ('Lt. Governor', 'Orlando Bloom'))	3
+('VWHSY51', 'X', ('President', 'Harry Potter'))	1
+('VNTBDCH', 'N')	10
+('V6IWRPE', 'X', ('Mayor', 'Slimey Badguy'))	9
+('VHUGKVB', 'E', 3)	(('Secretary of the Vote', 'Not on my Watch'), None)
+('T', 'X', ('Senator', 'King Aurthur'))	46
+('T', 'E', 10)	(('Lt. Governor', 'Ronda Spinacoli'), 6, 'VD1V6FS')
+('VD1V6FS', 'N')	10
+('V91NL5Q', 'E', 14)	(('Surgeon General', 'Monica Lewinski'), None)
+('VI6LMGU', 'E', 6)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), None)
+('VTZQY7W', 'E', 11)	(('Governor', 'Mickey Mouse'), None)
+('VNUZ9XL', 'X', ('Senator', 'Father Malloy'))	1
+('V9WZGJR', 'E', 1)	(('Governor', 'Bill Marlene'), None)
+('V6IWRPE', 'X', ('S5preme Court Justice', 'Little John'))	8
+('VDYAL0W', 'E', 5)	(('Secretary of the Vote', 'Not on my Watch'), None)
+('VHYTC4M', 'E', 0)	('voters', 22, 'V9WZGJR')
+('VHUGKVÂ', 'E', 2)	(('Secretary of the Vote', "Count 'em twice Jack"), None)
+('T', 'E', 45)	(('Governor', 'Bill Marlene'), 4, 'V91NL5Q')
+('VHYTC4M', 'E', 1)	1
+('V7O2B8J', 'X', ('Surgeon General', "Ronald O'Donnelly"))	1
+('T', 'E', 64)	(('Secretary of the Vote', 'Not on my Watch'), 3, 'VHUGKVB')
+('T', 'E', (('T', 'X', ('Governor', 'Bill Marlene')), 62))	('voters', 9, 'VWHSY51')
+('VNUZ9XL', 'X', ('Governor', 'Mary Potter'))	3
+('T', 'E', 14)	(('Supreme Court Justice', 'Sherry Parkhurst'), 5, 'VNUZ9XL')
+('VTZQY7W', 'X', ('Lt. Governor', 'Merlin'))	9
+('V91NL5Q', 'E', 2)	(('Mayor', 'Robin Hood'), None)
+('VI6LMGU', 'E', 2)	(('Secretary of the Vote', "Count 'em twice Jack"), None)
+('T', 'E', 39)	(('Supreme Coupt Justice', 'Sherry Parkhurst'), 4, 'VC80M4B')
+('VTZQY7W', 'X', ('Mayor', 'Edgar Allen Poe'))	4
+('V9T1D74', 'S')	(('Office of Computer Science Research Grants', 'Stojed Jones'), None)
+('VG80M4B', 'X', ('Secretary of the Vote', 'G.G. McGeorge'))	20
+('V9OL3DV', 'E', 2)	(('Governor', 'Mickey Mouse'), None)
+('T', 'X', ('Lt. Governor', 'Melinda Gates'))	11
+('T', 'E', 49)	(('Governor', 'Mary Potter'), 1, 'V91NL5Q')
+('V91NL5Q', 'X', ('Surgeon Gdneral', 'Monica Lewinski'))	6
+('VL0NRZ6', 'X', ('Governor', 'Vickey Walker'))	2
+('T', 'E', 68)	(('Governor', 'Vickey Walker'), 8, 'V9T1D74')
+('VHUGKVB', 'X', ('Office of Computer Science Research Grants', 'Stephen Douglas'))	0
+('T', 'X', ('Governor', 'Mary Potter'))	6
+('VNUZ9XL', 'X', ('Surgeon General', 'Say what?'))	4
+('T', 'X', ('Office of Computer Scidnce Research Grants', 'Stoned Jones'))	66
+('V7O2B8J', 'E', 2)	(('Office of Computer Science Research Grants', 'Zachary Edwards'), None)
+('V9T1D74', 'N')	8
+('VRS9LZ1', 'E', 0)	0
+('V91NL5Q', 'E', 6)	(('Surgeon General', 'Monica Lewinski'), None)
+('VCG8X13', 'E', 1)	(('President', 'George W. Bush'), None)
+('VWHSY51', 'X', ('Senator', 'Melissa Gardner'))	3
+('V7O2B8B', 'X', ('Mayor', 'John Silvester, 204 Rhodes St, Plattsburgh, NY 12901'))	1
+('V9KE6R7', 'E', 0)	(('Office of Computer Science Research Grants', 'Jennifer Maize'), None)
+('VHUGKVB', 'X', ('Governor', 'Jaak'))	6
+('VC80M4B', 'E', 3)	(('Senator', 'Mary Schmidt'), None)
+('VYDX4IT', 'E', 0)	(('Governor', 'Mickey Mouse'), None)
+('V80VLTH', 'X', ('Surgeon General', "Jack O'Lanterne"))	0
+('T', 'E', 53)	(('Senator', 'Father Malloy'), 1, 'V91NL5Q')
+('VNTBDCH', 'E', 7)	(('Surgeon General', 'Dr. Bones'), None)
+('V9OL3DV', 'X', ('Governor', 'Pope John Paul the 19th'))	1
+('T', 'E', 72)	(('President', 'Melinda Trump'), 2, 'VZEWDFG')
+('T', 'X', ('Mayor', 'Edgar Allen Poe'))	71
+('VTZQY7W', 'E', 5)	(('Supreme Court Justice', 'Jack Brown'), None)
+('V7I6BVF', 'X', ('Office of Computer Science Research Grants', 'Stephen Douglas'))	0
+('T', 'E', 22)	(('President', 'George Harvey'), 2, 'VTZQY7W')
+('V6IWRPE', 'E', 12)	(('Office of Computer Science Research Grants', 'Stephen Douglas'), None)
+('VNTBDCH', 'E', 8)	(('Mayor', 'Slimey Badguy'), None)
+('V7CVGMW', 'E', 5)	(('Office of Computer Science Research Grants', 'Stoned Jones'), None)
+('VI6LMGU', 'E', 10)	(('President', 'Harry Potter'), None)
+('T', 'E', 70)	(('President', 'Harry Potter'), 2, 'V7O2B8J')
+('V91NL5Q', 'E', (('V91NL5Q', 'E', 6), (('Surgeon General', 'Monica Lewinski'), None)))	(('Governor', 'Bill Marlene'), None)
+('VI6LMGU', 'N')	11
+('VD1V6FS', 'X', ('Office of Computer Science Research Grants', 'Stephen Douglas'))	6
+('VC80M4B', 'E', 7)	(('Governor', 'Pope John Paul the 19th'), None)
+('VZVGB9O', 'X', ('Surgeon General', "Jack O'Lanterne"))	4
+('T', 'E', 57)	(('Senator', 'Father Malloy'), 11, 'VNUZ9XL')
+('VC80M4B', 'X', ('Governor', 'Pope John Paul the 19th'))	13
+('VDYAL0W', 'X', ('President', 'George Harvey'))	3
+('VBRQUVT', 'N')	2
+('VSBI6NV', 'E', 2)	(('Governor', 'Vickey Walker'), None)
+('VL0NRZ6', 'E', 1)	1
+('T', 'E', 55)	(('Governor', 'Mary Potter'), 10, 'VNTBDCH')
+('T', 'E', 26)	(('Secretary of the Vote', "Count 'em twice Jack"), 4, 'V91NL5Q')
+('T', 'X', ('Lt. Governor', 'Orlando Bloom'))	2
+('V7CVGMW', 'X', ('Office of Computer Science Research Grants', 'Stephen Douglas'))	8
+('V7CVGMW', 'E', 9)	(('President', 'Harry Potter'), None)
+('V6IWRPE', 'E', 1)	(('Supreme Court Justice', 'Little John'), None)
+('T', 'E', 37)	(('Secretary of the Vote', 'G.G. McGeorge'), 7, 'VC80M4B')
+('V6IWRPE', 'X', ('Mayor', 'Edgar Allen Poe'))	2
+('T', 'X', ('Senator', 'Mary Schmidt'))	26
+('VHUGKVB', 'E', 1)	(('Office /f Computer Science Research Grants', 'Stoned Jones'), None)
+('VC80M4B', 'E', 11)	(('Governor', 'Bill Marlene'), None)
+('VZVGB9O', 'E', 0)	(('Senator', 'Mary Schmidt'), None)
+('T', 'E', 61)	(('Surgeon General', 'Monica Lewinski'), 5, 'VTZQY7W')
+('VBRQUVT', 'X', ('Mayor', 'Edgar Allen Poe'))	1
+('V7O2B8J', 'X', ('Secretary of the Vote', 'Not on my Watch'))	5

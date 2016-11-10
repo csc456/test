@@ -1,0 +1,54 @@
+VOTERS	8457
+TALLY	Mayor	Slimey Badguy	1409
+TALLY	Supreme Court Justice	Sherry Parkhurst	1207
+TALLY	Secretary of the Vote	Charles Lindbergh	806
+TALLY	Governor	Vickey Walker	1007
+TALLY	Governor	Mary Potter	1207
+TALLY	Office of Computer Science Research Grants	Stoned Jones	1410
+TALLY	Governor	Mickey Mouse	1611
+TALLY	Surgeon General	Say what?	604
+TALLY	Secretary of the Vote	Stoney Jackson	1408
+TALLY	President	Stanley Gordon	404
+TALLY	Lt. Governor	Merlin	1007
+TALLY	Lt. Governor	Matilda Stalone	604
+TALLY	Office of Computer Science Research Grants	Silver Lode	202
+TALLY	Supreme Court Justice	John Simmons	404
+TALLY	Supreme Court Justice	Little John	806
+TALLY	Mayor	Edgar Allen Poe	1209
+TALLY	Senator	King Aurthur	403
+TALLY	Governor	Jack	1208
+TALLY	Lt. Governor	Orlando Bloom	404
+TALLY	Office of Computer Science Research Grants	Stephen Douglas	1007
+TALLY	Senator	Harry Weasley	1411
+TALLY	Surgeon General	Dr. Bones	805
+TALLY	Secretary of the Vote	Count 'em twice Jack	1008
+TALLY	Office of Computer Science Research Grants	None of the Above	403
+TALLY	Office of Computer Science Research Grants	Zachary Edwards	806
+TALLY	Governor	Bill Marlene	1207
+TALLY	Surgeon General	Jack O'Lanterne	1411
+TALLY	Governor	Pope John Paul the 19th	1207
+TALLY	President	Harry Potter	1007
+TALLY	Senator	Mary Schmidt	805
+TALLY	Surgeon General	Ronald O'Donnelly	604
+TALLY	President	Donald Trump	805
+TALLY	Mayor	Jane Austen	604
+TALLY	President	George W. Bush	1208
+TALLY	President	George Harvey	805
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	604
+TALLY	Supreme Court Justice	Take em back Alive	603
+TALLY	Lt. Governor	Ginny Potter	201
+TALLY	Mayor	Mack the Ripoff	201
+TALLY	Secretary of the Vote	G.G. McGeorge	603
+TALLY	Surgeon General	Gilderoy Lockhart	1005
+TALLY	Surgeon General	Monica Lewinski	603
+TALLY	Senator	Father Malloy	402
+TALLY	Mayor	Robin Hood	603
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	804
+TALLY	Senator	Melissa Gardner	402
+TALLY	Secretary of the Vote	Not on my Watch	1206
+TALLY	Supreme Court Justice	Ron Weasley	804
+TALLY	President	Melinda Trump	201
+TALLY	Supreme Court Justice	Jack Brown	804
+TALLY	Secretary of the Vote	Yes	201
+TALLY	Lt. Governor	Ronda Spinacoli	402
+TALLY	Lt. Governor	Melinda Gates	201
