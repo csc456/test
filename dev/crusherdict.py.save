@@ -1,0 +1,176 @@
+#!/usr/bin/env python3
+debug=0
+
+def indexName(dict, key):
+ global debug
+ if debug:
+  print('crusherdict.py indexName()')
+  print('  dict:'+dict)
+  print('  key:'+str(key))
+ return (dict,"X",key)
+
+def countName(dict):
+ global debug
+ if debug:
+  print('crusherdict.py countName()')
+  print('  dict:'+dict)
+ return (dict,"N")
+
+def entryName(dict, n):
+ global debug
+ if debug:
+  print('crusherdict.py entryName()')
+  print('  dict:'+dict)
+  print('  n:'+str(n))
+ return (dict, "E", n)
+
+def statusName(dict):
+ global debug
+ if debug:
+  print('crusherdict.py statusName()')
+  print('  dict:'+dict)
+ return (dict, "S")
+
+class CrusherDict:
+ def __init__(self, db, name):
+  """Create a set named key in the database."""
+  print('crusherdict.py .__init__()')
+  self.db=db
+  self.name=name
+ def __len__(self):
+  print('crusherdict.py .__len__()')
+  try:
+   return self.db.fetch(countName(self.name))
+  except KeyError:
+   return 0
+ def __contains__(self,key):
+  print('crusherdict.py .__contains__()')
+  try:
+   self.db.fetch(indexName(self.name,key))
+   return True
+  except KeyError:
+   return False
+ def status(self, key, stat=None):
+  """Get and optionally set the status of the set."""
+  #print('crusherdict.py CrusherDict.status()')
+  name=statusName(self.name)
+  try:
+   old=self.db.fetch(name)
+  except KeyError:
+   old=None
+  if stat!=None:
+   self.db.store(name,stat)
+  return old
+ def getKey(self, key, val=None):
+  """Get the db key for key from the set.
+     If the key is not in the set, it is added to the set.
+     The value associated with key is updated unless val is None.
+     The key that is used to identify the key in the db
+     is returned.
+
+     IDEAS:
+     Get all keys in database and compare to the key desired.
+     That is, look for all keys that closely match this key.
+  """
+  #print('crusherdict.py CrusherDict.getKey()')
+  try:
+   print('Try indexName()')
+   indexName__=indexName(self.name, key)
+   print('Success: indexName(self.name='+str(self.name)+', key='+str(key)+')=' + str(indexName__))
+   print('Try self.db.fetch('+str(indexName__)+')')
+   n=self.db.fetch(indexName__)
+   print('Success: self.db.fetch(...)=' + str(n))
+   print('Try entryName(...)')
+   dbkey=entryName(self.name,n)
+   print('Success: entryName(...)='+str(dbkey))
+   if(val!=None):
+    self.db.store(dbkey, (key,val))
+   return dbkey
+  except KeyError:
+   print('crusherdict.py::New key:' + self.name)
+   try:
+    n=self.db.fetch(countName(self.name))
+   except KeyError:
+    n=0
+   dbkey=entryName(self.name,n)
+   self.db.store(dbkey, (key,val))
+   self.db.store(indexName(self.name,key), n)
+   self.db.store(countName(self.name),n+1)
+   return dbkey
+ def inc(self, key, val):
+  """Increment the value for key from the set.
+     If the key is not in the set, it is added to the set with value 1.
+     The value is stored in the entry as an annotation.
+     The key that is used to identify the key in the db
+     is returned.
+  """
+  print('crusherdict.py .inc()')
+  try:
+   dbkey=entryName(self.name,self.db.fetch(indexName(self.name,key)))
+   v=self.db.fetch(dbkey)
+   self.db.store(dbkey, (key,v[1]+1,val))
+   return dbkey
+  except KeyError:
+   try:
+    n=self.db.fetch(countName(self.name))
+   except KeyError:
+    n=0
+   dbkey=entryName(self.name,n)
+   self.db.store(dbkey,(key,1,val))
+   self.db.store(indexName(self.name,key), n)
+   self.db.store(countName(self.name),n+1)
+   return dbkey
+ def __iter__(self):
+  print('crusherdict.py .__iter__()')
+  for i in range(self.__len__()):
+   yield self.db.fetch(entryName(self.name,i))
+
+if __name__=="__main__":
+ import crusher
+ try:
+  db=crusher.Broker("test_crusherdict") # Opens the file test_crusherdict_db.dat
+  test=CrusherDict(db, "test3") # self.db, self.name
+  
+  for i in range(0,100):
+   try:
+    #test.getKey("Hiddleston","name")
+    print('iteration:'+str(i))
+    valueToStore = 'Value...'
+    keyToStore   = 'Key.....'
+    key = test.getKey(keyToStore, valueToStore)
+    
+    # Is key[0] == 'test3'
+    #if key[0] != 'test3':
+    # print(' DB Table: Error!' + key[0])
+    #else:
+    # print(' DB Table: Success!')
+    # Hm. Do they match?
+    #if keyToStore != key[3]:
+    # print('They do not match!')
+    # print('keyToStore='+str(keyToStore))
+    # print('key[0]='+str(key[3]))
+    #for tuple in key:
+    # print(' Tuple in key:' + tuple)
+    #print('The key is:' + str(key))
+    
+   except:
+    print('__main__:err')
+    pass
+  #print(test.inc("Gov-Muller","voter-809809"))
+  #print(test.inc("Gov-Muller","voter-8098091"))
+  #print(test.inc("Gov-Muller","voter-8098092"))
+  #print(test.inc("Gov-Muller","voter-8098093"))
+  #print(test.inc("Gov-Muller","voter-8098094"))
+  try:
+   for tup in test:
+    try:
+     print(tup)
+    except:
+     pass
+    #print('  tuple > '+str(tup))
+  except:
+   pass
+  db.exit()
+ except:
+  print('err')
+  pass
