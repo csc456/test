@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+'''Todo: Pre- and Post-database call integrity check.
+'''
 import sys
 debug=0
 
@@ -6,31 +8,30 @@ def indexName(dict, key):
  global debug
  if debug:
   print('crusherdict.py indexName(): ' + str((dict,"X",key)))
- return (dict,"X",key)
+ return (dict,"XXXXXXXXXXX",key)
 
 def countName(dict):
  global debug
  if debug:
   print('crusherdict.py countName(): '+str((dict,"N")))
- return (dict,"N")
+ return (dict,"NNNNNNNNNNN")
 
 def entryName(dict, n):
  global debug
  if debug:
   print('crusherdict.py entryName(): '+str((dict,"E",n)))
- return (dict, "E", n)
+ return (dict, "EEEEEEEEEEE", n)
 
 def statusName(dict):
  global debug
  if debug:
   print('crusherdict.py statusName(): '+str((dict, "S")))
   print('  dict:'+dict)
- return (dict, "S")
+ return (dict, "SSSSSSSSSSS")
 
 class CrusherDict:
  def __init__(self, db, name):
   """Create a set named key in the database."""
-  #print('crusherdict.py CrusherDict.__init__()')
   self.db=db
   self.name=name
  def __len__(self):
@@ -45,26 +46,35 @@ class CrusherDict:
   except KeyError:
    return False
  def status(self, key, stat=None):
-  """Get and optionally set the status of the set."""
+  """Get and optionally set the status of the set.
+     
+     Return: key
+  """
   #print('crusherdict.py CrusherDict.status()')
   name=statusName(self.name)
   try:
    old=self.db.fetch(name)
-  except KeyError:
+  except: # needs this... hm
    old=None
+  print('status name:key:' + str(key) + ':stat:' + str(stat)+':old:'+str(old)+':self.name:'+str(self.name))
+#  except KeyError:
+#   old=None
   if stat!=None:
-   self.db.store(name,stat)
+   i=0
+   while i<=100:
+    print('store status name:'+str(stat))
+    self.db.store(name,stat)
+    i+=1
   return old
  def try_getKey(self, key, val=None):
   '''It looks like self.db.fetch(idx) fails with KeyError approximately
-     1/100 or 1/200 or so... Do voting here to ensure successful
-     fetch. Assumption: It will be 99 correct keys versus 1 bad key.
+     1/100 or 1/200 or so...
   '''
   success_key={}
   best=None
   chk=0
   i=0
-  while i<=40:
+  while i<=10:
    try:
     idx=indexName(self.name,key)
     fetch=self.db.fetch(idx)
@@ -77,54 +87,98 @@ class CrusherDict:
     i+=1
     continue # skip
    except:
-    print('Fetch fails,key=' + str(key)) 
-    print('Fetch fails,idx=' + str(idx)) 
-    print('Unexpected error:', sys.exc_info()[0])
     raise Exception('DK1!Key')
    try:
     dbkey=entryName(self.name,fetch)
+   except:
+    raise Exception('DK3!')
+   try:
+    success_key[dbkey] += 1
+   except:
     try:
-     success_key[dbkey] += 1
-    except:
      success_key[dbkey] = 1 # initialize
+    except:
+     pass
+   try:
     if success_key[dbkey] > chk: # set best
      best=dbkey
-   except:
-    print('Searching for:' + str(key)) 
-    print('Unexpected error:', sys.exc_info()[0])
-    raise Exception('DK2!')
+   except: # Unexpected error
+    pass
+    #raise Exception('DK1!')    
    i+=1
    # Todo: Consider looping through failed keys are removing them
+   #for key in success_key:
+   # if key == best:
+   #  print('key is'+str(key))
+   # elif key != best:
+   #  i=100
+   #  try:
+   #   print('try to remove key'+str(key))
+   #   self.db.remove(key)
+   #  except:
+   #   pass
+     #while i>0:
+     # try:
+     #  self.db.remove(key)
+     # except:
+     #  pass
+     # i -= 1
   return best
  def test_db_store(self, dbkey, key, val):
-  '''This has not failed after many trials so far...
+  '''Fails occasionally with "Store error"
+     ...need integrity check
   '''
   global debug
   if debug:
    print('Trying to store...')
   success=0
-  while success<20: 
+  while success<2000:
    try:
     self.db.store(dbkey, (key,val))
     success+=1
    except:
-    raise Exception('Store error')
+    #raise Exception('Store error')
+    pass
   #raise Exception('test exception here') # Works
+# def store_replicate(idx, n):
+#  i=0
+#  while i<20:
+#   try:
+#    self.db.store(idx, n)
+#   except:
+#    pass ##
  def newKey(self, key, val=None):
+  print('Store new key:self.newKey:key=' + str(key)+',val='+str(val))
   try:
    cn = countName(self.name)
    print('New entry: Fetch:' + str(cn))
    n=self.db.fetch(cn)
   except KeyError:
    n=0
+  except: # Other errors may be raised
+   print('Unexpected error:', sys.exc_info()[0])
+   self.newKey(key,val) # try again
+   return
   dbkey=entryName(self.name,n)
   idx=indexName(self.name,key)
   cn=countName(self.name)
-  print('Store en:'+str(dbkey))
-  self.db.store(dbkey, (key,val))
-  self.db.store(idx, n)
+  for i in range(0,100):
+   try:
+    self.db.store(dbkey, (key,val))
+   except:
+    pass
+  for i in range(0,100):
+   try:
+    self.db.store(idx, n)
+   except:
+    pass
   if isinstance(n, int): # Hm...?
-   self.db.store(cn, n+1)
+   for i in range(0,100):
+    try:
+     self.db.store(cn, n+1)
+    except:
+     pass
+  #raise Exception('x')
   return dbkey
  def getKey(self, key, val=None):
   """Get the db key for key from the set.
@@ -133,7 +187,6 @@ class CrusherDict:
      The key that is used to identify the key in the db
      is returned.
   """
-  #print('crusherdict.py CrusherDict.getKey()')
   # Try storing N copies here
   # where N is probably 7.
   dbkey=self.try_getKey(key,val) # Tests 40x...
@@ -143,20 +196,6 @@ class CrusherDict:
    return dbkey
   else:
    return self.newKey(key,val)
-  #try:
-   #dbkey=entryName(self.name,self.db.fetch(indexName(self.name,key)))
-    #self.db.store(dbkey, (key,val))
-  # return dbkey
-  #except KeyError:
-  # try:
-  #  n=self.db.fetch(countName(self.name))
-  # except KeyError:
-  #  n=0
-  # dbkey=entryName(self.name,n)
-  # self.db.store(dbkey, (key,val))
-  # self.db.store(indexName(self.name,key), n)
-  # self.db.store(countName(self.name),n+1)
-  # return dbkey
  def inc(self, key, val):
   """Increment the value for key from the set.
      If the key is not in the set, it is added to the set with value 1.
@@ -176,29 +215,6 @@ class CrusherDict:
    newValue=dbkey[2]+1
    self.db.store(dbkey, (key,newValue,val))
   return dbkey
-  #else:
-  # dbkey=entryName(self.name,n)
-  # self.db.store(dbkey,(key,1,val))
-  # self.db.store(indexName(self.name,key), n)
-  # self.db.store(countName(self.name),n+1)
-  #try:
-  # idx=indexName(self.name,key)
-  # f=self.db.fetch(idx)
-  # dbkey=entryName(self.name,f)
-  # v=self.db.fetch(dbkey)
-  # newValue=v[1]+1
-  # self.db.store(dbkey, (key,newValue,val))
-  # return dbkey
-  #except KeyError:
-  # try:
-  #  n=self.db.fetch(countName(self.name))
-  # except KeyError:
-  #  n=0
-  #dbkey=entryName(self.name,n)
-  #self.db.store(dbkey,(key,1,val))
-  #self.db.store(indexName(self.name,key), n)
-  #self.db.store(countName(self.name),n+1)
-  #return dbkey
  def __iter__(self):
   print('crusherdict.py CrusherDict.__iter__()')
   #try:
@@ -213,21 +229,18 @@ if __name__=="__main__":
 # crusher.Broker = wrapper.Broker
 
  import crusher
-# try:
  db=crusher.Broker("test_crusherdict")
  test=CrusherDict(db, "test3")
  
  for i in range(0,100):
   #try:
    #test.getKey("Hiddleston","name")
-  test.getKey("H","n")
-  #except:
-  # pass
- #print(test.inc("Gov-Muller","voter-809809"))
- #print(test.inc("Gov-Muller","voter-8098091"))
- #print(test.inc("Gov-Muller","voter-8098092"))
- #print(test.inc("Gov-Muller","voter-8098093"))
- #print(test.inc("Gov-Muller","voter-8098094"))
+  test.getKey("Key","Value")
+# print(test.inc("Gov-Muller","voter-809809"))
+# print(test.inc("Gov-Muller","voter-8098091"))
+# print(test.inc("Gov-Muller","voter-8098092"))
+# print(test.inc("Gov-Muller","voter-8098093"))
+# print(test.inc("Gov-Muller","voter-8098094"))
  try:
   for tup in test:
    try:
@@ -238,6 +251,3 @@ if __name__=="__main__":
  except:
   pass
  db.exit()
-# except:
-#  print('err')
-#  pass

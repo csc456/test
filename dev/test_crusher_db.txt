@@ -1,4 +1,4 @@
-('test', 'm', 12, -76, 7.234, -8.763, 10004.3422, (123, 'h'))	test
-('goodbye', 'world')	13
-('hello', 'world')	('by', 'jove')
 h	v
+('goodbye', 'world')	13
+('test', 'm', 12, -76, 7.234, -8.763, 10004.3422, (123, 'h'))	test
+('hello', 'world')	('by', 'jove')

@@ -25,13 +25,26 @@ def voter(db, context, log, fields):
    #i+=1
    #voterid="V"+str(i)
    #db.fetch(crusherdict.countName(voterid))
-   voterid="V"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",6))
-   db.fetch(crusherdict.countName(voterid))
+   amount=60
+   #amount=6
+   voterid="VOTER|"+"".join(random.sample("0000000000000000000000000123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",amount))
+   c=crusherdict.countName(voterid)
+   print('fetch:'+str(c))
+   db.fetch(c)
+   db.fetch(c)
+   db.fetch(c)
+   db.fetch(c)
+   db.fetch(c)
+   db.fetch(c)
+   db.fetch(c)
+   db.fetch(c)
  # while True:
     #voterid="V"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",6))
     #db.fetch(crusherdict.countName(voterid))
  except KeyError:
   """Good: we don't have this voter yet."""
+ except:
+  raise Exception('...')
  context["id"]=voterid
  context["votes"]=[]
  return False
@@ -45,6 +58,9 @@ commands["VOTE"]=vote
 
 def cast(db, context, log, fields):
  """Perform CAST command."""
+ if len(context['votes']) == 0:
+  print('Empty voter!')
+  return
  print('Cast voter')
  print('voter id='+context['id'])
  #try:#??
@@ -53,34 +69,38 @@ def cast(db, context, log, fields):
  """Currently the voter does not exist in the database at all."""
  d.status("UNCAST")
  """The voter just barely exists, having a status of UNCAST only."""
- for vote in context["votes"]:
-  print('Vote for:'+str(vote[1:3]))
-  d.getKey(vote[1:3])
-  #print('')
+ #for vote in context["votes"]:
+ # print('d.Vote for:'+str(vote[1:3]))
+ # d.getKey(vote[1:3])
+
  """The votes have been added to the voter, but not the tallies."""
- for vote in context["votes"]:
-  t.inc(vote[1:3],context["id"])
+# for vote in context["votes"]:
+#  print('t.Increment:'+str(vote[1:3]))
+#  t.inc(vote[1:3],context["id"])
  """The votes have been tentatively tallied."""
- t.inc("voters",context["id"])
+ #t.inc("voters",context["id"])
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
+ #raise Exception('x')
+ return
  
-# if len(context['votes']) != len(d):
+ # len...
  if len(context['votes']) != d.__len__():
   print('Casted votes mismatch!')
+  return inq(db, context, log, ("INQ",context["id"]))
+  ##cast(db, context, log, fields)
+  ##return
+ try:
+  for tup in crusherdict.CrusherDict(db,context['id']):
+   print('Trying to log tup:' + str(tup))
+   log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1]))
+ except:
+  # Failed to write vote properly for some reason!
+  # Try again.
   cast(db, context, log, fields)
+  print('Caught VOTER error:fields:'+str(fields))
+  #print('Caught inq VOTER error:fields[1]:'+str(voter_id))
   return
- # Does it work?
- #print(crusherdict.CrusherDict(db,context['id']))
- #print(str(crusherdict.CrusherDict(db,context['id'])))
- #
- #for tup in crusherdict.CrusherDict(db,context['id']):
- # try:
- #  print('tup:'+str(tup))
- # except:
- #  pass
- #  print('tup:print err....')
- #print('Try inq...')
  """The votes have been tallied."""
  return inq(db, context, log, ("INQ",context["id"]))
  #except:
@@ -91,6 +111,8 @@ commands["CAST"]=cast
 
 def inq(db, context, log, fields):
  """Perform INQ command."""
+ print('INQ:...')
+ return
  context.clear()
  log.write("VOTER\n")
  voter_id = fields[1]
@@ -106,13 +128,15 @@ def inq(db, context, log, fields):
   #print('Caught inq VOTER error:tup:'+str(tup))
   print('Caught inq VOTER error:fields:'+str(fields))
   print('Caught inq VOTER error:fields[1]:'+str(voter_id))
-  raise Exception('inq')
+  #raise Exception('inq')
  log.write("CAST\t{}\n".format(voter_id))
  return db.doExit
 commands["INQ"]=inq
 
 def report(db, log):
  """Perform final report."""
+ print('Report:'+str(voters))
+ return
  t=crusherdict.CrusherDict(db,"T")
  voters=db.fetch(t.getKey("voters"))[1]
  log.write("VOTERS\t{}\n".format(voters))
