@@ -66,6 +66,22 @@ class CrusherDict:
     self.db.store(name,stat)
     i+=1
   return old
+ def fetchIndexName(self, key):
+  i=0
+  while i<100:
+   try:
+    print('fetching:')
+    idx=indexName(self.name,key)
+    print('idx='+str(idx))
+    fetch=self.db.fetch(idx)
+    print('fetch='+str(fetch))
+   except KeyError:
+    print('The key is not found in database!')
+   except:
+    print('fetch error')
+    #raise Exception('fe')
+    raise Exception('Unexpected error:', sys.exc_info()[0])
+   i+=1
  def try_getKey(self, key, val=None):
   '''It looks like self.db.fetch(idx) fails with KeyError approximately
      1/100 or 1/200 or so...
@@ -74,6 +90,8 @@ class CrusherDict:
   best=None
   chk=0
   i=0
+  fetch = self.fetchIndexName(key)
+  return
   while i<=10:
    try:
     idx=indexName(self.name,key)
@@ -132,7 +150,7 @@ class CrusherDict:
   if debug:
    print('Trying to store...')
   success=0
-  while success<2000:
+  while success<200:
    try:
     self.db.store(dbkey, (key,val))
     success+=1
@@ -190,6 +208,7 @@ class CrusherDict:
   # Try storing N copies here
   # where N is probably 7.
   dbkey=self.try_getKey(key,val) # Tests 40x...
+  return
   if dbkey != None:
    if(val!=None):
     self.test_db_store(dbkey, key, val)

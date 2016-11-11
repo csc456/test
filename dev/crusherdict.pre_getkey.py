@@ -114,12 +114,16 @@ if __name__=="__main__":
  import crusher
  try:
   db=crusher.Broker("test_crusherdict")
-  test=CrusherDict(db, "test3")
+  test2=CrusherDict(db, "dict_nameA")
+  test3=CrusherDict(db, "dict_nameB")
+  test4=CrusherDict(db, "dict_nameC")
   
-  for i in range(0,1000):
+  for i in range(0,100):
    try:
     #test.getKey("Hiddleston","name")
-    test.getKey("H","n")
+    test2.getKey("H","5555000")
+    test3.getKey("H","6666000")
+    test4.getKey("H","7777000")
    except:
     pass
   #print(test.inc("Gov-Muller","voter-809809"))
@@ -128,7 +132,7 @@ if __name__=="__main__":
   #print(test.inc("Gov-Muller","voter-8098093"))
   #print(test.inc("Gov-Muller","voter-8098094"))
   try:
-   for tup in test:
+   for tup in test2:
     try:
      print(tup)
     except:

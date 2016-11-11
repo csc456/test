@@ -65,12 +65,12 @@ def cast(db, context, log, fields):
  print('voter id='+context['id'])
  #try:#??
  d=crusherdict.CrusherDict(db,context["id"])
- t=crusherdict.CrusherDict(db,"T")
+ t=crusherdict.CrusherDict(db,"T_____________________________________")
  """Currently the voter does not exist in the database at all."""
  d.status("UNCAST")
  """The voter just barely exists, having a status of UNCAST only."""
- #for vote in context["votes"]:
- # print('d.Vote for:'+str(vote[1:3]))
+ for vote in context["votes"]:
+  print('d.Vote for:'+str(vote[1:3]))
  # d.getKey(vote[1:3])
 
  """The votes have been added to the voter, but not the tallies."""
