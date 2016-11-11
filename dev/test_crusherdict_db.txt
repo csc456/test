@@ -1,88 +1,92 @@
-('test3', 'E', 'Jn')	Hn
-('tåst3', 'E', 'Hn')	Hn
-('test#', 'E', 'Hn')	Hn
-('4ust3', 'E', 0)	Hn
-('test\x13', 'E', 0)	Hn
-('tdst3', 'E', 0)	Hn
-('test1', 'E', 0)	Hn
-('tests', 'E', 0)	Hn
-('tesT3', 'E', 0)	Hn
-('tast3', 'E', 0)	Hn
-('test2', 'E', 0)	Hn
-('teSt3', 'E', 0)	Hn
-('uest3', 'E', 0)	Hn
-('test3', 'E', 'HN')	Hn
-('pest3', 'E', 0)	Hn
-('Test3', 'E', 0)	Hn
-('test3', 'E', (('test7', 'N'), 1))	Hn
-('ôest3', 'E', 'Hn')	Hn
-('test7', 'E', 0)	Hn
-('test3', 'X', 'H')	Hn
-('tewt3', 'E', 0)	Hn
-('test2', 'X', 'H')	Hn
-('test3', 'A', 0)	Hn
-('tes43', 'E', 0)	Hn
-('tect3', 'E', 'Hn')	Hn
-('tect3', 'E', 0)	Hn
-('te{t3', 'E', 0)	Hn
-('te3t3', 'E', 0)	Hn
-('test3', 'D', 0)	Hn
-('tesu3', 'E', 0)	Hn
-('tgst3', 'E', 0)	Hn
-('Test3', 'E', 'Hn')	Hn
-('tmst3', 'E', 'Hn')	Hn
-('tdst3', 'E', 'Hn')	Hn
-('test3', 'D', 'Hn')	Hn
-('tust3', 'E', 'Hn')	Hn
-('te{t3', 'E', 'Hn')	Hn
-('tert3', 'E', 0)	Hn
-('tesô3', 'E', 0)	Hn
-('test3', 'e', 0)	Hn
-('4est3', 'E', 0)	Hn
-('test3', 'E', 'Hf')	Hn
-('test3', '\x05', 0)	Hn
-('test3', 'E', (('tdst3', 'N'), 1))	Hn
-('vest3', 'E', 'Hn')	Hn
-('test3', 'M', 0)	Hn
-('tewt3', 'E', 'Hn')	Hn
-('tes|3', 'E', 'Hn')	Hn
-('test1', 'E', 'Hn')	Hn
-('tesd3', 'E', 'Hn')	Hn
-('test;', 'E', 0)	Hn
-('te3t3', 'E', 'Hn')	Hn
-('teqt3', 'E', 'Hn')	Hn
-('dest3', 'E', 'Hn')	Hn
+('tesd3', 'E', (('test3', 'E', 0), 'Hn'))	Hn
 ('test3', 'E', 'Èn')	Hn
-('tesv3', 'E', 'Hn')	Hn
-('tes|3', 'E', 0)	Hn
-('uest3', 'E', 'Hn')	Hn
-('test3', 'E', 'Ho')	Hn
-('test;', 'E', 'Hn')	Hn
-('test#', 'E', 0)	Hn
-('test3', 'E', 'hn')	Hn
-('test3', 'U', 0)	Hn
-('test3', 'e', 'Hn')	Hn
-('test3', 'G', 'Hn')	Hn
-('test3', 'E', 'Xn')	Hn
-('t%st3', 'E', 0)	Hn
-('test3', '\x05', 'Hn')	Hn
-('test3', 'E', (('test3', 'N'), 1))	Hn
-('teót3', 'E', 'Hn')	Hn
-('pest3', 'E', 'Hn')	Hn
-('teSt3', 'E', 'Hn')	Hn
-('test3', 'E', 'Hn')	Hn
-('test3', 'Å', 0)	Hn
-('|est3', 'E', 'Hn')	Hn
-('ôest3', 'E', 0)	Hn
-('test3', 'N')	1
-('tesv3', 'E', 0)	Hn
-('test2', 'E', 'Hn')	Hn
-('tesu3', 'E', 'Hn')	Hn
-('tesd3', 'E', 0)	Hn
-('tesp3', 'E', 0)	Hn
+('test3', 'M', 'Hn')	Hn
+('Test3', 'E', 'Hn')	Hn
+('tests', 'E', 'Hn')	Hn
+('test3', 'E', (('test1', 'E', (('test3', 'A', 'Hn'), 'Hn')), 'Hn'))	Hn
 ('test3', 'E', 'H~')	Hn
-('test3', 'E', 'Hî')	Hn
+('test3', 'E', '\x08n')	Hn
+('test3', 'E', 'Hl')	Hn
+('tesu3', 'E', 'Hn')	Hn
+('test3', 'E', (('teSt3', 'E', 0), 'Hn'))	Hn
+('tmst3', 'E', 0)	Hn
+('test3', 'E', (('test3', 'E', (('test3', 'A', 'Hn'), 'Hn')), 'Hn'))	Hn
+('|est3', 'E', (('test3', 'E', 'hn'), 'Hn'))	Hn
+('test3', 'E', 'hn')	Hn
+('tdst3', 'E', 0)	Hn
+('test1', 'E', 'Hn')	Hn
+('test2', 'E', 'Hn')	Hn
+('tes43', 'E', 0)	Hn
+('test3', 'A', 'Hn')	Hn
+('tesu3', 'E', (('test3', 'E', 0), 'hn'))	Hn
+('test3', 'U', 'Hn')	Hn
+('test\x13', 'E', 'Hn')	Hn
+('test3', '\x05', 'Hn')	Hn
+('tesT3', 'E', (('test3', 'M', 'Hn'), 'Hn'))	Hn
+('dest3', 'E', 'Hn')	Hn
+('test3', 'E', 'Hf')	Hn
 ('test3', 'E', 0)	Hn
-('tert3', 'E', 'Hn')	Hn
-('tesô\x13', 'E', 0)	Hn
-('vest3', 'E', 0)	Hn
+('test3', 'E', (('test3', 'E', 0), 'Hn'))	Hn
+('uest3', 'E', 0)	Hn
+('test3', 'E', 'Hn')	Hn
+('tgst3', 'E', 'Hn')	Hn
+('test3', 'E', (('test3', 'E', (('tåst3', 'E', 'hn'), 'In')), 'Hn'))	Hn
+('t%st3', 'E', 'Hn')	Hn
+('tect3', 'E', 'Hn')	Hn
+('test7', 'E', 'Hn')	Hn
+('test3', 'E', 'H.')	Hn
+('tust3', 'E', 'Hn')	Hn
+('test3', 'Å', 'Hn')	Hn
+('tast3', 'E', 'Hn')	Hn
+('te3t3', 'E', 'Hn')	Hn
+('test\x13', 'E', 'Hl')	Hn
+('tgst3', 'E', (('test3', 'E', (('test3', 'E', 'hn'), 'In')), 'Hn'))	Hn
+('teót3', 'E', 'Hn')	Hn
+('test3', 'E', (('test3', 'E', 'hn'), 'In'))	Hn
+('test7', 'E', 0)	Hn
+('test3', 'E', (('test3', 'E', (('test3', 'E', 'hn'), 'In')), 'Hn'))	Hn
+('test3', 'E', (('test3', 'E', 'Hî'), 'Hn'))	Hn
+('test3', 'E', 'Xn')	Hn
+('te3t3', 'E', 0)	Hn
+('vest3', 'E', 'Hn')	Hn
+('tåst3', 'E', 'Hn')	Hn
+('tast3', 'E', (('test3', 'M', 'Hn'), 'Hn'))	Hn
+('test3', 'Å', (('test3', 'M', 'Hn'), 'Hn'))	Hn
+('test3', 'E', 'Hî')	Hn
+('pest3', 'E', 'Hn')	Hn
+('tEst3', 'E', 'Hn')	Hn
+('test3', 'E', (('test3', 'E', 'hn'), 'Hn'))	Hn
+('test3', 'E', (('test3', 'A', 'Hn'), 'Hn'))	Hn
+('tdst3', 'E', 'Hn')	Hn
+('test3', 'E', 'Hj')	Hn
+('tmst3', 'E', 'Hn')	Hn
+('tes43', 'E', 'Hn')	Hn
+('tect3', 'E', (('test3', 'E', 'Hî'), 'Hn'))	Hn
+('teSt3', 'E', 'Hn')	Hn
+('tewt3', 'E', 'Hn')	Hn
+('tesô3', 'E', 'Hn')	Hn
+('test3', 'X', 'J')	Hn
+('test3', 'E', (('test3', 'E', (('test3', 'E', '(n'), 'In')), 'Hn'))	Hn
+('test3', 'Å', (('test3', 'E', (('test3', 'A', 'Hn'), 'Hn')), 'Hn'))	Hn
+('uest3', 'E', 'Hn')	Hn
+('tes|3', 'E', 'Hn')	Hn
+('test3', 'X', 'H')	Hn
+('t}st3', 'E', 'Hn')	Hn
+('test#', 'E', 'Hn')	Hn
+('test3', 'G', 'Hn')	Hn
+('tesT3', 'E', 'Hn')	Hn
+('tesp3', 'E', 'Hn')	Hn
+('test3', 'E', (('vest3', 'E', 'hn'), 'Hn'))	Hn
+('test3', 'E', '@n')	Hn
+('test;', 'E', 'Hn')	Hn
+('test3', 'e', 'Hn')	Hn
+('test3', 'E', (('test3', '\r', 'Hn'), 'Hn'))	Hn
+('test3', 'E', (('test3', 'M', 'Hn'), 'Hn'))	Hn
+('test3', 'N')	1
+('test3', 'M', 0)	Hn
+('test3', 'Å', (('test3', 'E', 'Hî'), 'Hn'))	Hn
+('test3', 'E', 'Ln')	Hn
+('pest3', 'E', (('test3', 'E', 0), 'Hn'))	Hn
+('tesv3', 'E', 'Hn')	Hn
+('teqt3', 'E', 'Hn')	Hn
+('tests', 'E', 0)	Hn

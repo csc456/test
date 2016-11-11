@@ -45,35 +45,69 @@ commands["VOTE"]=vote
 
 def cast(db, context, log, fields):
  """Perform CAST command."""
- try:
-  d=crusherdict.CrusherDict(db,context["id"])
-  t=crusherdict.CrusherDict(db,"T")
-  """Currently the voter does not exist in the database at all."""
-  d.status("UNCAST")
-  """The voter just barely exists, having a status of UNCAST only."""
-  for vote in context["votes"]:
-   d.getKey(vote[1:3])
-  """The votes have been added to the voter, but not the tallies."""
-  for vote in context["votes"]:
-   t.inc(vote[1:3],context["id"])
-  """The votes have been tentatively tallied."""
-  t.inc("voters",context["id"])
-  """Number of voters has been tentatively incremented."""
-  d.status("CAST")
-  """The votes have been tallied."""
-  return inq(db, context, log, ("INQ",context["id"]))
- except:
-  print('demo.py: Trying cast again!')
+ print('Cast voter')
+ print('voter id='+context['id'])
+ #try:#??
+ d=crusherdict.CrusherDict(db,context["id"])
+ t=crusherdict.CrusherDict(db,"T")
+ """Currently the voter does not exist in the database at all."""
+ d.status("UNCAST")
+ """The voter just barely exists, having a status of UNCAST only."""
+ for vote in context["votes"]:
+  print('Vote for:'+str(vote[1:3]))
+  d.getKey(vote[1:3])
+  #print('')
+ """The votes have been added to the voter, but not the tallies."""
+ for vote in context["votes"]:
+  t.inc(vote[1:3],context["id"])
+ """The votes have been tentatively tallied."""
+ t.inc("voters",context["id"])
+ """Number of voters has been tentatively incremented."""
+ d.status("CAST")
+ 
+# if len(context['votes']) != len(d):
+ if len(context['votes']) != d.__len__():
+  print('Casted votes mismatch!')
   cast(db, context, log, fields)
+  return
+ # Does it work?
+ #print(crusherdict.CrusherDict(db,context['id']))
+ #print(str(crusherdict.CrusherDict(db,context['id'])))
+ #
+ #for tup in crusherdict.CrusherDict(db,context['id']):
+ # try:
+ #  print('tup:'+str(tup))
+ # except:
+ #  pass
+ #  print('tup:print err....')
+ #print('Try inq...')
+ """The votes have been tallied."""
+ return inq(db, context, log, ("INQ",context["id"]))
+ #except:
+ # print('demo.py: Trying cast again!')
+ # raise Exception()
+  #cast(db, context, log, fields)
 commands["CAST"]=cast
 
 def inq(db, context, log, fields):
  """Perform INQ command."""
  context.clear()
  log.write("VOTER\n")
- for tup in crusherdict.CrusherDict(db,fields[1]):
-  log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1]))
- log.write("CAST\t{}\n".format(fields[1]))
+ voter_id = fields[1]
+ try:
+  for tup in crusherdict.CrusherDict(db,voter_id):
+   log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1]))
+ except:
+  #for tup in crusherdict.CrusherDict(db,voter_id):
+  # try:
+  #  print(tup)
+  # except:
+  #  print('tup print err....')
+  #print('Caught inq VOTER error:tup:'+str(tup))
+  print('Caught inq VOTER error:fields:'+str(fields))
+  print('Caught inq VOTER error:fields[1]:'+str(voter_id))
+  raise Exception('inq')
+ log.write("CAST\t{}\n".format(voter_id))
  return db.doExit
 commands["INQ"]=inq
 
@@ -108,11 +142,11 @@ for line in cmd:
   line=line[:-1]
  line=line.split("\t")
  print('demo.py: Try cmd:' + line[0])
- try:
-  if commands[line[0]](db,context,log,line):
-   break
- except:
-  print('demo.py: except --')
+ #try:
+ if commands[line[0]](db,context,log,line):
+  break
+ #except:
+ # print('demo.py: except --')
 
 try:
  cmd.close()

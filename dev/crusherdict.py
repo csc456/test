@@ -30,7 +30,7 @@ def statusName(dict):
 class CrusherDict:
  def __init__(self, db, name):
   """Create a set named key in the database."""
-  print('crusherdict.py CrusherDict.__init__()')
+  #print('crusherdict.py CrusherDict.__init__()')
   self.db=db
   self.name=name
  def __len__(self):
@@ -68,6 +68,9 @@ class CrusherDict:
    try:
     idx=indexName(self.name,key)
     fetch=self.db.fetch(idx)
+   except TypeError: # ?? Not sure why there is a type error but it happens occasionally...
+    i+=1
+    continue
    except KeyError:
     # The following is returned from 
     # crusher.py: return self.valDBIn.mangle(self.db.fetch(self.keyDB.mangle(key)))
@@ -77,7 +80,7 @@ class CrusherDict:
     print('Fetch fails,key=' + str(key)) 
     print('Fetch fails,idx=' + str(idx)) 
     print('Unexpected error:', sys.exc_info()[0])
-    raise Exception('DK1!')
+    raise Exception('DK1!Key')
    try:
     dbkey=entryName(self.name,fetch)
     try:
@@ -100,13 +103,29 @@ class CrusherDict:
   if debug:
    print('Trying to store...')
   success=0
-  while success<100: 
+  while success<20: 
    try:
     self.db.store(dbkey, (key,val))
     success+=1
    except:
     raise Exception('Store error')
   #raise Exception('test exception here') # Works
+ def newKey(self, key, val=None):
+  try:
+   cn = countName(self.name)
+   print('New entry: Fetch:' + str(cn))
+   n=self.db.fetch(cn)
+  except KeyError:
+   n=0
+  dbkey=entryName(self.name,n)
+  idx=indexName(self.name,key)
+  cn=countName(self.name)
+  print('Store en:'+str(dbkey))
+  self.db.store(dbkey, (key,val))
+  self.db.store(idx, n)
+  if isinstance(n, int): # Hm...?
+   self.db.store(cn, n+1)
+  return dbkey
  def getKey(self, key, val=None):
   """Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
@@ -123,20 +142,7 @@ class CrusherDict:
     self.test_db_store(dbkey, key, val)
    return dbkey
   else:
-   try:
-    cn = countName(self.name)
-    print('New entry: Fetch:' + str(cn))
-    n=self.db.fetch(cn)
-   except KeyError:
-    n=0
-   dbkey=entryName(self.name,n)
-   print('Store en:'+str(dbkey))
-   self.db.store(dbkey, (key,val))
-   self.db.store(indexName(self.name,key), n)
-   self.db.store(countName(self.name),n+1)
-   return dbkey
-
-   
+   return self.newKey(key,val)
   #try:
    #dbkey=entryName(self.name,self.db.fetch(indexName(self.name,key)))
     #self.db.store(dbkey, (key,val))
@@ -150,7 +156,7 @@ class CrusherDict:
   # self.db.store(dbkey, (key,val))
   # self.db.store(indexName(self.name,key), n)
   # self.db.store(countName(self.name),n+1)
-   return dbkey
+  # return dbkey
  def inc(self, key, val):
   """Increment the value for key from the set.
      If the key is not in the set, it is added to the set with value 1.
@@ -159,25 +165,47 @@ class CrusherDict:
      is returned.
   """
   print('crusherdict.py CrusherDict.inc()')
-  try:
-   dbkey=entryName(self.name,self.db.fetch(indexName(self.name,key)))
-   v=self.db.fetch(dbkey)
-   self.db.store(dbkey, (key,v[1]+1,val))
-   return dbkey
-  except KeyError:
-   try:
-    n=self.db.fetch(countName(self.name))
-   except KeyError:
-    n=0
-   dbkey=entryName(self.name,n)
-   self.db.store(dbkey,(key,1,val))
-   self.db.store(indexName(self.name,key), n)
-   self.db.store(countName(self.name),n+1)
-   return dbkey
+  # Hm getKey?
+  dbkey=self.getKey(key,val)
+  #if dbkey != None:
+  print(dbkey)
+  if isinstance(dbkey[1], int): # increment if int...otherwise... er...
+   newValue=dbkey[1]+1
+   self.db.store(dbkey, (key,newValue,val))
+  elif isinstance(dbkey[2], int):
+   newValue=dbkey[2]+1
+   self.db.store(dbkey, (key,newValue,val))
+  return dbkey
+  #else:
+  # dbkey=entryName(self.name,n)
+  # self.db.store(dbkey,(key,1,val))
+  # self.db.store(indexName(self.name,key), n)
+  # self.db.store(countName(self.name),n+1)
+  #try:
+  # idx=indexName(self.name,key)
+  # f=self.db.fetch(idx)
+  # dbkey=entryName(self.name,f)
+  # v=self.db.fetch(dbkey)
+  # newValue=v[1]+1
+  # self.db.store(dbkey, (key,newValue,val))
+  # return dbkey
+  #except KeyError:
+  # try:
+  #  n=self.db.fetch(countName(self.name))
+  # except KeyError:
+  #  n=0
+  #dbkey=entryName(self.name,n)
+  #self.db.store(dbkey,(key,1,val))
+  #self.db.store(indexName(self.name,key), n)
+  #self.db.store(countName(self.name),n+1)
+  #return dbkey
  def __iter__(self):
   print('crusherdict.py CrusherDict.__iter__()')
+  #try:
   for i in range(self.__len__()):
    yield self.db.fetch(entryName(self.name,i))
+  #except:
+  # print('skip except....')
 
 if __name__=="__main__":
 # import crusher
