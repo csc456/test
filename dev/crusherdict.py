@@ -75,10 +75,19 @@ class CrusherDict:
   except: # Try again. (Probably corrupt request in cache)
    return self.safeFetch(key,val)
  def safeStore(self, dbkey, key, val=None):
+  '''Next: Implement integrity check
+  '''
   try:
    self.db.store(dbkey, (key,val))
+   done=self.safeFetch(dbkey)
+   if done is False: # Try again. Did not save.
+    return self.safeStore(dbkey,key,val)
+   #print('Want to save:'+str((key,val)))
+   #print('Save in db is:'+str(done))
+   #raise KeyException('test')
   except: # ....
    self.safeStore(dbkey, key, val)
+   #raise Exception('test')
  def getKey(self, key, val=None):
   """Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
