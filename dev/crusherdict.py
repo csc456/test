@@ -34,11 +34,16 @@ def statusName(dict):
 class CrusherDict:
  def __init__(self, db, name):
   """Create a set named key in the database."""
-  print('crusherdict.py CrusherDict.__init__()')
+  #print('crusherdict.py CrusherDict.__init__()')
   self.db=db
   self.name=name
  def __len__(self):
+  #f = self.safeFetch(countName(self.name))
+  #print(f)
+  raise Exception('len:'+str(f))
   try:
+   #f = self.safeFetch(countName(self.name))   
+   #print(f)
    return self.db.fetch(countName(self.name))
   except KeyError:
    return 0
@@ -59,14 +64,14 @@ class CrusherDict:
   if stat!=None:
    self.db.store(name,stat)
   return old
- def dbgFetch(self, key):
-  print('Fetch--key:'+str(key))
- def dbgStore(self, key, val):
-  print('Store--key:'+str(key)+';val:'+str(val))
+ #def dbgFetch(self, key):
+ # print('Fetch--key:'+str(key))
+ #def dbgStore(self, key, val):
+ # print('Store--key:'+str(key)+';val:'+str(val))
  def safeFetch(self, key, val=None):
-  #try:
-  #except KeyError:
-  # return False # TODO: Loop 5-10x ... ...
+  '''Only to be used in place of getKey(self, key, val)
+     Do not replace self.db.fetch(...)
+  '''
   try:
    f=self.db.fetch(indexName(self.name,key))
    #if f is False:
@@ -88,7 +93,7 @@ class CrusherDict:
   try:
    if val is None: #?
     self.db.store(dbkey, key)
-   else: #?
+   else: # tuple
     self.db.store(dbkey, (key,val))
    #self.db.store(dbkey, (key,val)) #Default
    done=self.safeFetch(dbkey)
@@ -115,19 +120,15 @@ class CrusherDict:
    print('  dbkey='+str(dbkey)) 
    return dbkey
   print('  dbkey=False [!]') 
-  # Does not exist. Create it.
-  n=self.safeFetch(countName(self.name))
+  n=self.safeFetch(countName(self.name))  # Does not exist. Create it.
   if n is False:
    n=0
   if not isinstance(n, int):
    n=0 # Hm fix this?
   print('  n='+str(n))
   dbkey=entryName(self.name,n)
-#  self.db.store(dbkey, (key,val))
   self.safeStore(dbkey,key,val)
-#  self.db.store(indexName(self.name,key), n)
   self.safeStore(indexName(self.name,key), n)
-  #self.db.store(countName(self.name),n+1)
   self.safeStore(countName(self.name),n+1)
   return dbkey
  def inc(self, key, val):

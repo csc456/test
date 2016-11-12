@@ -82,7 +82,7 @@ def cast(db, context, log, fields):
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  #raise Exception('x')
- return
+# return
  
  # len...
 # if len(context['votes']) != d.__len__():
@@ -111,24 +111,32 @@ commands["CAST"]=cast
 
 def inq(db, context, log, fields):
  """Perform INQ command."""
-# print('INQ:...')
+ print('demo.py inq()')
+ print('  voter_id:'+str(fields[1]))
 # return
  context.clear()
  log.write("VOTER\n")
  voter_id = fields[1]
+ c = crusherdict.CrusherDict(db,voter_id)
+ print('  c.db:'+str(c.db))
+ print('  c.name:'+str(c.name))
+ print('  c.__len__:'+str(c.__len__()))
  try:
-  for tup in crusherdict.CrusherDict(db,voter_id):
-   log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1]))
+  for tup in c:
+   if tup:
+    print('  iter-tup:'+str(tup))
+    log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1]))
  except:
   #for tup in crusherdict.CrusherDict(db,voter_id):
   # try:
   #  print(tup)
   # except:
   #  print('tup print err....')
-  #print('Caught inq VOTER error:tup:'+str(tup))
-  #print('Caught inq VOTER error:fields:'+str(fields))
-  #print('Caught inq VOTER error:fields[1]:'+str(voter_id))
-  #raise Exception('inq')
+  print('Caught inq VOTER error:tup:'+str(voter_id))
+  print('Caught inq VOTER error:fields:'+str(fields))
+  print('Caught inq VOTER error:fields[1]:'+str(voter_id))
+  print('Unexpected error:', sys.exc_info()[0])
+  raise Exception('inq')
   pass
  log.write("CAST\t{}\n".format(voter_id))
  return db.doExit
@@ -136,8 +144,8 @@ commands["INQ"]=inq
 
 def report(db, log):
  """Perform final report."""
- print('Report:'+str(voters))
- return
+ #print('Report:'+str(voters))
+ #return
  t=crusherdict.CrusherDict(db,"T")
  voters=db.fetch(t.getKey("voters"))[1]
  log.write("VOTERS\t{}\n".format(voters))
