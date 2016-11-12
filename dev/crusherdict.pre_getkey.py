@@ -77,6 +77,7 @@ class CrusherDict:
     n=self.db.fetch(countName(self.name))
    except KeyError:
     n=0
+   print('count name = '+n)
    dbkey=entryName(self.name,n)
    self.db.store(dbkey, (key,val))
    self.db.store(indexName(self.name,key), n)
@@ -118,7 +119,7 @@ if __name__=="__main__":
   test3=CrusherDict(db, "dict_nameB")
   test4=CrusherDict(db, "dict_nameC")
   
-  for i in range(0,100):
+  for i in range(0,1000):
    try:
     #test.getKey("Hiddleston","name")
     test2.getKey("H","5555000")

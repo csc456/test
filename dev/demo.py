@@ -71,7 +71,7 @@ def cast(db, context, log, fields):
  """The voter just barely exists, having a status of UNCAST only."""
  for vote in context["votes"]:
   print('d.Vote for:'+str(vote[1:3]))
- # d.getKey(vote[1:3])
+  d.getKey(vote[1:3])
 
  """The votes have been added to the voter, but not the tallies."""
 # for vote in context["votes"]:
