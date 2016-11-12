@@ -64,9 +64,15 @@ class CrusherDict:
  def dbgStore(self, key, val):
   print('Store--key:'+str(key)+';val:'+str(val))
  def safeFetch(self, key, val=None):
+  #try:
+  #except KeyError:
+  # return False # TODO: Loop 5-10x ... ...
   try:
-   dbkey=entryName(self.name,self.db.fetch(indexName(self.name,key)))
-   if(val!=None):
+   f=self.db.fetch(indexName(self.name,key))
+   #if f is False:
+   # return False
+   dbkey=entryName(self.name,f)
+   if val!=None:
     self.safeStore(dbkey,key,val)
     #self.db.store(dbkey, (key,val))
    return dbkey
@@ -103,7 +109,7 @@ class CrusherDict:
   """
   print('crusherdict.py CrusherDict.getKey()')
   print('  key:'+str(key))
-  print('  value:'+str(value))
+  print('  value:'+str(val))
   dbkey=self.safeFetch(key, val)
   if dbkey:
    print('  dbkey='+str(dbkey)) 
@@ -113,8 +119,8 @@ class CrusherDict:
   n=self.safeFetch(countName(self.name))
   if n is False:
    n=0
-  #if not isinstance(n, int):
-  # n=0 # Hm fix this?
+  if not isinstance(n, int):
+   n=0 # Hm fix this?
   print('  n='+str(n))
   dbkey=entryName(self.name,n)
 #  self.db.store(dbkey, (key,val))
@@ -153,6 +159,8 @@ class CrusherDict:
    n=self.safeFetch(countName(self.name))
    if n is False:
     n=0
+   if not isinstance(n, int):
+    n=0 # Hm fix this?
    print('  dbkey is False!')
    print('  n is:'+str(n))
    # n either 1) int eg "1",
