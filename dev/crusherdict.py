@@ -66,12 +66,12 @@ class CrusherDict:
      Probably bitwise.
   '''
   print('safeFetch::')
-  print('  key:'+str(key))
+  print('  safeFetch::key:'+str(key))
   c={'__key_error__':0,'__none__':0}
   best=None
   num=0
   i=0
-  print('  try200')
+#  print('  try200')
   while i<200:
    i+=1
    try:
@@ -96,9 +96,9 @@ class CrusherDict:
     best=n
     num=c[str(n)]
   # Raise KeyError in both cases
-  print('  best='+str(best))
+  print('  safeFetch::best='+str(best))
   if best == '__key_error__' or best == '__none__':
-   print('  raise KeyError.....')
+   print('  safeFetch::raise KeyError.....')
    raise KeyError('--')
   else:
    return n
@@ -106,14 +106,11 @@ class CrusherDict:
   '''Next:...
   '''
   print('safeStore::')
-  print('  dbkey='+str(dbkey))
-  print('  key='+str(key))
-  print('  val='+str(val))
+  print('  safeStore::dbkey='+str(dbkey))
+  print('  safeStore::key='+str(key))
+  print('  safeStore::val='+str(val))
   try:
    if val is None:
-    print('  store:')
-    print('  store-dbkey:'+str(dbkey))
-    print('  store-key:'+str(key))
     self.db.store(dbkey, key)
    else: # tuple
     self.db.store(dbkey, (key,val))
@@ -181,11 +178,26 @@ class CrusherDict:
   print('  val:'+str(val))
   try:
    f = self.safeFetch(indexName(self.name,key))
+   print('  indexName:'+str(f))
    dbkey=entryName(self.name,f)
+   print('  dbkey:'+str(dbkey))
    v=self.safeFetch(dbkey)
-   #v=self.db.fetch(dbkey)
-   print('  increment v[1]:'+str(v))
+   print('  fetch(dbkey):'+str(v))
+   # v must be:
+   # BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
+   # BROKEN:  fetch(dbkey):16
+   # BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
+   # WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q0000DG0LZH70V000W0F0R006BP28M0500ES00XYO30C40I0JNU0A100T')
+   if isinstance(v, int): # is int
+    return self.inc(key,val) # Recursive...
+   if len(v) != 3: # tuple len not three
+    return self.inc(key,val) # Recursive...
+   # If v is None
+   # Try again... eg...
+   if v and v[1] and v[1] is None:
+    return self.inc(key,val) # Recursive...
    self.safeStore(dbkey, (key,v[1]+1,val))
+   #v=self.db.fetch(dbkey)
    #self.db.store(dbkey, (key,v[1]+1,val))
    return dbkey
   except KeyError:

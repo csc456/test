@@ -82,7 +82,7 @@ def cast(db, context, log, fields):
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  #raise Exception('x')
-# return
+ return
  
  # len...
 # if len(context['votes']) != d.__len__():
