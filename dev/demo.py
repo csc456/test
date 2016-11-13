@@ -67,9 +67,9 @@ def cast(db, context, log, fields):
  for vote in context["votes"]:
   print('d.Vote for:'+str(vote[1:3]))
   d.getKey(vote[1:3])
-  d.getKey(vote[1:3])
-  d.getKey(vote[1:3])
-  d.getKey(vote[1:3])
+#  d.getKey(vote[1:3])
+#  d.getKey(vote[1:3])
+#  d.getKey(vote[1:3])
 
  # Check that successful write before continuing in... 
  #c = crusherdict.CrusherDict(db,context['id'])
@@ -92,29 +92,8 @@ def cast(db, context, log, fields):
  d.status("CAST")
 # return
  
- # len...
-# if len(context['votes']) != d.__len__():
-#  print('Casted votes mismatch!')
-#  return inq(db, context, log, ("INQ",context["id"]))
-  ##cast(db, context, log, fields)
-  ##return
-# try:
-#  for tup in crusherdict.CrusherDict(db,context['id']):
-#   print('Trying to log tup:' + str(tup))
-#   log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1]))
-# except:
-  # Failed to write vote properly for some reason!
-  # Try again.
-#  cast(db, context, log, fields)
-#  print('Caught VOTER error:fields:'+str(fields))
-  #print('Caught inq VOTER error:fields[1]:'+str(voter_id))
-#  return
  """The votes have been tallied."""
  return inq(db, context, log, ("INQ",context["id"]))
- #except:
- # print('demo.py: Trying cast again!')
- # raise Exception()
-  #cast(db, context, log, fields)
 commands["CAST"]=cast
 
 def check_inq(c):

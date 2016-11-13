@@ -77,7 +77,7 @@ class CrusherDict:
   c={'__key_error__':0,'__none__':0}
   best=None
   num=0
-  for i in range(4): #0-9
+  for i in range(2): #0-9
    try:
     # Fetch each of the 40 entries.
     rslt_ke=0
@@ -86,7 +86,7 @@ class CrusherDict:
     rslt_good={}
     rslt_num=0
     # Fetch each entry 0-5 times.
-    for j in range(6):
+    for j in range(2):
      try:
       n=self.db.fetch(str(key)+'__'+str(i)+'__')
      except KeyError:
@@ -154,10 +154,10 @@ class CrusherDict:
    else:
     key = (key,val)
    print('  store:', end='')
-   for i in range(4): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
+   for i in range(2): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
     print(str(i)+',', end='')
     try:
-     for j in range(40): #0-9
+     for j in range(10): #0-9
       k=str(dbkey)+'__'+str(i)+'__'
       self.db.store(k, key)
     except:
@@ -191,11 +191,13 @@ class CrusherDict:
    try:
     n=self.safeFetch(countName(self.name))
     if not isinstance(n, int):
-     print('  getKey::Looking for int but found not int!')
-     print('  getKey::Found:'+str(n))
+     #print('  getKey::Looking for int but found not int!')
+     #print('  getKey::Found:'+str(n))
      # Probably raise error here... but...
      # for now... n=0?
-     n=0
+     #n=0
+     # Hm try again?
+     return self.getKey(key, val)
    except KeyError:
     n=0
    dbkey=entryName(self.name,n)
@@ -239,8 +241,10 @@ class CrusherDict:
    try:
     n=self.safeFetch(countName(self.name))
     if not isinstance(n, int):
-     print('  Looking for int but found not int!')
-     n=0
+     #print('  Looking for int but found not int!')
+     #n=0
+     #Hm try again?
+     return self.inc(key, val)
    except KeyError:
     n=0
    dbkey=entryName(self.name,n)

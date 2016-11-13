@@ -1,6 +1,12 @@
-TALLY	Supreme Court Justice	Sherry Parkhurst	3
-TALLY	Supreme Court Justice	Jack Brown	2
-TALLY	Senator	Father Malloy	3
-TALLY	Secretary of the Vote	Charles Lindbergh	2
-TALLY	Office of Computer Science Research Grants	Stephen Douglas	1
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	1
+TALLY	Supreme Court Justice	Sherry Parkhubst	14
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	5
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	6
+TALLY	Secretary of the Vote	Charles Lindbergh	5
+TALLY	Office of C/mputer Science Research Grants	Jennifer Maize	4
+TALLY	Supreme Court Justice	Jack Brown	4
+TALLY	Surgeon General	Say what?	2
+TALLY	Governor	Pope John Paul the 19th	2
+TALLY	senator	Harry Weasley	1
+TALLY	Lt. Governor	Melinda Gates	1
+TALLY	Supreme Court Justice	Take em back Alive	2
+TALLY	President	George W. Bush	3
