@@ -42,10 +42,12 @@ class CrusherDict:
   print('crusher.py .__len__()')
   try:
    f=self.safeFetch(countName(self.name))
-   #print('  f:'+str(f))
+   print('  f:'+str(f))
    if not isinstance(f, int) or f is None: # Recursive...
-    #print('  ------not int!')
+    print('  ------not int!')
     return self.__len__() # Try again...
+   #return self.safeFetch(countName(self.name))
+   #return self.db.fetch(countName(self.name))
    else:
     return f
   except KeyError:
@@ -63,11 +65,14 @@ class CrusherDict:
   name=statusName(self.name)
   try:
    old=self.safeFetch(name)
+   #old=self.db.fetch(name)
   except KeyError:
    old=None
   if stat!=None:
    self.safeStore(name,stat)
+   #self.db.store(name,stat)
   return old
+# def
  def safeFetch(self, key):
   '''Try a number of fetches. Voting on which is best.
      Probably bitwise.
@@ -77,9 +82,11 @@ class CrusherDict:
   c={'__key_error__':0,'__none__':0}
   best=None
   num=0
-  for i in range(40): #0-19
+  i=0
+  while i<20:
+   i+=1
    try:
-    n=self.db.fetch(str(key)+'__'+str(i)+'__')
+    n=self.db.fetch(key)
    except KeyError:
     c['__key_error__']+=1
     if c['__key_error__'] > num:
@@ -93,7 +100,6 @@ class CrusherDict:
      num=c['__none__']
     continue
    try:
-    #print('  safeFetch::n='+str(n))
     c[str(n)]+=1 # fetch success
    except:
     c[str(n)]=1 # instantiate
@@ -117,23 +123,14 @@ class CrusherDict:
   print('  safeStore::val='+str(val))
   try:
    if val is None:
-    key = key
-   else:
-    key = (key,val)
-   for i in range(40): #0-19
-    try:
-     k=str(dbkey)+'__'+str(i)+'__'
-     print(k)
-     self.db.store(k, key)
-    except:
-     #print('  store err')
-     #print('Unexpected error:', sys.exc_info()[0])
-     pass
+    self.db.store(dbkey, key)
+   else: # tuple
+    self.db.store(dbkey, (key,val))
    # Now try fetching by dbkey
-   #try:
-   # done=self.safeFetch(dbkey)
-   #except: # Raised error so store again
-   # self.safeStore(dbkey, key, val)
+   try:
+    done=self.safeFetch(dbkey)
+   except: # Raised error so store again
+    self.safeStore(dbkey, key, val)
    # optional: return done
   except: # ....
    self.safeStore(dbkey, key, val)

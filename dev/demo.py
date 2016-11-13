@@ -33,11 +33,6 @@ def voter(db, context, log, fields):
    db.fetch(c)
    db.fetch(c)
    db.fetch(c)
-   db.fetch(c)
-   db.fetch(c)
-   db.fetch(c)
-   db.fetch(c)
-   db.fetch(c)
  # while True:
     #voterid="V"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",6))
     #db.fetch(crusherdict.countName(voterid))
@@ -73,6 +68,17 @@ def cast(db, context, log, fields):
   print('d.Vote for:'+str(vote[1:3]))
   d.getKey(vote[1:3])
 
+ # Check that successful write before continuing in... 
+ #c = crusherdict.CrusherDict(db,context['id'])
+ #tmp_context={}
+ #tmp_context['votes'] = context['votes']
+ #tmp_context['id'] = context['id']
+ #context.clear()
+ #if check_inq(c) is False: # Go again
+ # context = tmp_context
+ # return cast(db, context, log, fields) # Recursive...
+ #context = tmp_context
+  
  """The votes have been added to the voter, but not the tallies."""
  for vote in context["votes"]:
   print('t.Increment:'+str(vote[1:3]))
@@ -82,7 +88,7 @@ def cast(db, context, log, fields):
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  #raise Exception('x')
- return
+ #return
  
  # len...
 # if len(context['votes']) != d.__len__():
@@ -109,35 +115,70 @@ def cast(db, context, log, fields):
   #cast(db, context, log, fields)
 commands["CAST"]=cast
 
+def check_inq(c):
+ tmp_log=''
+ try:
+  for tup in c:
+   if isinstance(tup, int) or tup is None:
+    #return False # Try again. Recursive.
+    return check_inq(c) # Try again. Recursive.
+   tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
+ except:
+  #return False # Try again?
+  return check_inq(c) # Try again. Recursive.
+ return tmp_log
+#def check_inq_recurse(c):
+# tmp_log=''
+# try:
+#  for tup in c:
+#   if isinstance(tup, int) or tup is None:
+#    return check_inq_recurse(c) # Try again. Recursive.
+#    #return check_inq(c) # Try again. Recursive.
+#   tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
+# except:
+#  return check_inq_recurse(c) # Try again?
+# return tmp_log
 def inq(db, context, log, fields):
  """Perform INQ command."""
  print('demo.py inq()')
  print('  voter_id:'+str(fields[1]))
-# return
- context.clear()
- log.write("VOTER\n")
  voter_id = fields[1]
+ context.clear()
  c = crusherdict.CrusherDict(db,voter_id)
+ #c.safeFetch(
+ log.write("VOTER\n")
+
+
  print('  c.db:'+str(c.db))
  print('  c.name:'+str(c.name))
  print('  c.__len__:'+str(c.__len__()))
  try:
-  for tup in c:
-   if tup:
-    print('  iter-tup:'+str(tup))
-    log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1]))
+  tmp_log=check_inq(c)
+  if tmp_log != False: # If success then write
+   log.write(tmp_log)   
+  else: # Otherwise another plan is necessary.
+   pass
+  #while True:
+  # for tup in c:
+  #  if isinstance(tup, int) or tup is None:
+  #   return check_inq(c) # Try again. Recursive.
+    #tup=c.safeFetch
+  #  if tup and tup[0] and tup[0][1] and tup[0][1]:
+  #   print('  iter-tup:'+str(tup))
+  #   log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])) 
+   #check_inq(c)
  except:
   #for tup in crusherdict.CrusherDict(db,voter_id):
   # try:
   #  print(tup)
   # except:
   #  print('tup print err....')
-  print('Caught inq VOTER error:tup:'+str(voter_id))
-  print('Caught inq VOTER error:fields:'+str(fields))
-  print('Caught inq VOTER error:fields[1]:'+str(voter_id))
-  print('Unexpected error:', sys.exc_info()[0])
+  print('  Caught inq VOTER error:tup:'+str(voter_id))
+  print('  Caught inq VOTER error:fields:'+str(fields))
+  print('  Caught inq VOTER error:fields[1]:'+str(voter_id))
+  print('  Unexpected error:', sys.exc_info()[0])
   raise Exception('inq')
-  pass
+  #pass
  log.write("CAST\t{}\n".format(voter_id))
  return db.doExit
 commands["INQ"]=inq
