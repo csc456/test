@@ -8,14 +8,14 @@ def indexName(dict, key):
   print('crusherdict.py indexName()')
   print('  dict:'+dict)
   print('  key:'+str(key))
- return (dict,"X",key)
+ return (dict,"__X__IndexName",key)
 
 def countName(dict):
  global debug
  if debug:
   print('crusherdict.py countName()')
   print('  dict:'+dict)
- return (dict,"N")
+ return (dict,"__N__CountName")
 
 def entryName(dict, n):
  global debug
@@ -23,14 +23,14 @@ def entryName(dict, n):
   print('crusherdict.py entryName()')
   print('  dict:'+dict)
   print('  n:'+str(n))
- return (dict, "E", n)
+ return (dict, "__E__EntryName", n)
 
 def statusName(dict):
  global debug
  if debug:
   print('crusherdict.py statusName()')
   print('  dict:'+dict)
- return (dict, "S")
+ return (dict, "__S__StatusName")
 
 class CrusherDict:
  def __init__(self, db, name):
@@ -121,15 +121,15 @@ class CrusherDict:
    try:
     done=self.safeFetch(dbkey)
    except: # Raised error so store again
-    #self.safeStore(dbkey, key, val)
-    print('Unexpected error1:', sys.exc_info()[0])  
-    raise Exception('.1')
+    self.safeStore(dbkey, key, val)
+    #print('Unexpected error1:', sys.exc_info()[0])  
+    #raise Exception('.1')
    # Success
    # optional: return done
   except: # ....
-   #self.safeStore(dbkey, key, val)
-   print('Unexpected error2:', sys.exc_info()[0])
-   raise Exception('.2')
+   self.safeStore(dbkey, key, val)
+   #print('Unexpected error2:', sys.exc_info()[0])
+   #raise Exception('.2')
  def getKey(self, key, val=None):
   """Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
@@ -148,6 +148,12 @@ class CrusherDict:
   except KeyError:
    try:
     n=self.safeFetch(countName(self.name))
+    if not isinstance(n, int):
+     print('  Looking for int but found not int!')
+     print('  Found:'+str(n))
+     # Probably raise error here... but...
+     # for now... n=0?
+     n=0
     #n=self.db.fetch(countName(self.name))
    except KeyError:
     n=0
@@ -171,20 +177,33 @@ class CrusherDict:
      is returned.
   """
   print('crusherdict.py CrusherDict.inc()')
+  print('  key:'+str(key))
+  print('  val:'+str(val))
   try:
-   dbkey=entryName(self.name,self.db.fetch(indexName(self.name,key)))
-   v=self.db.fetch(dbkey)
-   self.db.store(dbkey, (key,v[1]+1,val))
+   f = self.safeFetch(indexName(self.name,key))
+   dbkey=entryName(self.name,f)
+   v=self.safeFetch(dbkey)
+   #v=self.db.fetch(dbkey)
+   print('  increment v[1]:'+str(v))
+   self.safeStore(dbkey, (key,v[1]+1,val))
+   #self.db.store(dbkey, (key,v[1]+1,val))
    return dbkey
   except KeyError:
    try:
-    n=self.db.fetch(countName(self.name))
+    n=self.safeFetch(countName(self.name))
+    if not isinstance(n, int):
+     print('  Looking for int but found not int!')
+     n=0
+    #n=self.db.fetch(countName(self.name))
    except KeyError:
     n=0
    dbkey=entryName(self.name,n)
-   self.db.store(dbkey,(key,1,val))
-   self.db.store(indexName(self.name,key), n)
-   self.db.store(countName(self.name),n+1)
+   self.safeStore(dbkey,(key,1,val))
+   self.safeStore(indexName(self.name,key), n)
+   self.safeStore(countName(self.name),n+1)
+   #self.db.store(dbkey,(key,1,val))
+   #self.db.store(indexName(self.name,key), n)
+   #self.db.store(countName(self.name),n+1)
    return dbkey
  def __iter__(self):
   print('crusherdict.py CrusherDict.__iter__()')
@@ -225,4 +244,3 @@ if __name__=="__main__":
  except:
   print('err')
   pass
-
