@@ -1,0 +1,6 @@
+TALLY	Supreme Court Justice	Sherry Parkhurst	3
+TALLY	Supreme Court Justice	Jack Brown	2
+TALLY	Senator	Father Malloy	3
+TALLY	Secretary of the Vote	Charles Lindbergh	2
+TALLY	Office of Computer Science Research Grants	Stephen Douglas	1
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	1

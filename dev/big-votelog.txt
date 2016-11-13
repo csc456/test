@@ -1,0 +1,226 @@
+VOTER
+VOTE	Mayor	Slimey Badguy
+CAST	VOTER|ZEJBMU1845
+VOTER
+VOTE	Supreme Court Justice	Sherry Parkhurst
+VOTE	Secretary of the Vote	Charles Lindbergh
+VOTE	Governor	Vickey Walker
+VOTE	Governor	Mary Potter
+CAST	VOTER|4IWZL5FBH6
+VOTER
+CAST	VOTER|GUJ632H1FP
+VOTER
+VOTE	Governor	Mickey Mouse
+VOTE	Secretary of the Vote	Stoney Jackson
+CAST	VOTER|NVAU7L1SQ5
+VOTER
+VOTE	President	Stanley Gordon
+VOTE	Lt. Governor	Merlin
+CAST	VOTER|C489OWBL67
+VOTER
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+CAST	VOTER|PN6B7LYV15
+VOTER
+VOTE	Office of Computer Science Research Grants	Silver Lode
+CAST	VOTER|RAZ90U6EC5
+VOTER
+VOTE	Senator	Harry Weasley
+CAST	VOTER|DJRC6I943U
+VOTER
+VOTE	Office of Computer Scyence Research Grants	Zachary Edwards
+VOTE	President	Stanley Gordon
+VOTE	Governor	Bill Marlene
+VOTE	Governor	Pope John Paul the 19th
+VOTE	President	Harry Potter
+CAST	VOTER|5KRVNB0MGW
+VOTER
+VOTE	Senator	Mary Schmidt
+VOTE	Mayor	Edgar Allen Poe
+VOTE	Senator	Harry Weasley
+VOTE	Surgeon General	Ronald O'Donnelly
+VOTE	Surgeon General	Ronald O'Donnelly
+VOTE	Surgeon General	Jack O'Lanterne
+CAST	VOTER|4FHV2BYGMC
+VOTER
+VOTE	President	Donald Trump
+VOTE	Mayor	Jane Austen
+VOTE	Governor	Vickey Walker
+VOTE	Governor	Vickey Walker
+CAST	VOTER|D3EHU1X58I
+VOTER
+VOTE	Secretary of the Vote	Count 'em twice Jack
+CAST	VOTER|J67CMSNDGF
+VOTER
+VOTE	Surgeon General	Jack O'Lanterne
+VOTE	President	George W. Bush
+VOTE	Senator	Harry Weasley
+VOTE	President	Harry Potter
+VOTE	Governor	Jack
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	President	George Harvey
+VOTE	President	George W. Bush
+VOTE	Supreme Court Justice	Little John
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+CAST	VOTER|LR3IP06XQT
+VOTER
+VOTE	Office of Computer Sciejce Research Grants	Jennifer Maize
+CAST	VOTER|J76O50UC48
+VOTER
+VOTE	Lt. Governor	Merlin
+CAST	VOTER|PX8MLGVHBR
+VOTER
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+VOTE	Supreme Court Justice	Take em back Alive
+VOTE	Senator	Mary Schmidt
+CAST	VOTER|S7G3A154VR
+VOTER
+VOTE	Lt. Governor	Ginny Potter
+CAST	VOTER|XDCZ2EKYQV
+VOTER
+VOTE	Mayor	Mack the Ripoff
+VOTE	Governor	Mickey Mouse
+VOTE	Goveroor	Pope John Paul the 19th
+VOTE	Governor	Pope John Paul the 19th
+CAST	VOTER|RU2EW3Q8IL
+VOTER
+VOTE	Senator	Mary Schmidt
+VOTE	Secretary of the Vote	G.G. McGeorge
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	Governor	Pope John Paul the 19th
+VOTE	Mayor	Slimey Badguy
+VOTE	President	Donald Trump
+VOTE	President	Donald Trump
+VOTE	Senator	King Aurthur
+VOTE	Surgeon General	Gilderoy Lockhart
+CAST	VOTER|IQ04PVYXMO
+VOTER
+VOTE	Governor	Mary Potter
+VOTE	Governor	Mary Potter
+VOTE	Senator	Father Malloy
+VOTE	Secretary of the Vote	Count 'em twice Jack
+VOTE	Governor	Bill Marlene
+VOTE	Mayor	Robin H/od
+VOTE	Mayor	Robin Hood
+VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
+VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
+VOTE	Senator	Harry Weasley
+VOTE	Senator	Harry Weasley
+VOTE	Governor	Bill Marlene
+VOTE	Senator	Melissa Gardner
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	Supreme Court Justice	Sherry Parkhurst
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	Mayor	Slimey Badguy
+VOTE	Governor	Jack
+CAST	VOTER|58MT9GHSO0
+VOTER
+VOTE	Supreme Court Justice	Ron Weasley
+VOTE	President	Harry Potter
+VOTE	Senator	Harry Weasley
+VOTE	Governor	Vickey Walker
+VOTE	Senator	Melissa Gardner
+VOTE	(	'
+VOTE	Governor	Pope John Paul the 19th
+CAST	VOTER|LMRGSDNIXK
+VOTER
+VOTE	Surgeon General	Monica Lewinski
+VOTE	Secretary of the Vote	Stoney Jackson
+VOTE	Governor	Mickey Mouse
+CAST	VOTER|W8R16H5KMZ
+VOTER
+VOTE	Mayor	Edgar Allen Poe
+VOTE	President	Melinda$Trump
+VOTE	Secretary of the Vote	Charles Lindbergh
+VOTE	Governor	Mary Potter
+VOTE	Office of Computer Science Research Grants	Jennifer Maize
+CAST	VOTER|DW6L1BQRF2
+VOTER
+VOTE	Governor	Mickey Mouse
+VOTE	Mayor	Slimey Badguy
+VOTE	Mayor	Edgar Allen Poe
+CAST	VOTER|O4D3ZQVN50
+VOTER
+VOTE	Secretary of the Vote	G.G. McGeorge
+VOTE	Surgeon General	Dr. Bones
+VOTE	Governor	Mary Potter
+CAST	VOTER|L2ICB8X6AW
+VOTER
+VOTE	Secretary of the Vote	Yes
+CAST	VOTER|376RW4EKCX
+VOTER
+VOTE	Surgeon General	Say what?
+VOTE	Surgeon General	Say what?
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	Surgeon General	Ronald O'Donnelly
+CAST	VOTER|3LRVFS641D
+VOTER
+VOTE	Supreme Court Justice	Little John
+VOTE	Secretary of the Vmte	G.G. McGeorge
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+CAST	VOTER|DCT90A3G5S
+VOTER
+VOTE	Mayor	Robin Hood
+VOTE	Lt. Governor	Ronda Spinacoli
+CAST	VOTER|T8F0G139M5
+VOTER
+VOTE	Governor	Pope John Paul the 19th
+VOTE	Senator	Harry Weasley
+VOTE	Lt. Governor	Melinda Gates
+VOTE	President	George Harvey
+VOTE	Office of Computer Science Research Grants	None of the Above
+VOTE	Office of Computer Science Research Grants	None of the Above
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	President	George W. Bush
+CAST	VOTER|PSVJ21WEX9
+VOTER
+VOTE	Surgeon General	Jack O'Lanterne
+CAST	VOTER|T8VGHJSRPA
+VOTER
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	President	Donald Trump
+VOTE	Governor	Vickey Walker
+VOTE	Governor	Vickey Walker
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	President	GeorGe W. Bush
+CAST	VOTER|W8D2BRYCP4
+VOTER
+VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
+VOTE	Governor	Bill Marlene
+CAST	VOTER|EWIUDXRPM3
+VOTER
+VOTE	Senator	Mary Schmidt
+CAST	VOTER|PJVOG4MA61
+VOTER
+VOTE	Governor	Pope John Paul the 19th
+CAST	VOTER|0TYER5Z9ML
+VOTER
+VOTE	Office of Computer Science Research Grants	Zachary Edwards
+CAST	VOTER|UW1B5HAY8P
+VOTER
+VOTE	Lt. Governor	Ronda Spinacoli
+VOTE	Supreme Court Justice	Sherry Parkhurst
+VOTE	Sup2eme Court Justice	Jack Brown
+VOTE	Secretary of the Vote	Stoney Jackson
+VOTE	Supreme Court Justice	Ron Weasley
+VOTE	Supreme Court Justice	Ron Weasley
+VOTE	Surgeon General	Dr. Bones
+VOTE	Office of Computer Science Reseirch Grants	Stephen Douglas
+VOTE	Secretary of the Vote	Charles Lindbergh
+CAST	VOTER|FOBE20XT34
+VOTER
+VOTE	(	'
+VOTE	Mayor	Jane Austen
+VOTE	Suprdme Court Justice	Take em back Alive
+VOTE	(	'
+VOTE	Surgeon General	Say what?
+VOTE	Supreme Court Justice	Sherry Parkhurst
+CAST	VOTER|91FYOEJ8AW
+VOTER
+VOTE	Office of Computer Science Research Grants	Jennifer Maize
+VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
+CAST	VOTER|AI92S7YQHX

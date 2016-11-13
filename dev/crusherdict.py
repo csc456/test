@@ -77,23 +77,56 @@ class CrusherDict:
   c={'__key_error__':0,'__none__':0}
   best=None
   num=0
-  for i in range(40): #0-19
+  for i in range(4): #0-9
    try:
-    n=self.db.fetch(str(key)+'__'+str(i)+'__')
+    # Fetch each of the 40 entries.
+    rslt_ke=0
+    rslt_er=0
+    rslt_gd={}
+    rslt_good={}
+    rslt_num=0
+    # Fetch each entry 0-5 times.
+    for j in range(6):
+     try:
+      n=self.db.fetch(str(key)+'__'+str(i)+'__')
+     except KeyError:
+      rslt_ke+=1
+      if rslt_ke>rslt_num:
+       rslt_best='ke'
+       rslt_num=rslt_ke
+     except: #Other
+      rslt_er+=1
+      if rslt_er>rslt_num:
+       rslt_best='er'
+       rslt_num=rslt_er
+     try: #Success
+      rslt_gd[str(n)]+=1
+     except:
+      rslt_gd[str(n)]=1
+     #rslt_good[str(n)]=n
+     if rslt_gd[str(n)] > num:
+      rslt_best=n ####rslt_good[str(n)] # Set to element
+      num=rslt_gd[str(n)]               # Set to num
+    # So, what are results of fetch voting?
+    if rslt_best=='ke':
+     raise KeyError
+    elif rslt_best=='er':
+     raise Exception('An other exception...')
+    else:
+     n=rslt_best
    except KeyError:
     c['__key_error__']+=1
     if c['__key_error__'] > num:
      best='__key_error__'
      num=c['__key_error__']
     continue
-   except: #others
+   except: #Other
     c['__none__']+=1
     if c['__none__'] > num:
      best='__none__'
      num=c['__none__']
     continue
    try:
-    #print('  safeFetch::n='+str(n))
     c[str(n)]+=1 # fetch success
    except:
     c[str(n)]=1 # instantiate
@@ -120,15 +153,18 @@ class CrusherDict:
     key = key
    else:
     key = (key,val)
-   for i in range(40): #0-19
+   print('  store:', end='')
+   for i in range(4): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
+    print(str(i)+',', end='')
     try:
-     k=str(dbkey)+'__'+str(i)+'__'
-     print(k)
-     self.db.store(k, key)
+     for j in range(40): #0-9
+      k=str(dbkey)+'__'+str(i)+'__'
+      self.db.store(k, key)
     except:
      #print('  store err')
      #print('Unexpected error:', sys.exc_info()[0])
      pass
+   print('')
    # Now try fetching by dbkey
    #try:
    # done=self.safeFetch(dbkey)
@@ -150,7 +186,6 @@ class CrusherDict:
    dbkey=entryName(self.name,f)
    if(val!=None):
     self.safeStore(dbkey, (key,val))
-    #self.db.store(dbkey, (key,val))
    return dbkey
   except KeyError:
    try:
@@ -161,20 +196,12 @@ class CrusherDict:
      # Probably raise error here... but...
      # for now... n=0?
      n=0
-    #n=self.db.fetch(countName(self.name))
    except KeyError:
     n=0
-   print('  getKey::count name='+str(n))
    dbkey=entryName(self.name,n)
-   print('  getKey::s1')
    self.safeStore(dbkey, (key,val))
-   print('  getKey::s2')
    self.safeStore(indexName(self.name,key), n)
-   print('  getKey::s3')
    self.safeStore(countName(self.name),n+1)
-   #self.db.store(dbkey, (key,val))
-   #self.db.store(indexName(self.name,key), n)
-   #self.db.store(countName(self.name),n+1)
    return dbkey
  def inc(self, key, val):
   """Increment the value for key from the set.
@@ -220,15 +247,11 @@ class CrusherDict:
    self.safeStore(dbkey,(key,1,val))
    self.safeStore(indexName(self.name,key), n)
    self.safeStore(countName(self.name),n+1)
-   #self.db.store(dbkey,(key,1,val))
-   #self.db.store(indexName(self.name,key), n)
-   #self.db.store(countName(self.name),n+1)
    return dbkey
  def __iter__(self):
   print('crusherdict.py CrusherDict.__iter__()')
   for i in range(self.__len__()):
    yield self.safeFetch(entryName(self.name,i))
-   #yield self.db.fetch(entryName(self.name,i))
 
 if __name__=="__main__":
  import crusher
@@ -240,7 +263,6 @@ if __name__=="__main__":
   
   for i in range(0,1000):
    try:
-    #test.getKey("Hiddleston","name")
     test2.getKey("H","5555000")
     test3.getKey("H","6666000")
     test4.getKey("H","7777000")

@@ -25,9 +25,9 @@ def voter(db, context, log, fields):
    #i+=1
    #voterid="V"+str(i)
    #db.fetch(crusherdict.countName(voterid))
-   amount=60
+   amount=10
    #amount=6
-   voterid="VOTER|"+"".join(random.sample("0000000000000000000000000123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",amount))
+   voterid="VOTER|"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",amount))
    c=crusherdict.countName(voterid)
    print('fetch:'+str(c))
    db.fetch(c)
@@ -60,12 +60,15 @@ def cast(db, context, log, fields):
  print('voter id='+context['id'])
  #try:#??
  d=crusherdict.CrusherDict(db,context["id"])
- t=crusherdict.CrusherDict(db,"T_____________________________________")
+ t=crusherdict.CrusherDict(db,"___T___")
  """Currently the voter does not exist in the database at all."""
  d.status("UNCAST")
  """The voter just barely exists, having a status of UNCAST only."""
  for vote in context["votes"]:
   print('d.Vote for:'+str(vote[1:3]))
+  d.getKey(vote[1:3])
+  d.getKey(vote[1:3])
+  d.getKey(vote[1:3])
   d.getKey(vote[1:3])
 
  # Check that successful write before continuing in... 
@@ -87,8 +90,7 @@ def cast(db, context, log, fields):
  t.inc("voters",context["id"])
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
- #raise Exception('x')
- #return
+# return
  
  # len...
 # if len(context['votes']) != d.__len__():
@@ -141,17 +143,14 @@ def check_inq(c):
 def inq(db, context, log, fields):
  """Perform INQ command."""
  print('demo.py inq()')
- print('  voter_id:'+str(fields[1]))
+ #print('  voter_id:'+str(fields[1]))
  voter_id = fields[1]
  context.clear()
  c = crusherdict.CrusherDict(db,voter_id)
- #c.safeFetch(
  log.write("VOTER\n")
-
-
- print('  c.db:'+str(c.db))
- print('  c.name:'+str(c.name))
- print('  c.__len__:'+str(c.__len__()))
+ #print('  c.db:'+str(c.db))
+ #print('  c.name:'+str(c.name))
+ #print('  c.__len__:'+str(c.__len__()))
  try:
   tmp_log=check_inq(c)
   if tmp_log != False: # If success then write
@@ -168,36 +167,33 @@ def inq(db, context, log, fields):
   #   log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])) 
    #check_inq(c)
  except:
-  #for tup in crusherdict.CrusherDict(db,voter_id):
-  # try:
-  #  print(tup)
-  # except:
-  #  print('tup print err....')
-  print('  Caught inq VOTER error:tup:'+str(voter_id))
-  print('  Caught inq VOTER error:fields:'+str(fields))
-  print('  Caught inq VOTER error:fields[1]:'+str(voter_id))
-  print('  Unexpected error:', sys.exc_info()[0])
+  #print('  Caught inq VOTER error:tup:'+str(voter_id))
+  #print('  Caught inq VOTER error:fields:'+str(fields))
+  #print('  Caught inq VOTER error:fields[1]:'+str(voter_id))
+  #print('  Unexpected error:', sys.exc_info()[0])
   raise Exception('inq')
-  #pass
  log.write("CAST\t{}\n".format(voter_id))
+ #raise Exception('test')
  return db.doExit
 commands["INQ"]=inq
 
 def report(db, log):
  """Perform final report."""
- #print('Report:'+str(voters))
+ print('demo.py report()')
  #return
- t=crusherdict.CrusherDict(db,"T")
- voters=db.fetch(t.getKey("voters"))[1]
- log.write("VOTERS\t{}\n".format(voters))
+ try:
+  t=crusherdict.CrusherDict(db,"___T___")
+  voters=db.fetch(t.getKey("voters"))[1]
+  #voters=db.fetch(t.getKey("voters"))[1]
+  log.write("VOTERS\t{}\n".format(voters))
+ except:
+  print('  report::except...')
  for tup in t:
-  #print(tup)
-  #print(t)
   try:
    if tup[0]!="voters":
     log.write("TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1]))
   except:
-   print('demo.py: Report-Exception:--')
+   print(' report::except...')
 
 try:
  filename=sys.argv[1]
