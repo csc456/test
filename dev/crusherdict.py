@@ -88,6 +88,10 @@ class CrusherDict:
     # Fetch each entry 0-5 times.
     for j in range(2):
      try:
+      self.db.store("x"*4, "y"*4) # add fuzzy......
+      self.db.store("x"*4, "y"*4) # add fuzzy......
+      self.db.store("x"*4, "y"*4) # add fuzzy......
+      self.db.store("x"*4, "y"*4) # add fuzzy......
       n=self.db.fetch(str(key)+'__'+str(i)+'__')
      except KeyError:
       rslt_ke+=1
@@ -139,6 +143,9 @@ class CrusherDict:
    print('  safeFetch::raise KeyError.....')
    raise KeyError('--')
   else:
+   ## Successful fetch. Re-write to db...
+   ## Then return
+   ##self.safeStore(key, n)
    return n
  def safeStore(self, dbkey, key, val=None):
   '''Next:...
@@ -157,7 +164,7 @@ class CrusherDict:
    for i in range(2): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
     print(str(i)+',', end='')
     try:
-     for j in range(10): #0-9
+     for j in range(2000): #0-9
       k=str(dbkey)+'__'+str(i)+'__'
       self.db.store(k, key)
     except:
