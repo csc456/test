@@ -37,9 +37,10 @@ class Broker(Broken):
         Broken.interrupt(self, signal, frame)
         
     def fletcher32(self, string):
-        a = map(ord, string)
+        """Create a fletcher32 checksum and return it as 4 8bit characters"""
+        a = list(map(ord, string))
         b = [sum(a[:i])%65535 for i in range(len(a)+1)]
-        return (sum(b) << 16) | max(b)
+        return chr((sum(b) >> 8) & 255) + chr((sum(b)) & 255) + chr((max(b) >> 8) & 255) + chr((max(b)) & 255)
         
     def store(self, key, val):
         """Make replicas of the key-val pair, add a checksum to val and store those,
