@@ -23,18 +23,22 @@ from crusher import Broker as Broken
 #this can easily be hard coded if storing n is not allowed
 n = 7
 
+
+class InvalidChecksum(Exception):
+    pass
+
 class Broker(Broken):
     def __init__(self, filename="demo.txt"):
         """Nothing changes for the initialization"""
-        Broken.__init__(self, filename)
+        return Broken.__init__(self, filename)
         
     def configure(self, s):
         """Nothing changes for the configuration"""
-        Broken.configure(self, s)
+        return Broken.configure(self, s)
         
     def interrupt(self, signal, frame):
         """Nothing changes for the interrupt"""
-        Broken.interrupt(self, signal, frame)
+        return Broken.interrupt(self, signal, frame)
         
     def fletcher32(self, string):
         """Create a fletcher32 checksum and return it as 4 8bit characters"""
@@ -82,8 +86,10 @@ class Broker(Broken):
                 if len(value) == lengths:
                     valuesWSameLengthTemp.append(value)
             possibleValues = self.voteStr(valuesWSameLengthTemp)
-            #TODO see if any of the possibleValues match with their
-            #checksum, if so break and consider it the correct value
+            for value in possibleValues:
+                if(self.fletcher32(value[0:-4]) == value[-4:]):
+                    return value[0:-4]
+        raise InvalidChecksum("No matching value-checksum pair")
             
     def voteInt(self, listOfInts):
         """
@@ -111,6 +117,7 @@ class Broker(Broken):
         """
         Does bitwise voting on a list of strings to determine the strings
         that represent the bits with the most occurences.
+        All strings in the list must be the same size
         Returns a list of the strings that represent the bits that occured
         the most (because there can be many ties among the bits)
         """
@@ -196,5 +203,5 @@ class Broker(Broken):
         
     def exit(self):
         """Nothing changes on exit"""
-        Broken.exit
+        return Broken.exit
         
