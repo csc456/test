@@ -84,7 +84,7 @@ class CrusherDict:
   rslt_num=0
   rslt_best=None
   n=None
-  for i in range(10): #0-9
+  for i in range(20): #0-9
    #try:
    # Fetch each of the 40 entries.
    ### Fetch each entry 0-5 times.
@@ -162,7 +162,7 @@ class CrusherDict:
   else:
    key = (key,val)
   print('  store:', end='')
-  for i in range(10): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
+  for i in range(20): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
    print(str(i)+',', end='')
    try:
      k=str(dbkey)+'__'+str(i*10)+'__'

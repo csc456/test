@@ -1,5 +1,15 @@
 # ...
 
+huge-votelog.txt.try2.diff.
+
+```
+real	20m54.109s
+user	20m35.802s
+sys	0m13.850s
+```
+
+# ...
+
 Running demo.py. Using try-catch to suppress errors. ```$demo.py input/big.txt```. Results in big_db-sorted.txt.
 
 For an individual voter the structure is for example:
