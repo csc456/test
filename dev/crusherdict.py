@@ -84,11 +84,7 @@ class CrusherDict:
   rslt_num=0
   rslt_best=None
   n=None
-  for i in range(20): #0-9
-   #try:
-   # Fetch each of the 40 entries.
-   ### Fetch each entry 0-5 times.
-   ###for j in range(2):
+  for i in range(20): #0-19
    try:
     #self.db.store("x"*4, "y"*4) # add fuzzy......
     n=self.db.fetch(str(key)+'__'+str(i*10)+'__')
@@ -108,7 +104,6 @@ class CrusherDict:
     rslt_gd[str(n)]+=1
    except:
     rslt_gd[str(n)]=1
-   #rslt_good[str(n)]=n
    if rslt_gd[str(n)] > rslt_num:
     rslt_best=n ####rslt_good[str(n)] # Set to element
     rslt_num=rslt_gd[str(n)]               # Set to num
@@ -121,33 +116,6 @@ class CrusherDict:
    n=rslt_best
   #...
   return n
-   #except KeyError:
-   # c['__key_error__']+=1
-   # if c['__key_error__'] > num:
-   #  best='__key_error__'
-   #  num=c['__key_error__']
-   # continue
-   #except: #Other
-   # c['__none__']+=1
-   # if c['__none__'] > num:
-   #  best='__none__'
-   #  num=c['__none__']
-   # continue
-   #try:
-   # c[str(n)]+=1 # fetch success
-   #except:
-   # c[str(n)]=1 # instantiate
-   #if c[str(n)] > num:
-   # best=n
-   # num=c[str(n)]
-  # Raise KeyError in both cases
-  #print('  safeFetch::best='+str(best))
-  #if best == '__key_error__' or best == '__none__':
-  # print('  safeFetch::raise KeyError.....')
-  # raise KeyError('--')
-  #else:
-  ###self.safeStore(key, n) #store
-  # return n
  def safeStore(self, dbkey, key, val=None):
   '''Next:...
      Store each dbkey as dbkey+__[1-20]
@@ -156,7 +124,6 @@ class CrusherDict:
   print('  safeStore::dbkey='+str(dbkey))
   print('  safeStore::key='+str(key))
   print('  safeStore::val='+str(val))
-  #try:
   if val is None:
    key = key
   else:
@@ -167,23 +134,9 @@ class CrusherDict:
    try:
      k=str(dbkey)+'__'+str(i*10)+'__'
      self.db.store(k, key)
-    #for j in range(2): #0-9
-    # k=str(dbkey)+'__'+str(i)+'__'
-    # self.db.store(k, key)
    except:
-    #print('  store err')
-    #print('Unexpected error:', sys.exc_info()[0])
     pass
   print('-')
-   
-   # Now try fetching by dbkey
-   #try:
-   # done=self.safeFetch(dbkey)
-   #except: # Raised error so store again
-   # self.safeStore(dbkey, key, val)
-   # optional: return done
-  #except: # ....
-  # self.safeStore(dbkey, key, val)
  def getKey(self, key, val=None):
   """Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
@@ -202,11 +155,6 @@ class CrusherDict:
    try:
     n=self.safeFetch(countName(self.name))
     if not isinstance(n, int):
-     #print('  getKey::Looking for int but found not int!')
-     #print('  getKey::Found:'+str(n))
-     # Probably raise error here... but...
-     # for now... n=0?
-     #n=0
      # Hm try again?
      return self.getKey(key, val)
    except KeyError:
@@ -233,11 +181,11 @@ class CrusherDict:
    print('  dbkey:'+str(dbkey))
    v=self.safeFetch(dbkey)
    print('  fetch(dbkey):'+str(v))
-   # v must be:
-   # BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
-   # BROKEN:  fetch(dbkey):16
-   # BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
-   # WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q0000DG0LZH70V000W0F0R006BP28M0500ES00XYO30C40I0JNU0A100T')
+   # v is one of:
+   #   BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
+   #   BROKEN:  fetch(dbkey):16
+   #   BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
+   #   WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q0000DG0LZH70V000W0F0R006BP28M0500ES00XYO30C40I0JNU0A100T')
    if isinstance(v, int): # is int
     return self.inc(key,val) # Recursive...
    if len(v) != 3: # tuple len not three
@@ -294,7 +242,6 @@ if __name__=="__main__":
      print(tup)
     except:
      pass
-    #print('  tuple > '+str(tup))
   except:
    pass
   db.exit()
