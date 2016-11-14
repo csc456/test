@@ -74,79 +74,80 @@ class CrusherDict:
   '''
   print('safeFetch::')
   print('  safeFetch::key:'+str(key))
-  c={'__key_error__':0,'__none__':0}
-  best=None
-  num=0
-  for i in range(2): #0-9
+  #c={'__key_error__':0,'__none__':0}
+  #best=None
+  #num=0
+  rslt_ke=0
+  rslt_er=0
+  rslt_gd={}
+  rslt_good={}
+  rslt_num=0
+  rslt_best=None
+  n=None
+  for i in range(1000): #0-9
+   #try:
+   # Fetch each of the 40 entries.
+   ### Fetch each entry 0-5 times.
+   ###for j in range(2):
    try:
-    # Fetch each of the 40 entries.
-    rslt_ke=0
-    rslt_er=0
-    rslt_gd={}
-    rslt_good={}
-    rslt_num=0
-    # Fetch each entry 0-5 times.
-    for j in range(2):
-     try:
-      self.db.store("x"*4, "y"*4) # add fuzzy......
-      self.db.store("x"*4, "y"*4) # add fuzzy......
-      self.db.store("x"*4, "y"*4) # add fuzzy......
-      self.db.store("x"*4, "y"*4) # add fuzzy......
-      n=self.db.fetch(str(key)+'__'+str(i)+'__')
-     except KeyError:
-      rslt_ke+=1
-      if rslt_ke>rslt_num:
-       rslt_best='ke'
-       rslt_num=rslt_ke
-     except: #Other
-      rslt_er+=1
-      if rslt_er>rslt_num:
-       rslt_best='er'
-       rslt_num=rslt_er
-     try: #Success
-      rslt_gd[str(n)]+=1
-     except:
-      rslt_gd[str(n)]=1
-     #rslt_good[str(n)]=n
-     if rslt_gd[str(n)] > num:
-      rslt_best=n ####rslt_good[str(n)] # Set to element
-      num=rslt_gd[str(n)]               # Set to num
-    # So, what are results of fetch voting?
-    if rslt_best=='ke':
-     raise KeyError
-    elif rslt_best=='er':
-     raise Exception('An other exception...')
-    else:
-     n=rslt_best
+    #self.db.store("x"*4, "y"*4) # add fuzzy......
+    n=self.db.fetch(str(key)+'__'+str(i*10)+'__')
    except KeyError:
-    c['__key_error__']+=1
-    if c['__key_error__'] > num:
-     best='__key_error__'
-     num=c['__key_error__']
+    rslt_ke+=1
+    if rslt_ke>rslt_num:
+     rslt_best='ke'
+     rslt_num=rslt_ke
     continue
    except: #Other
-    c['__none__']+=1
-    if c['__none__'] > num:
-     best='__none__'
-     num=c['__none__']
+    rslt_er+=1
+    if rslt_er>rslt_num:
+     rslt_best='er'
+     rslt_num=rslt_er
     continue
-   try:
-    c[str(n)]+=1 # fetch success
+   try: #Success
+    rslt_gd[str(n)]+=1
    except:
-    c[str(n)]=1 # instantiate
-   if c[str(n)] > num:
-    best=n
-    num=c[str(n)]
-  # Raise KeyError in both cases
-  print('  safeFetch::best='+str(best))
-  if best == '__key_error__' or best == '__none__':
-   print('  safeFetch::raise KeyError.....')
-   raise KeyError('--')
+    rslt_gd[str(n)]=1
+   #rslt_good[str(n)]=n
+   if rslt_gd[str(n)] > rslt_num:
+    rslt_best=n ####rslt_good[str(n)] # Set to element
+    rslt_num=rslt_gd[str(n)]               # Set to num
+  # So, what are results of fetch voting?
+  if rslt_best=='ke':
+   raise KeyError
+  elif rslt_best=='er' or rslt_best is None:
+   raise Exception('Another exception...')
   else:
-   ## Successful fetch. Re-write to db...
-   ## Then return
-   ##self.safeStore(key, n)
-   return n
+   n=rslt_best
+  #...
+  return n
+   #except KeyError:
+   # c['__key_error__']+=1
+   # if c['__key_error__'] > num:
+   #  best='__key_error__'
+   #  num=c['__key_error__']
+   # continue
+   #except: #Other
+   # c['__none__']+=1
+   # if c['__none__'] > num:
+   #  best='__none__'
+   #  num=c['__none__']
+   # continue
+   #try:
+   # c[str(n)]+=1 # fetch success
+   #except:
+   # c[str(n)]=1 # instantiate
+   #if c[str(n)] > num:
+   # best=n
+   # num=c[str(n)]
+  # Raise KeyError in both cases
+  #print('  safeFetch::best='+str(best))
+  #if best == '__key_error__' or best == '__none__':
+  # print('  safeFetch::raise KeyError.....')
+  # raise KeyError('--')
+  #else:
+  ###self.safeStore(key, n) #store
+  # return n
  def safeStore(self, dbkey, key, val=None):
   '''Next:...
      Store each dbkey as dbkey+__[1-20]
@@ -155,31 +156,34 @@ class CrusherDict:
   print('  safeStore::dbkey='+str(dbkey))
   print('  safeStore::key='+str(key))
   print('  safeStore::val='+str(val))
-  try:
-   if val is None:
-    key = key
-   else:
-    key = (key,val)
-   print('  store:', end='')
-   for i in range(2): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
-    print(str(i)+',', end='')
-    try:
-     for j in range(2000): #0-9
-      k=str(dbkey)+'__'+str(i)+'__'
-      self.db.store(k, key)
-    except:
-     #print('  store err')
-     #print('Unexpected error:', sys.exc_info()[0])
-     pass
-   print('')
+  #try:
+  if val is None:
+   key = key
+  else:
+   key = (key,val)
+  print('  store:', end='')
+  for i in range(1000): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
+   print(str(i)+',', end='')
+   try:
+     k=str(dbkey)+'__'+str(i*10)+'__'
+     self.db.store(k, key)
+    #for j in range(2): #0-9
+    # k=str(dbkey)+'__'+str(i)+'__'
+    # self.db.store(k, key)
+   except:
+    #print('  store err')
+    #print('Unexpected error:', sys.exc_info()[0])
+    pass
+  print('-')
+   
    # Now try fetching by dbkey
    #try:
    # done=self.safeFetch(dbkey)
    #except: # Raised error so store again
    # self.safeStore(dbkey, key, val)
    # optional: return done
-  except: # ....
-   self.safeStore(dbkey, key, val)
+  #except: # ....
+  # self.safeStore(dbkey, key, val)
  def getKey(self, key, val=None):
   """Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
