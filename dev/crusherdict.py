@@ -42,9 +42,7 @@ class CrusherDict:
   print('crusher.py .__len__()')
   try:
    f=self.safeFetch(countName(self.name))
-   #print('  f:'+str(f))
    if not isinstance(f, int) or f is None: # Recursive...
-    #print('  ------not int!')
     return self.__len__() # Try again...
    else:
     return f
@@ -53,13 +51,11 @@ class CrusherDict:
  def __contains__(self,key):
   try:
    self.safeFetch(indexName(self.name,key))
-   #self.db.fetch(indexName(self.name,key))
    return True
   except KeyError:
    return False
  def status(self, key, stat=None):
   """Get and optionally set the status of the set."""
-  #print('crusherdict.py CrusherDict.status()')
   name=statusName(self.name)
   try:
    old=self.safeFetch(name)
@@ -74,9 +70,6 @@ class CrusherDict:
   '''
   print('safeFetch::')
   print('  safeFetch::key:'+str(key))
-  #c={'__key_error__':0,'__none__':0}
-  #best=None
-  #num=0
   rslt_ke=0
   rslt_er=0
   rslt_gd={}
