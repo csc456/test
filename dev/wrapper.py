@@ -6,7 +6,7 @@
 ###WARNING This whole thing is currently untested.  Expect all types of crashing.  Use at your own risk.
 ############
 
-import crusher.Broker as Broken
+from crusher import Broker as Broken
 
 ############
 ###This may not work, I've never replaced a class from a module
@@ -52,7 +52,7 @@ class Broker(Broken):
             while(again):
                 again = False
                 newKey = (key + "-" + str(i))
-                newVal = (val + "-" + str(self.fletcher32((key+val)))
+                newVal = (val + "-" + self.fletcher32((key+val)))
                 Broken.store(self, newKey, newVal)
                 if(Broken.fetch(newKey) != newVal):
                     #Likely corrupted if we cant even get it back right from the cache
@@ -82,9 +82,10 @@ class Broker(Broken):
                 if len(value) == lengths:
                     valuesWSameLengthTemp.append(value)
             possibleValues = self.voteStr(valuesWSameLengthTemp)
-            #TODO
+            #TODO see if any of the possibleValues match with their
+            #checksum, if so break and consider it the correct value
             
-    def voteInt(listOfInts):
+    def voteInt(self, listOfInts):
         """
         Votes on a list of ints and determines the ints with the
         most occurences.
@@ -106,46 +107,85 @@ class Broker(Broken):
         return weightDict[max(weightDict.keys(), key=int)]
         
         
-    def voteStr(listOfStrings):
+    def voteStr(self, listOfStrings):
         """
-        Votes bitwise on a list of strings of the same length and determines the most likely strings
-        returns a list of strings that are created from the bits that occured
-        the most (because there can be ties for each individual bit)
-        This entire process could probably be made more efficient by replacing alot of the
-        code with proper bit manipulation rather than turning the bits into a list of integers to
-        work with.
+        Does bitwise voting on a list of strings to determine the strings
+        that represent the bits with the most occurences.
+        Returns a list of the strings that represent the bits that occured
+        the most (because there can be many ties among the bits)
         """
+        #Convert the strings into bits and store them in a list
+        #as a list of bits
         finalStringsAsBits = []
-        #finalStringsAsBits will be a list of lists of bits that represent
-        #the voted upon string possibilities
-        #ex: the string possibilites "i"/"I" would be represented as follows
-        #[[0],[1],[1,0],[0],[1],[0],[0],[1]] because 01101001 is "i" and 01001001 is "I"
-        
-        #For each character (The strings all have the same number of characters)
-        for i in range(len(listOfStrings[0])):
-        
-            #Get the binary representation of the characters
+        #for each string
+        for i in range(len(listOfStrings)):
             binReps = []
-            for item in listOfStrings:
-                binReps.append(bin(ord(item)))
+            #for each character
+            for k in range(len(listOfStrings[i])):
+                binReps.append(format(ord(listOfStrings[i][k]), '08b'))
+            finalStringsAsBits.append(binReps)
+        #finalStringsAsBits is now a list of lists of 8bit strings
+        #that represent characters
+        trueStringAsBits = []
+        #for each 8bit rep of a character
+        for i in range(len(finalStringsAsBits[0])):
+            #for each bit of the character
+            for k in range(8):
+                bits = []
+                #for each string
+                for j in range(len(finalStringsAsBits)):
+                    bits.append(int(finalStringsAsBits[j][i][k]))
+                trueStringAsBits.append(self.voteInt(bits))
+        #trueStringAsBits is a list of lists containing a 0, 1, or both
+        #that represents all possible bits
+        #ex: 'f' or 'g' would be [[0],[1],[1],[0],[0],[1],[1],[0,1]]
+        allBitStrings = [[]]
+        #allBitStrings is a list that contains lists of bits that represent
+        #possible bitstrings created by all combinations of the bits
+        #who tied or it simply contains 1 list of the only possible
+        #string based on the bit voting
+
+        #for each bit
+        for i in range(len(trueStringAsBits)):
+            #if there's only 1 winner add that to all of the bitstrings
+            if(len(trueStringAsBits[i]) == 1):
+                for j in range(len(allBitStrings)):
+                    allBitStrings[j].append(trueStringAsBits[i][0])
+            #if 0 and 1 tied then branch by copying the current
+            #possibilities, adding 0 or 1 to the original possibilities
+            #add the other to the copies and add the copies (that now
+            #differ in the last bit) to the possibilities
+            else:
+                copy = []
+                for j in range(len(allBitStrings)):
+                    copy.append(list(allBitStrings[j]))
+                for j in range(len(allBitStrings)):
+                    allBitStrings[j].append(trueStringAsBits[i][0])
+                for j in range(len(copy)):
+                    copy[j].append(trueStringAsBits[i][1])
+                for item in copy:
+                    allBitStrings.append(item)
+        #allBitStrings now contains all possible winners
+        allStrings = []
+        #Convert allBitStrings into normal strings
+        #and store it in allStrings: a list of strings that
+        #represent the possiblilities based on bitwise voting
+        #aka the return value
+
+        #for all possibilities
+        for i in range(len(allBitStrings)):
+            possibility = ""
+            #for each character (every 8 entries because each entry is a bit)
+            for j in range(len(allBitStrings[i])//8):
+                characterAsBin = ""
+                #for 8 bits
+                for k in range(8):
+                    characterAsBin += str(allBitStrings[i][(j*8)+k])
+                possibility += chr(int(characterAsBin, 2))
+            allStrings.append(possibility)
                 
-            #For each bit in the binary representations
-            for j in range(len(binReps[0])):
-                bitRep = []
-                for binRep in binReps:
-                    bitRep.append(int(binRep[j]))
-                #We now have a list of bits represented either by a 0 or 1 integer
-                #for the nth bit of the string to vote with
-                finalStringsAsBits.append(voteInt(bitRep))
-                
-        #We now have a binary representation of the final string possibilities
-        
-        #TODO make all possible combinations of the bits and convert those combinations back
-        #into strings to return in a list
-            
-                
-        
-        
+        return allStrings
+
     def remove(self, key):
         """Something might change here because this method scares me, but really
         there's no reason for it to even exist or ever be called"""
