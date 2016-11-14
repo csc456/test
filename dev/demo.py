@@ -100,13 +100,12 @@ def cast(db, context, log, fields):
   t.inc(vote[1:3],context["id"])
  """The votes have been tentatively tallied."""
  t.inc("voters",context["id"])
- # Check again here... Hm...
- # If it is off... Then! How to rollback t.inc??? 
- #c = crusherdict.CrusherDict(db,context['id'])
- #x = sanity_check_inq(c)
- #if x is False or x != checkvl:
- # print('Fails sanity check2')
- # return cast(db, context, log, fields) #...
+ # Check again here?
+  #c = crusherdict.CrusherDict(db,context['id'])
+  #x = sanity_check_inq(c)
+  #if x is False or x != checkvl:
+  # print('Fails sanity check2')
+  # return cast(db, context, log, fields) #...
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  """The votes have been tallied."""
