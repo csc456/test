@@ -1,161 +1,157 @@
-TALLY	Supreme Court Justice	Ron Weasley	13
+TALLY	President	George W. Bush	6
+TALLY	Office of Computer Science Research Grants	None of the Above	4
+TALLY	Surgeon General	Ronald O'Donnelly	71
+TALLY	Senator	Father Malloy	32
+TALLY	Supreme Court Justice	Jack Brown	11
+TALLY	President	George Harvey	2
+TALLY	Lt. Governor	Merlin	41
+TALLY	Senator	King Aurthur	2
+TALLY	Senator	Harry Weasley	18
+TALLY	Supreme Court Justice	John Simmons	6
 TALLY	Office of Computer Science Research Grants	Stephen Douglas	4
-TALLY	Governor	Mickey Mouse	5
-TALLY	Senator	Father Malloy	3
-TALLY	Supreme Court Justice	Jack Brown	55
-TALLY	President	George Harvey	96
-TALLY	Senator	Melissa Gardner	315
-TALLY	Lt. Governor	Merlin	162
-TALLY	Senator	King Aurthur	36
-TALLY	Senator	Harry Weasley	15
-TALLY	Supreme Court Justice	John Simmons	86
-TALLY	Office of Computer Science Research Grants	Stephen Douglas	7
-TALLY	Supreme Court Justice	Ron Weasley	77
-TALLY	Office of Computer Science Research Grants	Stoned Jones	22
+TALLY	Supreme Court Justice	Ron Weasley	1
+TALLY	Secretary of the Vote	Count 'em twice Jack	116
 TALLY	Mayor	Jane Austen	74
-TALLY	Lt. Governor	Ginny Potter	62
-TALLY	President	Harry Potter	4
-TALLY	Governor	Pope John Paul the 19th	32
-TALLY	Governor	Jack	127
-TALLY	Secretary of the Vote	Stoney Jackson	58
-TALLY	Mayor	Robin Hood	7
-TALLY	Governor	Bill Marlene	5
-TALLY	Office of Computer Science Research Grants	Silver Lode	45
-TALLY	Lt. Governor	Matilda Stalone	68
-TALLY	Secretary of the Vote	Charles Lindbergh	7
-TALLY	Surgeon General	Jack O'Lanterne	159
-TALLY	President	Stanley Gordon	3
-TALLY	Governor	Mary Potter	158
-TALLY	Office of Computer Science Research Grants	None of the Above	2
-TALLY	Lt. Governor	Ronda Spinacoli	48
-TALLY	President	George W. Bush	9
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	3
-TALLY	Supreme Court Justice	Sherry Parkhurst	5
-TALLY	Office of Computer Science Research Grants	Stoned Jones	4
-TALLY	Surgeon General	Gilderoy Lockhart	11
-TALLY	President	Donald Trump	72
-TALLY	Secretary of the Vote	G.G. McGeorge	10
-TALLY	Office of Computer Science Research Grants	Jennifer Maize	113
-TALLY	Lt. Governor	Melinda Gates	42
-TALLY	President	Melinda Trump	6
-TALLY	Surgeon General	Ronald O'Donnelly	7
-TALLY	Mayor	Edgar Allen Poe	9
-TALLY	Governor	Vickey Walker	65
-TALLY	Secretary of the Vote	Not on my Watch	3
-TALLY	Supreme Court Justice	Little John	3
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	5
-TALLY	Secretary of the Vote	Yes	48
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	1
-TALLY	Senator	Mary Schmidt	125
-TALLY	Lt. Governor	Orlando Bloom	2
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	3
-TALLY	Mayor	Slimey Badguy	6
-TALLY	Supreme Court Justice	Take em back Alive	59
-TALLY	Surgeon General	Monica Lewinski	2
-TALLY	Surgeon General	Say what?	7
-TALLY	Office of Computer Science Research Grants	None of the Above	22
-TALLY	President	Harry Potter	196
-TALLY	Supreme Court Justice	Little John	5
-TALLY	Mayor	Mack the Ripoff	12
-TALLY	Supreme Court Justice	Sherry Parkhurst	61
-TALLY	Governor	Bill Marlene	48
-TALLY	Surgeon General	Dr. Bones	69
-TALLY	Governor	Mickey Mouse	12
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	21
-TALLY	Senator	Father Malloy	77
-TALLY	Office of Computer Science Research Grants	Stoned Jones	38
-TALLY	Secretary of the Vote	Charles Lindbergh	38
-TALLY	Secretary of the Vote	Not on my Watch	4
-TALLY	Office of Computer Science Research Grants	Stephen Douglas	5
-TALLY	Surgeon General	Monica Lewinski	79
-TALLY	Mayor	Slimey Badguy	144
-TALLY	Secretary of the Vote	Not on my Watch	148
-TALLY	Lt. Governor	Orlando Bloom	51
-TALLY	Mayor	Robin Hood	21
-TALLY	Senator	Melissa Gardner	17
-TALLY	President	George W. Bush	51
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	5
-TALLY	Office of Computer Science Research Grants	Stephen Douglas	61
-TALLY	Senator	Harry Weasley	2
-TALLY	President	Stanley Gordon	47
-TALLY	Mayor	Edgar Allen Poe	4
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	36
-TALLY	Supreme Court Justice	Little John	89
-TALLY	Senator	Harry Weasley	153
-TALLY	Governor	Mickey Mouse	58
-TALLY	Surgeon General	Gilderoy Lockhart	80
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	6
-TALLY	Surgeon General	Say what?	101
-TALLY	Mayor	Edgar Allen Poe	120
-TALLY	Secretary of the Vote	G.G. McGeorge	16
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	3
-TALLY	Surgeon General	Ronald O'Donnelly	56
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	14
-TALLY	Governor	Pope John Paul the 19th	94
-TALLY	Secretary of the Vote	Count 'em twice Jack	12
-TALLY	President	Melinda Trump	25
-TALLY	Office of Computer Science Research Grants	None of the Above	11
-TALLY	Office of Computer Science Research Grants	Stoned Jones	62
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	20
-TALLY	Secretary of the Vote	G.G. McGeorge	49
-TALLY	Secretary of the Vote	Count 'em twice Jack	2
-TALLY	Secretary of the Vote	Count 'em twice Jack	76
-TALLY	Senator	Melissa Gardner	17
-TALLY	Mayor	Robin Hood	40
-TALLY	Mayor	Mack the Ripoff	21
-TALLY	Supreme Court Justice	Ron Weasley	20
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	48
-TALLY	Governor	Bill Marlene	90
-TALLY	Secretary of the Vote	Charles Lindbergh	15
-TALLY	Office of Computer Science Research Grants	None of the Above	21
-TALLY	Governor	Mickey Mouse	8
-TALLY	Supreme Court Justice	Jack Brown	81
-TALLY	Secretary of the Vote	Charles Lindbergh	42
-TALLY	Office of Computer Science Research Grants	Zachary Edwards	101
-TALLY	Secretary of the Vote	Stoney Jackson	51
-TALLY	Supreme Court Justice	Sherry Parkhurst	58
-TALLY	Senator	Melissa Gardner	48
-TALLY	Governor	Vickey Walker	85
-TALLY	Governor	Mickey Mouse	35
-TALLY	Secretary of the Vote	Yes	54
-TALLY	President	George W. Bush	72
-TALLY	Supreme Court Justice	Ron Weasley	101
-TALLY	President	Donald Trump	58
-TALLY	Surgeon General	Dr. Bones	6
-TALLY	Office of Computer Science Research Grants	None of the Above	11
-TALLY	Lt. Governor	Orlando Bloom	43
-TALLY	Surgeon General	Dr. Bones	6
-TALLY	Governor	Mickey Mouse	108
-TALLY	Surgeon General	Dr. Bones	60
-TALLY	Secretary of the Vote	Stoney Jackson	93
-TALLY	Mayor	Robin Hood	43
-TALLY	Office of Computer Science Research Grants	Stephen Douglas	45
-TALLY	Lt. Governor	Ronda Spinacoli	7
-TALLY	Office of Computer Science Research Grants	Silver Lode	10
-TALLY	Office of Computer Science Research Grants	None of the Above	30
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	12
-TALLY	Office of Computer Science Research Grants	Stoned Jones	2
-TALLY	Office of Computer Science Research Grants	Stoned Jones	34
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	57
-TALLY	Surgeon General	Gilderoy Lockhart	21
-TALLY	Secretary of the Vote	Charles Lindbergh	33
-TALLY	Lt. Governor	Ronda Spinacoli	23
-TALLY	Office of Computer Science Research Grants	Silver Lode	9
-TALLY	Governor	Pope John Paul the 19th	42
-TALLY	Governor	Jack	20
-TALLY	Governor	Bill Marlene	36
-TALLY	Surgeon General	Gilderoy Lockhart	26
-TALLY	Supreme Court Justice	Sherry Parkhurst	27
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	8
+TALLY	Lt. Governor	Ginny Potter	14
+TALLY	President	Harry Potter	9
+TALLY	Governor	Pope John Paul the 19th	169
+TALLY	Governor	Jack	83
+TALLY	Mayor	Robin Hood	17
+TALLY	Governor	Bill Marlene	2
+TALLY	Office of Computer Science Research Grants	Silver Lode	68
+TALLY	Lt. Governor	Matilda Stalone	2
+TALLY	Secretary of the Vote	Charles Lindbergh	11
 TALLY	Surgeon General	Jack O'Lanterne	34
-TALLY	Senator	King Aurthur	8
-TALLY	Mayor	Slimey Badguy	31
-TALLY	Office of Computer Science Research Grants	Stoned Jones	16
-TALLY	Office of Computer Science Research Grants	Silver Lode	9
-TALLY	Surgeon General	Ronald O'Donnelly	7
-TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	13
-TALLY	Secretary of the Vote	G.G. McGeorge	9
-TALLY	Office of Computer Science Research Grants	Silver Lode	7
-TALLY	Secretary of the Vote	Charles Lindbergh	7
-TALLY	Secretary of the Vote	Count 'em twice Jack	6
+TALLY	President	Stanley Gordon	50
+TALLY	Senator	King Aurthur	42
+TALLY	Governor	Mary Potter	157
+TALLY	Supreme Court Justice	Ron Weasley	58
 TALLY	Office of Computer Science Research Grants	None of the Above	3
+TALLY	Lt. Governor	Ronda Spinacoli	53
+TALLY	President	George W. Bush	31
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	97
+TALLY	Supreme Court Justice	Sherry Parkhurst	9
+TALLY	Office of Computer Science Research Grants	Stoned Jones	5
+TALLY	Surgeon General	Gilderoy Lockhart	38
+TALLY	President	Donald Trump	130
+TALLY	Secretary of the Vote	G.G. McGeorge	83
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	4
+TALLY	Lt. Governor	Melinda Gates	37
+TALLY	President	Melinda Trump	4
+TALLY	Surgeon General	Ronald O'Donnelly	69
+TALLY	Mayor	Edgar Allen Poe	134
+TALLY	Governor	Bill Marlene	19
+TALLY	Governor	Vickey Walker	43
+TALLY	Secretary of the Vote	Not on my Watch	75
+TALLY	Supreme Court Justice	Little John	2
+TALLY	Lt. Governor	Matilda Stalone	67
+TALLY	Secretary of the Vote	Yes	42
+TALLY	Office of Computer Science Research Grants	Zachary Edwards	5
+TALLY	Senator	Mary Schmidt	125
+TALLY	President	George Harvey	93
+TALLY	Office of Computer Science Research Grants	Stephen Douglas	58
+TALLY	Supreme Court Justice	Little John	54
+TALLY	Office of Computer Science Research Grants	Stoned Jones	15
+TALLY	Lt. Governor	Orlando Bloom	1
+TALLY	Mayor	Slimey Badguy	180
+TALLY	Supreme Court Justice	Take em back Alive	2
+TALLY	Surgeon General	Monica Lewinski	11
+TALLY	Surgeon General	Say what?	24
+TALLY	Secretary of the Vote	Stoney Jackson	38
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	19
+TALLY	Mayor	Mack the Ripoff	3
+TALLY	Lt. Governor	Orlando Bloom	16
+TALLY	Office of Computer Science Research Grants	None of the Above	5
+TALLY	Surgeon General	Dr. Bones	54
+TALLY	Supreme Court Justice	Sherry Parkhurst	76
+TALLY	Office of Computer Science Research Grants	Zachary Edwards	16
+TALLY	Secretary of the Vote	Charles Lindbergh	5
+TALLY	Office of Computer Science Research Grants	None of the Above	91
+TALLY	Senator	Melissa Gardner	83
+TALLY	President	Harry Potter	12
+TALLY	Supreme Court Justice	John Simmons	36
+TALLY	Supreme Court Justice	Take em back Alive	5
+TALLY	Senator	Harry Weasley	67
+TALLY	Office of Computer Science Research Grants	Stoned Jones	88
+TALLY	Governor	Bill Marlene	83
+TALLY	Supreme Court Justice	Jack Brown	10
+TALLY	Supreme Court Justice	Take em back Alive	21
+TALLY	Surgeon General	Monica Lewinski	46
+TALLY	President	George W. Bush	64
+TALLY	President	Melinda Trump	27
+TALLY	Secretary of the Vote	Charles Lindbergh	79
+TALLY	President	Harry Potter	182
+TALLY	Mayor	Mack the Ripoff	30
+TALLY	Office of Computer Science Research Grants	Zachary Edwards	11
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	20
+TALLY	Mayor	Robin Hood	8
+TALLY	Supreme Court Justice	Jack Brown	6
+TALLY	Lt. Governor	Orlando Bloom	16
+TALLY	Surgeon General	Jack O'Lanterne	5
+TALLY	Surgeon General	Jack O'Lanterne	9
+TALLY	Office of Computer Science Research Grants	Zachary Edwards	46
+TALLY	Supreme Court Justice	Jack Brown	109
+TALLY	Lt. Governor	Ginny Potter	48
+TALLY	Surgeon General	Say what?	25
+TALLY	Governor	Vickey Walker	108
+TALLY	Surgeon General	Jack O'Lanterne	1
+TALLY	Surgeon General	Jack O'Lanterne	144
+TALLY	Mayor	Robin Hood	86
+TALLY	Secretary of the Vote	Stoney Jackson	92
+TALLY	Lt. Governor	Merlin	14
+TALLY	Lt. Governor	Orlando Bloom	64
+TALLY	Supreme Court Justice	Ron Weasley	140
+TALLY	Surgeon General	Gilderoy Lockhart	67
+TALLY	Governor	Mickey Mouse	30
+TALLY	Lt. Governor	Merlin	78
+TALLY	Surgeon General	Dr. Bones	36
+TALLY	Senator	Father Malloy	47
+TALLY	Secretary of the Vote	Yes	16
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	14
+TALLY	Surgeon General	Say what?	2
+TALLY	Surgeon General	Say what?	51
+TALLY	Supreme Court Justice	Take em back Alive	30
+TALLY	Secretary of the Vote	Not on my Watch	19
+TALLY	Office of Computer Science Research Grants	Stephen Douglas	10
+TALLY	Senator	Harry Weasley	85
+TALLY	Office of Computer Science Research Grants	Stephen Douglas	21
+TALLY	Governor	Jack	65
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	11
+TALLY	Secretary of the Vote	Yes	44
+TALLY	Governor	Mickey Mouse	91
+TALLY	Office of Computer Science Research Grants	Zachary Edwards	28
+TALLY	Supreme Court Justice	John Simmons	43
+TALLY	Supreme Court Justice	Sherry Parkhurst	4
+TALLY	Supreme Court Justice	Sherry Parkhurst	14
+TALLY	Governor	Bill Marlene	76
+TALLY	Secretary of the Vote	Not on my Watch	16
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	13
+TALLY	Surgeon General	Monica Lewinski	24
+TALLY	Supreme Court Justice	Little John	43
+TALLY	Surgeon General	Dr. Bones	51
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	18
+TALLY	Secretary of the Vote	Stoney Jackson	42
+TALLY	Secretary of the Vote	Charles Lindbergh	6
+TALLY	Office of Computer Science Research Grants	Stoned Jones	50
+TALLY	Secretary of the Vote	Charles Lindbergh	41
+TALLY	Lt. Governor	Ronda Spinacoli	26
+TALLY	Supreme Court Justice	Sherry Parkhurst	47
+TALLY	Office of Computer Science Research Grants	Zachary Edwards	50
+TALLY	Office of Computer Science Research Grants	Jennifer Maize	32
+TALLY	Secretary of the Vote	Not on my Watch	4
+TALLY	President	George W. Bush	36
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	32
+TALLY	Secretary of the Vote	Not on my Watch	41
+TALLY	Office of Computer Science Research Grants	Stephen Douglas	26
+TALLY	Surgeon General	Gilderoy Lockhart	17
+TALLY	Lt. Governor	Merlin	34
+TALLY	Secretary of the Vote	Stoney Jack3on	12
+TALLY	Governor	Mickey Mouse	34
+TALLY	Lt. Governor	Melinda Gates	5
+TALLY	Surgeon General	Say what?	8
+TALLY	Office of Computer Science Research Grants	Silver Lode	5
+TALLY	Surgeon General	Gilderoy Lockhart	16
+TALLY	Secretary of the Vote	Stoney Jackson	22
+TALLY	Office of Computer Science Research Grants	Silver Lode	8
+TALLY	Secretary of the Vote	Stoney Jackson	2
+TALLY	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901	2
