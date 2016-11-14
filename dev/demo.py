@@ -16,15 +16,9 @@ def conf(db, context, log, fields):
  return db.doExit
 commands["CONF"]=conf
 
-def voter(db, context, log, fields):
- """Perform VOTER command."""
- context.clear()
+def newVoterId():
  try:
-  #i=0
   while True:
-   #i+=1
-   #voterid="V"+str(i)
-   #db.fetch(crusherdict.countName(voterid))
    amount=10
    #amount=6
    voterid="VOTER|"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",amount))
@@ -33,14 +27,17 @@ def voter(db, context, log, fields):
    db.fetch(c)
    db.fetch(c)
    db.fetch(c)
- # while True:
-    #voterid="V"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",6))
-    #db.fetch(crusherdict.countName(voterid))
  except KeyError:
   """Good: we don't have this voter yet."""
  except:
   raise Exception('...')
- context["id"]=voterid
+ return voterid
+
+def voter(db, context, log, fields):
+ """Perform VOTER command."""
+ context.clear()
+ #context["id"]=voterid
+ context["id"]=newVoterId()
  context["votes"]=[]
  return False
 commands["VOTER"]=voter
@@ -64,61 +61,77 @@ def cast(db, context, log, fields):
  """Currently the voter does not exist in the database at all."""
  d.status("UNCAST")
  """The voter just barely exists, having a status of UNCAST only."""
+ checkvl=[] # array to match against
  for vote in context["votes"]:
   print('d.Vote for:'+str(vote[1:3]))
   d.getKey(vote[1:3])
-#  d.getKey(vote[1:3])
-#  d.getKey(vote[1:3])
-#  d.getKey(vote[1:3])
+  checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
 
  # Check that successful write before continuing in... 
- #c = crusherdict.CrusherDict(db,context['id'])
- #tmp_context={}
- #tmp_context['votes'] = context['votes']
- #tmp_context['id'] = context['id']
- #context.clear()
- #if check_inq(c) is False: # Go again
- # context = tmp_context
- # return cast(db, context, log, fields) # Recursive...
- #context = tmp_context
-  
+ # Needs to match eg:
+ #  VOTE	President	Donald Trump
+ #  VOTE	Governor	Mickey Mouse
+ #  VOTE	Lt. Governor	Melinda Gates
+ c = crusherdict.CrusherDict(db,context['id'])
+ x = sanity_check_inq(c)
+ if x is False:# or x != checkvl:
+  print('Fails sanity check1a')
+  print('Looking for:')
+  print('\n'.join(str(x) for x in checkvl))
+  print('But seeing:')
+  print(x)
+  # Let's try changing to a new voter id
+  # since this one has not been casted yet.
+  #context['id']=newVoterId()
+  return cast(db, context, log, fields)
+ else:
+  for i in checkvl:
+   if i not in x: 
+      print('Fails sanity check1b')
+      print('Looking for:')
+      print('\n'.join(str(x) for x in checkvl))
+      print('But seeing:')
+      print(x)
+      return cast(db, context, log, fields)
+
  """The votes have been added to the voter, but not the tallies."""
  for vote in context["votes"]:
   print('t.Increment:'+str(vote[1:3]))
   t.inc(vote[1:3],context["id"])
  """The votes have been tentatively tallied."""
  t.inc("voters",context["id"])
+ # Check again here?
+  #c = crusherdict.CrusherDict(db,context['id'])
+  #x = sanity_check_inq(c)
+  #if x is False or x != checkvl:
+  # print('Fails sanity check2')
+  # return cast(db, context, log, fields) #...
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
-# return
- 
  """The votes have been tallied."""
  return inq(db, context, log, ("INQ",context["id"]))
 commands["CAST"]=cast
 
+def sanity_check_inq(c):
+ tmp_log=''
+ try:
+  for tup in c:
+   if isinstance(tup, int) or tup is None:
+    return False
+   tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
+ except:
+  return False
+ return tmp_log
 def check_inq(c):
  tmp_log=''
  try:
   for tup in c:
    if isinstance(tup, int) or tup is None:
-    #return False # Try again. Recursive.
     return check_inq(c) # Try again. Recursive.
    tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
  except:
-  #return False # Try again?
   return check_inq(c) # Try again. Recursive.
  return tmp_log
-#def check_inq_recurse(c):
-# tmp_log=''
-# try:
-#  for tup in c:
-#   if isinstance(tup, int) or tup is None:
-#    return check_inq_recurse(c) # Try again. Recursive.
-#    #return check_inq(c) # Try again. Recursive.
-#   tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
-# except:
-#  return check_inq_recurse(c) # Try again?
-# return tmp_log
 def inq(db, context, log, fields):
  """Perform INQ command."""
  print('demo.py inq()')

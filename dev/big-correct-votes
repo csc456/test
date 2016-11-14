@@ -1,4 +1,6 @@
 VOTER
+CAST
+VOTER
 VOTE	Mayor	Slimey Badguy
 CAST
 VOTER
@@ -33,7 +35,6 @@ VOTE	Supreme Court Justice	John Simmons
 VOTE	Mayor	Slimey Badguy
 VOTE	Supreme Court Justice	Little John
 VOTE	Mayor	Edgar Allen Poe
-VOTE	Supreme Court Justice	John Simmons
 VOTE	Senator	King Aurthur
 VOTE	Governor	Mickey Mouse
 VOTE	Governor	Jack
@@ -46,16 +47,13 @@ VOTE	Surgeon General	Dr. Bones
 VOTE	Lt. Governor	Merlin
 VOTE	Secretary of the Vote	Count 'em twice Jack
 VOTE	Lt. Governor	Orlando Bloom
-VOTE	Secretary of the Vote	Count 'em twice Jack
 VOTE	Office of Computer Science Research Grants	None of the Above
 VOTE	Mayor	Edgar Allen Poe
 VOTE	Office of Computer Science Research Grants	Zachary Edwards
 VOTE	President	Stanley Gordon
 VOTE	Governor	Bill Marlene
 VOTE	Surgeon General	Jack O'Lanterne
-VOTE	Office of Computer Science Research Grants	Zachary Edwards
 VOTE	Governor	Pope John Paul the 19th
-VOTE	Surgeon General	Jack O'Lanterne
 VOTE	President	Harry Potter
 CAST
 VOTER
@@ -81,9 +79,7 @@ VOTE	President	Harry Potter
 VOTE	Governor	Jack
 VOTE	Office of Computer Science Research Grants	Stoned Jones
 VOTE	President	George Harvey
-VOTE	President	George W. Bush
 VOTE	Supreme Court Justice	Little John
-VOTE	Senator	Harry Weasley
 VOTE	Office of Computer Science Research Grants	Stephen Douglas
 CAST
 VOTER
@@ -93,11 +89,11 @@ VOTER
 VOTE	Lt. Governor	Merlin
 CAST
 VOTER
+CAST
+VOTER
 VOTE	Office of Computer Science Research Grants	Stephen Douglas
 VOTE	Supreme Court Justice	Take em back Alive
 VOTE	Senator	Mary Schmidt
-CAST
-VOTER
 CAST
 VOTER
 VOTE	Lt. Governor	Ginny Potter
@@ -115,13 +111,11 @@ VOTE	Governor	Bill Marlene
 VOTE	Supreme Court Justice	Sherry Parkhurst
 VOTE	Senator	Mary Schmidt
 VOTE	Secretary of the Vote	G.G. McGeorge
-VOTE	Governor	Bill Marlene
 VOTE	Surgeon General	Gilderoy Lockhart
 VOTE	Governor	Pope John Paul the 19th
 VOTE	Mayor	Slimey Badguy
 VOTE	President	Donald Trump
 VOTE	Senator	King Aurthur
-VOTE	Surgeon General	Gilderoy Lockhart
 CAST
 VOTER
 VOTE	Surgeon General	Monica Lewinski
@@ -132,7 +126,6 @@ VOTE	Governor	Bill Marlene
 VOTE	Mayor	Robin Hood
 VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
 VOTE	Senator	Harry Weasley
-VOTE	Governor	Bill Marlene
 VOTE	Senator	Melissa Gardner
 VOTE	Secretary of the Vote	Not on my Watch
 VOTE	Supreme Court Justice	Sherry Parkhurst
@@ -147,7 +140,6 @@ VOTE	Senator	Harry Weasley
 VOTE	Governor	Vickey Walker
 VOTE	Senator	Melissa Gardner
 VOTE	President	George W. Bush
-VOTE	President	Harry Potter
 VOTE	Governor	Pope John Paul the 19th
 CAST
 VOTER
@@ -197,13 +189,11 @@ VOTE	Office of Computer Science Research Grants	Zachary Edwards
 VOTE	President	Donald Trump
 VOTE	Governor	Vickey Walker
 VOTE	Secretary of the Vote	Not on my Watch
-VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
 VOTE	Lt. Governor	Matilda Stalone
 VOTE	Surgeon General	Gilderoy Lockhart
 VOTE	Governor	Mary Potter
 VOTE	President	Harry Potter
 VOTE	Surgeon General	Say what?
-VOTE	Lt. Governor	Matilda Stalone
 VOTE	Surgeon General	Jack O'Lanterne
 VOTE	Surgeon General	Ronald O'Donnelly
 CAST
@@ -220,16 +210,12 @@ VOTE	Mayor	Robin Hood
 VOTE	Surgeon General	Gilderoy Lockhart
 VOTE	Mayor	Edgar Allen Poe
 VOTE	Supreme Court Justice	Jack Brown
-VOTE	Mayor	Robin Hood
-VOTE	President	George Harvey
 VOTE	Surgeon General	Monica Lewinski
 VOTE	Governor	Jack
 VOTE	Lt. Governor	Merlin
 VOTE	Secretary of the Vote	Stoney Jackson
 VOTE	Governor	Mickey Mouse
-VOTE	Secretary of the Vote	Stoney Jackson
 VOTE	Lt. Governor	Ronda Spinacoli
-VOTE	Supreme Court Justice	Ron Weasley
 CAST
 VOTER
 VOTE	Governor	Pope John Paul the 19th
@@ -278,8 +264,6 @@ VOTE	Supreme Court Justice	Ron Weasley
 VOTE	Surgeon General	Dr. Bones
 VOTE	Office of Computer Science Research Grants	Stephen Douglas
 VOTE	Secretary of the Vote	Charles Lindbergh
-VOTE	Supreme Court Justice	Jack Brown
-VOTE	Secretary of the Vote	Stoney Jackson
 CAST
 VOTER
 VOTE	Senator	Father Malloy
@@ -288,9 +272,4 @@ VOTE	Supreme Court Justice	Take em back Alive
 VOTE	Governor	Mary Potter
 VOTE	Surgeon General	Say what?
 VOTE	Supreme Court Justice	Sherry Parkhurst
-VOTE	Supreme Court Justice	Sherry Parkhurst
-CAST
-VOTER
-VOTE	Office of Computer Science Research Grants	Jennifer Maize
-VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
 CAST
