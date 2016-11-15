@@ -67,13 +67,31 @@ def cast(db, context, log, fields):
   d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
 
+ if !matchesVoteLog(checkvl,context['id']):
+  return cast(db,context,log,fields)
+
+ """The votes have been added to the voter, but not the tallies."""
+ for vote in context["votes"]:
+  print('t.Increment:'+str(vote[1:3]))
+  t.inc(vote[1:3],context["id"])
+ """The votes have been tentatively tallied."""
+ t.inc("voters",context["id"])
+ # Check again here?
+ # ...
+ """Number of voters has been tentatively incremented."""
+ d.status("CAST")
+ """The votes have been tallied."""
+ return inq(db, context, log, ("INQ",context["id"]))
+commands["CAST"]=cast
+
+def matchesVoteLog(checkvl, vid)
  # Check that successful write before continuing in... 
  # Needs to match eg:
  #  VOTE	President	Donald Trump
  #  VOTE	Governor	Mickey Mouse
  #  VOTE	Lt. Governor	Melinda Gates
- c = crusherdict.CrusherDict(db,context['id'])
- x = sanity_check_inq(c)
+ c = crusherdict.CrusherDict(db,vid)
+ x = pre_check_inq(c)
  if x is False:# or x != checkvl:
   print('Fails sanity check1a')
   print('Looking for:')
@@ -83,7 +101,7 @@ def cast(db, context, log, fields):
   # Let's try changing to a new voter id
   # since this one has not been casted yet.
   #context['id']=newVoterId()
-  return cast(db, context, log, fields)
+  return False
  else:
   for i in checkvl:
    if i not in x: 
@@ -92,27 +110,11 @@ def cast(db, context, log, fields):
       print('\n'.join(str(x) for x in checkvl))
       print('But seeing:')
       print(x)
-      return cast(db, context, log, fields)
+      return False
+ # Success
+ return True
 
- """The votes have been added to the voter, but not the tallies."""
- for vote in context["votes"]:
-  print('t.Increment:'+str(vote[1:3]))
-  t.inc(vote[1:3],context["id"])
- """The votes have been tentatively tallied."""
- t.inc("voters",context["id"])
- # Check again here?
-  #c = crusherdict.CrusherDict(db,context['id'])
-  #x = sanity_check_inq(c)
-  #if x is False or x != checkvl:
-  # print('Fails sanity check2')
-  # return cast(db, context, log, fields) #...
- """Number of voters has been tentatively incremented."""
- d.status("CAST")
- """The votes have been tallied."""
- return inq(db, context, log, ("INQ",context["id"]))
-commands["CAST"]=cast
-
-def sanity_check_inq(c):
+def pre_check_inq(c):
  tmp_log=''
  try:
   for tup in c:
