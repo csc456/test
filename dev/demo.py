@@ -84,7 +84,7 @@ def cast(db, context, log, fields):
  return inq(db, context, log, ("INQ",context["id"]))
 commands["CAST"]=cast
 
-def matchesVoteLog(checkvl, vid)
+def matchesVoteLog(checkvl, vid):
  # Check that successful write before continuing in... 
  # Needs to match eg:
  #  VOTE	President	Donald Trump
