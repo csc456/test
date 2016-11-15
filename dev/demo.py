@@ -67,7 +67,7 @@ def cast(db, context, log, fields):
   d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
 
- if !matchesVoteLog(checkvl,context['id']):
+ if matchesVoteLog(checkvl,context['id']) is False:
   return cast(db,context,log,fields)
 
  """The votes have been added to the voter, but not the tallies."""
