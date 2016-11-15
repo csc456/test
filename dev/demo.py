@@ -140,32 +140,15 @@ def inq(db, context, log, fields):
  context.clear()
  c = crusherdict.CrusherDict(db,voter_id)
  log.write("VOTER\n")
- #print('  c.db:'+str(c.db))
- #print('  c.name:'+str(c.name))
- #print('  c.__len__:'+str(c.__len__()))
  try:
   tmp_log=check_inq(c)
   if tmp_log != False: # If success then write
    log.write(tmp_log)   
   else: # Otherwise another plan is necessary.
    pass
-  #while True:
-  # for tup in c:
-  #  if isinstance(tup, int) or tup is None:
-  #   return check_inq(c) # Try again. Recursive.
-    #tup=c.safeFetch
-  #  if tup and tup[0] and tup[0][1] and tup[0][1]:
-  #   print('  iter-tup:'+str(tup))
-  #   log.write("VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])) 
-   #check_inq(c)
  except:
-  #print('  Caught inq VOTER error:tup:'+str(voter_id))
-  #print('  Caught inq VOTER error:fields:'+str(fields))
-  #print('  Caught inq VOTER error:fields[1]:'+str(voter_id))
-  #print('  Unexpected error:', sys.exc_info()[0])
   raise Exception('inq')
  log.write("CAST\t{}\n".format(voter_id))
- #raise Exception('test')
  return db.doExit
 commands["INQ"]=inq
 
@@ -176,7 +159,6 @@ def report(db, log):
  try:
   t=crusherdict.CrusherDict(db,"___T___")
   voters=db.fetch(t.getKey("voters"))[1]
-  #voters=db.fetch(t.getKey("voters"))[1]
   log.write("VOTERS\t{}\n".format(voters))
  except:
   print('  report::except...')
@@ -204,11 +186,8 @@ for line in cmd:
   line=line[:-1]
  line=line.split("\t")
  print('demo.py: Try cmd:' + line[0])
- #try:
  if commands[line[0]](db,context,log,line):
   break
- #except:
- # print('demo.py: except --')
 
 try:
  cmd.close()
