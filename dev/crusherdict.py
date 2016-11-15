@@ -39,10 +39,11 @@ class CrusherDict:
   self.db=db
   self.name=name
  def __len__(self):
-  print('crusher.py .__len__()')
+  print('crusherdict.py .__len__()')
   try:
    f=self.safeFetch(countName(self.name))
    if not isinstance(f, int) or f is None: # Recursive...
+    print('  .__len__():bad f:'+str(f))
     return self.__len__() # Try again...
    else:
     return f
@@ -79,8 +80,7 @@ class CrusherDict:
   n=None
   for i in range(20): #0-19
    try:
-    #self.db.store("x"*4, "y"*4) # add fuzzy......
-    n=self.db.fetch(str(key)+'__'+str(i*10)+'__')
+    n=self.db.fetch(str(key)+'__'+str(str(i)*10)+'__')
    except KeyError:
     rslt_ke+=1
     if rslt_ke>rslt_num:
@@ -125,7 +125,7 @@ class CrusherDict:
   for i in range(20): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
    print(str(i)+',', end='')
    try:
-     k=str(dbkey)+'__'+str(i*10)+'__'
+     k=str(dbkey)+'__'+str(str(i)*10)+'__'
      self.db.store(k, key)
    except:
     pass

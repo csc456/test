@@ -19,8 +19,7 @@ commands["CONF"]=conf
 def newVoterId():
  try:
   while True:
-   amount=10
-   #amount=6
+   amount=10 #6
    voterid="VOTER|"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",amount))
    c=crusherdict.countName(voterid)
    print('fetch:'+str(c))
@@ -36,7 +35,6 @@ def newVoterId():
 def voter(db, context, log, fields):
  """Perform VOTER command."""
  context.clear()
- #context["id"]=voterid
  context["id"]=newVoterId()
  context["votes"]=[]
  return False
@@ -55,9 +53,9 @@ def cast(db, context, log, fields):
   return
  print('Cast voter')
  print('voter id='+context['id'])
- #try:#??
  d=crusherdict.CrusherDict(db,context["id"])
- t=crusherdict.CrusherDict(db,"___T___")
+ for i in range(1000):
+  t=crusherdict.CrusherDict(db,"___T___")
  """Currently the voter does not exist in the database at all."""
  d.status("UNCAST")
  """The voter just barely exists, having a status of UNCAST only."""
@@ -66,18 +64,15 @@ def cast(db, context, log, fields):
   print('d.Vote for:'+str(vote[1:3]))
   d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
-
+ # Check matching
  if matchesVoteLog(checkvl,context['id']) is False:
   return cast(db,context,log,fields)
-
  """The votes have been added to the voter, but not the tallies."""
  for vote in context["votes"]:
   print('t.Increment:'+str(vote[1:3]))
   t.inc(vote[1:3],context["id"])
  """The votes have been tentatively tallied."""
  t.inc("voters",context["id"])
- # Check again here?
- # ...
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  """The votes have been tallied."""
@@ -93,7 +88,7 @@ def matchesVoteLog(checkvl, vid):
  c = crusherdict.CrusherDict(db,vid)
  x = pre_check_inq(c)
  if x is False:# or x != checkvl:
-  print('Fails sanity check1a')
+  print('Fails checka')
   print('Looking for:')
   print('\n'.join(str(x) for x in checkvl))
   print('But seeing:')
@@ -105,7 +100,7 @@ def matchesVoteLog(checkvl, vid):
  else:
   for i in checkvl:
    if i not in x: 
-      print('Fails sanity check1b')
+      print('Fails checkb')
       print('Looking for:')
       print('\n'.join(str(x) for x in checkvl))
       print('But seeing:')
@@ -124,6 +119,7 @@ def pre_check_inq(c):
  except:
   return False
  return tmp_log
+
 def check_inq(c):
  tmp_log=''
  try:
@@ -134,10 +130,10 @@ def check_inq(c):
  except:
   return check_inq(c) # Try again. Recursive.
  return tmp_log
+
 def inq(db, context, log, fields):
  """Perform INQ command."""
  print('demo.py inq()')
- #print('  voter_id:'+str(fields[1]))
  voter_id = fields[1]
  context.clear()
  c = crusherdict.CrusherDict(db,voter_id)
@@ -146,7 +142,7 @@ def inq(db, context, log, fields):
   tmp_log=check_inq(c)
   if tmp_log != False: # If success then write
    log.write(tmp_log)   
-  else: # Otherwise another plan is necessary.
+  else: # Otherwise?
    pass
  except:
   raise Exception('inq')
@@ -157,7 +153,6 @@ commands["INQ"]=inq
 def report(db, log):
  """Perform final report."""
  print('demo.py report()')
- #return
  try:
   t=crusherdict.CrusherDict(db,"___T___")
   voters=db.fetch(t.getKey("voters"))[1]
