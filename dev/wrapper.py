@@ -3,16 +3,12 @@
 ############
 ###wrapper.py
 ###by Brandon Dutko
-###WARNING This whole thing is currently untested.  Expect all types of crashing.  Use at your own risk.
 ############
 
 from crusher import Broker as Broken
+import sys
 
 ############
-###This may not work, I've never replaced a class from a module
-###with a child class from a different module in a seperate script that imports
-###both modules before
-###
 ###in scripts that use this wrapper:
 ###import crusher
 ###import wrapper
@@ -21,7 +17,11 @@ from crusher import Broker as Broken
 
 #n represents the number of replicas that should be stored
 #this can easily be hard coded if storing n is not allowed
-n = 7
+n = 3
+
+#x represents the number of values that should be voted on
+#this can easily be hard coded as well
+x = 3
 
 
 class InvalidChecksum(Exception):
@@ -41,12 +41,14 @@ class Broker(Broken):
         return Broken.interrupt(self, signal, frame)
         
     def fletcher32(self, string):
+        print(string)
         """Create a fletcher32 checksum and return it as 4 8bit characters"""
         a = list(map(ord, string))
         b = [sum(a[:i])%65535 for i in range(len(a)+1)]
         return chr((sum(b) >> 8) & 255) + chr((sum(b)) & 255) + chr((max(b) >> 8) & 255) + chr((max(b)) & 255)
         
     def store(self, key, val):
+        print("store::", str(key), ":", str(val))
         """Make replicas of the key-val pair, add a checksum to val and store those,
         fetch/store each replica until the fetched value is the same as the stored
         value to check for validity in the cache (if it's invalid in the cache
@@ -55,41 +57,71 @@ class Broker(Broken):
             again = True
             while(again):
                 again = False
-                newKey = (key + "-" + str(i))
-                newVal = (val + "-" + self.fletcher32((key+val)))
-                Broken.store(self, newKey, newVal)
-                if(Broken.fetch(newKey) != newVal):
-                    #Likely corrupted if we cant even get it back right from the cache
-                    #Try again
-                    again = True
+                newKey = (str(key) + str(i))
+                newVal = (str(val) + self.fletcher32((str(val))))
+                print("storing", newKey, " : ", newVal, "with broken")
+                try:
+                    Broken.store(self, newKey, newVal)
+                    """
+                    if(Broken.fetch(self, newKey) != newVal):
+                        #Likely corrupted if we cant even get it back right from the cache
+                        #Try again
+                        again = True
+                    """
+                
+                except:
+                    print(newKey + ": error 69")
+                    print(sys.exc_info()[0])
         
     def fetch(self, key):
+        print("Fetch::", str(key))
         """Fetch each replica and use voting to determine the propert
         value, if the checksum does not match the key value pair then
         fail safely, in the event of ties in the voting seperate the possibilies
         and check with the checksum to determine the most likely correct val.
-        In the event that the checksum has a Tt in it assume the two letters 
-        to possibly be \t or Tt.  In the event that there are more than 1
+        In the event that there are more than 1
         candidates with their own correct checksums just pick one at random
         and then buy a lottery ticket."""
         values = []
-        for i in range(0, n):
-            values.append(Broken.fetch((key+"-"+str(n))))
+        errors = 0
+        for i in range(n):
+            #print(str(key)+"-"+str(i) + str(key)+'-'+str(n))
+            try:
+                values.append(Broken.fetch(self, (str(key)+str(i))))
+            
+            except:
+                errors += 1
+                if errors >= n:
+                    print(str(key), "does not exist 92")
+                    raise KeyError
+                #print("89::", str(key)+str(i) + ":error")
+                #print(sys.exc_info())
+
         valLengths = []
         for value in values:
             valLengths.append(len(value))
-        valLengths = self.voteInt(valLengths)
+        try:
+            valLengths = self.voteInt(valLengths)
+        except ValueError as e:
+            valLengths = []
+            #print("Empty list of values!")
         for lengths in valLengths:
             valuesWSameLengthTemp = []
             #For each possible length (if more than one length won the vote)
             for value in values:
                 if len(value) == lengths:
                     valuesWSameLengthTemp.append(value)
-            possibleValues = self.voteStr(valuesWSameLengthTemp)
-            for value in possibleValues:
-                if(self.fletcher32(value[0:-4]) == value[-4:]):
-                    return value[0:-4]
-        raise InvalidChecksum("No matching value-checksum pair")
+            if(len(valuesWSameLengthTemp) >= x):
+                possibleValues = self.voteStr(valuesWSameLengthTemp[:x])
+                for value in possibleValues:
+                    if(self.fletcher32(value[0:-4]) == value[-4:]):
+                        return value[0:-4]
+        """
+        try:
+            raise InvalidChecksum("No matching value-checksum pair")
+        except:
+            print("No matching value-checksum pair for", values)
+        """
             
     def voteInt(self, listOfInts):
         """
@@ -194,12 +226,16 @@ class Broker(Broken):
         return allStrings
 
     def remove(self, key):
-        """Something might change here because this method scares me, but really
-        there's no reason for it to even exist or ever be called"""
-        #Currently this will not work unless it's called with the proper
-        #key which will have a copy identifier on it that the caller
-        #probably doesn't know
-        return Broken.remove(self, key)
+        """Calls Broken.remove for each key copy and returns the 
+        voted upon value.
+        """
+        valList = []
+        for i in range(n):
+            try:
+                valList.append(str(Broken.remove(self, (str(key)+str(i)))))
+            except:
+                pass
+        return self.voteStr(valList)
         
     def exit(self):
         """Nothing changes on exit"""

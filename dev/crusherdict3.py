@@ -42,11 +42,11 @@ class CrusherDict:
   print('crusherdict.py .__len__()')
   try:
    f=self.safeFetch(countName(self.name))
-   if isinstance(f, str):
-    tempn = int(f)
-   if str(tempn) != str(f):
-    return self.__len__()
-   return int(f)
+   if not isinstance(f, int) or f is None: # Recursive...
+    print('  .__len__():bad f:'+str(f))
+    return self.__len__() # Try again...
+   else:
+    return f
   except KeyError:
    return 0
  def __contains__(self,key):
@@ -78,9 +78,9 @@ class CrusherDict:
   rslt_num=0
   rslt_best=None
   n=None
-  for i in range(1): #1
+  for i in range(20): #0-19
    try:
-    n=self.db.fetch(str(key))
+    n=self.db.fetch(str(key)+'__'+str(str(i)*10)+'__')
    except KeyError:
     rslt_ke+=1
     if rslt_ke>rslt_num:
@@ -88,7 +88,6 @@ class CrusherDict:
      rslt_num=rslt_ke
     continue
    except: #Other
-    print("!!!!!!!!!!", sys.exc_info()[0])
     rslt_er+=1
     if rslt_er>rslt_num:
      rslt_best='er'
@@ -105,7 +104,6 @@ class CrusherDict:
   if rslt_best=='ke':
    raise KeyError
   elif rslt_best=='er' or rslt_best is None:
-   print("rslt_best =", rslt_best)
    raise Exception('Another exception...')
   else:
    n=rslt_best
@@ -124,13 +122,12 @@ class CrusherDict:
   else:
    key = (key,val)
   print('  store:', end='')
-  for i in range(1): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
+  for i in range(20): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
    print(str(i)+',', end='')
    try:
-     k=str(dbkey)
+     k=str(dbkey)+'__'+str(str(i)*10)+'__'
      self.db.store(k, key)
    except:
-    print("COULDN'T STORE")
     pass
   print('-')
  def getKey(self, key, val=None):
@@ -150,11 +147,9 @@ class CrusherDict:
   except KeyError:
    try:
     n=self.safeFetch(countName(self.name))
-    if isinstance(n, str):
-     tempn = int(n)
-    if str(tempn) != str(n):
+    if not isinstance(n, int):
+     # Hm try again?
      return self.getKey(key, val)
-    n = int(n)
    except KeyError:
     n=0
    dbkey=entryName(self.name,n)
@@ -197,11 +192,11 @@ class CrusherDict:
   except KeyError:
    try:
     n=self.safeFetch(countName(self.name))
-    if isinstance(n, str):
-     tempn = int(n)
-    if str(tempn) != str(n):
+    if not isinstance(n, int):
+     #print('  Looking for int but found not int!')
+     #n=0
+     #Hm try again?
      return self.inc(key, val)
-    n = int(n)
    except KeyError:
     n=0
    dbkey=entryName(self.name,n)
@@ -216,19 +211,17 @@ class CrusherDict:
 
 if __name__=="__main__":
  import crusher
- import wrapper
- crusher.Broker = wrapper.Broker
  try:
   db=crusher.Broker("test_crusherdict")
   test2=CrusherDict(db, "dict_nameA")
-  #test3=CrusherDict(db, "dict_nameB")
-  #test4=CrusherDict(db, "dict_nameC")
+  test3=CrusherDict(db, "dict_nameB")
+  test4=CrusherDict(db, "dict_nameC")
   
-  for i in range(0,1):
+  for i in range(0,1000):
    try:
     test2.getKey("H","5555000")
-    #test3.getKey("H","6666000")
-    #test4.getKey("H","7777000")
+    test3.getKey("H","6666000")
+    test4.getKey("H","7777000")
    except:
     pass
   #print(test.inc("Gov-Muller","voter-809809"))
