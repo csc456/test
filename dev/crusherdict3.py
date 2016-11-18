@@ -39,11 +39,11 @@ class CrusherDict:
   self.db=db
   self.name=name
  def __len__(self):
-  #print('crusherdict.py .__len__()')
+  print('crusherdict.py .__len__()')
   try:
    f=self.safeFetch(countName(self.name))
    if not isinstance(f, int) or f is None: # Recursive...
-    #print('  .__len__():bad f:'+str(f))
+    print('  .__len__():bad f:'+str(f))
     return self.__len__() # Try again...
    else:
     return f
@@ -107,6 +107,7 @@ class CrusherDict:
    raise Exception('Another exception...')
   else:
    n=rslt_best
+  print('  safeFetch:value is:',str(n))
   #...
   return n
  def safeStore(self, dbkey, key, val=None):
@@ -213,11 +214,12 @@ class CrusherDict:
    self.safeStore(countName(self.name),n+1)
    return dbkey
  def __iter__(self):
-  #print('crusherdict.py CrusherDict.__iter__()')
-  #print('  iter::name:',self.name)
-  #print('  iter::db:',self.db)
+  print('crusherdict.py CrusherDict.__iter__()')
+  print('  iter::name:',self.name)
+  print('  iter::db:',self.db)
+  print('  iter::range(self.__len__()):',range(self.__len__()))
   for i in range(self.__len__()):
-   #print('  iter::i:',i)
+   print('  iter::i:',i)
    yield self.safeFetch(entryName(self.name,i))
 
 if __name__=="__main__":

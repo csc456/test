@@ -124,11 +124,11 @@ def matchesVoteLog(db,checkvl,vid):
  c = crusherdict3.CrusherDict(db,vid) #open db-X with vid-Y
  x = pre_check_inq(c)
  if x is False:# or x != checkvl:
-  #print('Fails checka')
-  #print('Looking for:')
-  #print('\n'.join(str(x) for x in checkvl))
-  #print('But seeing:')
-  #print(x)
+  print('  mvl:Fails checka')
+  print('  Looking for:')
+  print('\n'.join(str(x) for x in checkvl))
+  print('  Seeing:')
+  print(x)
   # Let's try changing to a new voter id
   # since this one has not been casted yet.
   #context['id']=newVoterId()
@@ -136,11 +136,11 @@ def matchesVoteLog(db,checkvl,vid):
  else:
   for i in checkvl:
    if i not in x: 
-      #print('Fails checkb')
-      #print('Looking for:')
-      #print('\n'.join(str(x) for x in checkvl))
-      #print('But seeing:')
-      #print(x)
+      print('  mvl:Fails checkb')
+      print('  Looking for:')
+      print('\n'.join(str(x) for x in checkvl))
+      print('  seeing:')
+      print(x)
       return False
  # Success
  return True
@@ -235,7 +235,7 @@ except:
 basename=os.path.splitext(os.path.basename(filename))[0]
 
 dbs=[]
-for i in range(20):
+for i in range(1):
  dbs.append(crusher.Broker(basename+'__db'+str(i)+'__'))
 
 #db=crusher.Broker(basename)
