@@ -1,3 +1,0 @@
-VOTER
-VOTE	Governor	Wanda Sykes
-CAST	VS0AUPY

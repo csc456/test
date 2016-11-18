@@ -1,4 +1,0 @@
-VOTERS	None
-TALLY	Supreme Court Justice	Sherry Parkhurst	17
-TALLY	Mayor	Slimey Badguy	14
-TALLY	Mayor	Slimey Badguy	14

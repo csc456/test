@@ -43,7 +43,6 @@ def newVoterId(dbs):
    amount=10 #6
    voterid="VOTER|"+"".join(random.sample("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",amount))
    c=crusherdict3.countName(voterid)
-   #print('fetch:'+str(c))
    for i in dbs: # Fetch in N databases
     i.fetch(c)
  except KeyError:
@@ -75,18 +74,13 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
  d.status("UNCAST")
  checkvl=[] # array to match against
  for vote in context["votes"]:
-  #d.getKey('abcdefg0123457'*numberRecursions) #random noise
   d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
  if matchesVoteLog(i,checkvl,context['id']) is False:
-  #threadFailed=True
-  #print('  threadVote::match fails!')
-  #return
   numberRecursions+=1
   return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
   """The votes have been added to the voter, but not the tallies."""
  for vote in context["votes"]:
-  #print('t.Increment:'+str(vote[1:3]))
   t.inc(vote[1:3],context["id"])
  """The votes have been tentatively tallied."""
  t.inc("voters",context["id"])
@@ -102,7 +96,6 @@ def cast(dbs, context, log, fields):
  t_stop=threading.Event()
  threads=[]
  for i in dbs:
-  #print('  cast::start thread')
   n = threading.Thread(target=threadVote, args=(i,context,fields,t_stop,))
   n.start()
   threads.append(n)
@@ -110,7 +103,6 @@ def cast(dbs, context, log, fields):
  for n in threads:
   n.join()
  #Made it
- #return
  return inq(dbs, context, log, ("INQ",context["id"]))
 commands["CAST"]=cast
 
@@ -120,8 +112,6 @@ def matchesVoteLog(db,checkvl,vid):
  #  VOTE	President	Donald Trump
  #  VOTE	Governor	Mickey Mouse
  #  VOTE	Lt. Governor	Melinda Gates
- print('  mvl:db',db)
- print('  mvl:vid',vid)
  c = crusherdict3.CrusherDict(db,vid) #open db-X with vid-Y
  x = pre_check_inq(c)
  if x is False:# or x != checkvl:
@@ -150,7 +140,6 @@ def pre_check_inq(c):
  tmp_log=''
  try:
   for tup in c:
-   print('  pre_check_inq::',tup)
    if isinstance(tup, int) or tup is None:
     return False
    tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
@@ -171,7 +160,6 @@ def check_inq(c):
 
 def inq(dbs, context, log, fields):
  """Perform INQ command."""
- #print('demo.py inq()')
  voter_id = fields[1]
  context.clear()
  log.write("VOTER\n")
@@ -196,36 +184,38 @@ def inq(dbs, context, log, fields):
  log.write(tmp)   
  log.write("CAST\t{}\n".format(voter_id))
  return dbsdoexit(dbs)
- #return db.doExit
 commands["INQ"]=inq
 
 def report(dbs, log):
  """Perform final report."""
  print('demo.py report()')
+ # Get total voters
+ voters={}
+ best=None
+ curr=0
+ for i in dbs:
+  t=crusherdict3.CrusherDict(i,"___T___")
+  try:
+   n=t.getKey("voters")
+   x=t.safeFetch(n)
+   x=x[1]
+  except:
+   continue
+  try:
+   voters[x]+=1
+  except:
+   voters[x]=1
+  if voters[x]>curr:
+   curr=voters[x]
+   best=x
+ # Best
+ head="VOTERS\t{}\n".format(best)
+ 
+ # Get tallies  
  try:
   voters={}
   best=None
   curr=0
-  for i in dbs:
-   t=crusherdict3.CrusherDict(i,"___T___")
-   x=i.fetch(t.getKey("voters"))[1]
-   try:
-    voters[x]+=1
-   except:
-    voters[x]=1
-   if voters[x]>curr:
-    curr=voters[x]
-    best=x
-  # Write best
-  log.write("VOTERS\t{}\n".format(best))
- except:
-  print('  report::vote-log1 ...')
-
- try:
-  voters={}
-  best=None
-  curr=0
-  logtally={}
   for i in dbs:
    t=crusherdict3.CrusherDict(i,"___T___")
    tmp=''
@@ -244,7 +234,7 @@ def report(dbs, log):
    if voters[tmp]>curr:
     curr=voters[tmp]
     best=tmp
-  log.write(best)
+  log.write(head+best)
  except:
   print('  report::vote-log3 ...')
 
@@ -256,7 +246,7 @@ except:
 basename=os.path.splitext(os.path.basename(filename))[0]
 
 dbs=[]
-for i in range(20):
+for i in range(2):
  dbs.append(crusher.Broker(basename+'__db'+str(i)+'__'))
 
 #db=crusher.Broker(basename)
@@ -272,19 +262,11 @@ for line in cmd:
  if commands[line[0]](dbs,context,log,line):
   break
 
-try:
- cmd.close()
- log.close()
- results=open(basename+"-results.txt","w")
- report(dbs,results)
-except:
- pass
-try:
- results.close()
-except:
- pass
-try:
- for i in dbs:
-  i.exit()
-except:
- pass 
+cmd.close()
+log.close()
+results=open(basename+"-results.txt","w")
+report(dbs,results)
+
+results.close()
+for i in dbs:
+ i.exit()

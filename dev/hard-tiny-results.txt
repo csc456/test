@@ -1,5 +1,0 @@
-TALLY	Governor	Mickey Mouse	6
-TALLY	Lt. Governor	Microsoft	3
-TALLY	Governor	Paul Johnson	3
-TALLY	President	Donald Trump	3
-TALLY	Lt. Governor	Melinda Gates	3
