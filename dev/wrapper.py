@@ -2,11 +2,15 @@
 
 ############
 ###wrapper.py
-###by Brandon Dutko
+###Team Members: Brandon Dutko, David Shumway, Quinn Jones, Michele Parmalee
+###and Aaron Wilkins
 ############
 
 from crusher import Broker as Broken
 import sys
+
+DEBUG = False
+#Turns on/off print statements for debugging
 
 ############
 ###in scripts that use this wrapper:
@@ -15,13 +19,10 @@ import sys
 ###crusher.Broker = wrapper.Broker
 ############
 
-#n represents the number of replicas that should be stored
-#this can easily be hard coded if storing n is not allowed
-n = 3
-
-#x represents the number of values that should be voted on
-#this can easily be hard coded as well
-x = 3
+NUMOFREPLICAS = 10
+#Increasing the number of duplicates seems to decrease reliability????
+#Something is clearly off here
+#TODO find that something
 
 
 class InvalidChecksum(Exception):
@@ -41,40 +42,40 @@ class Broker(Broken):
         return Broken.interrupt(self, signal, frame)
         
     def fletcher32(self, string):
-        print(string)
+        #print(string)
         """Create a fletcher32 checksum and return it as 4 8bit characters"""
         a = list(map(ord, string))
         b = [sum(a[:i])%65535 for i in range(len(a)+1)]
         return chr((sum(b) >> 8) & 255) + chr((sum(b)) & 255) + chr((max(b) >> 8) & 255) + chr((max(b)) & 255)
         
     def store(self, key, val):
-        print("store::", str(key), ":", str(val))
+        if(DEBUG):
+            print("store::", str(key), ":", str(val))
         """Make replicas of the key-val pair, add a checksum to val and store those,
         fetch/store each replica until the fetched value is the same as the stored
         value to check for validity in the cache (if it's invalid in the cache
         it's almost certainly invalid in the db)"""
-        for i in range(n):
+        for i in range(NUMOFREPLICAS):
             again = True
             while(again):
                 again = False
                 newKey = (str(key) + str(i))
-                newVal = (str(val) + self.fletcher32((str(val))))
-                print("storing", newKey, " : ", newVal, "with broken")
+                newVal = (str(val) + self.fletcher32((str(key)+str(val))))
                 try:
                     Broken.store(self, newKey, newVal)
-                    """
                     if(Broken.fetch(self, newKey) != newVal):
                         #Likely corrupted if we cant even get it back right from the cache
                         #Try again
                         again = True
-                    """
                 
                 except:
-                    print(newKey + ": error 69")
-                    print(sys.exc_info()[0])
+                    """Do nothing"""
+                    #print(newKey + ": error 69")
+                    again = True
         
     def fetch(self, key):
-        print("Fetch::", str(key))
+        if(DEBUG):
+            print("Fetch::", str(key), end=" ")
         """Fetch each replica and use voting to determine the propert
         value, if the checksum does not match the key value pair then
         fail safely, in the event of ties in the voting seperate the possibilies
@@ -84,18 +85,18 @@ class Broker(Broken):
         and then buy a lottery ticket."""
         values = []
         errors = 0
-        for i in range(n):
-            #print(str(key)+"-"+str(i) + str(key)+'-'+str(n))
+        key = str(key)
+        for i in range(NUMOFREPLICAS):
             try:
-                values.append(Broken.fetch(self, (str(key)+str(i))))
+                value = str((Broken.fetch(self, (str(key)+str(i)))))
+                values.append(value)
             
-            except:
+            except KeyError:
                 errors += 1
-                if errors >= n:
-                    print(str(key), "does not exist 92")
+                if errors >= NUMOFREPLICAS:
+                    if(DEBUG):
+                        print("KeyError")
                     raise KeyError
-                #print("89::", str(key)+str(i) + ":error")
-                #print(sys.exc_info())
 
         valLengths = []
         for value in values:
@@ -111,11 +112,55 @@ class Broker(Broken):
             for value in values:
                 if len(value) == lengths:
                     valuesWSameLengthTemp.append(value)
-            if(len(valuesWSameLengthTemp) >= x):
-                possibleValues = self.voteStr(valuesWSameLengthTemp[:x])
-                for value in possibleValues:
-                    if(self.fletcher32(value[0:-4]) == value[-4:]):
-                        return value[0:-4]
+
+            """
+            If we have 9 or more acceptable values to vote on
+            vote on 3 at a time then vote on the 3 winners of
+            those votes.  Otherwise if we have 3 or more just
+            vote on 3 of them.  If we only have 1 or 2 values
+            just see if the checksum is valid.
+            """
+            possibleValues = []
+            #9 or more
+            if(len(valuesWSameLengthTemp) >= 11):
+                if(len(valuesWSameLengthTemp) % 2 == 0):
+                    possibleValues = self.voteStr(valuesWSameLengthTemp[:-1])
+                else:
+                    possibleValues = self.voteStr(valuesWSameLengthTemp)
+            if(11 > len(valuesWSameLengthTemp) >= 9):
+                possibleValues = self.voteStr(valuesWSameLengthTemp[:3])
+                for item in self.voteStr(valuesWSameLengthTemp[3:6]):
+                    possibleValues.append(item)
+                for item in self.voteStr(valuesWSameLengthTemp[6:9]):
+                    possibleValues.append(item)
+                possibleValues = self.voteStr(possibleValues[:3])
+
+            #3 - 8
+            if(9 > len(valuesWSameLengthTemp) >= 3):
+                possibleValues = self.voteStr(valuesWSameLengthTemp[:3])
+
+            #1-2
+            if(0 < len(valuesWSameLengthTemp) <= 2):
+                for value in valuesWSameLengthTemp:
+                    possibleValues.append(value)
+
+            #0
+            if(len(valuesWSameLengthTemp) <= 0):
+                if(DEBUG):
+                    print("NO VALUES WITH SAME LENGTH RETURNED")
+                raise Exception("No values with same length returned")
+
+            for value in possibleValues:
+                if value[-4:] == self.fletcher32((str(key)+str(value[:-4]))):
+                    if(DEBUG):
+                        print(value[:-4])
+                    return value[:-4]
+
+            errorMessage = "No matching value-checksum pair for " + str(possibleValues)
+            if(DEBUG):
+                print("InvalidChecksum")
+            raise InvalidChecksum(errorMessage)
+            
         """
         try:
             raise InvalidChecksum("No matching value-checksum pair")
