@@ -4,46 +4,46 @@ import sys
 
 def indexName(dict, key):
  global debug
- if debug:
-  print('crusherdict.py indexName()')
-  print('  dict:'+dict)
-  print('  key:'+str(key))
+ #if debug:
+  #print('crusherdict.py indexName()')
+  #print('  dict:'+dict)
+  #print('  key:'+str(key))
  return (dict,"__X__IndexName",key)
 
 def countName(dict):
  global debug
- if debug:
-  print('crusherdict.py countName()')
-  print('  dict:'+dict)
+ #if debug:
+  #print('crusherdict.py countName()')
+  #print('  dict:'+dict)
  return (dict,"__N__CountName")
 
 def entryName(dict, n):
  global debug
- if debug:
-  print('crusherdict.py entryName()')
-  print('  dict:'+dict)
-  print('  n:'+str(n))
+ #if debug:
+  #print('crusherdict.py entryName()')
+  #print('  dict:'+dict)
+  #print('  n:'+str(n))
  return (dict, "__E__EntryName", n)
 
 def statusName(dict):
  global debug
- if debug:
-  print('crusherdict.py statusName()')
-  print('  dict:'+dict)
+ #if debug:
+  #print('crusherdict.py statusName()')
+  #print('  dict:'+dict)
  return (dict, "__S__StatusName")
 
 class CrusherDict:
  def __init__(self, db, name):
   """Create a set named key in the database."""
-  print('crusherdict.py CrusherDict.__init__()')
+  #print('crusherdict.py CrusherDict.__init__()')
   self.db=db
   self.name=name
  def __len__(self):
-  print('crusherdict.py .__len__()')
+  #print('crusherdict.py .__len__()')
   try:
    f=self.safeFetch(countName(self.name))
    if not isinstance(f, int) or f is None: # Recursive...
-    print('  .__len__():bad f:'+str(f))
+    #print('  .__len__():bad f:'+str(f))
     return self.__len__() # Try again...
    else:
     return f
@@ -112,24 +112,32 @@ class CrusherDict:
  def safeStore(self, dbkey, key, val=None):
   '''Next:...
      Store each dbkey as dbkey+__[1-20]
+ 
+
+     NOTE: Add a safeFecth lookup each time!
+           Channel CONF may be using last key fetched as the key to store!
   '''
-  print('safeStore::')
-  print('  safeStore::dbkey='+str(dbkey))
-  print('  safeStore::key='+str(key))
-  print('  safeStore::val='+str(val))
+  #print('safeStore::')
+  #print('  safeStore::dbkey='+str(dbkey))
+  #print('  safeStore::key='+str(key))
+  #print('  safeStore::val='+str(val))
+  # See note above.
+  # Extra CONF muddies channel!
+  # So do fetch of dbkey to store next.
+  try:
+   self.safeFetch(dbkey)
+  except:
+   pass #Safely Ignore
   if val is None:
    key = key
   else:
    key = (key,val)
-  print('  store:', end='')
   for i in range(20): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
-   print(str(i)+',', end='')
    try:
      k=str(dbkey)+'__'+str(str(i)*10)+'__'
      self.db.store(k, key)
    except:
     pass
-  print('-')
  def getKey(self, key, val=None):
   """Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
@@ -137,7 +145,7 @@ class CrusherDict:
      The key that is used to identify the key in the db
      is returned.
   """
-  print('crusherdict.py CrusherDict.getKey()')
+  #print('crusherdict.py CrusherDict.getKey()')
   try:
    f=self.safeFetch(indexName(self.name,key))
    dbkey=entryName(self.name,f)
@@ -164,16 +172,16 @@ class CrusherDict:
      The key that is used to identify the key in the db
      is returned.
   """
-  print('crusherdict.py CrusherDict.inc()')
-  print('  key:'+str(key))
-  print('  val:'+str(val))
+  #print('crusherdict.py CrusherDict.inc()')
+  #print('  key:'+str(key))
+  #print('  val:'+str(val))
   try:
    f = self.safeFetch(indexName(self.name,key))
-   print('  indexName:'+str(f))
+   #print('  indexName:'+str(f))
    dbkey=entryName(self.name,f)
-   print('  dbkey:'+str(dbkey))
+   #print('  dbkey:'+str(dbkey))
    v=self.safeFetch(dbkey)
-   print('  fetch(dbkey):'+str(v))
+   #print('  fetch(dbkey):'+str(v))
    # v is one of:
    #   BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
    #   BROKEN:  fetch(dbkey):16
@@ -193,7 +201,7 @@ class CrusherDict:
    try:
     n=self.safeFetch(countName(self.name))
     if not isinstance(n, int):
-     #print('  Looking for int but found not int!')
+     ##print('  Looking for int but found not int!')
      #n=0
      #Hm try again?
      return self.inc(key, val)
@@ -205,8 +213,11 @@ class CrusherDict:
    self.safeStore(countName(self.name),n+1)
    return dbkey
  def __iter__(self):
-  print('crusherdict.py CrusherDict.__iter__()')
+  #print('crusherdict.py CrusherDict.__iter__()')
+  #print('  iter::name:',self.name)
+  #print('  iter::db:',self.db)
   for i in range(self.__len__()):
+   #print('  iter::i:',i)
    yield self.safeFetch(entryName(self.name,i))
 
 if __name__=="__main__":
@@ -224,11 +235,11 @@ if __name__=="__main__":
     test4.getKey("H","7777000")
    except:
     pass
-  #print(test.inc("Gov-Muller","voter-809809"))
-  #print(test.inc("Gov-Muller","voter-8098091"))
-  #print(test.inc("Gov-Muller","voter-8098092"))
-  #print(test.inc("Gov-Muller","voter-8098093"))
-  #print(test.inc("Gov-Muller","voter-8098094"))
+  ##print(test.inc("Gov-Muller","voter-809809"))
+  ##print(test.inc("Gov-Muller","voter-8098091"))
+  ##print(test.inc("Gov-Muller","voter-8098092"))
+  ##print(test.inc("Gov-Muller","voter-8098093"))
+  ##print(test.inc("Gov-Muller","voter-8098094"))
   try:
    for tup in test2:
     try:
@@ -239,5 +250,5 @@ if __name__=="__main__":
    pass
   db.exit()
  except:
-  print('err')
+  #print('err')
   pass
