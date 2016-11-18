@@ -3,6 +3,7 @@
 import crusher
 import crusher3
 crusher.Cache=crusher3.Cache # Add function
+crusher.DataBase=crusher3.DataBase # Add function
 import crusherdict3
 import os.path
 import random
@@ -218,14 +219,34 @@ def report(dbs, log):
   # Write best
   log.write("VOTERS\t{}\n".format(best))
  except:
-  print('  report::except...')
- #TODO
- #for tup in t:
- # try:
- #  if tup[0]!="voters":
- #   log.write("TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1]))
- # except:
- #  print(' report::except...')
+  print('  report::vote-log1 ...')
+
+ try:
+  voters={}
+  best=None
+  curr=0
+  logtally={}
+  for i in dbs:
+   t=crusherdict3.CrusherDict(i,"___T___")
+   tmp=''
+   try:
+    for tup in t:
+      if tup[0]!="voters":
+       tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
+   except:
+    print('  report::vote-log2 ...')
+    continue # Skip db entirely ...
+   # Add this result ...
+   try:
+    voters[tmp]+=1
+   except:
+    voters[tmp]=1
+   if voters[tmp]>curr:
+    curr=voters[tmp]
+    best=tmp
+  log.write(best)
+ except:
+  print('  report::vote-log3 ...')
 
 try:
  filename=sys.argv[1]
@@ -235,7 +256,7 @@ except:
 basename=os.path.splitext(os.path.basename(filename))[0]
 
 dbs=[]
-for i in range(1):
+for i in range(20):
  dbs.append(crusher.Broker(basename+'__db'+str(i)+'__'))
 
 #db=crusher.Broker(basename)
