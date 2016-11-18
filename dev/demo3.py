@@ -246,7 +246,7 @@ except:
 basename=os.path.splitext(os.path.basename(filename))[0]
 
 dbs=[]
-for i in range(2):
+for i in range(20):
  dbs.append(crusher.Broker(basename+'__db'+str(i)+'__'))
 
 #db=crusher.Broker(basename)

@@ -1,5 +1,11 @@
 # ...
 
+Remove previous try and run demo.
+
+```dev$ rm -rf data/*.dat data/*.txt && time ./demo3.py input/easy.txt```
+
+# ...
+
 huge-votelog.txt.try2.diff.
 
 ```

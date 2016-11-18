@@ -1,560 +1,560 @@
-('VOTER|H85I670OZE', '__E__EntryName', 2)__12121212121212121212__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__10101010101010101010__	0
-('___T___', '__E__EntryName', 3)__9999999999__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__E__EntryName', 4)__2222222222__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__11111111111111111111__	(('Governor', 'Paul Johnson'), None)
-('___T___', '__E__EntryName', 1)__7777777777__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('___T___', '__E__EntryName', 1)__8888888888__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('___T___', '__E__EntryName', 0)__6666666666__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 2)__8888888888__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|OEMRG12LC9', '__N__CountName')__12121212121212121212__	2
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__9999999999__	0
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__6666666666__	0
-('___T___', '__E__EntryName', 3)__17171717171717171717__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__E__EntryName', 1)__14141414141414141414__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__17171717171717171717__	1
-('VOTER|H85I670OZE', '__E__EntryName', 2)__2222222222__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__16161616161616161616__	1
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__7777777777__	0
-('VOTER|OEMRG12LC9', '__N__CountName')__9999999999__	2
-('___T___', '__E__EntryName', 2)__12121212121212121212__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 3)__0000000000__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__N__CountName')__6666666666__	6
-('___T___', '__E__EntryName', 2)__9999999999__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 4)__1111111111__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__1111111111__	0
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__18181818181818181818__	0
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__4444444444__	4
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__17171717171717171717__	3
-('___T___', '__E__EntryName', 5)__12121212121212121212__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 1)__16161616161616161616__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__E__EntryName', 5)__7777777777__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__2222222222__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__17171717171717171717__	0
-('___T___', '__E__EntryName', 1)__5555555555__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__9999999999__	2
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__5555555555__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__0000000000__	4
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__8888888888__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__1111111111__	0
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__1111111111__	3
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__14141414141414141414__	1
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__15151515151515151515__	1
-('VOTER|H85I670OZE', '__E__EntryName', 2)__19191919191919191919__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__N__CountName')__3333333333__	6
-('VOTER|H85I670OZE', '__E__EntryName', 1)__4444444444__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__3333333333__	1
-('VOTER|H85I670OZE', '__E__EntryName', 2)__5555555555__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__E__EntryName', 2)__8888888888__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__2222222222__	1
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__1111111111__	0
-('___T___', '__E__EntryName', 5)__11111111111111111111__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__11111111111111111111__	1
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__11111111111111111111__	5
-('VOTER|20TE31QXZR', '__N__CountName')__17171717171717171717__	1
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__1111111111__	0
-('___T___', '__N__CountName')__9999999999__	6
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__12121212121212121212__	0
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__2222222222__	3
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__8888888888__	1
-('___T___', '__E__EntryName', 0)__3333333333__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__10101010101010101010__	1
-('___T___', '__E__EntryName', 1)__3333333333__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__13131313131313131313__	1
-('___T___', '__E__EntryName', 2)__6666666666__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 0)__8888888888__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__N__CountName')__10101010101010101010__	6
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__13131313131313131313__	0
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__14141414141414141414__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__18181818181818181818__	1
-('___T___', '__E__EntryName', 3)__11111111111111111111__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__1111111111__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', 'voters')__9999999999__	2
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__2222222222__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__4444444444__	1
-('VOTER|H85I670OZE', '__E__EntryName', 2)__18181818181818181818__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|OEMRG12LC9', '__N__CountName')__8888888888__	2
-('___T___', '__E__EntryName', 0)__13131313131313131313__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__19191919191919191919__	5
-('VOTER|H85I670OZE', '__E__EntryName', 0)__7777777777__	(('President', 'Donald Trump'), None)
-('___T___', '__E__EntryName', 0)__14141414141414141414__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 3)__6666666666__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__E__EntryName', 0)__0000000000__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__6666666666__	5
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__14141414141414141414__	4
-('___T___', '__E__EntryName', 5)__10101010101010101010__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 0)__17171717171717171717__	(('President', 'Donald Trump'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__8888888888__	4
-('VOTER|H85I670OZE', '__N__CountName')__8888888888__	3
-('___T___', '__E__EntryName', 2)__2222222222__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__0000000000__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__6666666666__	1
-('___T___', '__E__EntryName', 0)__17171717171717171717__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__16161616161616161616__	3
-('___T___', '__E__EntryName', 4)__14141414141414141414__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__1111111111__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__10101010101010101010__	0
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__2222222222__	2
-('VOTER|H85I670OZE', '__E__EntryName', 2)__7777777777__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 2)__17171717171717171717__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|H85I670OZE', '__N__CountName')__2222222222__	3
-('VOTER|20TE31QXZR', '__N__CountName')__3333333333__	1
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__7777777777__	0
-('___T___', '__E__EntryName', 4)__15151515151515151515__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__10101010101010101010__	2
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__3333333333__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 1)__6666666666__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__0000000000__	3
-('___T___', '__N__CountName')__19191919191919191919__	6
-('___T___', '__E__EntryName', 1)__11111111111111111111__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__N__CountName')__15151515151515151515__	3
-('VOTER|H85I670OZE', '__E__EntryName', 0)__13131313131313131313__	(('President', 'Donald Trump'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__5555555555__	0
-('___T___', '__E__EntryName', 3)__12121212121212121212__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__E__EntryName', 0)__1111111111__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__2222222222__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__4444444444__	0
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__7777777777__	4
-('VOTER|H85I670OZE', '__E__EntryName', 2)__0000000000__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__E__EntryName', 1)__18181818181818181818__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__E__EntryName', 2)__1111111111__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__9999999999__	4
-('___T___', '__E__EntryName', 2)__0000000000__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__2222222222__	4
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__13131313131313131313__	3
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__11111111111111111111__	0
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__7777777777__	3
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__8888888888__	0
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__0000000000__	1
-('___T___', '__E__EntryName', 2)__1111111111__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 2)__14141414141414141414__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__E__EntryName', 0)__2222222222__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__16161616161616161616__	0
-('VOTER|H85I670OZE', '__N__CountName')__14141414141414141414__	3
-('___T___', '__N__CountName')__16161616161616161616__	6
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__19191919191919191919__	1
-('VOTER|OEMRG12LC9', '__N__CountName')__17171717171717171717__	2
-('VOTER|H85I670OZE', '__E__EntryName', 1)__3333333333__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__6666666666__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 0)__8888888888__	(('President', 'Donald Trump'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__15151515151515151515__	0
-('VOTER|20TE31QXZR', '__N__CountName')__1111111111__	1
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__2222222222__	0
-('___T___', '__E__EntryName', 1)__16161616161616161616__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('___T___', '__X__IndexName', 'voters')__18181818181818181818__	2
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__5555555555__	0
-('VOTER|H85I670OZE', '__E__EntryName', 2)__11111111111111111111__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__19191919191919191919__	2
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__2222222222__	1
-('___T___', '__E__EntryName', 0)__5555555555__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', 'voters')__12121212121212121212__	2
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__16161616161616161616__	0
-('___T___', '__E__EntryName', 2)__3333333333__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__18181818181818181818__	(('Governor', 'Paul Johnson'), None)
-('___T___', '__E__EntryName', 1)__10101010101010101010__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__16161616161616161616__	(('Governor', 'Paul Johnson'), None)
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__16161616161616161616__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 1)__15151515151515151515__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__7777777777__	0
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__19191919191919191919__	4
-('___T___', '__E__EntryName', 3)__15151515151515151515__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__16161616161616161616__	5
-('___T___', '__E__EntryName', 4)__10101010101010101010__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__4444444444__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__14141414141414141414__	0
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__11111111111111111111__	3
-('VOTER|H85I670OZE', '__E__EntryName', 2)__4444444444__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__5555555555__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__4444444444__	3
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__11111111111111111111__	1
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__5555555555__	(('Governor', 'Paul Johnson'), None)
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__3333333333__	0
-('___T___', '__E__EntryName', 0)__9999999999__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__9999999999__	5
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__19191919191919191919__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__14141414141414141414__	1
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__15151515151515151515__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__10101010101010101010__	3
-('___T___', '__E__EntryName', 4)__16161616161616161616__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 1)__12121212121212121212__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__N__CountName')__15151515151515151515__	2
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__7777777777__	1
-('VOTER|H85I670OZE', '__E__EntryName', 0)__15151515151515151515__	(('President', 'Donald Trump'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__14141414141414141414__	1
-('___T___', '__E__EntryName', 2)__18181818181818181818__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__11111111111111111111__	4
-('___T___', '__E__EntryName', 3)__10101010101010101010__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__18181818181818181818__	0
-('___T___', '__E__EntryName', 2)__5555555555__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__0000000000__	1
-('___T___', '__E__EntryName', 0)__12121212121212121212__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__4444444444__	0
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__3333333333__	0
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__18181818181818181818__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__3333333333__	0
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__14141414141414141414__	5
-('___T___', '__E__EntryName', 5)__15151515151515151515__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__16161616161616161616__	1
-('___T___', '__E__EntryName', 5)__6666666666__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 0)__1111111111__	(('President', 'Donald Trump'), None)
-('___T___', '__N__CountName')__14141414141414141414__	6
-('___T___', '__X__IndexName', 'voters')__16161616161616161616__	2
-('___T___', '__N__CountName')__12121212121212121212__	6
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__13131313131313131313__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__6666666666__	0
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__12121212121212121212__	1
-('___T___', '__E__EntryName', 0)__10101010101010101010__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__9999999999__	1
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__15151515151515151515__	0
-('VOTER|OEMRG12LC9', '__N__CountName')__11111111111111111111__	2
-('___T___', '__E__EntryName', 2)__7777777777__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__N__CountName')__16161616161616161616__	2
-('VOTER|OEMRG12LC9', '__N__CountName')__4444444444__	2
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__10101010101010101010__	4
-('VOTER|H85I670OZE', '__E__EntryName', 1)__11111111111111111111__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|20TE31QXZR', '__N__CountName')__13131313131313131313__	1
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__10101010101010101010__	1
-('VOTER|H85I670OZE', '__E__EntryName', 1)__14141414141414141414__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__8888888888__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|20TE31QXZR', '__N__CountName')__7777777777__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__13131313131313131313__	2
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__9999999999__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__9999999999__	1
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__4444444444__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__10101010101010101010__	(('Governor', 'Paul Johnson'), None)
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__18181818181818181818__	1
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__10101010101010101010__	0
-('VOTER|H85I670OZE', '__E__EntryName', 2)__15151515151515151515__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__13131313131313131313__	(('Governor', 'Paul Johnson'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__6666666666__	4
-('VOTER|H85I670OZE', '__E__EntryName', 1)__7777777777__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__13131313131313131313__	1
-('___T___', '__E__EntryName', 2)__19191919191919191919__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 0)__2222222222__	(('President', 'Donald Trump'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__19191919191919191919__	1
-('___T___', '__E__EntryName', 2)__13131313131313131313__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__9999999999__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 1)__17171717171717171717__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__15151515151515151515__	3
-('VOTER|H85I670OZE', '__N__CountName')__18181818181818181818__	3
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__3333333333__	0
-('___T___', '__E__EntryName', 3)__4444444444__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__19191919191919191919__	0
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__3333333333__	1
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__15151515151515151515__	0
-('___T___', '__E__EntryName', 4)__6666666666__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__5555555555__	1
-('VOTER|OEMRG12LC9', '__N__CountName')__18181818181818181818__	2
-('VOTER|H85I670OZE', '__N__CountName')__11111111111111111111__	3
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__10101010101010101010__	1
-('___T___', '__E__EntryName', 5)__2222222222__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 1)__2222222222__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 1)__18181818181818181818__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 2)__9999999999__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__10101010101010101010__	5
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__18181818181818181818__	5
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__7777777777__	(('Governor', 'Paul Johnson'), None)
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__12121212121212121212__	(('Governor', 'Paul Johnson'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__2222222222__	0
-('VOTER|20TE31QXZR', '__N__CountName')__8888888888__	1
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__6666666666__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', 'voters')__2222222222__	2
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__0000000000__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__18181818181818181818__	3
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__5555555555__	0
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__13131313131313131313__	0
-('___T___', '__X__IndexName', 'voters')__0000000000__	2
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__10101010101010101010__	0
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__16161616161616161616__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 2)__16161616161616161616__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__N__CountName')__17171717171717171717__	6
-('VOTER|H85I670OZE', '__E__EntryName', 0)__6666666666__	(('President', 'Donald Trump'), None)
-('___T___', '__E__EntryName', 0)__11111111111111111111__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__N__CountName')__13131313131313131313__	3
-('VOTER|20TE31QXZR', '__N__CountName')__2222222222__	1
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__12121212121212121212__	0
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__2222222222__	0
-('___T___', '__E__EntryName', 4)__12121212121212121212__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 1)__6666666666__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('___T___', '__E__EntryName', 1)__17171717171717171717__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__N__CountName')__7777777777__	3
-('___T___', '__N__CountName')__11111111111111111111__	6
-('___T___', '__E__EntryName', 0)__19191919191919191919__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 4)__4444444444__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__16161616161616161616__	0
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__12121212121212121212__	2
-('VOTER|H85I670OZE', '__E__EntryName', 0)__19191919191919191919__	(('President', 'Donald Trump'), None)
-('___T___', '__E__EntryName', 5)__3333333333__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__N__CountName')__7777777777__	6
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__1111111111__	(('Governor', 'Mickey Mouse'), None)
 ('___T___', '__X__IndexName', 'voters')__11111111111111111111__	2
-('VOTER|H85I670OZE', '__E__EntryName', 0)__12121212121212121212__	(('President', 'Donald Trump'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 0)__0000000000__	(('President', 'Donald Trump'), None)
-('___T___', '__X__IndexName', 'voters')__10101010101010101010__	2
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__3333333333__	1
-('VOTER|H85I670OZE', '__E__EntryName', 0)__11111111111111111111__	(('President', 'Donald Trump'), None)
-('___T___', '__E__EntryName', 5)__17171717171717171717__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 2)__6666666666__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 0)__14141414141414141414__	(('President', 'Donald Trump'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__1111111111__	4
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__6666666666__	0
-('___T___', '__E__EntryName', 5)__13131313131313131313__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__N__CountName')__5555555555__	1
-('___T___', '__E__EntryName', 0)__18181818181818181818__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 0)__10101010101010101010__	(('President', 'Donald Trump'), None)
-('___T___', '__E__EntryName', 5)__1111111111__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__17171717171717171717__	1
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__9999999999__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__E__EntryName', 5)__5555555555__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__11111111111111111111__	2
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__14141414141414141414__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__E__EntryName', 2)__11111111111111111111__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__8888888888__	0
-('VOTER|H85I670OZE', '__E__EntryName', 1)__13131313131313131313__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__16161616161616161616__	4
-('VOTER|20TE31QXZR', '__N__CountName')__19191919191919191919__	1
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__11111111111111111111__	0
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__5555555555__	1
-('___T___', '__E__EntryName', 5)__0000000000__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__4444444444__	5
-('___T___', '__N__CountName')__5555555555__	6
-('___T___', '__E__EntryName', 0)__7777777777__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__1111111111__	1
-('___T___', '__E__EntryName', 4)__9999999999__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 1)__12121212121212121212__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__N__CountName')__0000000000__	3
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__12121212121212121212__	5
-('___T___', '__E__EntryName', 4)__17171717171717171717__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__13131313131313131313__	1
-('___T___', '__E__EntryName', 3)__1111111111__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('VOTER|H85I670OZE', '__E__EntryName', 1)__19191919191919191919__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__E__EntryName', 1)__15151515151515151515__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__7777777777__	5
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__16161616161616161616__	1
-('___T___', '__E__EntryName', 1)__2222222222__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('___T___', '__E__EntryName', 3)__16161616161616161616__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__12121212121212121212__	0
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__18181818181818181818__	4
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__18181818181818181818__	0
-('___T___', '__E__EntryName', 5)__4444444444__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 1)__5555555555__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__13131313131313131313__	4
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__9999999999__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__19191919191919191919__	0
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__14141414141414141414__	2
-('VOTER|H85I670OZE', '__E__EntryName', 1)__0000000000__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__E__EntryName', 5)__19191919191919191919__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__1111111111__	2
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__11111111111111111111__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|OEMRG12LC9', '__N__CountName')__14141414141414141414__	2
-('VOTER|H85I670OZE', '__N__CountName')__3333333333__	3
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__0000000000__	0
-('___T___', '__X__IndexName', 'voters')__5555555555__	2
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__1111111111__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__N__CountName')__17171717171717171717__	3
-('___T___', '__E__EntryName', 1)__19191919191919191919__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__N__CountName')__1111111111__	3
-('VOTER|OEMRG12LC9', '__N__CountName')__2222222222__	2
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__17171717171717171717__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__3333333333__	5
-('___T___', '__E__EntryName', 4)__8888888888__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 3)__13131313131313131313__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__X__IndexName', 'voters')__13131313131313131313__	2
-('VOTER|H85I670OZE', '__E__EntryName', 2)__3333333333__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__E__EntryName', 2)__17171717171717171717__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 4)__19191919191919191919__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__E__EntryName', 0)__9999999999__	(('President', 'Donald Trump'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 1)__1111111111__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__8888888888__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__15151515151515151515__	1
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__1111111111__	5
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__4444444444__	(('Governor', 'Paul Johnson'), None)
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__3333333333__	3
-('___T___', '__E__EntryName', 3)__19191919191919191919__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__E__EntryName', 1)__1111111111__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__17171717171717171717__	0
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__15151515151515151515__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__2222222222__	5
-('___T___', '__X__IndexName', 'voters')__4444444444__	2
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__10101010101010101010__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__E__EntryName', 3)__8888888888__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__11111111111111111111__	0
-('___T___', '__X__IndexName', 'voters')__7777777777__	2
-('VOTER|20TE31QXZR', '__N__CountName')__18181818181818181818__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__16161616161616161616__	2
-('___T___', '__E__EntryName', 5)__14141414141414141414__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__N__CountName')__9999999999__	3
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__5555555555__	0
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__7777777777__	1
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__0000000000__	5
-('VOTER|H85I670OZE', '__N__CountName')__10101010101010101010__	3
-('VOTER|20TE31QXZR', '__N__CountName')__16161616161616161616__	1
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__7777777777__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|20TE31QXZR', '__N__CountName')__15151515151515151515__	1
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__10101010101010101010__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__12121212121212121212__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__12121212121212121212__	0
-('VOTER|OEMRG12LC9', '__N__CountName')__0000000000__	2
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__0000000000__	2
-('VOTER|20TE31QXZR', '__N__CountName')__12121212121212121212__	1
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__14141414141414141414__	0
-('___T___', '__E__EntryName', 1)__13131313131313131313__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__6666666666__	1
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__12121212121212121212__	1
-('VOTER|H85I670OZE', '__E__EntryName', 1)__8888888888__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__15151515151515151515__	2
-('___T___', '__N__CountName')__15151515151515151515__	6
-('___T___', '__X__IndexName', 'voters')__19191919191919191919__	2
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__18181818181818181818__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__E__EntryName', 3)__3333333333__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('VOTER|20TE31QXZR', '__N__CountName')__4444444444__	1
-('VOTER|OEMRG12LC9', '__N__CountName')__19191919191919191919__	2
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__8888888888__	0
-('___T___', '__E__EntryName', 0)__15151515151515151515__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 4)__5555555555__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__11111111111111111111__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__N__CountName')__13131313131313131313__	6
-('VOTER|20TE31QXZR', '__N__CountName')__11111111111111111111__	1
-('___T___', '__N__CountName')__0000000000__	6
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__14141414141414141414__	3
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__8888888888__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__6666666666__	1
-('___T___', '__E__EntryName', 3)__2222222222__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__N__CountName')__8888888888__	6
-('VOTER|H85I670OZE', '__N__CountName')__16161616161616161616__	3
-('___T___', '__E__EntryName', 4)__3333333333__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__19191919191919191919__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__8888888888__	1
-('___T___', '__E__EntryName', 4)__13131313131313131313__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__2222222222__	0
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__7777777777__	1
-('VOTER|H85I670OZE', '__E__EntryName', 2)__10101010101010101010__	(('Lt. Governor', 'Melinda Gates'), None)
-('___T___', '__X__IndexName', 'voters')__6666666666__	2
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__14141414141414141414__	0
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__19191919191919191919__	0
-('___T___', '__E__EntryName', 1)__0000000000__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__1111111111__	1
-('___T___', '__X__IndexName', 'voters')__17171717171717171717__	2
-('___T___', '__N__CountName')__4444444444__	6
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__6666666666__	0
-('VOTER|H85I670OZE', '__N__CountName')__4444444444__	3
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__17171717171717171717__	0
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__3333333333__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__N__CountName')__1111111111__	2
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__4444444444__	0
-('VOTER|H85I670OZE', '__E__EntryName', 1)__9999999999__	(('Governor', 'Mickey Mouse'), None)
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__12121212121212121212__	3
-('VOTER|H85I670OZE', '__E__EntryName', 0)__3333333333__	(('President', 'Donald Trump'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__9999999999__	0
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__0000000000__	0
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__3333333333__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__18181818181818181818__	1
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__1111111111__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__14141414141414141414__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|OEMRG12LC9', '__N__CountName')__6666666666__	2
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__9999999999__	3
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__9999999999__	0
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__15151515151515151515__	4
-('VOTER|H85I670OZE', '__N__CountName')__6666666666__	3
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__6666666666__	3
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__19191919191919191919__	1
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__13131313131313131313__	5
-('VOTER|H85I670OZE', '__N__CountName')__5555555555__	3
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__15151515151515151515__	0
+('___T___', '__E__EntryName', 1)__12121212121212121212__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__X__IndexName', 'voters')__0000000000__	2
 ('___T___', '__X__IndexName', 'voters')__14141414141414141414__	2
-('VOTER|OEMRG12LC9', '__N__CountName')__5555555555__	2
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__2222222222__	1
-('___T___', '__E__EntryName', 4)__0000000000__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 1)__9999999999__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__16161616161616161616__	0
-('VOTER|20TE31QXZR', '__N__CountName')__6666666666__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__5555555555__	2
-('___T___', '__E__EntryName', 2)__10101010101010101010__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__17171717171717171717__	1
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__14141414141414141414__	0
-('VOTER|OEMRG12LC9', '__N__CountName')__10101010101010101010__	2
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__11111111111111111111__	1
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__18181818181818181818__	2
-('VOTER|H85I670OZE', '__N__CountName')__19191919191919191919__	3
-('___T___', '__E__EntryName', 0)__4444444444__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__13131313131313131313__	0
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__9999999999__	0
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__17171717171717171717__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__E__EntryName', 3)__18181818181818181818__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__12121212121212121212__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|OEMRG12LC9', '__E__EntryName', 0)__12121212121212121212__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__8888888888__	2
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__19191919191919191919__	3
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__7777777777__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|20TE31QXZR', '__N__CountName')__0000000000__	1
-('VOTER|H85I670OZE', '__E__EntryName', 0)__16161616161616161616__	(('President', 'Donald Trump'), None)
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__15151515151515151515__	5
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__7777777777__	0
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__8888888888__	3
-('___T___', '__X__IndexName', 'voters')__3333333333__	2
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__17171717171717171717__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 0)__4444444444__	(('President', 'Donald Trump'), None)
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__17171717171717171717__	2
-('VOTER|H85I670OZE', '__X__IndexName', ['President', 'Donald Trump'])__18181818181818181818__	0
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__11111111111111111111__	0
-('VOTER|H85I670OZE', '__N__CountName')__12121212121212121212__	3
-('___T___', '__E__EntryName', 1)__4444444444__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|OEMRG12LC9')
-('VOTER|H85I670OZE', '__E__EntryName', 2)__13131313131313131313__	(('Lt. Governor', 'Melinda Gates'), None)
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__0000000000__	(('Governor', 'Paul Johnson'), None)
-('VOTER|H85I670OZE', '__E__EntryName', 1)__10101010101010101010__	(('Governor', 'Mickey Mouse'), None)
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__15151515151515151515__	(('Governor', 'Paul Johnson'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__4444444444__	1
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__3333333333__	4
-('___T___', '__E__EntryName', 5)__8888888888__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 3)__5555555555__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__8888888888__	5
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__13131313131313131313__	(('Lt. Governor', 'Microsoft'), None)
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__13131313131313131313__	0
-('___T___', '__X__IndexName', 'voters')__8888888888__	2
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__5555555555__	5
-('___T___', '__E__EntryName', 4)__7777777777__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|20TE31QXZR', '__N__CountName')__10101010101010101010__	1
-('VOTER|20TE31QXZR', '__X__IndexName', ['Governor', 'Paul Johnson'])__0000000000__	0
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__5555555555__	1
-('___T___', '__E__EntryName', 5)__16161616161616161616__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 2)__4444444444__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__6666666666__	2
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__7777777777__	2
-('VOTER|H85I670OZE', '__E__EntryName', 0)__18181818181818181818__	(('President', 'Donald Trump'), None)
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__5555555555__	4
-('___T___', '__E__EntryName', 5)__9999999999__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', 'voters')__1111111111__	2
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__0000000000__	0
-('VOTER|20TE31QXZR', '__N__CountName')__9999999999__	1
-('VOTER|H85I670OZE', '__E__EntryName', 0)__5555555555__	(('President', 'Donald Trump'), None)
-('___T___', '__N__CountName')__18181818181818181818__	6
-('___T___', '__E__EntryName', 0)__16161616161616161616__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__5555555555__	3
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__6666666666__	(('Governor', 'Paul Johnson'), None)
-('___T___', '__N__CountName')__2222222222__	6
-('___T___', '__E__EntryName', 3)__7777777777__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__N__CountName')__1111111111__	6
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__3333333333__	2
-('VOTER|OEMRG12LC9', '__N__CountName')__13131313131313131313__	2
-('___T___', '__E__EntryName', 2)__15151515151515151515__	('voters', 3, 'VOTER|H85I670OZE')
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__17171717171717171717__	5
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__19191919191919191919__	0
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__12121212121212121212__	4
-('VOTER|H85I670OZE', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__4444444444__	2
+('VOTER|F7H348WDSQ', '__N__CountName')__19191919191919191919__	2
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__8888888888__	1
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__10101010101010101010__	(('Governor', 'Paul Johnson'), None)
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__11111111111111111111__	0
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__2222222222__	5
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__3333333333__	(('President', 'Donald Trump'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__3333333333__	1
 ('___T___', '__X__IndexName', 'voters')__15151515151515151515__	2
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__4444444444__	0
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])__17171717171717171717__	4
-('___T___', '__E__EntryName', 4)__11111111111111111111__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Governor', 'Mickey Mouse'])__8888888888__	0
-('VOTER|OEMRG12LC9', '__E__EntryName', 1)__4444444444__	(('Lt. Governor', 'Microsoft'), None)
-('___T___', '__E__EntryName', 3)__14141414141414141414__	(('Governor', 'Paul Johnson'), 1, 'VOTER|20TE31QXZR')
-('___T___', '__E__EntryName', 5)__18181818181818181818__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|H85I670OZE')
-('___T___', '__E__EntryName', 4)__18181818181818181818__	(('President', 'Donald Trump'), 1, 'VOTER|H85I670OZE')
-('VOTER|H85I670OZE', '__X__IndexName', ['Governor', 'Mickey Mouse'])__15151515151515151515__	1
-('VOTER|OEMRG12LC9', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__0000000000__	1
-('VOTER|20TE31QXZR', '__N__CountName')__14141414141414141414__	1
-('___T___', '__E__EntryName', 2)__16161616161616161616__	('voters', 3, 'VOTER|H85I670OZE')
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__6666666666__	0
 ('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__17171717171717171717__	0
-('VOTER|OEMRG12LC9', '__N__CountName')__7777777777__	2
-('VOTER|20TE31QXZR', '__E__EntryName', 0)__19191919191919191919__	(('Governor', 'Paul Johnson'), None)
-('___T___', '__E__EntryName', 2)__14141414141414141414__	('voters', 3, 'VOTER|H85I670OZE')
-('VOTER|OEMRG12LC9', '__N__CountName')__3333333333__	2
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__10101010101010101010__	4
+('___T___', '__N__CountName')__18181818181818181818__	6
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__9999999999__	1
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__16161616161616161616__	0
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__9999999999__	4
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__11111111111111111111__	3
+('___T___', '__E__EntryName', 4)__1111111111__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__N__CountName')__7777777777__	6
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__5555555555__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__6666666666__	1
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__11111111111111111111__	0
+('___T___', '__E__EntryName', 1)__8888888888__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__N__CountName')__17171717171717171717__	6
+('___T___', '__E__EntryName', 1)__16161616161616161616__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|R19C8XG3DH', '__N__CountName')__1111111111__	1
+('VOTER|F7H348WDSQ', '__N__CountName')__12121212121212121212__	2
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__4444444444__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__6666666666__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__12121212121212121212__	1
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__15151515151515151515__	1
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__12121212121212121212__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__9999999999__	2
+('___T___', '__E__EntryName', 4)__4444444444__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__N__CountName')__14141414141414141414__	6
+('VOTER|S0RGL14NTU', '__N__CountName')__11111111111111111111__	3
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__15151515151515151515__	0
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__11111111111111111111__	4
+('___T___', '__E__EntryName', 1)__1111111111__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__E__EntryName', 4)__2222222222__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__8888888888__	1
+('VOTER|S0RGL14NTU', '__N__CountName')__18181818181818181818__	3
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__3333333333__	4
+('___T___', '__E__EntryName', 1)__10101010101010101010__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__7777777777__	1
+('___T___', '__X__IndexName', 'voters')__18181818181818181818__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__2222222222__	2
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__18181818181818181818__	0
+('VOTER|S0RGL14NTU', '__N__CountName')__8888888888__	3
+('VOTER|R19C8XG3DH', '__N__CountName')__11111111111111111111__	1
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__1111111111__	5
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__0000000000__	(('President', 'Donald Trump'), None)
+('___T___', '__E__EntryName', 1)__3333333333__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__E__EntryName', 4)__17171717171717171717__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 2)__13131313131313131313__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__11111111111111111111__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__16161616161616161616__	2
+('___T___', '__E__EntryName', 0)__14141414141414141414__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('___T___', '__N__CountName')__11111111111111111111__	6
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__14141414141414141414__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__18181818181818181818__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|R19C8XG3DH', '__N__CountName')__8888888888__	1
+('VOTER|F7H348WDSQ', '__N__CountName')__10101010101010101010__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__17171717171717171717__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__7777777777__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__19191919191919191919__	1
+('___T___', '__E__EntryName', 5)__13131313131313131313__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 1)__18181818181818181818__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__12121212121212121212__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__10101010101010101010__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__13131313131313131313__	0
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__1111111111__	0
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__8888888888__	5
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__17171717171717171717__	1
+('___T___', '__E__EntryName', 3)__5555555555__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 4)__16161616161616161616__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__N__CountName')__3333333333__	3
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__2222222222__	(('President', 'Donald Trump'), None)
+('___T___', '__E__EntryName', 4)__18181818181818181818__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__13131313131313131313__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__N__CountName')__16161616161616161616__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__1111111111__	1
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__3333333333__	(('Governor', 'Paul Johnson'), None)
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__16161616161616161616__	(('Governor', 'Paul Johnson'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__11111111111111111111__	2
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__17171717171717171717__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__E__EntryName', 0)__8888888888__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__13131313131313131313__	1
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__5555555555__	0
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__13131313131313131313__	4
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__19191919191919191919__	5
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__0000000000__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__E__EntryName', 0)__19191919191919191919__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__0000000000__	2
+('VOTER|F7H348WDSQ', '__N__CountName')__2222222222__	2
+('VOTER|S0RGL14NTU', '__N__CountName')__15151515151515151515__	3
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__17171717171717171717__	1
+('VOTER|F7H348WDSQ', '__N__CountName')__1111111111__	2
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__6666666666__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|F7H348WDSQ', '__N__CountName')__14141414141414141414__	2
+('___T___', '__E__EntryName', 0)__10101010101010101010__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__N__CountName')__2222222222__	3
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__9999999999__	5
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__18181818181818181818__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__18181818181818181818__	0
+('___T___', '__E__EntryName', 0)__16161616161616161616__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 4)__19191919191919191919__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 3)__8888888888__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 0)__4444444444__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__2222222222__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__9999999999__	1
+('VOTER|S0RGL14NTU', '__N__CountName')__10101010101010101010__	3
+('___T___', '__E__EntryName', 5)__10101010101010101010__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__1111111111__	1
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__8888888888__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__6666666666__	1
+('VOTER|F7H348WDSQ', '__N__CountName')__7777777777__	2
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__18181818181818181818__	(('President', 'Donald Trump'), None)
+('VOTER|S0RGL14NTU', '__N__CountName')__9999999999__	3
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__1111111111__	4
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__4444444444__	(('Governor', 'Paul Johnson'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__9999999999__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__14141414141414141414__	0
+('___T___', '__X__IndexName', 'voters')__4444444444__	2
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__7777777777__	4
+('VOTER|R19C8XG3DH', '__N__CountName')__9999999999__	1
+('___T___', '__X__IndexName', 'voters')__13131313131313131313__	2
+('___T___', '__E__EntryName', 3)__16161616161616161616__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 4)__11111111111111111111__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__4444444444__	2
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__4444444444__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__2222222222__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__19191919191919191919__	(('President', 'Donald Trump'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__5555555555__	(('President', 'Donald Trump'), None)
+('VOTER|F7H348WDSQ', '__N__CountName')__18181818181818181818__	2
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__9999999999__	0
+('___T___', '__E__EntryName', 0)__12121212121212121212__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__5555555555__	1
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__0000000000__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__0000000000__	0
+('___T___', '__E__EntryName', 0)__0000000000__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__15151515151515151515__	1
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__12121212121212121212__	4
+('VOTER|S0RGL14NTU', '__N__CountName')__13131313131313131313__	3
+('___T___', '__E__EntryName', 5)__1111111111__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', 'voters')__1111111111__	2
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__2222222222__	3
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__5555555555__	0
+('___T___', '__E__EntryName', 1)__5555555555__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__E__EntryName', 1)__9999999999__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__10101010101010101010__	0
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__8888888888__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__X__IndexName', 'voters')__6666666666__	2
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__2222222222__	1
+('___T___', '__X__IndexName', 'voters')__2222222222__	2
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__7777777777__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__E__EntryName', 5)__15151515151515151515__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 4)__12121212121212121212__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__N__CountName')__5555555555__	6
+('___T___', '__E__EntryName', 2)__8888888888__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__16161616161616161616__	1
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__2222222222__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__17171717171717171717__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__18181818181818181818__	1
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__6666666666__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__14141414141414141414__	1
+('___T___', '__E__EntryName', 5)__4444444444__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 0)__7777777777__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__3333333333__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__7777777777__	0
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__13131313131313131313__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__1111111111__	1
+('___T___', '__N__CountName')__0000000000__	6
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__16161616161616161616__	0
+('___T___', '__E__EntryName', 2)__2222222222__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__1111111111__	(('President', 'Donald Trump'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__9999999999__	(('President', 'Donald Trump'), None)
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__6666666666__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__N__CountName')__4444444444__	6
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__12121212121212121212__	1
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__13131313131313131313__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__6666666666__	1
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__6666666666__	3
+('___T___', '__E__EntryName', 3)__13131313131313131313__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 3)__18181818181818181818__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 5)__2222222222__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__11111111111111111111__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__E__EntryName', 1)__7777777777__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|R19C8XG3DH', '__N__CountName')__4444444444__	1
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__4444444444__	4
+('___T___', '__E__EntryName', 0)__6666666666__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__8888888888__	(('Governor', 'Paul Johnson'), None)
+('VOTER|F7H348WDSQ', '__N__CountName')__4444444444__	2
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__12121212121212121212__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|S0RGL14NTU', '__N__CountName')__4444444444__	3
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__19191919191919191919__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__1111111111__	3
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__13131313131313131313__	(('President', 'Donald Trump'), None)
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__10101010101010101010__	3
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__19191919191919191919__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__3333333333__	0
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__16161616161616161616__	5
+('___T___', '__N__CountName')__12121212121212121212__	6
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__19191919191919191919__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__8888888888__	0
+('VOTER|R19C8XG3DH', '__N__CountName')__12121212121212121212__	1
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__4444444444__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|S0RGL14NTU', '__N__CountName')__17171717171717171717__	3
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__17171717171717171717__	5
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__15151515151515151515__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__13131313131313131313__	5
+('VOTER|F7H348WDSQ', '__N__CountName')__17171717171717171717__	2
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__2222222222__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__E__EntryName', 2)__12121212121212121212__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__10101010101010101010__	0
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__5555555555__	3
+('VOTER|S0RGL14NTU', '__N__CountName')__7777777777__	3
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__5555555555__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__E__EntryName', 5)__8888888888__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__2222222222__	0
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__17171717171717171717__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__8888888888__	0
+('___T___', '__N__CountName')__1111111111__	6
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__0000000000__	1
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__15151515151515151515__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__14141414141414141414__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__E__EntryName', 5)__11111111111111111111__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__8888888888__	3
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__18181818181818181818__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__1111111111__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__18181818181818181818__	4
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__9999999999__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__E__EntryName', 2)__10101010101010101010__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__6666666666__	0
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__10101010101010101010__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__12121212121212121212__	3
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__16161616161616161616__	(('President', 'Donald Trump'), None)
+('___T___', '__E__EntryName', 4)__5555555555__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__15151515151515151515__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__15151515151515151515__	0
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__16161616161616161616__	1
+('VOTER|F7H348WDSQ', '__N__CountName')__13131313131313131313__	2
+('VOTER|R19C8XG3DH', '__N__CountName')__14141414141414141414__	1
+('___T___', '__E__EntryName', 1)__14141414141414141414__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__12121212121212121212__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__0000000000__	4
+('___T___', '__E__EntryName', 5)__9999999999__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__4444444444__	1
+('VOTER|F7H348WDSQ', '__N__CountName')__6666666666__	2
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__17171717171717171717__	1
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__9999999999__	3
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__17171717171717171717__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__7777777777__	1
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__18181818181818181818__	2
+('___T___', '__E__EntryName', 3)__2222222222__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__7777777777__	5
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__8888888888__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__0000000000__	1
+('VOTER|R19C8XG3DH', '__N__CountName')__10101010101010101010__	1
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__18181818181818181818__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__E__EntryName', 2)__3333333333__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__9999999999__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__4444444444__	0
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__1111111111__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__X__IndexName', 'voters')__17171717171717171717__	2
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__12121212121212121212__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__1111111111__	0
+('___T___', '__E__EntryName', 1)__19191919191919191919__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__9999999999__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', 'voters')__8888888888__	2
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__5555555555__	1
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__18181818181818181818__	1
+('___T___', '__E__EntryName', 2)__5555555555__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__N__CountName')__5555555555__	3
+('___T___', '__E__EntryName', 0)__2222222222__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__5555555555__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__13131313131313131313__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__E__EntryName', 3)__9999999999__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|R19C8XG3DH', '__N__CountName')__15151515151515151515__	1
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__8888888888__	1
+('___T___', '__E__EntryName', 4)__7777777777__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__N__CountName')__15151515151515151515__	2
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__13131313131313131313__	3
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__10101010101010101010__	2
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__4444444444__	1
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__6666666666__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|R19C8XG3DH', '__N__CountName')__16161616161616161616__	1
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__11111111111111111111__	(('President', 'Donald Trump'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__1111111111__	0
+('___T___', '__E__EntryName', 4)__10101010101010101010__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__16161616161616161616__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__3333333333__	2
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__2222222222__	4
+('VOTER|F7H348WDSQ', '__N__CountName')__3333333333__	2
+('___T___', '__E__EntryName', 4)__3333333333__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__11111111111111111111__	0
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__19191919191919191919__	3
+('___T___', '__E__EntryName', 3)__11111111111111111111__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__0000000000__	1
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__10101010101010101010__	5
+('___T___', '__E__EntryName', 5)__14141414141414141414__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__10101010101010101010__	(('President', 'Donald Trump'), None)
+('___T___', '__N__CountName')__10101010101010101010__	6
+('___T___', '__E__EntryName', 0)__5555555555__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__18181818181818181818__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__N__CountName')__0000000000__	2
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__3333333333__	3
+('___T___', '__E__EntryName', 5)__17171717171717171717__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__12121212121212121212__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|S0RGL14NTU', '__N__CountName')__14141414141414141414__	3
+('___T___', '__E__EntryName', 2)__14141414141414141414__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__13131313131313131313__	1
+('___T___', '__N__CountName')__19191919191919191919__	6
+('VOTER|R19C8XG3DH', '__N__CountName')__18181818181818181818__	1
+('___T___', '__X__IndexName', 'voters')__19191919191919191919__	2
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__4444444444__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__3333333333__	1
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__14141414141414141414__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__E__EntryName', 3)__14141414141414141414__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__0000000000__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__E__EntryName', 3)__17171717171717171717__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__19191919191919191919__	0
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__14141414141414141414__	0
+('VOTER|R19C8XG3DH', '__N__CountName')__3333333333__	1
+('___T___', '__E__EntryName', 0)__15151515151515151515__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 5)__19191919191919191919__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 1)__11111111111111111111__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__E__EntryName', 2)__7777777777__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__10101010101010101010__	1
+('___T___', '__E__EntryName', 2)__6666666666__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', 'voters')__7777777777__	2
+('VOTER|S0RGL14NTU', '__N__CountName')__0000000000__	3
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__12121212121212121212__	0
+('___T___', '__E__EntryName', 5)__3333333333__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 3)__19191919191919191919__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__7777777777__	2
+('___T___', '__E__EntryName', 0)__18181818181818181818__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__6666666666__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__19191919191919191919__	1
+('___T___', '__X__IndexName', 'voters')__9999999999__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__2222222222__	0
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__15151515151515151515__	(('Governor', 'Paul Johnson'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__6666666666__	0
+('VOTER|R19C8XG3DH', '__N__CountName')__17171717171717171717__	1
+('___T___', '__E__EntryName', 4)__15151515151515151515__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__19191919191919191919__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__10101010101010101010__	1
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__15151515151515151515__	5
+('___T___', '__E__EntryName', 3)__3333333333__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 3)__15151515151515151515__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|R19C8XG3DH', '__N__CountName')__7777777777__	1
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__16161616161616161616__	4
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__0000000000__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__E__EntryName', 0)__13131313131313131313__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 0)__17171717171717171717__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__N__CountName')__5555555555__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__16161616161616161616__	0
+('VOTER|R19C8XG3DH', '__N__CountName')__5555555555__	1
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__2222222222__	(('Governor', 'Paul Johnson'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__19191919191919191919__	2
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__11111111111111111111__	5
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__8888888888__	(('President', 'Donald Trump'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__8888888888__	2
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__8888888888__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__E__EntryName', 5)__5555555555__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__17171717171717171717__	2
+('___T___', '__E__EntryName', 0)__3333333333__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__9999999999__	0
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__7777777777__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__N__CountName')__3333333333__	6
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__7777777777__	1
+('___T___', '__N__CountName')__2222222222__	6
+('___T___', '__E__EntryName', 1)__17171717171717171717__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|S0RGL14NTU', '__N__CountName')__16161616161616161616__	3
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__11111111111111111111__	1
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__18181818181818181818__	0
+('VOTER|F7H348WDSQ', '__N__CountName')__11111111111111111111__	2
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__10101010101010101010__	0
+('___T___', '__E__EntryName', 2)__0000000000__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__12121212121212121212__	1
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__3333333333__	1
+('___T___', '__N__CountName')__6666666666__	6
+('___T___', '__E__EntryName', 1)__4444444444__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__19191919191919191919__	1
+('___T___', '__E__EntryName', 2)__17171717171717171717__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__16161616161616161616__	0
+('VOTER|R19C8XG3DH', '__N__CountName')__6666666666__	1
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__6666666666__	4
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__17171717171717171717__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__14141414141414141414__	(('Governor', 'Paul Johnson'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__15151515151515151515__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__N__CountName')__16161616161616161616__	6
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__13131313131313131313__	0
+('VOTER|R19C8XG3DH', '__N__CountName')__19191919191919191919__	1
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__8888888888__	4
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__0000000000__	3
+('___T___', '__E__EntryName', 3)__1111111111__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__3333333333__	5
+('___T___', '__E__EntryName', 1)__0000000000__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__15151515151515151515__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__E__EntryName', 5)__16161616161616161616__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__7777777777__	0
+('___T___', '__E__EntryName', 3)__7777777777__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__10101010101010101010__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__5555555555__	1
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__2222222222__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__E__EntryName', 0)__9999999999__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__4444444444__	5
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__16161616161616161616__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__14141414141414141414__	0
+('___T___', '__E__EntryName', 3)__10101010101010101010__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 1)__6666666666__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__5555555555__	0
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__4444444444__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|S0RGL14NTU', '__N__CountName')__6666666666__	3
+('___T___', '__E__EntryName', 2)__4444444444__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 2)__9999999999__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__14141414141414141414__	4
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__19191919191919191919__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|S0RGL14NTU', '__N__CountName')__1111111111__	3
+('___T___', '__E__EntryName', 1)__13131313131313131313__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__N__CountName')__8888888888__	6
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__16161616161616161616__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__6666666666__	(('President', 'Donald Trump'), None)
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__14141414141414141414__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__9999999999__	1
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__19191919191919191919__	0
+('___T___', '__X__IndexName', 'voters')__3333333333__	2
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__9999999999__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__7777777777__	(('Governor', 'Paul Johnson'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__5555555555__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__15151515151515151515__	1
+('___T___', '__E__EntryName', 5)__18181818181818181818__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__12121212121212121212__	(('President', 'Donald Trump'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__0000000000__	0
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__17171717171717171717__	3
+('___T___', '__E__EntryName', 1)__2222222222__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__7777777777__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__N__CountName')__9999999999__	6
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__3333333333__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__13131313131313131313__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__5555555555__	5
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__18181818181818181818__	1
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__12121212121212121212__	0
+('___T___', '__E__EntryName', 2)__11111111111111111111__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__8888888888__	0
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__7777777777__	3
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__11111111111111111111__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__E__EntryName', 3)__4444444444__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__E__EntryName', 2)__18181818181818181818__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__14141414141414141414__	2
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__5555555555__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__E__EntryName', 4)__14141414141414141414__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__14141414141414141414__	1
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__17171717171717171717__	4
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__17171717171717171717__	(('Lt. Governor', 'Melinda Gates'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__3333333333__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__16161616161616161616__	1
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__14141414141414141414__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__15151515151515151515__	(('President', 'Donald Trump'), None)
+('VOTER|F7H348WDSQ', '__N__CountName')__8888888888__	2
+('___T___', '__E__EntryName', 5)__0000000000__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__11111111111111111111__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__15151515151515151515__	4
+('VOTER|S0RGL14NTU', '__N__CountName')__19191919191919191919__	3
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__9999999999__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__3333333333__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', 'voters')__10101010101010101010__	2
+('___T___', '__E__EntryName', 4)__0000000000__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__1111111111__	0
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__6666666666__	5
+('___T___', '__E__EntryName', 2)__16161616161616161616__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__3333333333__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__N__CountName')__13131313131313131313__	6
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__14141414141414141414__	3
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__4444444444__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__E__EntryName', 0)__1111111111__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__0000000000__	(('Governor', 'Paul Johnson'), None)
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__13131313131313131313__	0
+('___T___', '__E__EntryName', 4)__8888888888__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__9999999999__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__4444444444__	(('President', 'Donald Trump'), None)
+('VOTER|R19C8XG3DH', '__N__CountName')__13131313131313131313__	1
+('___T___', '__E__EntryName', 1)__15151515151515151515__	(('Lt. Governor', 'Microsoft'), 1, 'VOTER|F7H348WDSQ')
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__13131313131313131313__	1
+('___T___', '__E__EntryName', 4)__9999999999__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__19191919191919191919__	(('Governor', 'Paul Johnson'), None)
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__12121212121212121212__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__0000000000__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__6666666666__	0
+('___T___', '__E__EntryName', 5)__6666666666__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__N__CountName')__15151515151515151515__	6
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__4444444444__	3
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__3333333333__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__1111111111__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__E__EntryName', 3)__12121212121212121212__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__18181818181818181818__	3
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__16161616161616161616__	3
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__13131313131313131313__	2
+('___T___', '__E__EntryName', 5)__12121212121212121212__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['President', 'Donald Trump'])__7777777777__	0
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__0000000000__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|R19C8XG3DH', '__N__CountName')__0000000000__	1
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__17171717171717171717__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__5555555555__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__7777777777__	(('President', 'Donald Trump'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__14141414141414141414__	1
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__7777777777__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__5555555555__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__15151515151515151515__	0
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__0000000000__	5
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__4444444444__	1
+('VOTER|S0RGL14NTU', '__N__CountName')__12121212121212121212__	3
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__17171717171717171717__	(('President', 'Donald Trump'), None)
+('___T___', '__X__IndexName', 'voters')__5555555555__	2
+('___T___', '__E__EntryName', 2)__1111111111__	('voters', 3, 'VOTER|S0RGL14NTU')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__2222222222__	1
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__8888888888__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__18181818181818181818__	5
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__12121212121212121212__	5
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__1111111111__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__2222222222__	1
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__11111111111111111111__	1
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__10101010101010101010__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__X__IndexName', 'voters')__16161616161616161616__	2
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__15151515151515151515__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Lt. Governor', 'Microsoft'])__11111111111111111111__	1
+('___T___', '__E__EntryName', 4)__13131313131313131313__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__5555555555__	4
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__2222222222__	(('Lt. Governor', 'Microsoft'), None)
+('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__14141414141414141414__	5
+('VOTER|R19C8XG3DH', '__N__CountName')__2222222222__	1
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__19191919191919191919__	0
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__1111111111__	2
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])__12121212121212121212__	2
+('___T___', '__E__EntryName', 2)__19191919191919191919__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 3)__0000000000__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|S0RGL14NTU', '__X__IndexName', ['Governor', 'Mickey Mouse'])__10101010101010101010__	1
+('VOTER|R19C8XG3DH', '__E__EntryName', 0)__18181818181818181818__	(('Governor', 'Paul Johnson'), None)
+('___T___', '__X__IndexName', 'voters')__12121212121212121212__	2
+('___T___', '__E__EntryName', 3)__6666666666__	(('Governor', 'Paul Johnson'), 1, 'VOTER|R19C8XG3DH')
+('VOTER|S0RGL14NTU', '__E__EntryName', 1)__11111111111111111111__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|S0RGL14NTU', '__E__EntryName', 2)__13131313131313131313__	(('Lt. Governor', 'Melinda Gates'), None)
+('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])__3333333333__	0
+('VOTER|S0RGL14NTU', '__E__EntryName', 0)__14141414141414141414__	(('President', 'Donald Trump'), None)
+('VOTER|R19C8XG3DH', '__X__IndexName', ['Governor', 'Paul Johnson'])__4444444444__	0
+('VOTER|F7H348WDSQ', '__X__IndexName', ['Governor', 'Mickey Mouse'])__10101010101010101010__	0
+('___T___', '__E__EntryName', 2)__15151515151515151515__	('voters', 3, 'VOTER|S0RGL14NTU')
+('___T___', '__X__IndexName', ['President', 'Donald Trump'])__19191919191919191919__	4
+('___T___', '__X__IndexName', ['Governor', 'Paul Johnson'])__15151515151515151515__	3
+('VOTER|F7H348WDSQ', '__E__EntryName', 0)__16161616161616161616__	(('Governor', 'Mickey Mouse'), None)
+('___T___', '__E__EntryName', 4)__6666666666__	(('President', 'Donald Trump'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 5)__7777777777__	(('Lt. Governor', 'Melinda Gates'), 1, 'VOTER|S0RGL14NTU')
+('___T___', '__E__EntryName', 0)__11111111111111111111__	(('Governor', 'Mickey Mouse'), 2, 'VOTER|S0RGL14NTU')
+('VOTER|F7H348WDSQ', '__E__EntryName', 1)__11111111111111111111__	(('Lt. Governor', 'Microsoft'), None)
+('VOTER|F7H348WDSQ', '__N__CountName')__9999999999__	2
