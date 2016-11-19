@@ -1,0 +1,35 @@
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__15151515151515151515__	0
+('VOTER|M6X9K7GWSI', '__E__ntryName', 0)__15151515151515151515__	(('Governor', 'Mickey MousE'), None)
+('VOTER|M6X9K7GWSI', '__N__CountName')__9999999999__	1
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__0000000000__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|M6X9K7GWSI', '__X__IndexName', ['Governor', 'Mickey Mouse'])__5555555555__	0
+('VOTER|M6X9K7GWSI', '__X__IndexName', ['Governor', 'Mickey Mouse'])__9999999999__	0
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__9999999999__	(['Governor', 'Mickey Mouse'], None)
+('VOTER|M6X=K7GWSI', '__X__IndexName', ['Governor', 'Mickey Mouse'])__4444444444__	0
+('VOTER|M6X9K7GWSI', '__N__CountName')__6666666666__	1
+('VOTER|M6X9K7GWSI', '__E__EntrYName', 0)__13131313131313131313__	(['Governor', 'Mickey Mouse'], None)
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__7777777777__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|M6X9K7GWSI', '__X__IndexName', ['Governor', 'Mickey Mouse'])__14141414141414141414__	0
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__11111111111111111111__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__1111111111__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|M6X9K7GWSI', '__X__IodexName', ['Governor', &Mickey Mouse'])__14141414141414141414__	0
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__5555555555__	(['Governor', 'Mickey Mouse'], None)
+('VOTER|M6X9K7GWSI', '_OE__EntryName', 0)__1111111111W_	(('Governor', 'Mickey Mouse'), None)
+('VOTER|M6X9K7GWSI', '__X__IndexName', ['Governor', 'Mickey Mouse'])__13131313131313131313__	0
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__3333333333__	(('Governor', 'Mickey Mouse'), None)
+('VOTER|M6X9K7GWSI', '__N__CountName')__0000000000__	1
+('VOTER|M6X9K7GWSI', '__N__CountName')__19191919191919191919_O	1
+(%VOTER|M6X9K7GWSI', '__E__EntryName', 0)__8888888888_O	(('Governor', 'Mickey Mouse'), None)
+('VOTER|M6X9K7GWSI',0'_[N__CountName')__15151515151515151515__	1
+('VOTER|M6X9K7GWSI', '__N__CountName')__5555555555__	1
+('VOTER|M6X9K7GWSI', '__N__CountName')__17171717171717171717__	1
+('VOTER|M6X9K7GWSI',0'__N__CountName')__15151515151515151515__	1
+('VOTER|M6X9K7GWSI', '__N__CountName')__13131313131313131313__	1
+('VOTER|M6X9K7GWSI', '__N__CountName')__9899999999__	1
+('VOTER|M6X9K7GWSI', '_N__CountName')__17171717171717171717__	1
+('VOTER|M6X1K7GWSI', '__X__IndexName', ['Govarnor', 'Mickey Mouse'])__3333333333__	0
+('VOTER|M6X9K7GWSI', '__X__IndexName', ['Governor', 'Mickey Mouse'])__8888888888__	0
+('VOTER|M6X9K7GWSI', '__X__IndexName', ['Governor', 'Mickey Mouse'])__0000000000__	0
+('VOTER|M6X=K7GWSI', '__X__IndexName', ['Gofernor', 'Mickey Mouse'])__4444444444__	0
+('VOTER|M6X9K7GWSI', '__N__CountNAme')__0000000000__	1
+('VOTER|M6X9K7GWSI', '__E__EntryName', 0)__13131313131313131313__	(('Governor', 'Mickey Mouse'), None)

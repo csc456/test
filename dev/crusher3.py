@@ -9,18 +9,25 @@ import os.path
 import random
 import signal
 import sys
+from vprint import vprint #vprint
 
-debug=3
-def vprint(str,level=0):
- '''0=Always show
-    1=Sometimes show
-    2=Rarely show
-    3=Rarely Rarely show
- '''
- #print(' debug is:',debug)
- if level<=debug:
-  print(str)
-
+#debug=3
+#def vprint(level,*args,**kwargs):
+# '''0=Always show these ones        - stdout
+#    1=Sometimes show these ones     - critical
+#    2=Rarely show these ones        - warn
+#    3=Rarely Rarely show these ones - info
+# '''
+# p=' ' # Optional end
+# for key, val in kwargs.items():
+#  if key == 'end':
+#   p=val
+# if not isinstance(level, int):
+#  raise Exception('vprint: level must be an int!')
+# if level<=debug:
+#  for i in args:
+#   print(i, end=p)
+#print(vprint)
 class Cache(TestingCache):
  """TODO: implement half-writes."""
  def __init__(self, s=(16,0.0001,0.0001,0.0001,0.0001)):
@@ -29,23 +36,25 @@ class Cache(TestingCache):
   TestingCache.config(self, s)   #Nothing
  def hash(self,key):
   #return TestingCache.hash(self, key)   #NothingChanges
-  vprint('crusher.py::TestingCache::hash',3)
-  vprint('  key:'+str(key),3)
+  vprint(3,'crusher.py::TestingCache::hash')
+  vprint(3,'  key:'+str(key))
   h=pickle.dumps(key)
-  vprint('  dumps:'+str(h),3)
-  vprint('  @return:'+str(h[-self.settings[0]:]),3)
+  vprint(3,'  dumps:'+str(h))
+  vprint(3,'  @self.settings:'+str(self.settings))
+  vprint(3,'  @self.settings[0]:'+str(self.settings[0]))
+  vprint(3,'  @return:'+str(h[-self.settings[0]:]))
   return h[-self.settings[0]:]
  def store(self,key,val):
-  vprint('crusher.py:TestingCache::store')
+  vprint(3,'crusher.py::TestingCache::store')
   try:
    k=self.hash(key)
    self.cache[k]=(key,val)
   except:
-   vprint(sys.exc_info()[0],0)
-   vprint('err',0)
-  vprint('  hash:'+str(k),3)
-  vprint('  key:'+str(key),3)
-  vprint('  val:'+str(val),3)
+   vprint(3,sys.exc_info()[0],0)
+   vprint(3,'err',0)
+  vprint(3,'  hash:'+str(k))
+  vprint(3,'  key:'+str(key))
+  vprint(3,'  val:'+str(val))
   #return TestingCache.store(self, key, val) #NothingChanges
  def fetch(self,key):
   TestingCache.fetch(self, key)  #NothingChanges
@@ -67,5 +76,6 @@ class DataBase(TestingDb):
  def load(self,filename=()):
   TestingDb.load(self, filename) #NothingChanges
 
-#if __name__=="__main__":
-# pass
+if __name__=="__main__":
+ vprint(2,'test')
+ pass
