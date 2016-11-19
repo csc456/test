@@ -1,49 +1,49 @@
 #!/usr/bin/env python3
-debug=0
 import sys
 
+debug=2
+def vprint(str,level=0):
+ '''0=Always show
+    1=Sometimes show
+    2=Rarely show
+    3=Rarely Rarely show
+ '''
+ #print(' debug is:',debug)
+ if level<=debug:
+  print(str)
+
 def indexName(dict, key):
- global debug
- #if debug:
-  #print('crusherdict.py indexName()')
-  #print('  dict:'+dict)
-  #print('  key:'+str(key))
+ vprint('crusherdict.py indexName()',2)
+ vprint('  dbkey='+str((dict,"__X__IndexName",key)),2)
  return (dict,"__X__IndexName",key)
 
 def countName(dict):
- global debug
- #if debug:
-  #print('crusherdict.py countName()')
-  #print('  dict:'+dict)
+ vprint('crusherdict.py countName()',2)
+ vprint('  dbkey='+str((dict,"__N__CountName")),2)
  return (dict,"__N__CountName")
 
 def entryName(dict, n):
- global debug
- #if debug:
-  #print('crusherdict.py entryName()')
-  #print('  dict:'+dict)
-  #print('  n:'+str(n))
+ vprint('crusherdict.py entryName()',2)
+ vprint('  dbkey='+str((dict, "__E__EntryName", n)),2)
  return (dict, "__E__EntryName", n)
 
 def statusName(dict):
- global debug
- #if debug:
-  #print('crusherdict.py statusName()')
-  #print('  dict:'+dict)
+ vprint('crusherdict.py statusName()',2)
+ vprint('  dbkey='+str((dict, "__S__StatusName")),2)
  return (dict, "__S__StatusName")
 
 class CrusherDict:
  def __init__(self, db, name):
   """Create a set named key in the database."""
-  #print('crusherdict.py CrusherDict.__init__()')
+  #vprint('crusherdict.py CrusherDict.__init__()')
   self.db=db
   self.name=name
  def __len__(self):
-  #print('crusherdict.py .__len__()')
+  #vprint('crusherdict.py .__len__()')
   try:
    f=self.safeFetch(countName(self.name))
    if not isinstance(f, int) or f is None: # Recursive...
-    #print('  .__len__():bad f:'+str(f))
+    #vprint('  .__len__():bad f:'+str(f))
     return self.__len__() # Try again...
    else:
     return f
@@ -69,8 +69,8 @@ class CrusherDict:
   '''Try a number of fetches. Voting on which is best.
      Probably bitwise.
   '''
-  #print('safeFetch::')
-  #print('  safeFetch::key:'+str(key))
+  vprint('safeFetch::',1)
+  vprint('  safeFetch::key:'+str(key),1)
   rslt_ke=0
   rslt_er=0
   rslt_gd={}
@@ -107,7 +107,7 @@ class CrusherDict:
    raise Exception('Another exception...')
   else:
    n=rslt_best
-  #print('  safeFetch:value is:',str(n))
+  vprint('  safeFetch:value is:',str(n),1)
   #...
   return n
  def safeStore(self, dbkey, key, val=None):
@@ -118,17 +118,17 @@ class CrusherDict:
      NOTE: Add a safeFecth lookup each time!
            Channel CONF may be using last key fetched as the key to store!
   '''
-  #print('safeStore::')
-  #print('  safeStore::dbkey='+str(dbkey))
-  #print('  safeStore::key='+str(key))
-  #print('  safeStore::val='+str(val))
+  vprint('safeStore::',1)
+  vprint('  safeStore::dbkey='+str(dbkey),1)
+  vprint('  safeStore::key='+str(key),1)
+  vprint('  safeStore::val='+str(val),1)
   # See note above.
   # Extra CONF muddies channel!
   # So do fetch of dbkey to store next.
-  try:
-   self.safeFetch(dbkey)
-  except:
-   pass #Safely Ignore
+  #try:
+  # self.safeFetch(dbkey)
+  #except:
+  # pass #Safely Ignore
   if val is None:
    key = key
   else:
@@ -146,7 +146,7 @@ class CrusherDict:
      The key that is used to identify the key in the db
      is returned.
   """
-  #print('crusherdict.py CrusherDict.getKey()')
+  #vprint('crusherdict.py CrusherDict.getKey()')
   try:
    f=self.safeFetch(indexName(self.name,key))
    dbkey=entryName(self.name,f)
@@ -173,16 +173,16 @@ class CrusherDict:
      The key that is used to identify the key in the db
      is returned.
   """
-  #print('crusherdict.py CrusherDict.inc()')
-  #print('  key:'+str(key))
-  #print('  val:'+str(val))
+  #vprint('crusherdict.py CrusherDict.inc()')
+  #vprint('  key:'+str(key))
+  #vprint('  val:'+str(val))
   try:
    f = self.safeFetch(indexName(self.name,key))
-   #print('  indexName:'+str(f))
+   #vprint('  indexName:'+str(f))
    dbkey=entryName(self.name,f)
-   #print('  dbkey:'+str(dbkey))
+   #vprint('  dbkey:'+str(dbkey))
    v=self.safeFetch(dbkey)
-   #print('  fetch(dbkey):'+str(v))
+   #vprint('  fetch(dbkey):'+str(v))
    # v is one of:
    #   BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
    #   BROKEN:  fetch(dbkey):16
@@ -202,7 +202,7 @@ class CrusherDict:
    try:
     n=self.safeFetch(countName(self.name))
     if not isinstance(n, int):
-     ##print('  Looking for int but found not int!')
+     ##vprint('  Looking for int but found not int!')
      #n=0
      #Hm try again?
      return self.inc(key, val)
@@ -214,12 +214,12 @@ class CrusherDict:
    self.safeStore(countName(self.name),n+1)
    return dbkey
  def __iter__(self):
-  #print('crusherdict.py CrusherDict.__iter__()')
-  #print('  iter::name:',self.name)
-  #print('  iter::db:',self.db)
-  #print('  iter::range(self.__len__()):',range(self.__len__()))
+  #vprint('crusherdict.py CrusherDict.__iter__()')
+  #vprint('  iter::name:',self.name)
+  #vprint('  iter::db:',self.db)
+  #vprint('  iter::range(self.__len__()):',range(self.__len__()))
   for i in range(self.__len__()):
-   #print('  iter::i:',i)
+   #vprint('  iter::i:',i)
    yield self.safeFetch(entryName(self.name,i))
 
 if __name__=="__main__":
@@ -237,20 +237,20 @@ if __name__=="__main__":
     test4.getKey("H","7777000")
    except:
     pass
-  ##print(test.inc("Gov-Muller","voter-809809"))
-  ##print(test.inc("Gov-Muller","voter-8098091"))
-  ##print(test.inc("Gov-Muller","voter-8098092"))
-  ##print(test.inc("Gov-Muller","voter-8098093"))
-  ##print(test.inc("Gov-Muller","voter-8098094"))
+  ##vprint(test.inc("Gov-Muller","voter-809809"))
+  ##vprint(test.inc("Gov-Muller","voter-8098091"))
+  ##vprint(test.inc("Gov-Muller","voter-8098092"))
+  ##vprint(test.inc("Gov-Muller","voter-8098093"))
+  ##vprint(test.inc("Gov-Muller","voter-8098094"))
   try:
    for tup in test2:
     try:
-     print(tup)
+     vprint(tup)
     except:
      pass
   except:
    pass
   db.exit()
  except:
-  #print('err')
+  #vprint('err')
   pass
