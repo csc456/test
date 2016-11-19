@@ -1,9 +1,11 @@
 # ...
 
 Remove previous try and run demo.
+
 ```dev$ rm -rf data/*.dat data/*.txt && time ./demo3.py input/easy.txt```
 
 Display the contents of db file in readable format.
+
 ```dev$ sort -f data/tiny-lvl3__db0___db.txt```
 
 # ...
