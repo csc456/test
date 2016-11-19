@@ -11,23 +11,6 @@ import signal
 import sys
 from vprint import vprint #vprint
 
-#debug=3
-#def vprint(level,*args,**kwargs):
-# '''0=Always show these ones        - stdout
-#    1=Sometimes show these ones     - critical
-#    2=Rarely show these ones        - warn
-#    3=Rarely Rarely show these ones - info
-# '''
-# p=' ' # Optional end
-# for key, val in kwargs.items():
-#  if key == 'end':
-#   p=val
-# if not isinstance(level, int):
-#  raise Exception('vprint: level must be an int!')
-# if level<=debug:
-#  for i in args:
-#   print(i, end=p)
-#print(vprint)
 class Cache(TestingCache):
  """TODO: implement half-writes."""
  def __init__(self, s=(16,0.0001,0.0001,0.0001,0.0001)):

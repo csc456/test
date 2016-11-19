@@ -10,6 +10,8 @@ import random
 import re
 import sys
 import threading
+import vprint
+from vprint import vprint
 
 commands={}
 random.seed()
@@ -76,6 +78,8 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
  for vote in context["votes"]:
   d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
+ # Save to file debug....
+ i.save()
  if matchesVoteLog(i,checkvl,context['id']) is False:
   numberRecursions+=1
   return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
@@ -117,7 +121,7 @@ def matchesVoteLog(db,checkvl,vid):
  if x is False:# or x != checkvl:
   print('  mvl:Fails checka')
   print('  Looking for:')
-  print('\n'.join(str(x) for x in checkvl))
+  print(' '.join(str(x) for x in checkvl))
   print('  Seeing:')
   print(x)
   # Let's try changing to a new voter id
@@ -129,7 +133,7 @@ def matchesVoteLog(db,checkvl,vid):
    if i not in x: 
       print('  mvl:Fails checkb')
       print('  Looking for:')
-      print('\n'.join(str(x) for x in checkvl))
+      print(' '.join(str(x) for x in checkvl))
       print('  Seeing:')
       print(x)
       return False

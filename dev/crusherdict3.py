@@ -78,7 +78,7 @@ class CrusherDict:
   rslt_num=0
   rslt_best=None
   n=None
-  for i in range(20): #0-19
+  for i in range(2000): #0-19
    try:
     n=self.db.fetch(str(key)+'__'+str(str(i)*10)+'__')
    except KeyError:
@@ -104,7 +104,8 @@ class CrusherDict:
   if rslt_best=='ke':
    raise KeyError
   elif rslt_best=='er' or rslt_best is None:
-   raise Exception('Another exception...')
+   raise KeyError # Assume it is roughly equivalent...
+   #raise Exception('Another exception...')
   else:
    n=rslt_best
   vprint('  safeFetch:value is:',str(n),1)
@@ -133,7 +134,7 @@ class CrusherDict:
    key = key
   else:
    key = (key,val)
-  for i in range(20): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
+  for i in range(2000): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
    try:
      k=str(dbkey)+'__'+str(str(i)*10)+'__'
      self.db.store(k, key)
