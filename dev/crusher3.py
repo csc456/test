@@ -14,9 +14,9 @@ from vprint import vprint #vprint
 class Cache(TestingCache):
  """TODO: implement half-writes."""
  def __init__(self, s=(16,0.0001,0.0001,0.0001,0.0001)):
-  TestingCache.__init__(self, s) #Nothing
+  return TestingCache.__init__(self, s) #Nothing
  def config(self, s):
-  TestingCache.config(self, s)   #Nothing
+  return TestingCache.config(self, s)   #Nothing
  def hash(self,key):
   #return TestingCache.hash(self, key)   #NothingChanges
   vprint(3,'crusher.py::TestingCache::hash')
@@ -40,24 +40,24 @@ class Cache(TestingCache):
   vprint(3,'  val:'+str(val))
   #return TestingCache.store(self, key, val) #NothingChanges
  def fetch(self,key):
-  TestingCache.fetch(self, key)  #NothingChanges
+  return TestingCache.fetch(self, key)  #NothingChanges
  def remove(self,key):
-  TestingCache.remove(self, key) #NothingChanges
+  return TestingCache.remove(self, key) #NothingChanges
 
 class DataBase(TestingDb):
  def __init__(self, filename="demo.txt"):
   self.filename='data/'+filename # Prepend a folder name here
   self.load()
  def store(self,key,val):
-  TestingDb.store(self, key, val) #NothingChanges
+  return TestingDb.store(self, key, val) #NothingChanges
  def fetch(self,key):
-  TestingDb.fetch(self, key) #NothingChanges
+  return TestingDb.fetch(self, key) #NothingChanges
  def remove(self,key):
-  TestingDb.remove(self, key) #NothingChanges
+  return TestingDb.remove(self, key) #NothingChanges
  def save(self,filename=()):
-  TestingDb.save(self, filename) #NothingChanges
+  return TestingDb.save(self, filename) #NothingChanges
  def load(self,filename=()):
-  TestingDb.load(self, filename) #NothingChanges
+  return TestingDb.load(self, filename) #NothingChanges
 
 if __name__=="__main__":
  vprint(2,'test')
