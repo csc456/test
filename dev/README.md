@@ -1,8 +1,12 @@
 # ...
 
-Remove previous try and run demo.
+Remove previous try and run demo:
 
 ```dev$ rm -rf data/*.dat data/*.txt && time ./demo3.py input/easy.txt```
+
+Using vprint.py:
+
+```dev$ rm -rf data/*.dat data/*.txt && time ./demo3.py input/easy.txt -v[0-3]```
 
 Display the contents of db file in readable format.
 

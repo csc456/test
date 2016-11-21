@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''...
+   Note: sys.exc_info()[0]
+'''
 
 import crusher
 import crusher3
@@ -12,6 +15,7 @@ import sys
 import threading
 import vprint
 from vprint import vprint
+import ast
 
 commands={}
 random.seed()
@@ -71,6 +75,7 @@ commands["VOTE"]=vote
 def threadVote(i,context,fields,stop_event,numberRecursions=0):
  '''Debug: numberRecursions
  '''
+ context['id']=newVoterId(dbs)
  d=crusherdict3.CrusherDict(i,context["id"])
  t=crusherdict3.CrusherDict(i,"___T___")
  d.status("UNCAST")
@@ -79,9 +84,10 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
   d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
  # Save to file debug....
- i.db.save()
+ #i.db.save()
  if matchesVoteLog(i,checkvl,context['id']) is False:
   numberRecursions+=1
+  d.status("UNCAST")
   return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
   """The votes have been added to the voter, but not the tallies."""
  for vote in context["votes"]:
@@ -144,22 +150,41 @@ def pre_check_inq(c):
  tmp_log=''
  try:
   for tup in c:
-   if isinstance(tup, int) or tup is None:
+   try:
+    tup=ast.literal_eval(tup)
+    tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
+   except:
     return False
-   tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
  except:
   return False
  return tmp_log
 
 def check_inq(c):
  tmp=''
- try:
-  for tup in c:
-   if isinstance(tup, int) or tup is None:
-    return check_inq(c) # Try again. Recursive.
+ for tup in c:
+  try:
+   tup=ast.literal_eval(tup)
    tmp+="VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
- except:
-  return check_inq(c) # Try again. Recursive.
+  except:
+   vprint(2,'  check_inq::Exception:',sys.exec_info()[0])
+   return check_inq(c)
+
+# try:
+#  for tup in c:
+#   if tup is None: # Database value is gone...
+#    vprint(2,'  check_inq::tup is None (Recurse)')
+#    return check_inq(c)
+#   if str(tup)==str(int(tup)): # Expecting tup
+#    vprint(2,'  check_inq::expecting tup but seeing int (Recurse):',tup)
+#    return check_inq(c)
+#   try:
+#    tup=ast.literal_eval(tup)
+#   except:
+#    vprint(2,'  check_inq:: (Recurse):',tup)
+#    return check_inq(c)
+#   tmp+="VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
+# except:
+#  return check_inq(c) # Try again. Recursive.
  return tmp
 
 def inq(dbs, context, log, fields):
@@ -214,7 +239,8 @@ def report(dbs, log):
    best=x
  # Best
  head="VOTERS\t{}\n".format(best)
- 
+ log.write(head) 
+
  # Get tallies  
  try:
   voters={}
@@ -225,9 +251,11 @@ def report(dbs, log):
    tmp=''
    try:
     for tup in t:
-      if tup[0]!="voters":
-       tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
+     tup=ast.literal_eval(tup)
+     if tup[0]!="voters":
+      tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
    except:
+    vprint(2,'  check_inq::Exception:',sys.exec_info()[0])
     print('  report::vote-log2 ...')
     continue # Skip db entirely ...
    # Add this result ...
@@ -238,7 +266,7 @@ def report(dbs, log):
    if voters[tmp]>curr:
     curr=voters[tmp]
     best=tmp
-  log.write(head+best)
+  log.write(best)
  except:
   print('  report::vote-log3 ...')
 
