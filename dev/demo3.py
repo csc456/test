@@ -75,7 +75,7 @@ commands["VOTE"]=vote
 def threadVote(i,context,fields,stop_event,numberRecursions=0):
  '''Debug: numberRecursions
  '''
- context['id']=newVoterId(dbs)
+ #context['id']=newVoterId(dbs) # Force new voter id ... interesting but useful ...? 
  d=crusherdict3.CrusherDict(i,context["id"])
  t=crusherdict3.CrusherDict(i,"___T___")
  d.status("UNCAST")

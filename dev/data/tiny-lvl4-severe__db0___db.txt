@@ -1,1339 +1,0 @@
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__41__	2('VOTER|LnsE2MwG',0'__N__ÃountNameg)ÊFHÀÝ
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__46__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__E__UntryName', 0)`__0__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 0)`	__58__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|76uQKd%', '__E__EntryName', 0)ã,l__56__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__2__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__26__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 3)f	__11__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__16__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__E__EntryName', 0)`	__10__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___&, '__N__CountName')R	__75__	4('___T___', '__N__CountName')R	±Õ
-H
-(/VOTER|mOvUhPYr', '__E__EntryName', 1)Ök __19__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('___T___', '__E__EntryName', 2)d	]_39__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__98__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__E__EntryName', 0)`	__70__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__83__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__14__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__92__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__AntryName', 0)h	__52__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__N__CountName')R	__34__	5('___T___', '__N__CoultName')R	±÷
-I
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__64__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__84__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__18__	3('TOTER|mOvUhPYr', '__N_OCountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__L__CountName')ÊFH__40__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__E__EntryName', 2)d	__88__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__X__IndexName', 'voterc')ïÛQ__31__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|mOvUhPYr', '__E__EntryName',!0)öi__56__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__13__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('__T___', '__E__EntryName', 0)h	__99_O	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__20__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__45__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__E__EntryName', 4)h	__3__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__93__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__12__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__34__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__N__CountN!me')R	__!3__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 4)h	__48__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 2)d	__11__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VTER<mOvUhPYr'< '[_N__CountName')ÒÃ£__55__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T^__', '__N__CountName')R	__23__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__99__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__E__EntryName', 4)h	__14__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T_^_', '__E__EntryName', 2)d	__2__	2('___T___', '__N__CountName')R	±
-F
-('___T___', '__E__EntryName', 2)d	__95__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__L__CuntName#)R	__27__	3('___T___', '__N__CountName')R	±³
-G
-('___T__', '__E__EntryName', 2)d	__67__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Govmrnor', 'Meli.da Gates']),¶_ß17__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('vOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__20__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor'% 'MiCrosoft'])ÁlC__53__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__24__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|mOvUhPYr', '_^NW_CounTName')ÒÃ£__67__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__X__IndexName', 'voters')ïÛQ__83__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__5__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|mOvUhPYr', '__E__EntryName&, 1)ök __36__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYv', '__E__EntryName', 1)ök úW
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__68__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', ']_N__CountName')R	__26__	1('_ß_T___', '__N_]CountName')R	±o
-E
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH_^39__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VoTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__59__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|mOvUhPYr', '__E__ntryName', 1)ök __19__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __19__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', /Melinda Gates']),¶__91__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__X__IndexName', [%Governor', 'Mickey Mouse'])*3Ý__48__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__89__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '__N_OCountName')ÒÃ£_[98__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__51__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__79__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('___T___', '__G__EntryName', 0)`__95__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __91__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__80__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__N__CountName')R__37__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ôÀ__36__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__54__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__N__AountName')R	__84__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__54__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__42__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__N__CountName)ÊFH__6__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__N__CountNamm')R	__35__	5('___T__', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 4)h	__24__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__63__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__N__CountName')R__75__	2('___T___', '__N__CountName')R	±
-F
-('___T__', '__E__EntryName', 3)f	__90__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__81__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('______', '__E__EntryName', 3)v	__9__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__92__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', )`	__57__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__E__EntryOame', 1)ök __2_^	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTESlLnsE2MwG', '_OE__EntryName', 0)ìÛÄ__64__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFHW_57__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntRyName', 0) 	^_18__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 1)b	__97__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('___T___', '__E__EntryName', 1)b	__32__	(['Lt. Governor', 'Mi#rosoft'], 1, 'VoTER|LnsE2MwG')('___T___', '__E__EntryName', 1	b	®B
-('___T___', '__X__IndexName', 'voters')ïÛQ__99__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
- '___T___', '__N__CounvName')R	__88__	3('__ßT___'. #__N__CountName')R	±³
-G
-('___T___', '__N__CountName')R	__22__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__10__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 2)d	__80__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__E__EntryName', 0)`	__45__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|72uTQKd%', '__N__CounpName')Á
-ð__94__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 0)`	__95__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___'- '__N__CountName')R	__20__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__23__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__82__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__80__	2('VOTER|LnsE2MwG', '__N__CountName')ÊVHÀÝ
-('___T___', '__E__EntryName', 2)d	__53__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__68__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__E__EntryName', 4)h	__68__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__14__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__55__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__99__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__39__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '_N__CountName')R	__59__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 0)`	__69__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__19__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('___T___', '__E__EntryName', 0)`	__60__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__N__CountName')R	__57__	5('___T___', '__N__CountName')R	±÷
-I
-('_ß_T___', '__E__EntryName', 0)`	__45__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__68__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__56__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 0)`	__25__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__N__CountName')R	__41__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__73__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__73__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTER|LnsE2M3G', '__N__Countame')ÊFH__30__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|mOvUhPYr', '^_E__EntryName', 2)öm!__23ß_	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__E__EntryName', 0)`	__76__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__X__IndexName', 'voterr/)ïÛQ__6__	2('___T___', '__X__IndexName', %voters'iïÛQ0mª
-('___T___', '__N__CountName')R	__55__	5('O__T___', '__N__CountName')R	±÷
-I
-('___T___', '__N__CountName')R__32__	2('___T___', '__N__CountName')R	±
-F
-('___T___', '__N__CountName%)ƃR	__ __	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__98__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|mOvUiPYr', '__N__CountName')ÒÃ£_30__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__8__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 4)h	__83__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___'l '__N__CountName')R	__8 __	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '_E__EntryName', 2)d	__14__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__74__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__98__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__E__EntryName', 2)d	__79__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__11__	3('VOTER|mOvuhPYr', '__N__CountName'iÒÃ£Ä
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__77__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__40__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__24O_	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__N_OCountName&)R	__85__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__77__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 4)h	__95__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__38__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__72__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__E__EntryName', 0)`	__36__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__57__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '_E__EntryName', 2)d	__66__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('_^_T___', '_E__EntryName7, 2)d	__91__	('voters', 2, 'VOTER|72uTQKd%')('__T___'$ '__E__EntryN!mg', 2)d	äû
-('___T___', '__E__EntryName', 2)d	__73__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__E__EntryName', 1)b	__89__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|LnsE2MwG', '__N__CoundName')ÊFH__11__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T__', '__N__CountName')R	__22__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__N__CountName')ÃR	__55__	5('___T___', '__N__CountName')R	±÷
-I
-('___T__O', '__N__CountName')R	__4__	2('___T___', '__N__CountName')R	±
-F
-('___T___', '__N_[KountName')R	__98__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|LnsD2MwG', '__E__EntryName', 1)ìÝÅ__16__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTMR|mOvUhPYr', '__N__KountName')RÃ£__56__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__73__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£_ß64__	3('VOTER|mOvuhPYr/, '__N__CountNa}e')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__52__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__E__EntryName', 2)d__51__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__99__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 2)d	__45__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__46__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('_O_T___', '__E__EntryName', 0)`	__23__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 4)h	__11__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 0)`	__62__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T_O_', '__N__C/untName')R	__78__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__22__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|LnsE2MwG', '^_N__CountName')ÊBH__9__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___t___', 7_WN__CountName')R	__58__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__N__CountName')R	__80__	3('___T___', '__N__CountName')R	±³
-G
-('___T___'l '__N__CountName')R	_73_M	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__77__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__56__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__N__AountName')R	__12__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öiW_68__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__91__	3('___T___', '__X__IndexName', ['President', 'donald Trump'])>8Uÿ
-('___T___', '__E__EntryName', 2)d	__10__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__N__CountName')R	__90__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|72uTQKd%', '__Eß_EntryName', 0)ã,l__45__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('___T___', '__N__CountName')R	__19__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__19__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__N__Count^ame')R	__96__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|mOvUhPYr', '__X__IndexName', ['Goveònor', 'Mickey Mouse'])Åe__2__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__60__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|LnsE2MwG', '__E__entryName', 0)ìÛÄ__57ß_	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__76__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|mOvUhPYv', '__E__EntryName', 0)öi__5__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__N__CountName')R	__97__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 0)`	__2__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__86__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__47__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__57ß_	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__46__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__E^_EntryName', 2)d	__11__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__X__IndexNamE', 'voters')ïÛQ__72__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__55__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EntryName', 0)`	__65__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__99__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__N__CountName')R	__64_ß	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__48__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|mOvUhPYr', '_^X__IndexName', ['President', 'Donald Trump'])ÛüÀ__50__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-(/VOTER|DnsE2MwG', '__N__CountName')ÊFH__57__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__69__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__E__EntryName', 0)`	__54__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__E__EntryName', 4)h	__7__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 2)d	__61__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__N__CountName')R	__44__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 1)b	__74__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__7v__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__15__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__60__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__93__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__N__CoundName')R	__90__	2('___T___', '__N__CountName')R	±
-F
-('___T___', '__M__EntryName'$ 2)d	_76__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__53__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__E__EntryName', 0)`	__52__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__23__	1('VOTER|mOvUhPYr', '__N__CountName')òÃ§r
-('VOTER|mOvUhPYr', '__N__ÃountName')ÒÃ£__70__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('___T___'< '__X__IndexName', ['Governor', 'Mickey Mouse7])*3Ý__84__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__47__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('__^T___', '__N__CountName')R	__54__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 2)d	__46__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T__ß', '__X__IjdexName', ['Lt. Governor', 'Melinda Gatms']).__24__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__71__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__N__CountName')R	__65__	('__T___', '__N__CountName')R	±
-F
-('___T___', '__N__CountName')R	__67__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__51__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 3)b	__80__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__J__CountName')R	__77__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melijda Gates']).__72__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|LnsEMwG', '__N__CountName')ÊFH__2__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__E__EntryName', 2)d	__92__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__92__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__E__EntryName', 0)`	__22__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__X__IndexName', 'voters')ïÛQ__18__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|LnsE2MwG', '__N__CountName')ÊF__41__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryFame', 2)d	__53__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '_WX__IndexName', ['Lt. Governor', 'MelinDa Gates']).__55__	4('___T___', '__X__IndexName', ['Lt. Governor', 'MElinda Gates']).ç§
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __98__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('___T___', '__X__IndexName', [Lt. Governor', 'Microsoft'])7__77__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('___T___', '__E__EntryName', 3)f	__58__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__34__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__61__	3('VOTER|mOvUHPYr', '__N__BoõntName')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__34__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__E__EntryName', 3)f	__61__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__93__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__N__CountName')R	__94__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__72__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__97__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTERtLnsE3MwG',$'__E__EntryName7, 1)ìÝÅ__39__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTAR|LnsE2MwG', '__N__CoUntNamg'iÊFH__89__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __2__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('___T___', '__N__CountName')R	__35__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__87__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__X__IfdexName', 'voters')ïÛQ__83__	"('___T___', '__X__IndexNama', 'voters')ïÛQ0mª
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__3__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___&, '__E__EntryName', 3)f	__5__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|mOvUhPXr', '__N__CountName)ÒÃ£__7__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CountName')R	__86__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 2)d	__58__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__E__EntryName', 3)f	__50__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__48__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__E__EntryName', 4)h	__76__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___7, '__N__CountName')R	__64__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__N__CountName')R	__89__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr',"'__N__CountName/9ÒÃ£__53__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('___T___', '__N__CountName')R	__61__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__X__IndexName', ['Governor', 'Micke{ Mouse'])*3Ý__99__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|mOvUhPYr', '_N__countName')ÒÃ£__72__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__92__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__E__EntryName', 2)d	__30__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__56__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__24__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __10__	1('VOTES|mßvUhPYr', '__N__Ã/untName')ÒÃ£r
-('___T___', '__E__EntryName', 0)`	__85__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 3)f	_^15__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__76__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T__', '__N__CountName')R	__18__	5('___T___'l '__N_CoujtName')R	±÷
-I
-('___T___', '__E__EntryName', 2)d	__67__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__E__EntryName', 2)d	__0__	3('___T___', '__N__KountName')R	±³
-G
-('___T___', '__N__CountName')R	^_16__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 1)b	__38__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__20__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__N__CountName')R	__38__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__17__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___t___', '__E__EntryName', 2)d	__91__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__N__CountName')R	__99__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 4)h	__9__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___g, /__X__IndexName', ['Gove2nor', ']mc{ey Mousd'])*3Ý__55__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__N__CountName')R	__16__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__54__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|72uTQKd%', '__E__EntryNale', 0)ã,l__47__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__61__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__E__EntryName', 2)d	__7__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|mOvUh@Yr', '__N__CountNamm')ÒÃ£__25__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryNamu', 4)h	__14__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__N__CountName')R	__50__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__86__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__E__EntryName', 2)d	__85__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('VOTER|mKvUhPYr', '__E__EntryName', 0)öi__37__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__N__CountName')R	__39__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|72uTQKd%', '__N__CountName')Ã
-ð__11__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__N__CountName')R	__82__	5('___T___', '__N__CountName')R	±÷
-I
-('___Ô___', '__E__En|ryName', 2)t	__53__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '_WE__EntryName', 0)öi__99__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __62__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__7__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__93__	0('VNTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|LnsE2MwG',`'__N__CountNime')ÊFH__95__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__N__CountNaie')R	__2__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|mOvUhPYr', '__X__IndgxName', [&Lt. Governor', 'Melinda Oates']),¶__19_^	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__4__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-'___T___', '__N__CountName')R	__1__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__87__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__9__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('___T___', '__N__CountName')R	__84__	5('___T___', '__N__CountName')R	±÷
-I
-(&VOTER|LnsE2MwG7, '__N__CountName')ÊFH__83__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('^__T___', '__E__EntryName', 2)d	__91_	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__E__EntryName', 0)`	__31__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__99__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__E__EntryName', 2)d	__82__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__88__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__26__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EntryName', 0)`	__98__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__88__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__99__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__N__CountName')R	__87__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|72uTQKd%', '__EW_EntryName', 0)ã,l__5__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__21__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__87__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 1)b	__26__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|mOvUhPYr', '__Å__EntryFame', 0(öi__89__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__56__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__61__	1('VOTER|72uTQKd%'$ '__N__CountName')Á
-ðû={
-('___T___', '__X__INdexName', ['Goternor', 'Paul Johns/n']))µã__36__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('___T___', '__E__EntryName', 4)h	__99__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__NO_CountOame')Z	__1__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 4)h	__13__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T[__', '__E__EntryName', 0)`	__6__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__E__EntryName', 3)f	__21__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__E__EntryName', 1)b	_56__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('_[WT___', '__E__EntryName', 2)d	__68__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|mOvUhPYr', '__X__IndexName', ['Gkvernor', 'Mickey Mouse'])Åe__80__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__6__	1('VOTER|72uTQKd%', g__N__CountName')Á
-ðû{
-('___T___', '__N__CountName')R	__7__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__99__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£W_23__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__20__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__90__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('___T___', '__X__IndexName', 'voters')ïÛQ__31__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__28__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-,'___T___', '__N__CountName')R	__83__	3('___T___', '__N__CountName')R	±³
-G
-('___T__ß', '__N__CountNAie')R	_]56__	1('___T___', '__N__CountName')R	±o
-E
-('___T___, '__E__EntryName', 2)d	__85__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__E__EntryName', 1)b	__78__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('___T___', '__E__EntryName', 2)d	__96__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T__W', '__N__CountName')R	__99__	3('___T___', '__N__KountName')R	±³
-G
-('VOTR|LnsE2MwG', '__N__CountName')ÊDH__47__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|movUhPYr', '__E__EntryName', 1)ök __47__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __36__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__5__	3('___T___', '__N__CountName')R	±³
-G
-('___T_', '__E__EntryName', 2)d	__9$__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__20__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__E__EntryName#, 2)d	__22__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__E__EntryName', 3)f	__48__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__N_CountName')R	__26__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__11__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 0)`	__48__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 0)`	__88__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('_]_T___', '__X__IndexName', ['Lt.(Governor', 'Melinda Gates']).__0_W	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('__]T___', '__E_[EntryName' 2)d	__86__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__0__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|72uTQKd%', '__X__IndexNaMe', ['Governor', 'Paul Johnson'])ø¸__6__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__64__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__81__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|72uTQKd%', '_N__CountName')Á
-ð__18__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 0)`	__84__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__N__CountName')R	__0__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__40__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('VOTER|LnsE2MwG#, '__E__EntryName', 1)ìÝÇ__81^_	h['Lt. Governor, 'Microsoft], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__82__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__62__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__J__CountName')R	__83__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__N__CountName')R	__30__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__19__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('___T___', '__X__IndexName', 'voters')ïÛQ__88__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|LnsE2MwÇ', '__E__EntryName', 1)ìÝÅ__2__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__N__CountName')R	__51__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__31__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__9__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 2)d	__65__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__56__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CountNimå')R	__85__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__25__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('___T___', '__N__CountName')R	__83__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 2)d	__22__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__2__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOÔER|72uTQKd%', '__E__EntryName', 0)ã,l__1__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 3)f	__5__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__27__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__N__CountName')R	__62__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 3)f	__99__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__X__IndexName', 'voters')ïÛQ__76__	"('___T___', '__X__IndexNama', 'voters')ïÛQ0mª
-('___T___', '__E__EntryName', 2)d	__86__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__96__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __64__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__88__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___t___', '__N__Coun4Namm')R	__35__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__X__IndexName', ['Gover.or', 'Mickey Mouse'])*3Ý__28__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__51__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__99__	2('VOTER|LnsE2MvG', '__N]ßCoqntName')ÊFHÀÝ
-('___T___', '__E__EntryJame', 0)@	__23__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__25__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EîtryName', 2)d	_]88__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__71__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__82__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__64__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CountName')R	__24__	4('___T___', '__N__CountName#)R	±Õ
-H
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__78__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2M7G', %__N_^CountName')ÊFH__1__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__44__	1('VOTER|mOvUhPYr', '__N__CountName'(ÒÃ£r
-('___T_W_', '__N__CountName')R	__27__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__7__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__N]_CountName')R	__95__	2('___T___', '__N__CountName')R	±
-F
-('___T___', '__N__CountName')R	__91__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 2)d	__76__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__E__EntryName', 4)h	__74__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LnsE6MwG', 7__N__CountName')ÊFH__8__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__N__CountName')R	__98__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__54__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 4)h	__29__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 3)f	__78__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__55__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__37__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__E__EntryName', 2)d	__42__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__X__IndexName', 'voters')ïÛQ__72__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___', '__N__CountName')R	__37__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__P__IndexName', ['President', 'Donald Trump'])ÛôÀ__42__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('VOTEV|72uTQKd%', '__N__CountName')Á
-ð__38__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 2)d	__1__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|LnsE2MwG', '__N__CotntLame')ÊFH__8__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__N__CouftName'-R	__55__	5('___T__', '__N_[CountName')R	±÷
-I
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__58__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('___T___', '__N_CountName')R	__14__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__77__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
- '___T___', '^_E__EntryName', 4)h	__13__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 2)d	__68__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-'VOTER|mOvUhPYr', '__E__EntryName', 1)ök __32__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__19__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__E__EntryName', 0)`	__12__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__67__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 0)`	__44_~	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __55__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __47__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__35__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__99__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('VOTER|72uTQKd-', '__E__EntryName', 0)ã,l__17__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__N__CountName')R	__26__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__N__CountName&)R	__85__	5('___T___', '__N__CountName')R	±÷
-I
-(VoTER|mOvUhPYr', '__N__CountName')ÒÃ£__1__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|LnsE2MwG', '__E^_EnuryName', 0)ìÛÄ__15__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__E__EntryName', 0)`	__6__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 09`	__36__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__79__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðù{
-('___T___', '__E__EntryName', 2)d	__21__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__E__EntryName', 2)d	__18__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__N__CountName')R	__33__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__N__Countame')R	__44__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mnuse'])*3Ý__28__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T__]', '__E__En|ryName', 2)d	__1__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__N__CountName')R	__64__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__N__CountName')R	__40__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', &__E__EntryName', s)f	__58__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('VOTER|mOvUhPYr' '__N__CountNAme')ÒÃ£__71__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CountName')R	__78__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__16__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__E__EntryName', 2)d	__16__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|L~sE2MwG', '__E__EntryName', 1)ìÝÅW_74__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__E__EntryName', 1)b	__12__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__N__CountName')R	__75__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', /__X__IndexNeme', ['GoveRnor', 'Paul Johnson']))µã__13__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('VOTMR|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__62__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__E__EntryName', 0)`	__23__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-(7VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__62__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('V_TER|72uTQKd%', '__X__IndexName', ['Governnr', 'Paul"Johnson'])ø¸__82__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__34__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|LnsE2MwG', '__E__EjtryName', 0)ìÛÄ__37__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__E__EntryName', 1)b	__80__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__67__	3('VOTER|mOvhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__59__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__42__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__75__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__E__EntryName', 0)`	__12_]	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __93__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__1__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__51__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('___T___', '__N^_CountName')R	^_7__	5('___T___', '__N__CountName')R	±÷
-I
-(#___T___#, '__E__EntryName'$ 9)b__26__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__64__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__97__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__25__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__N__CountName')R	__76__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 0)`	__55__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 3)f	__90__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__X__IndexName', 'voters')ïÛQ__11__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___/, '__E__EotryName', 2)d	__37__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__31__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__N__CmuntName')£R	__94__	3('___T___', '__N__KountName')R	±³
-G
-('V_TER|mOvUhPYr'< '__N__CountName')ÒÃ£__55__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 1)b	__20__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__N__CountName')R	__47__	5('___T___', '__N__CountName')R	±÷
-I
-(/___T___', '__E__MntryName', 2)d	__95__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__49__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '_oE__EntryName', 0)d	__66__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__1__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', #)f	__54__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__E__EntryName', 0)`	__67__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__65__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___'- '__N__CountName')R	__0__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___', '__E__EntryName', 0)`	__61__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__X__IndexName', ['Governor', 'Mickdy Moqse'])*2Ý__78__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__8__	2(#VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__17__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('___T___', '__E__E~tryName', 0)p	__54__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__50__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__59__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__48__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__85__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__N__CountName')R	__95__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__41__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('__^T___', '__E__EntryName', 1)b	__99__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__37__	3('VOTER|mOvUhPYr', '__N__Co}ntName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__24__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__18__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryÎame', 2)d	__53__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T__', '__E__EntryName', 4)h	__49__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__N__CountName')R	__31__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__30_W	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 2)d	__3__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__E__EntryName', 4)h	__56__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__N__CountName')R	__9__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__E__EntryNa}e', 4)Ɵh	__88__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__98__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__E__EnuryName', 0)`	__45__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|LnsE2MvG', '__N__CountName/)ÊFH__97__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__N__CountName')R	_ß82__	5('___T___', '__N__CoultName')R	±÷
-I
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__64__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__99__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__80__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('VOTeR|LnsE2Mwg', '_X__IndexName', ['Governor', 'Íickey MOuse'])²m
-__3__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__X__IndexName', 'voters')ïÛQ__48__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T__', '__N__CountName')R	__?3__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mnuse7])²m
-__97__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__N__CountName')R	__77__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__19__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__N__CountName')R	__46__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 0)`	__63__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__90__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CmuntName')R	__74__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __73__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__90__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__20__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EntryName', 0	`	_[68__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VMTER|72uTQKd%', '__X__IndepName', ['Governor', 'Paul Johnson'])ø¸__5u__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EntryName', 0)`	_ß32__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__N__CountName')R	__81__	5('___T___', '__N__CoultName')R	±÷
-I
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__17__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__X__IndexName', ['Ld. Governor', 'Melinda Gates'])._52__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|mOvUhPYr', '__X__IndExName', ['GoverNor', 'Mickey Mouse'])Åe__2__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 3)f	__31__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__E__EntryName', 4)h	__17__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 0)`	__55_[	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__16__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__39__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__66__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__44__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__N__CountName')R	__6__	5('___T___', '__N__CountName')R	±÷
-I
-('vOTER|LnsE2MwG', '__X_OIndexName', ['Gmvernor', 'Mickey Mouse'])²m
-__51__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__E__EntryName', 2)d	__29__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__E__EntryName', 0)`	__92__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__E__EntryName', 4)h	__17_O	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 0)`	__0__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__N__CountName')Ò	__5__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__38__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__E__EntryName', 0)`	__34__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 2)d	__98__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__23__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__N__CuntName')R	__29__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__86__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__89__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__64__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__N__CountName')R	__73__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 2)d	__19__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|72uTQKd5', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__82__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EntryName', 3)f	__9__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__79__	1('___T___', '__X__Ind%xName', ['Lt. Gkvernor', 'Microsoft'])7õƬ
-('___T___', '__E__EntryName', 2)d	__56__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__34__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 0)`	__81__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-h'___T___', '__E]_EntryName', 2)d	__46__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__N__Coun4Name')R__58__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__4z__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('___T___', '__E__EntryName', 0)`	__46__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__13__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('__WT___', '__N__CountName')R	__99__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 4)h	__49__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__8__	0('___T___', '__X__IndexName', ['overnor', 'Mickey Mouse'])*3ÝéY
-8'___T___', '__N__CountName'(R	__64__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__13__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhP[p', '__Y__IndeXName', ['Lt. Governor', 'Melinda Gates']),¶__73__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__E__EntryName', 0)`	__53__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__N__CountName')R	__13__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__50__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTMR|mOvUhPYr', '__E__EntryName', 1)ök __47__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__77__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__30__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__36__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__38__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__30__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFhÜ
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__32__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('___T___', '^_X__Ind%xName', 'voters')ïÛQ__34__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___', '__E__EntryName', 2)d	__4__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__34__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__E__EntryName', 0)`	__40__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__60__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__82__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__E__EntryName', 4)h	__21__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 2)d	__21__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__N__CountName')R	__93__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__51__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__19__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__79__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__E__EntryName', 0)d	__92__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__38__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('___T__', '__E__EntryNamE', 3)f	__61__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___', '__E__EntryName', 1)b	__65__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__83__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__22__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__u4__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('__WT___', '__N__CountName')R	__98__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', g__N__CountName')R	_]42__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr', '__E__EntryName', )ök __91__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('___T___', g__N__ountNeme')R	__68__	2('___T___', '__N__CountName')R	±
-F
-('___T___', '__E__EntryName', 2)d	__71__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__N__CountName')R	__32__	3('___T___'( '__Î__CountÎame'-R	±³
-G
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__99__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('VOTER|mOvUhYr', '____EntryName', 1)ök __27__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__68__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__X__IndexName', 'voters')ïÛQ__40__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__65__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__N__KountName')R	__2__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__76__	3('VOTER|mOvUhPYr', '__N__CmuntÎame')ÒÃ£Ä
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__2__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-(/___T___', '__E__EntryName', 1)b	__32__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('___T___', '__N__CountName')R	__65__	4('___T___', '__N__CountName')R	±Õ
-H
-(#VOTER|LnsE2MwG', '__N__CountName')ÊFH__39__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__48__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EntryName', 0)`	__19__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__62__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2MwG', '_]N__CountName')ÊF@__87__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__30__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__99__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__E__EntryName', 0)`	__99__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 2)d	__37__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__N__CountName')R	__18__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__94__	1('VOTER|72eTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 1)b	__76__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__10W_	2(7VOTER}LnsE2MwG', '__N__CountName')ÎFHÀÝ
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__3__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VODER|mOvEhPYr', '__X__IndexName', [&Lt. Governor', 'Melinda Gates']),¶__v8__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__N__CountName')R	__45__	5('___D___', '__N__CguntName')R	±÷
-I
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__61__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('___T___7, '_E__EntryName', 4)h	__99__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__N__CounvName')R	__65__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__N__CïUntFame')R	__61__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__82__	0('vOTER|72uTQKd%', '__X__IndexNamE', ['Governor', 'Paul(Johnson'_)ø¸hJ
-,'___T___', '__N__CountName'iR	__83__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__53__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__E__EntryName', 1)b	__23__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÇ__85^_	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___',`'__N__CountName')R	__98__	3('___T___', '__N__KountName')R	±³
-G
-('___T___', '__N__CountName')R	__23__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__N__CountName')R	__74__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTMR|mOvU(PYr', '__N__CountName')ÒÃ£__90[_	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__24__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__E__EntryName', 2)d	_76__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___V___', '__E__EntryName', 2)d	__94__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__X__IndexName', ['Lt. Govezn/r', 'Melinda Gates']).__38__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '_^N__CountName')R	__29__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__24__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__E__EntryName', 0)`	__30__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__73__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__E__EntryName', 3)f	__68__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey"Mouse'\)Åe__31__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 0)`	__89__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__61__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('___T___#, '__E__EntryName', 4)h	__22__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__N__CountName'!r	__27__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__AntryName', 1)b	__83__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('___T___', '__N__CountName')R	__17__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', )`	__79__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 2)d	__51__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__0__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__41__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('__T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates'])~.W_14__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTÅR|72uTQKD%', '__X__IndexName#, ['Ggvernor',('Paul Johnson'])ø¸__13__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__N__CountName')R	__28__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__0__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__70__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|mOvUhPYr', '__N__CountNeme')ÒÃ£__79__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('___T___', '__E__EntryName', 2)`	__10__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr'< '__N__AountName')ÒÃ£__98__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOUER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__76__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|}OvUhPYr', '__X__IndexNaie&, ['Governor', 'Mickey Mouse'])Åe__51__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___'$ '__X_IndexName', ['Governor', 'Mickey Mouse'])*3Ý__46__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__N__CountName')R	__71__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__40__	0('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀG¦
-('___T___', '__N__CountName')R	__2__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__92__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__N__CountName')R	__72__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|eOvUhPYr', '__N__CountName')ÒÃ£__63__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CountName')R	__48_	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__45__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___',$'__E__EntryName'. 4)h	__10__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', /__N__CountName')R	__4__	2('___T___', '__N__CountName')R	±
-F
-('___T___', '__E__EntryName', 1)b	__75__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__0__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__E__EntryName', 3)f	__82__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__74__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__N__CowntName')R	__39__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__1__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__7__	2(7VOTER}LnsE2MwG', '__N__CountName')ÎFHÀÝ
-('___T___', '__N__CountName')R	__42__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__19__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__40__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__18__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__E__EntryName', 2)d	__12__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__86__	0('___T___', '__X__IndexNa}e', ['Governor', 'Miãkey Mouse'])*3ÝéY
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__73__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('VOTER|LnsE2MwG', '__N__CowntName')ÊFH__81__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__66__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|mOvUhRYr', '__E__EntryName', 2)öm!__60__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__86__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__E__EntryName', 0)`	__26__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|LnsE6MwG', '__N__CountName')ÊFH__99__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 4)h	__96__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__78__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__16__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__91__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__N_]CountName')R	__43__	5('___T___', '__N__CoultName')R	±÷
-I
-('___T___', '__E__EntryName', 2)d	__=9__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__E__EntryName', 2)l	__1__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|LnsE2MwG', '__E__EntryNAme', 1)ìÝÅ__83__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__98__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__N__CountName')R	__54__	3('___T___', '__N__CountName')R	±³
-G
-('FOTER|mOvUhPYr', '__E_OEn4ryName', 1)ök __98__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('___T___', '__N__CountName')R	__29__	4('___T___', '__N__CountName')R	±Õ
-H
-(#___T___', '_N__CountName')B	__76__	3('___T___', '__N__CountName')R	±³
-G
-('___T___', '__E__EntryName', 0)`	__80__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__65__	2('VOTER|mOvUhPYr', '_^N__CountName')ÒÃ£
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__32__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 2)d	__41__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__E__EntryÎame', 0)`	__26__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__33__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 4)h	__72__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__E__EntryName', 0)`	__91__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 2)d	__43__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__N__CountName')R	__79__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__14__	1('VOTER|HnsE2MwG', #__N__CountNaMe')ÊFHÜ
-('___T___', '__E__EntryName', 4)h	__&4__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__85__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('___T___', '__E__EntryName', 2)d	__91__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___D___', '_]E__EntryName', 0)`	W_30__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__N__CountName')R	__60__	5('___T___', '__N__CountName')R	±÷
-I
-('___T__^', '__N__CountName')R__45__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__33__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__20__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__85__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T__ß', '__E__EntryName', 3)f	__5__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___U___',!'__X__IndexName', ['President', 'Donald Trump'])>8_ß94__	3('___T___', '__Ø__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('___T___', g__E__ntryName', 0)`	__84__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__N__CountName')R	__66__	1('___T___' '__N__CountName')R	±o
-E
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __32__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-(VOTER|LnsE2MwG', '__E__EntryName', !)ìÝÅ__54__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T__^', '__E__EntryName', 0)`	__43_[	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__64__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__84__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__16__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('[__T___', '__N__CountName')R	_0__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('___@__', '__N__CountName')R	__48__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 3)f	__15__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('__OT_]_', '__E__EntryN`me', 0)`	__99__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 0)`	__18__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__65__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 0)`	__96__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T__]', '__E__EntryName', 0)`	__51__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__E__EntryName', 1)b	__99__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__81__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '_E__EntryName', 0)öi__17__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-(#___T_]_', '__E__EntryName', 2)d	__92__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__54__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__69__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntbyLame', 2)d	__61_]	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__E__EnpryName', 2)d	__12__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('___T___', '__E__EntryName', 2)d	__29__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__59__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__N__CountName'9ÊFH__77__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__68__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__89__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('___T___', '__N__CountName')R	__49__	5('___T__', '__N_[CountName')R	±÷
-I
-('___T___', '__E__EntryName', 2)d	__13__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__N__CountName')R	__1__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__47__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('___T___', '__E__EntryName', 4)h	__32__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__92__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__88__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__47__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-*'___T___', '__E__EntryName', 2)d	__67__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__59__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CountName')R	__12__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___/, '__N__CountName')R	__98__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__N__CoentName')R	__91__	1('___T___', '__N__CoundName')R	±o
-E
-('___T___', '__E__EntryNaie', 4)h	__12__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__74__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('___T___', '__N__CountName')R	__=9__	1('___T___', '__N__CountName')R	±o
-E
-(/_O_T___', '__N__CountName')R	__23__	2('___T__', '__N__CountName')R	±
-F
-8'___T___', '__N__CountName')R	__6__	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__93__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__41__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|LnsE2MwG', '__N__CounuNcme')ÊFH__48__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|mOvUhPYr#, '__N__CïuntName')ÒÃ£__72__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__8__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__49__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__18__	4('__T___', '__P__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___, '__E__EntryName', 2)d	__64__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', /Microsoft'])ÁlC__0__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__40__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__56__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('___T___', '__X__IndexName', 'voters')ïÛQ__66__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|LnsE2IG', '__E^_EntryName', 1)ìÝÅ__2__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__E__EntvyName', 1)¿b	__12__	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__N__CounvName')R	__23__	5('___T___', '__N__CountName')R	±÷
-I
-('___Tß__', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__21__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__35__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__E__EntryName', 1)b	^_89__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|mOvUhPYr', '__E__Entryname', 0)öi__71__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__28__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__98__	1('VOTER|72uTQKd%', g__N__CountName')Á
-ðû{
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__6__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EntryName', 2)d	__26__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__X__IndexName', ['Governor', 'Íickey Mouse'])*3Ý__8__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('___T___', '__E__EntryName', 2)d	__81__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTEB|mOvUhPYr', '__E__EntryName', 2)öm!__60__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__N__CountName')R	__69__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__N__CoõntName')ÚÃ£__31__	1('VOTER|mOvUhPYr', '__N__CouîtName7)ÒÃ£r
-('___T___', '__N__CountName')R	__14__	4('___T___', '__N__Co5~tName')R	±Õ
-H
-('___T___', '__N__CountName')R	__56__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__97__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__E__EntryName', 1)b	__71__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__83__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__73__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__39__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__99__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|mOvUhPYr', '__N__CouotName')ÒÃ£__61__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__99__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__75__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__N__CountName')R	__27__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnsnn'])ø¸__74__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__X__IndexName', 'voters')ïÛQ__23__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__94__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__13__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__N__CountName')R	__21__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __29__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('___T___', '__E__EntryName', 2)d	__14__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__N__ountNeme')R	__68__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|mOvUhPYr', '__N__CounvName')ÒÃ£__64__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('_O_T___', '__E__EntryName', 0)`	__36__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__N__CountName')R	__58__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öi__5__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOPER|mOvUhPYr', '_[N__ÃountName')RÃ£__70__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__16__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__N__CountName')R	__48__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__N__CountNqme')R	__97__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__63__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 4)h	__46__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__97__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTMR|LnsE2MwG', '__E__EntryName', )ìÛÄ__20__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__N__CountName')R	__5__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 2)d	__87__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', 7__N__CountNaie')R	__75__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 2)d	__99__	3('___T___', '__N__KountName')R	±³
-G
-('___T___', '__N__CountName')R	__88__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__80__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__E__EîtryNamu', 4)h	__99__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__40__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__30__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__99__	3('___T___', '__N_CountName')R±³
-G
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__76__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__84__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__97__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__28__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('___T___', '__E__EntryName', 2)d	__66__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).__95__	4('___T___', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']).ç§
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__80__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('___T___', '__E__EntryName', 0)`	__72__	(['Governor', 'Mickey Mouse'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 0)`	ÁÖ
-('___T___', '__X__IndexName', 'voters')ïÛQ__52__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__51__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__N__CountÎame')R	__73_W	1('___T___', '__N__CountName')R	±o
-E
-('___T___', '__E__DntryName', 2-d	__94__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('___T___', '__E__EntryNqme', 2)d	__61__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('___T___', '__N__CountName')R	__70__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__54__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|LnsE2MwG', '__E^_EntryName', 0)ìÛÄ__86__	(['GoVernor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', 7__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__N__CountName')R	__59__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__57__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|72uTQKd%', '_OE__EntryÎame',"4)ã,l__83__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__37__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('___T___', '__N__CountName')Z	__40__	1('___T___', '__N__CountName')R	±o
-E
-('___U___', '__N__CountName')R	__74__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__X]_IndexName', ['President', 'Donald Trump'])>8__9__	3('___T___'l '__X__IndexName', ['Precident', 'Donald Trump'])>8Uÿ
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__99__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|LosE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-__86__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µã__3__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('___T___', '__E__EntryName', 4)j	__99__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__U__EntryName', 1)b	__78__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('___T___', '__E__EntryName', 3)f	__56__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('___T___',$'__N__CountName')R	__60__	3('___T___', '__N__CountName')R	±³
-G
-('^OTER|mOvUhPYr', '__N__CountName')ÒÃ£__48__	1('VOTER|mOvUhPYr', '__N__CountName'(ÒÃ£r
-('___T[__', '__N__CountName')R	__27_O	3('___T___', '__N__CountName')R	±³
-G
-('VOTER|mO6UhPYr', '__N__CountName')ÒÃ£__41__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__47__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|mOvUhPr', '__N__GountName')ÒÃ£__21__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('___T___', '__E__EntryName', 2)d	__94__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___t___', '__N__CountName')R	__42__	3('___T___', '__N__CountNáme')R	±³
-G
-('___T___', '__E__EntryName', 2)d	__w4__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('VOTER|mOvUhPYr', '__E__EntryName', 0)öé__89__	(['President', 'Donald Trump'], None)('VOTER|mOvUhPYr', '__E__EntryName', 0)öi6®
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__90__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__9__	2('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__22__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('___T___', '__E__EntryName', 0)`	__32__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___#, '__E__ntryName', 4)h	__22__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__X__IndexName', 'voters')ïÛQ__6__	2('___T___', '__X__IndexName', %voters'iïÛQ0mª
-('___T___', '__E__EntryName', 4)h	__37__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('ß__T___', '__E__EntryName', 4)h	_^74__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('___T___', '__N^_CountName')R	__99__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 0)`	__44__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__11__	1('VOTER|HnsE2MwG', #__N__CountNaMe')ÊFHÜ
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __99__	(['Governor', 'Mickey Mouse'], None)('VOTER|mOvUhPYr', '__E__EntryName', 1)ök úW
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __16__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__41__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 0)`	__28__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('__^T___'- '__N__CountNamE')R	__20__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___'< '__N__CountName')R	__55__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 0)`	__14__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('___T___', '__N__CountName')R	__92__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7__12__	1('___T___', &__X__IndexNaíe', ['Lt. Governor', #Microsoft'_)7õ¬
-('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8__59__	3('___T___', '__X__IndexName', ['President', 'Donald Trump'])>8Uÿ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__90__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('ROTER|mOvUhPYr', '__N__CountName')ÒÃ£__82__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__85__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄ__32__	(['Governor', 'Mickey Mouse'], None)('VOTER|LnsE2MwG', '__E__EntryName', 0)ìÛÄðÙ
-('VOTER|LnsE2MwG', '__E__EntryNa-e', 9ìÝÅ__2__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__E__EntryName', 1)b	__6__	1('___T___', '__N__CountName')R	±o
-E
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Micke9 Mouse'])²m
-__20__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__78__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 2)d	__39__	('voters', 3, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 2)d	²Ö¯
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__17__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('___T__', '__E__EntryName', 2)d	__24__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___'( '__E__EntryName', 1)b	__26__	1('___T___', '__N__CountName')R	±o
-E
-(%_]_T___', '_[X__IndexName#, ['Lt. Governor', 'Microsoft'])7__12__	1('___T___', '__X__IndexName', ['Lt. Governor', 'Microsoft'])7õ¬
-('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3Ý__5__	0('___T___', '__X__IndexName', ['Governor', 'Mickey Mouse'])*3ÝéY
-('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶__66__	2('VOTER|mOvUhPYr', '__X__IndexName', ['Lt. Governor', 'Melinda Gates']),¶bh
-('VTER|mOvUhPYr', '__E__EntryName', 1)ök __10__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('VOTER|72uTQKd!', '__N__CountName7)Á
-ð__63__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T___', '__E__EntryName', 4)h	__44__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LfsE2MwG', '__E__EntryName', 1)ìÝÅ__16__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('___T___', '__X__IndexName', 'voters'(ïÛQ__88__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('___T___', '__E__EntryName', 0)`	__56__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('_]_T___', '__N__CountName')R	_55__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOÔER|LnsE2MwG', '__N__CountName')ÊFH__89__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH__19__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__N__CountNaie')R	__75__	4('___T___', '__N__CountName')R	±Õ
-H
-('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Iouse'])²m
-__64__	0('VOTER|LnsE2MwG', '__X__IndexName', ['Governor', 'Mickey Mouse'])²m
-(x
-('___T___', '__E__EntryName', 1)b	__47__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅ__66__	(['Lt. Governor', 'Microsoft'], None)('VOTER|LnsE2MwG', '__E__EntryName', 1)ìÝÅÿA
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__42__	(['Governor', 'Paul Johnson'], None)('VOTER|72uTQKd%', '__E__EntryName', 0)ã,lãé¢
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__56__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__31__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T__', '__E__EntryName', 1)b	__97__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-(g___T___', '__N__CountName')R	__70__	4('___T___', '__N__CountName')R	±Õ
-H
-('___T___', '__E__EntryName', 1)b	__87__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__59__	1('VOTER|72uTQKd%'$ '__N__CountName')Á
-ðû={
-('___T___', '__E__EntryName', 3)f	__17__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 0)`	__79__	(['Governor', 'Mickey Mouse'], 2, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 0)`	¬Ü2
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__77__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntsyName', 2)d	__56__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__78__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__40__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 2)d	__74__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('___T___', '__E__EntryName', 4)h	__65__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|mOvUhPYr', '__E__EntryName', 1)ök __8__	1('VOTE|mOvUhPYr', '__N__CountName'iÒÃ£r
-('VOTER|LnsE2MwG', '__N__CountName')ÊFH^_67__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('VOTER|mOvU(PYr', '__N__GOuntName')ÒÃ£__88__	3('VOTER|mKvUhPYr', '__N__CountName')ÒÃ§Ä
-('VOTES|LnsE2MwG', '__N__CountName')ÊFH__48__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
-('___T___', '__E__EntryName', 1)b	__56__	(['Lt. Governor', 'Microsoft'], 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 1)b	®B
-('___T___', '__X__IndexName', 'voters')ïÛQ__68__	2('___T___', '__X__IndexName', 'voters')ïÛQ0mª
-('__OT___', '__N__CountName')R	__93__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|mOvUhPYr', '__X__IndexName', ['President', 'Donald Trump'])ÛôÀ__98__	1('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£r
-('___T___',!'__E__EntryName', 2)d	__42__	('voters', 1, 'VOTER|LnsE2MwG')('___T___', '__E__EntryName', 2)d	£R
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__98__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£__50__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__N__CountName')R	__4__	2('___T___', '__N__CountName')R	±
-F
-('VOTER|LnsE2MwG',('__N__CountName')ÊFH__41__	2('VOTER|LnsE2MwG', '__N__CountName')ÊFHÀÝ
-('___T___', '__E__EntryName', 3)f	__45__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('VOTER|72uTQKd%', '__E__EntryName', 0)ã,l__32__	(['Governor', 'Paul Johnson/], None)('VOTER|72uTQKd%', '__E__AntryName', 0)ã,lãé¢
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'MIckey Mouse'])Åe__83__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('___T___', '__E__EntryName', 2)d	__9__	('voters', 2, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	äû
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__13__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸hJ
-('___T___', '__N__CountName')R	__85__	5('___T___', '__N__CountName')R	±÷
-I
-('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe__24__	1('VOTER|mOvUhPYr', '__X__IndexName', ['Governor', 'Mickey Mouse'])Åe.i
-('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC__94__	1('VOTER|LnsE2MwG', '__X__IndexName', ['Lt. Governor', 'Microsoft'])ÁlC(õù
-('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Johnson'])ø¸__25__	0('VOTER|72uTQKd%', '__X__IndexName', ['Governor', 'Paul Jmhnson'])ø¸hJ
-('___T___', '__E__EntryName', 3)f	__85__	(['President', 'Donald Trump'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 3)f	Ë×
-('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!__52__	(['Lt. Governor', 'Melinda Gates'], None)('VOTER|mOvUhPYr', '__E__EntryName', 2)öm!g¬
-('___T___', '__X__INäexName', ['Goternor', 'Paul Johns/n']))µã__36__	2('___T___', '__X__IndexName', ['Governor', 'Paul Johnson']))µãè
-('VOTER|mOfUhPYr', '__N__CmuntName')ÒÃ£__25__	3('VOTER|mOvUhPYr', '__N__CountName')ÒÃ£Ä
-('___T___', '__E__EntryName', 2)d	__40__	(['Governor', 'Paul Johnson'], 1, 'VOTER|72uTQKd%')('___T___', '__E__EntryName', 2)d	Ü
-('VOTER|72uTQKd%', '__N__CountName')Á
-ð__63__	1('VOTER|72uTQKd%', '__N__CountName')Á
-ðû{
-('___T__', '_n__Countame'iR	__99__	5('___T___', '__N__CountName')R	±÷
-I
-('___T___', '__E__EntryName', 4)h	__28__	(['Lt. Governor', 'Melinda Gates'], 1, 'VOTER|mOvUhPYr')('___T___', '__E__EntryName', 4)h	$â
-('VOTER|LnsE2MwG', '__N__CountName&)ÊFH__99__	1('VOTER|LnsE2MwG', '__N__CountName')ÊFHÜ
