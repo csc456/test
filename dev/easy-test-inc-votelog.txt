@@ -1,0 +1,9 @@
+VOTER
+VOTE	Governor	Mickey Mouse
+CAST	VOTER|vWAkM_h+
+VOTER
+VOTE	Governor	Mickey Mouse
+CAST	VOTER|P^peF1B5
+VOTER
+VOTE	Governor	Mickey Mouse
+CAST	VOTER|VFvsmiIG

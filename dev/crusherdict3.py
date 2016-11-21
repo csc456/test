@@ -29,6 +29,8 @@ def countName(dict):
  return (dict,"__N__CountName")
 
 def entryName(dict, n):
+ # Always make n an int
+ n=int(n)
  vprint(3,'crusherdict.py entryName()')
  vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
  return (dict, "__E__EntryName", n)
@@ -103,7 +105,7 @@ class CrusherDict:
   rslt_num=0
   rslt_best=None
   r=100  # Num entries
-  readMultiplier=40 # Store 100, Read 4000
+  readMultiplier=20 # Store100; Then  Read100*RecurseRead40=Read4000;
   readAmount=r*readMultiplier     # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
   successRate=0.05*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
@@ -303,7 +305,7 @@ class CrusherDict:
   vprint(2,'  .inc()::val:',val)
   #key=tuple(key) # cast as tuple (remove list [])
   try:
-   f = self.safeFetch(indexName(self.name,key))
+   f=self.safeFetch(indexName(self.name,key))
    dbkey=entryName(self.name,f)
    v=self.safeFetch(dbkey)
    # v is one of:
@@ -311,12 +313,19 @@ class CrusherDict:
    #   BROKEN:  fetch(dbkey):16
    #   BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
    #   WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q0000DG0LZH70V000W0F0R006BP28M0500ES00XYO30C40I0JNU0A100T')
-   if str(n)==str(int(n)):
-    return self.inc(key,val) # Recursive...
+   vprint(2,'  .inc()::check int')
+   try:
+    x=str(int(v)) # Raises error when not int
+    if str(v)==x:
+     return self.inc(key,val) # Recursive..
+   except: # Well, not an int, so that is good
+     pass
+   vprint(2,'  .inc()::eval()')
    try:
     v=ast.literal_eval(v)
    except:
-    return self.inc(key,val) # Recursive...    
+    return self.inc(key,val) # Recursive...
+   vprint(2,'  .inc()::check len')
    if len(v) != 3: # tuple len not three
     return self.inc(key,val) # Recursive...
    # If v is None

@@ -227,6 +227,8 @@ def report(dbs, log):
   try:
    n=t.getKey("voters")
    x=t.safeFetch(n)
+   # eval here
+   x=ast.literal_eval(x)
    x=x[1]
   except:
    continue
