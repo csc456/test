@@ -93,8 +93,8 @@ class CrusherDict:
   rslt_good_num={}
   rslt_num=0
   rslt_best=None
-  r=100  # Num entries
-  readMultiplier=100 # Store100; Then  Read100*RecurseRead40=Read4000;
+  r=60  # Num entries
+  readMultiplier=200 # Store100; Then  Read100*RecurseRead40=Read4000;
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
   successRate=0.08*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
@@ -193,22 +193,7 @@ class CrusherDict:
      vprint(2,'  safeFetch:: new best value is ', rb, "({}:{}%)".format(value,100*value/readAmount))
    vprint(2,'  safeFetch:: final value is ', rb)
    return str(rb)
-  #else: # DEBUG
-  # best=0
-  # rb=None
-  # for key, value in rslt_good_num.items():
-  #  dbval=rslt_good[key]
-  #  if value>best:
-  #   best=value
-  #   rb=dbval
-  #   vprint(2,'  safeFetch:: [fails] new best value is ', rb, "({}:{}%)".format(value,value/readAmount))
-  # vprint(2,'  safeFetch:: [fails] final value is ', rb)   
-  # So, what are results of fetch voting?
   raise KeyError
-  #if rslt_best=='ke':
-  # raise KeyError
-  #elif rslt_best=='er' or rslt_best is None or rslt_best=:
-  # raise KeyError # Assume it is roughly equivalent...
  def safeStore(self, dbkey, key):
   '''Next:...
      Store each dbkey as eg dbkey + __[1-20]__
@@ -221,13 +206,12 @@ class CrusherDict:
   vprint(2,'safeStore::')
   vprint(2,'  safeStore::dbkey='+str(dbkey))
   vprint(2,'  safeStore::key='+str(key))
-  #vprint(2,'  safeStore::val='+str(val))
   # Put keys and values in with a marker
   # when they are beneath a threshold length.
   # And an int, eg 0-9.
+  r=60
   dbkey=str(dbkey)
   key=str(key)
-  r=100
   tmpkey=dbkey+fletcher32(dbkey)
   tmpval=key
   tmpval=tmpval+tmpkey
@@ -240,8 +224,6 @@ class CrusherDict:
    ## key=key+'__'+str(i//readMultiplier)+'__'
 
    self.db.store(tmpkey+'__'+str(i)+'__', tmpval)
-   #except:
-   # pass
   # Now it is in there or else try again...
   try:
    n=self.safeFetch(dbkey)
@@ -262,7 +244,6 @@ class CrusherDict:
      is returned.
   """
   vprint(2,'crusherdict.py CrusherDict.getKey()')
-  #key=tuple(key)
   try:
    f=self.safeFetch(indexName(self.name,key))
    dbkey=entryName(self.name,f)
@@ -278,11 +259,10 @@ class CrusherDict:
     n=int(n)
    except KeyError:
     n=0
-    #n=100
    dbkey=entryName(self.name,n)
    self.safeStore(dbkey, (key,val))
    self.safeStore(indexName(self.name,key), n)
-   self.safeStore(countName(self.name),n+1) #1 now 100
+   self.safeStore(countName(self.name),n+1)
    return dbkey
  def inc(self, key, val):
   """Increment the value for key from the set.
