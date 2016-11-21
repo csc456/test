@@ -109,23 +109,23 @@ class CrusherDict:
    forceNum=True
   else:
    forceStr=True
-  key=key+fletcher32(key)  
+  fld=fletcher32(key)
+  key=key+fld
   for i in range(readAmount): #0-...
    try:
     #dbkey=str(key)+'__'+str(str(i//readMultiplier)*4)+'__'
-    tmpk=key+'__'+str(i//readMultiplier)+'__'
+    tmpk=key+'_'+str(i//readMultiplier)+'_'
     #print(tmpk)
     k=self.db.fetch(tmpk)
     if k[-4:] != fletcher32(k[:-4]):
      raise AttributeError # BAD, no cs
     # Must have key in val
-    if str(key) not in k:
+    if str(fld) not in k:
      #print(' key not in k ',key,' ',k)
      raise LookupError #BAD, no indexof
     # Replace key
-    k=k.replace(key,"")
-    # Replace 2 cs
-#    k=k[:-8]
+    k=k.replace(fld,"")
+    # Replace checksum
     k=k[:-4]
     # Is int
     # May be represented as int
@@ -212,9 +212,12 @@ class CrusherDict:
   r=60
   dbkey=str(dbkey)
   key=str(key)
-  tmpkey=dbkey+fletcher32(dbkey)
+  fld=fletcher32(dbkey)
+  #flk=fletcher32(key)
+  tmpkey=dbkey+fld
   tmpval=key
-  tmpval=tmpval+tmpkey
+  tmpval=tmpval+fld
+  # works on severe: tmpval=tmpval+tmpkey
   tmpval+=fletcher32(tmpval) #add
   
   # Loop store
@@ -223,7 +226,7 @@ class CrusherDict:
    ## key=fletcher32(key)
    ## key=key+'__'+str(i//readMultiplier)+'__'
 
-   self.db.store(tmpkey+'__'+str(i)+'__', tmpval)
+   self.db.store(tmpkey+'_'+str(i)+'_', tmpval)
   # Now it is in there or else try again...
   try:
    n=self.safeFetch(dbkey)
