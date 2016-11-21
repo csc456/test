@@ -190,7 +190,7 @@ class CrusherDict:
     if value>best:
      best=value
      rb=key # Element
-     vprint(2,'  safeFetch:: new best value is ', rb, "({}:{}%)".format(value,100*value/readAmount))
+     vprint(2,'  safeFetch:: new best value is ({}:{}%):'.format(value,round(100*value/readAmount,2)), rb)
    vprint(2,'  safeFetch:: final value is ', rb)
    return str(rb)
   raise KeyError

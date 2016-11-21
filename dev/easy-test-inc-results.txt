@@ -1,2 +1,2 @@
-VOTERS	3
-TALLY	Governor	Mickey Mouse	3
+VOTERS	6
+TALLY	Governor	Mickey Mouse	6
