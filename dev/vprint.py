@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
 '''vprint.py
    Define debug level.
-   Specify vprint(<level>, *args_to_print, sep=<separator string, default=' '>, end=<end string, default='\n'>)
+   From the command line specify the verbosity (default=0): demo.py input/easy.txt <verbosity, one of -v0, -v1, -v2, -v3>
+   Example: demo.py input/easy.txt -v2
+   Import for use as: from vprint import vprint
+   Use as: vprint(<level>, *args_to_print, sep=<separator string, default=' '>, end=<end string, default='\n'>)
    CSC456, Fall 2016
+   Author: David Shumway
 '''
 import sys
-#import argparse
-#parser = argparse.ArgumentParser()
-#parser.add_argument("-v", "--verbosity", type=int, help="increase output verbosity")
-#parser.add_argument("-o", "--input", type=str, help="input filename of voters")
-#args = parser.parse_args()
-#print(sys.argv)
-
-
 DEBUG_LEVEL_=0
+
 for arg in sys.argv:
  if arg=='-v0' or arg=='-v1' or arg=='-v2' or arg=='-v3':
   a=int(arg.replace('-v',''))

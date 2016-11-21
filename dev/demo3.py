@@ -166,7 +166,7 @@ def check_inq(c):
    tup=ast.literal_eval(tup)
    tmp+="VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
   except:
-   vprint(2,'  check_inq::Exception:',sys.exec_info()[0])
+   vprint(2,'  check_inq::Exception:',sys.exc_info()[0])
    return check_inq(c)
 
 # try:
@@ -257,7 +257,7 @@ def report(dbs, log):
      if tup[0]!="voters":
       tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
    except:
-    vprint(2,'  check_inq::Exception:',sys.exec_info()[0])
+    vprint(2,'  check_inq::Exception:',sys.exc_info()[0])
     print('  report::vote-log2 ...')
     continue # Skip db entirely ...
    # Add this result ...

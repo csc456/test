@@ -100,8 +100,8 @@ class CrusherDict:
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
 				# correctly at least 0.05*2000 or 20 times. 
   #successRateNotInt=0.05*readAmount
-  #0.05 x 4000 works with small-lvl3
-  #0.05 x 10000 is off by just *one* on small-lvl4-severe
+  #0.05 x r-100 rm-40 (4000)	works with small-lvl3
+  #0.05 x r-100 rm-100 (10000)	off by just *one* on small-lvl4-severe
   found=False
   forceNum=False
   forceStr=False

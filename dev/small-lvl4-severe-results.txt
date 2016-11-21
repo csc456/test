@@ -1,7 +1,7 @@
-VOTERS	3
+VOTERS	4
 TALLY	Mayor	Slimey Badguy	1
 TALLY	Supreme Court Justice	Sherry Parkhurst	1
-TALLY	Secretary of the Vote	Charles Lindbergh	1
+TALLY	Governor	Vickey Walker	1
 TALLY	Governor	Mary Potter	1
 TALLY	Office of Computer Science Research Grants	Stoned Jones	1
 TALLY	Governor	Mickey Mouse	2
