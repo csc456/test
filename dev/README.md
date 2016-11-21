@@ -16,7 +16,7 @@ We may see the number of IO-wait ticks. (Per http://serverfault.com/questions/16
 
 ```cut -d" " -f 1,2,42 /proc/*/stat | sort -n -k +3 | grep python3```
 
-Showing very low or almost no IO-wait ticks. (After all there is only file access at the start and very end of the program). Thus, you might assume that threading will not be helpful here. Yes? This is because threading comes in most handy when there is IO wait and the processor is idle. Yes?
+Showing very low or almost no IO-wait ticks. (After all there is only file access at the start and very end of the program.) Thus, you might assume that threading will not be helpful here. Yes? This is because threading comes in most handy when there is IO wait and the processor is idle. Yes?
 
 # ...
 
