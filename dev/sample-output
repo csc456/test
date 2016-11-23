@@ -1,0 +1,488 @@
+demo.py: Try cmd:VOTER
+demo.py: Try cmd:VOTE
+demo.py: Try cmd:VOTE
+demo.py: Try cmd:VOTE
+demo.py: Try cmd:VOTE
+demo.py: Try cmd:CAST
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__S__StatusName') 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 0) 
+  key=(['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 0) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 0) 
+  key=(['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 0) 
+   new best value is (73:20.28%): (['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+   final value is  (['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  key=0 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  key=0 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  key=0 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  key=0 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+   new best value is (86:23.89%): 0 
+   final value is  0 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+   new best value is (106:29.44%): (['Secretary of the Vote', 'Charles Lindbergh'], None) 
+   final value is  (['Secretary of the Vote', 'Charles Lindbergh'], None) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=1 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=1 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=1 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+   new best value is (91:25.28%): 1 
+   final value is  1 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+  key=(['Governor', 'Vickey Walker'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+  key=(['Governor', 'Vickey Walker'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+  key=(['Governor', 'Vickey Walker'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+   new best value is (128:35.56%): (['Governor', 'Vickey Walker'], None) 
+   final value is  (['Governor', 'Vickey Walker'], None) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Governor', 'Vickey Walker']) 
+  key=2 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Governor', 'Vickey Walker']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Governor', 'Vickey Walker']) 
+  key=2 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Governor', 'Vickey Walker']) 
+   new best value is (73:20.28%): 2 
+   final value is  2 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 3) 
+  key=(['Governor', 'Mary Potter'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 3) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__E__EntryName', 3) 
+  key=(['Governor', 'Mary Potter'], None) 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 3) 
+   new best value is (110:30.56%): (['Governor', 'Mary Potter'], None) 
+   final value is  (['Governor', 'Mary Potter'], None) 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__X__IndexName', ['Governor', 'Mary Potter']) 
+  key=3 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__X__IndexName', ['Governor', 'Mary Potter']) 
+   new best value is (103:28.61%): 3 
+   final value is  3 
+safeStore:: 
+  dbkey=('VOTER|L~q8eHVv', '__N__CountName') 
+  key=4 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__N__CountName') 
+   new best value is (78:21.67%): 4 
+   final value is  4 
+crusherdict.py __iter__():: 
+Loading .__len__() for  VOTER|L~q8eHVv  ...  
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__N__CountName') 
+   new best value is (112:31.11%): 4 
+   final value is  4 
+  .__len__()::return 4 
+  []iter::i: 0 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 0) 
+   new best value is (179:49.72%): (['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+   final value is  (['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+  []iter::n: 0 
+  []iter::i: 1 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+   new best value is (122:33.89%): (['Secretary of the Vote', 'Charles Lindbergh'], None) 
+   final value is  (['Secretary of the Vote', 'Charles Lindbergh'], None) 
+  []iter::n: 1 
+  []iter::i: 2 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+   new best value is (165:45.83%): (['Governor', 'Vickey Walker'], None) 
+   final value is  (['Governor', 'Vickey Walker'], None) 
+  []iter::n: 2 
+  []iter::i: 3 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 3) 
+   new best value is (222:61.67%): (['Governor', 'Mary Potter'], None) 
+   final value is  (['Governor', 'Mary Potter'], None) 
+  []iter::n: 3 
+crusherdict.py .inc() 
+  .inc()::key: ['Supreme Court Justice', 'Sherry Parkhurst'] 
+  .inc()::val: VOTER|L~q8eHVv 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (102:28.33%): 2 
+   final value is  2 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 2) 
+  key=(['Supreme Court Justice', 'Sherry Parkhurst'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 2) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 2) 
+  key=(['Supreme Court Justice', 'Sherry Parkhurst'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 2) 
+   new best value is (121:33.61%): (['Supreme Court Justice', 'Sherry Parkhurst'], 1, 'VOTER|L~q8eHVv') 
+   final value is  (['Supreme Court Justice', 'Sherry Parkhurst'], 1, 'VOTER|L~q8eHVv') 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  key=2 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  key=2 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+  key=2 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Supreme Court Justice', 'Sherry Parkhurst']) 
+   new best value is (121:33.61%): 2 
+   final value is  2 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=3 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=3 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (110:30.56%): 3 
+   final value is  3 
+crusherdict.py .inc() 
+  .inc()::key: ['Secretary of the Vote', 'Charles Lindbergh'] 
+  .inc()::val: VOTER|L~q8eHVv 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (118:32.78%): 3 
+   final value is  3 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 3) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 3) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 3) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 3) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 3) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 3) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 3) 
+  key=(['Secretary of the Vote', 'Charles Lindbergh'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 3) 
+   new best value is (204:56.67%): (['Secretary of the Vote', 'Charles Lindbergh'], 1, 'VOTER|L~q8eHVv') 
+   final value is  (['Secretary of the Vote', 'Charles Lindbergh'], 1, 'VOTER|L~q8eHVv') 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=3 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=3 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=3 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=3 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+  key=3 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Secretary of the Vote', 'Charles Lindbergh']) 
+   new best value is (107:29.72%): 3 
+   final value is  3 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=4 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=4 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (74:20.56%): 3 
+   new best value is (127:35.28%): 4 
+   final value is  4 
+crusherdict.py .inc() 
+  .inc()::key: ['Governor', 'Vickey Walker'] 
+  .inc()::val: VOTER|L~q8eHVv 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Governor', 'Vickey Walker']) 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (59:16.39%): 3 
+   new best value is (111:30.83%): 4 
+   final value is  4 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 4) 
+  key=(['Governor', 'Vickey Walker'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 4) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 4) 
+  key=(['Governor', 'Vickey Walker'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 4) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 4) 
+  key=(['Governor', 'Vickey Walker'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 4) 
+   new best value is (191:53.06%): (['Governor', 'Vickey Walker'], 1, 'VOTER|L~q8eHVv') 
+   final value is  (['Governor', 'Vickey Walker'], 1, 'VOTER|L~q8eHVv') 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Governor', 'Vickey Walker']) 
+  key=4 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Governor', 'Vickey Walker']) 
+   new best value is (77:21.39%): 4 
+   final value is  4 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=5 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (64:17.78%): 3 
+   new best value is (65:18.06%): 5 
+   new best value is (93:25.83%): 4 
+   final value is  4 
+  Recursing(1) 
+  [Looking for  5  and seeing  4 ] 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=5 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (12:3.33%): 3 
+   new best value is (86:23.89%): 5 
+   final value is  5 
+crusherdict.py .inc() 
+  .inc()::key: ['Governor', 'Mary Potter'] 
+  .inc()::val: VOTER|L~q8eHVv 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Governor', 'Mary Potter']) 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (40:11.11%): 3 
+   new best value is (88:24.44%): 5 
+   final value is  5 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 5) 
+  key=(['Governor', 'Mary Potter'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 5) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 5) 
+  key=(['Governor', 'Mary Potter'], 1, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 5) 
+   new best value is (139:38.61%): (['Governor', 'Mary Potter'], 1, 'VOTER|L~q8eHVv') 
+   final value is  (['Governor', 'Mary Potter'], 1, 'VOTER|L~q8eHVv') 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Governor', 'Mary Potter']) 
+  key=5 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Governor', 'Mary Potter']) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__X__IndexName', ['Governor', 'Mary Potter']) 
+  key=5 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', ['Governor', 'Mary Potter']) 
+   new best value is (143:39.72%): 5 
+   final value is  5 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=6 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (42:11.67%): 6 
+   new best value is (102:28.33%): 5 
+   final value is  5 
+  Recursing(1) 
+  [Looking for  6  and seeing  5 ] 
+safeStore:: 
+  dbkey=('___T___', '__N__CountName') 
+  key=6 
+safeFetch:: 
+  key: ('___T___', '__N__CountName') 
+   new best value is (74:20.56%): 6 
+   final value is  6 
+crusherdict.py .inc() 
+  .inc()::key: voters 
+  .inc()::val: VOTER|L~q8eHVv 
+safeFetch:: 
+  key: ('___T___', '__X__IndexName', 'voters') 
+   new best value is (184:51.11%): 1 
+   final value is  1 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 1) 
+   new best value is (107:29.72%): ('voters', 1, 'VOTER|b!@XM2$l') 
+   final value is  ('voters', 1, 'VOTER|b!@XM2$l') 
+  .inc()::check int 
+  .inc()::eval() 
+  .inc()::check len 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 1) 
+  key=('voters', 2, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 1) 
+  Recursing(2) 
+safeStore:: 
+  dbkey=('___T___', '__E__EntryName', 1) 
+  key=('voters', 2, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('___T___', '__E__EntryName', 1) 
+   new best value is (52:14.44%): ('voters', 1, 'VOTER|b!@XM2$l') 
+   new best value is (74:20.56%): ('voters', 2, 'VOTER|L~q8eHVv') 
+   final value is  ('voters', 2, 'VOTER|L~q8eHVv') 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__S__StatusName') 
+crusherdict.py __iter__():: 
+Loading .__len__() for  VOTER|L~q8eHVv  ...  
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__N__CountName') 
+   new best value is (153:42.5%): 4 
+   final value is  4 
+  .__len__()::return 4 
+  []iter::i: 0 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 0) 
+   new best value is (84:23.33%): (['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+   final value is  (['Supreme Court Justice', 'Sherry Parkhurst'], None) 
+  []iter::n: 0 
+  []iter::i: 1 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 1) 
+   new best value is (158:43.89%): (['Secretary of the Vote', 'Charles Lindbergh'], None) 
+   final value is  (['Secretary of the Vote', 'Charles Lindbergh'], None) 
+  []iter::n: 1 
+  []iter::i: 2 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 2) 
+   new best value is (129:35.83%): (['Governor', 'Vickey Walker'], None) 
+   final value is  (['Governor', 'Vickey Walker'], None) 
+  []iter::n: 2 
+  []iter::i: 3 
+safeFetch:: 
+  key: ('VOTER|L~q8eHVv', '__E__EntryName', 3) 
+   new best value is (119:33.06%): (['Governor', 'Mary Potter'], None) 
+   final value is  (['Governor', 'Mary Potter'], None) 
+  []iter::n: 3 

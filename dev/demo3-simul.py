@@ -101,32 +101,46 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
  '''Debug: numberRecursions
  '''
  plog.f.write('threadVote::'+str(context['id']))
- #context['id']=newVoterId(dbs) # Force new voter id ... interesting but useful ...? 
  d=crusherdict3.CrusherDict(i,context["id"])
  t=crusherdict3.CrusherDict(i,"___T___")
  d.status("UNCAST")
  checkvl=[] # array to match against
- # i
-# for vote in context["votes"]:
+ ##     ## for vote in context["votes"]:
+ #Only store an EntryName for each candidate/office pair one time.
+ # Note: IndexName and EntryName stored for every vote processed.
  for j in range(len(context["votes"])):
   vote=context["votes"][j]
   key=vote[1:3] # Office,Cand
   d.safeStore(entryName(context["id"], j),   (key, None))
   d.safeStore(indexName(context["id"], key), j)
-  d.safeStore(countName(context["id"]),      j+1)
-  #d.getKey(vote[1:3])
+  ###d.safeStore(countName(context["id"]), j+1)
+    #if str(key) not in storedPairs:
+    # vprint(2,'  threadVote::Store EntryName Pair:',key)
+    # d.safeStore(entryName(context["id"], j),   (key, None))
+    # storedPairs[str(key)] = True
+    #d.safeStore(indexName(context["id"], key), j)
+  ##   XXX ## Note: countName does not need to be added every run but only on the final run!
+  ##       ## d.safeStore(countName(context["id"]),      j+1)
+  ##   old ## d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2])) # office, cand
+ # Store the countname only one time, that is, the last entry.
+ d.safeStore(countName(context["id"]), j+1)
  # Save to file debug....
-  #i.db.save()
+ #i.db.save()
  if matchesVoteLog(i,checkvl,context['id']) is False:
   numberRecursions+=1
   d.status("UNCAST")
   return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
   """The votes have been added to the voter, but not the tallies."""
+ #for j in range(len(context["votes"])):
+
  for vote in context["votes"]:
   t.inc(vote[1:3],context["id"])
  """The votes have been tentatively tallied."""
  t.inc("voters",context["id"])
+ ###################################
+ ## Recurse here on __T__.integrity.
+ ################################### 
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  """The votes have been tallied."""
@@ -271,17 +285,27 @@ def report(dbs, log):
   curr=0
   for i in dbs:
    t=crusherdict3.CrusherDict(i,"___T___")
+   j=0
+   print(len(t))
+   print(len(t))
+   print(len(t))
+   print(len(t))
+   print(j<len(t))
    tmp=''
-   try:
-    for tup in t:
-     tup=ast.literal_eval(tup)
-     if tup[0]!="voters":
+   while j<len(t): #calls __len__()
+    print(j,end=', ')
+    try:
+     n=t.safeFetch(entryName('___T___',j))
+     print('  str-tup:',n)
+     tup=ast.literal_eval(n)
+     print('  ',tup)
+     print('  ', tup[0])
+     if str(tup[0])!="voters":
+      print('  ',tup[0],'!="voters"')
       tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
-   except:
-    vprint(2,'  check_inq::Exception:',sys.exc_info()[0])
-    print('  report::vote-log2 ...')
-    continue # Skip db entirely ...
-   # Add this result ...
+     j+=1
+    except:
+     print('jx')
    try:
     voters[tmp]+=1
    except:
@@ -289,8 +313,50 @@ def report(dbs, log):
    if voters[tmp]>curr:
     curr=voters[tmp]
     best=tmp
+   #return
+   
+   #while done is False:
+   # tmp_distance=0
+   # try:
+   # 
+   #  for tup in t:
+   #   print('----')
+   #   print('  str-tup:',tup)
+   #   if tmp_distance<curr_distance: # Already read this so skip to next tup
+   #    print('  bypass:',tup)
+   #    tmp_distance+=1
+   #    continue
+   #   if tup is None:
+   #    # Restart
+   #    raise Exception('..going back..')
+   #   tup=ast.literal_eval(tup)
+   #   print('  ',tup)
+   #   print('  ', tup[0])
+   #   if str(tup[0])!="voters":
+   #    print('  ',tup[0],'!="voters"')
+   #    #print(tup[0][0])
+   #    tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
+   #   print('----')
+   #   tmp_distance+=1  # Increment both.
+   #   curr_distance+=1 # Made it through!
+   #  # Made it through the for loop!
+   #  # Exit the while loop.
+   #  done=True
+   # except:
+   #  vprint(1,'  check_inq::Exception:',sys.exc_info()[0])
+   #  print('  report::vote-log2 ...') 
+   # [[ continue # Skip db entirely ... ]]
+   # Add this result ...
+   #try:
+   # voters[tmp]+=1
+   #except:
+   # voters[tmp]=1
+   #if voters[tmp]>curr:
+   # curr=voters[tmp]
+   # best=tmp
   log.write(best)
  except:
+  vprint(1,'  Exception:',sys.exc_info()[0])
   print('  report::vote-log3 ...')
 
 try:

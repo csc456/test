@@ -1,12 +1,12 @@
 VOTER
 VOTE	Governor	Mickey Mouse
 VOTE	Lt. Governor	Microsoft
-CAST	VOTER|LnsE2MwG
+CAST	VOTER|IFRrE^Lx
 VOTER
 VOTE	Governor	Paul Johnson
-CAST	VOTER|72uTQKd%
+CAST	VOTER|HT9U1V(2
 VOTER
 VOTE	President	Donald Trump
 VOTE	Governor	Mickey Mouse
 VOTE	Lt. Governor	Melinda Gates
-CAST	VOTER|mOvUhPYr
+CAST	VOTER|BNYbmUfy

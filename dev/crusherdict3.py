@@ -94,14 +94,14 @@ class CrusherDict:
   rslt_good_num={}
   rslt_num=0
   rslt_best=None
-  r=400  # Num entries
-  readMultiplier=2 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
+  r=60  # Num entries
+  readMultiplier=6 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
-  successRate=0.06*readAmount	# Num entries which must match in order to assume it is not a KeyError.
+  successRate=0.10*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
 				# correctly at least 0.05*2000 or 20 times. 
   if storing is True:
-   successRate=0.10*readAmount
+   successRate=0.20*readAmount
   #successRateNotInt=0.05*readAmount
   #0.05 x r-100 rm-40 (4000)	works with small-lvl3
   #0.05 x r-100 rm-100 (10000)	off by just *one* on small-lvl4-severe
@@ -200,7 +200,7 @@ class CrusherDict:
   # Put keys and values in with a marker
   # when they are beneath a threshold length.
   # And an int, eg 0-9.
-  r=400
+  r=60
   dbkey=str(dbkey)
   key=str(key)
   fld=fletcher32(dbkey)
@@ -218,11 +218,11 @@ class CrusherDict:
    n=self.safeFetch(dbkey, True)
    # Matches?
    if n != key:
-    print('  safeStore::Recursing(1)')
-    print('  safeStore::[Looking for ',key,' and seeing ',n,']')
+    vprint(1,'  safeStore::Recursing(1)')
+    vprint(1,'  safeStore::[Looking for ',key,' and seeing ',n,']')
     self.safeStore(dbkey, key)
   except: #KeyError
-    print('  safeStore::Recursing(2)')
+    vprint(1,'  safeStore::Recursing(2)')
     self.safeStore(dbkey, key)
   # ...
  def getKey(self, key, val=None):
@@ -231,24 +231,21 @@ class CrusherDict:
      The value associated with key is updated unless val is None.
      The key that is used to identify the key in the db
      is returned.
-
-     Note: If key exists then of course return key. However, you must also check that all  corresponding values also exist.
   """
   vprint(2,'crusherdict.py CrusherDict.getKey()')
-  try:
+  try: # If db key exists... Then do not update the db... Except for one odd case marked below ("When would this ever happen?")...
    f=self.safeFetch(indexName(self.name,key))
    dbkey=entryName(self.name,f)
-   if(val!=None):
+   if(val!=None): # When would this ever happen!?
     self.safeStore(dbkey, (key,val))
-   # You must ensure that all corresponding values are also in existence!
+   # Integrity check:
    # Do all of these entries exist?
-   # For every key these other keys are REQUIRED!
-   # eg self.safeStore(dbkey, (key,val))
+   #    self.safeStore(dbkey, (key,val))
    #    self.safeStore(indexName(self.name,key), n)
    #    self.safeStore(countName(self.name),n+1)   
-   #    And now return ...
-   # Check...
-   self.dbkeyCorresponds(dbkey,key,val)
+   #    And then return ...
+   # Broken
+   #self.dbkeyCorresponds(dbkey,key,val)
    return dbkey
   except KeyError:
    try:
@@ -354,7 +351,9 @@ class CrusherDict:
     if str(n)!=str(int(n)):
      # Hm try again?
      return self.inc(key, val)
-    n=int(n)
+     #n=0 # Hm Reset...
+    else:
+     n=int(n)
    except KeyError:
     n=0 #works on easy
     #n=100 #works with tiny?

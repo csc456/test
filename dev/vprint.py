@@ -27,8 +27,8 @@ if DEBUG_LEVEL_>0:
  print('DEBUG_LEVEL_ on:',DEBUG_LEVEL_)
 
 if to_file is True:
- print('Writing output to file')
- sys.stdout=open('std.out','a')
+ print('Writing output to file (broken)')
+# sys.stdout=open('std.out','a')
 
 def vprint(level,*args,**kwargs):
  '''0=Always show these ones        - stdout
