@@ -11,6 +11,7 @@
 import sys
 DEBUG_LEVEL_=0
 
+to_file=False
 for arg in sys.argv:
  if arg=='-v0' or arg=='-v1' or arg=='-v2' or arg=='-v3':
   a=int(arg.replace('-v',''))
@@ -18,8 +19,16 @@ for arg in sys.argv:
 			# 1=Show 1-level and below prints (0,1)
 			# 2=Show 2-level and below prints (0,1,2)
 			# 3=Show 3-level and below prints (0,1,2,3)
+ # output to file
+ if arg=='-o':
+  to_file=True
+
 if DEBUG_LEVEL_>0:
  print('DEBUG_LEVEL_ on:',DEBUG_LEVEL_)
+
+if to_file is True:
+ print('Writing output to file')
+ sys.stdout=open('std.out','a')
 
 def vprint(level,*args,**kwargs):
  '''0=Always show these ones        - stdout

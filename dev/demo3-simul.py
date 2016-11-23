@@ -29,6 +29,26 @@ def conf(dbs, context, log, fields):
  return dbsdoexit(dbs)
 commands["CONF"]=conf
 
+#from crusherdict.py
+def indexName(dict, key):
+ vprint(3,'crusherdict.py indexName()')
+ vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
+ return (dict,"__X__IndexName",key)
+def countName(dict):
+ vprint(3,'crusherdict.py countName()')
+ vprint(3,'  dbkey=',str((dict,"__N__CountName")))
+ return (dict,"__N__CountName")
+def entryName(dict, n):
+ # Always make n an int
+ n=int(n)
+ vprint(3,'crusherdict.py entryName()')
+ vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
+ return (dict, "__E__EntryName", n)
+def statusName(dict):
+ vprint(3,'crusherdict.py statusName()')
+ vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
+ return (dict, "__S__StatusName")
+
 def dbsdoexit(dbs):
  plog.f.write('dbsdoexit::')
  de={}
@@ -86,11 +106,18 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
  t=crusherdict3.CrusherDict(i,"___T___")
  d.status("UNCAST")
  checkvl=[] # array to match against
- for vote in context["votes"]:
-  d.getKey(vote[1:3])
-  checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
+ # i
+# for vote in context["votes"]:
+ for j in range(len(context["votes"])):
+  vote=context["votes"][j]
+  key=vote[1:3] # Office,Cand
+  d.safeStore(entryName(context["id"], j),   (key, None))
+  d.safeStore(indexName(context["id"], key), j)
+  d.safeStore(countName(context["id"]),      j+1)
+  #d.getKey(vote[1:3])
+  checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2])) # office, cand
  # Save to file debug....
- #i.db.save()
+  #i.db.save()
  if matchesVoteLog(i,checkvl,context['id']) is False:
   numberRecursions+=1
   d.status("UNCAST")

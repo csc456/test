@@ -1,0 +1,267 @@
+VOTER
+VOTE	Mayor	Slimey Badguy
+CAST	VOTER|sE_0gdm^
+VOTER
+VOTE	Supreme Court Justice	Sherry Parkhurst
+VOTE	Secretary of the Vote	Charles Lindbergh
+VOTE	Governor	Vickey Walker
+VOTE	Governor	Mary Potter
+CAST	VOTER|K@gvD0XP
+VOTER
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	Governor	Mickey Mouse
+VOTE	Surgeon General	Say what?
+CAST	VOTER|HERM(jV7
+VOTER
+VOTE	Governor	Mickey Mouse
+VOTE	Secretary of the Vote	Stoney Jackson
+CAST	VOTER|tj+Ww(hU
+VOTER
+VOTE	President	Stanley Gordon
+VOTE	Lt. Governor	Merlin
+CAST	VOTER|v*1c!aDQ
+VOTER
+VOTE	Lt. Governor	Matilda Stalone
+VOTE	Secretary of the Vote	Charles Lindbergh
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+CAST	VOTER|2+&8$scy
+VOTER
+VOTE	Office of Computer Science Research Grants	Silver Lode
+CAST	VOTER|^y&he*qZ
+VOTER
+VOTE	Supreme Court Justice	John Simmons
+VOTE	Mayor	Slimey Badguy
+VOTE	Supreme Court Justice	Little John
+VOTE	Mayor	Edgar Allen Poe
+VOTE	Senator	King Aurthur
+VOTE	Governor	Mickey Mouse
+VOTE	Governor	Jack
+VOTE	Lt. Governor	Orlando Bloom
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+VOTE	Senator	Harry Weasley
+CAST	VOTER|cSj@gN9B
+VOTER
+VOTE	Surgeon General	Dr. Bones
+VOTE	Lt. Governor	Merlin
+VOTE	Secretary of the Vote	Count 'em twice Jack
+VOTE	Lt. Governor	Orlando Bloom
+VOTE	Office of Computer Science Research Grants	None of the Above
+VOTE	Mayor	Edgar Allen Poe
+VOTE	Office of Computer Science Research Grants	Zachary Edwards
+VOTE	President	Stanley Gordon
+VOTE	Governor	Bill Marlene
+VOTE	Surgeon General	Jack O'Lanterne
+VOTE	Governor	Pope John Paul the 19th
+VOTE	President	Harry Potter
+CAST	VOTER|a86*1PZi
+VOTER
+VOTE	Senator	Mary Schmidt
+VOTE	Mayor	Edgar Allen Poe
+VOTE	Senator	Harry Weasley
+VOTE	Surgeon General	Ronald O'Donnelly
+VOTE	Surgeon General	Jack O'Lanterne
+CAST	VOTER|Cbc653s7
+VOTER
+VOTE	President	Donald Trump
+VOTE	Mayor	Jane Austen
+VOTE	Governor	Vickey Walker
+CAST	VOTER|w)k&x+hS
+VOTER
+VOTE	Secretary of the Vote	Count 'em twice Jack
+CAST	VOTER|d!Xah4mW
+VOTER
+VOTE	Surgeon General	Jack O'Lanterne
+VOTE	President	George W. Bush
+VOTE	Senator	Harry Weasley
+VOTE	President	Harry Potter
+VOTE	Governor	Jack
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	President	George Harvey
+VOTE	Supreme Court Justice	Little John
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+CAST	VOTER|dbi~kRwx
+VOTER
+VOTE	Office of Computer Science Research Grants	Jennifer Maize
+CAST	VOTER|^wrFY7Ku
+VOTER
+VOTE	Lt. Governor	Merlin
+CAST	VOTER|ywIW0kx7
+VOTER
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+VOTE	Supreme Court Justice	Take em back Alive
+VOTE	Senator	Mary Schmidt
+CAST	VOTER|wshvqSyl
+VOTER
+VOTE	Lt. Governor	Ginny Potter
+CAST	VOTER|F%i~@VJ4
+VOTER
+VOTE	Mayor	Mack the Ripoff
+VOTE	Governor	Mickey Mouse
+VOTE	Governor	Pope John Paul the 19th
+CAST	VOTER|lS*UoTD^
+VOTER
+VOTE	Office of Computer Science Research Grants	Jennifer Maize
+VOTE	Governor	Bill Marlene
+VOTE	Supreme Court Justice	Sherry Parkhurst
+VOTE	Senator	Mary Schmidt
+VOTE	Secretary of the Vote	G.G. McGeorge
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	Governor	Pope John Paul the 19th
+VOTE	Mayor	Slimey Badguy
+VOTE	President	Donald Trump
+VOTE	Senator	King Aurthur
+CAST	VOTER|bW4vlKBj
+VOTER
+VOTE	Surgeon General	Monica Lewinski
+VOTE	Governor	Mary Potter
+VOTE	Senator	Father Malloy
+VOTE	Secretary of the Vote	Count 'em twice Jack
+VOTE	Governor	Bill Marlene
+VOTE	Mayor	Robin Hood
+VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
+VOTE	Senator	Harry Weasley
+VOTE	Senator	Melissa Gardner
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	Supreme Court Justice	Sherry Parkhurst
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	Mayor	Slimey Badguy
+VOTE	Governor	Jack
+CAST	VOTER|PsBZoOm3
+VOTER
+VOTE	Supreme Court Justice	Ron Weasley
+VOTE	President	Harry Potter
+VOTE	Senator	Harry Weasley
+VOTE	Governor	Vickey Walker
+VOTE	Senator	Melissa Gardner
+VOTE	President	George W. Bush
+VOTE	Governor	Pope John Paul the 19th
+CAST	VOTER|+h%wZPOi
+VOTER
+VOTE	Surgeon General	Monica Lewinski
+VOTE	Secretary of the Vote	Stoney Jackson
+VOTE	Governor	Mickey Mouse
+CAST	VOTER|8loDLOjx
+VOTER
+VOTE	Mayor	Edgar Allen Poe
+VOTE	President	Melinda Trump
+VOTE	Secretary of the Vote	Charles Lindbergh
+VOTE	Governor	Mary Potter
+VOTE	Office of Computer Science Research Grants	Jennifer Maize
+CAST	VOTER|TwcCLjWN
+VOTER
+VOTE	Governor	Mickey Mouse
+VOTE	Mayor	Slimey Badguy
+VOTE	Mayor	Edgar Allen Poe
+CAST	VOTER|u2BF$tb7
+VOTER
+VOTE	Mayor	Slimey Badguy
+VOTE	Supreme Court Justice	Take em back Alive
+VOTE	Supreme Court Justice	Jack Brown
+VOTE	Secretary of the Vote	G.G. McGeorge
+VOTE	Surgeon General	Dr. Bones
+VOTE	Governor	Mary Potter
+CAST	VOTER|CYORr%!+
+VOTER
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	Secretary of the Vote	Count 'em twice Jack
+VOTE	Surgeon General	Jack O'Lanterne
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	Mayor	Jane Austen
+VOTE	Lt. Governor	Merlin
+VOTE	Governor	Jack
+VOTE	Surgeon General	Ronald O'Donnelly
+VOTE	Secretary of the Vote	Yes
+CAST	VOTER|q3%@Vr9g
+VOTER
+VOTE	Mayor	Slimey Badguy
+VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
+VOTE	Secretary of the Vote	Stoney Jackson
+VOTE	Office of Computer Science Research Grants	Zachary Edwards
+VOTE	President	Donald Trump
+VOTE	Governor	Vickey Walker
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	Lt. Governor	Matilda Stalone
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	Governor	Mary Potter
+VOTE	President	Harry Potter
+VOTE	Surgeon General	Say what?
+VOTE	Surgeon General	Jack O'Lanterne
+VOTE	Surgeon General	Ronald O'Donnelly
+CAST	VOTER|ZIYySvDQ
+VOTER
+VOTE	Supreme Court Justice	Little John
+VOTE	Secretary of the Vote	G.G. McGeorge
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+CAST	VOTER|p)WY_eBn
+VOTER
+VOTE	Supreme Court Justice	Ron Weasley
+VOTE	Surgeon General	Dr. Bones
+VOTE	President	George Harvey
+VOTE	Mayor	Robin Hood
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	Mayor	Edgar Allen Poe
+VOTE	Supreme Court Justice	Jack Brown
+VOTE	Surgeon General	Monica Lewinski
+VOTE	Governor	Jack
+VOTE	Lt. Governor	Merlin
+VOTE	Secretary of the Vote	Stoney Jackson
+VOTE	Governor	Mickey Mouse
+VOTE	Lt. Governor	Ronda Spinacoli
+CAST	VOTER|D9V^pGk&
+VOTER
+VOTE	Governor	Pope John Paul the 19th
+VOTE	Senator	Harry Weasley
+VOTE	Lt. Governor	Melinda Gates
+VOTE	President	George Harvey
+VOTE	Office of Computer Science Research Grants	None of the Above
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	President	George W. Bush
+CAST	VOTER|2fRU*Yph
+VOTER
+VOTE	Surgeon General	Jack O'Lanterne
+CAST	VOTER|aciNE(0&
+VOTER
+VOTE	Office of Computer Science Research Grants	Stoned Jones
+VOTE	Surgeon General	Gilderoy Lockhart
+VOTE	President	Donald Trump
+VOTE	Governor	Vickey Walker
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	President	George W. Bush
+CAST	VOTER|mjCD9F^Y
+VOTER
+VOTE	Mayor	John Silvester, 204 Rhodes St, Plattsburgh, NY 12901
+VOTE	Governor	Bill Marlene
+CAST	VOTER|&v6QeWf4
+VOTER
+VOTE	Supreme Court Justice	Little John
+VOTE	Governor	Jack
+VOTE	Governor	Mickey Mouse
+VOTE	Senator	Mary Schmidt
+CAST	VOTER|dUVkv4qJ
+VOTER
+VOTE	Secretary of the Vote	Not on my Watch
+VOTE	President	George W. Bush
+VOTE	Governor	Pope John Paul the 19th
+CAST	VOTER|2eY*W@Ls
+VOTER
+VOTE	Office of Computer Science Research Grants	Zachary Edwards
+CAST	VOTER|VvyKtnho
+VOTER
+VOTE	Lt. Governor	Ronda Spinacoli
+VOTE	Supreme Court Justice	Sherry Parkhurst
+VOTE	Supreme Court Justice	Jack Brown
+VOTE	Secretary of the Vote	Stoney Jackson
+VOTE	Supreme Court Justice	Ron Weasley
+VOTE	Surgeon General	Dr. Bones
+VOTE	Office of Computer Science Research Grants	Stephen Douglas
+VOTE	Secretary of the Vote	Charles Lindbergh
+CAST	VOTER|j7Hidv$w
+VOTER
+VOTE	Senator	Father Malloy
+VOTE	Mayor	Jane Austen
+VOTE	Supreme Court Justice	Take em back Alive
+VOTE	Governor	Mary Potter
+VOTE	Surgeon General	Say what?
+VOTE	Supreme Court Justice	Sherry Parkhurst
+CAST	VOTER|n8&(dNSQ
