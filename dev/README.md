@@ -1,5 +1,12 @@
 # ...
 
+Writes=20
+Reads=(60 for every write)=(60*20)=1200
+Write threshold string match>=14%
+Read threshold string match>=10%
+
+# ...
+
 Remove previous try and run demo:
 
 ```dev$ rm -rf data/*.dat data/*.txt && time ./demo3.py input/easy.txt```

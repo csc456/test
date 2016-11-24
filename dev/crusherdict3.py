@@ -94,14 +94,14 @@ class CrusherDict:
   rslt_good_num={}
   rslt_num=0
   rslt_best=None
-  r=60  # Num entries
-  readMultiplier=6 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
+  r=20  # Num entries
+  readMultiplier=60 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
   successRate=0.10*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
 				# correctly at least 0.05*2000 or 20 times. 
   if storing is True:
-   successRate=0.20*readAmount
+   successRate=0.14*readAmount
   #successRateNotInt=0.05*readAmount
   #0.05 x r-100 rm-40 (4000)	works with small-lvl3
   #0.05 x r-100 rm-100 (10000)	off by just *one* on small-lvl4-severe
@@ -115,7 +115,6 @@ class CrusherDict:
   fld=fletcher32(key)
   key=key+fld
   for i in range(readAmount): #0-...
-   #sleep(0.004)
    try:
     tmpk=key+'_'+str(i//readMultiplier)+'_'
     k=self.db.fetch(tmpk)
@@ -125,11 +124,22 @@ class CrusherDict:
     if str(fld)*4 not in k:
      #print(' key not in k ',key,' ',k)
      raise LookupError #BAD, no indexof
-    # Replace key
-    #k=k.replace(fld,"")
-    # Replace checksum
-    #k=k[:-8]
+    # Replace checksum ... k=k[:-8]
     k=k[:-20]
+    # Check int
+    # Probably unnecessary at this point.
+    #isInt=False
+    #try:
+    # if str(k)==str(int(k)):
+    #  isInt=True
+    # else:
+    #  isInt=False
+    #except:
+    # pass
+    if k.isdigit() and forceStr:
+     raise LookupError
+    elif not k.isdigit() and forceNum:
+     raise LookupError
    except KeyError:
     rslt_ke+=1
     if rslt_ke>rslt_num:
@@ -200,33 +210,31 @@ class CrusherDict:
   # Put keys and values in with a marker
   # when they are beneath a threshold length.
   # And an int, eg 0-9.
-  r=60
+  r=20
   dbkey=str(dbkey)
   key=str(key)
   fld=fletcher32(dbkey)
   tmpkey=dbkey+fld
   tmpval=key+fld+fld+fld+fld # Try adding Three straight...
-  tmpval+=fletcher32(tmpval) #add
+  tmpval+=fletcher32(tmpval) # Add cs(val) to val
   # Loop store
-  for i in range(r): #0-9 Store each field as xyz__[0-39] (40 different entries). Then for each of these entries save to the database 3 times.
-   ## During Read:
-   ## key=fletcher32(key)
-   ## key=key+'__'+str(i//readMultiplier)+'__'
+  for i in range(r):
    self.db.store(tmpkey+'_'+str(i)+'_', tmpval)
   # Now it is in there or else try again...
   try:
    n=self.safeFetch(dbkey, True)
    # Matches?
    if n != key:
-    vprint(1,'  safeStore::Recursing(1)')
+    vprint(2,'  safeStore::Recurse(1)')
     vprint(1,'  safeStore::[Looking for ',key,' and seeing ',n,']')
     self.safeStore(dbkey, key)
   except: #KeyError
-    vprint(1,'  safeStore::Recursing(2)')
+    vprint(2,'  safeStore::Recurse(2)')
     self.safeStore(dbkey, key)
   # ...
  def getKey(self, key, val=None):
-  """Get the db key for key from the set.
+  """**NOT USED**
+     Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
      The value associated with key is updated unless val is None.
      The key that is used to identify the key in the db
@@ -262,45 +270,11 @@ class CrusherDict:
    self.safeStore(countName(self.name),n+1)
    return dbkey
 
- def dbkeyCorresponds(self, dbkey, key, val):
-  '''Helper for .getKey
-  '''
-  vprint(2,'[...rabbitHole...].dbkeyCorresponds()::')
-  vprint(2,'  .dbkeyCorr::Integrity check for:dbkey=',dbkey,';key=',key,';val=',val)
-#  try:
-#   n=self.safeFetch(countName(self.name))
-#   if str(n)!=str(int(n)):
-#    # TODO: Hm...What to do here...?
-#    vprint(1,'What to do here1?')
-#    return self.getKey(key, val)
-#   n=int(n)
-#  except KeyError:
-#   vprint(1,'What to do here2?')
-#   return self.getKey(key, val)
-   #n=0
-  #dbkey=entryName(self.name,n)
-#  try:
-#   x=self.safeFetch(dbkey)
-#   if x!=str((key,val)):
-#    vprint(2,'  .dbkeyCorr::fail1 Looking for ',+str((key,val)),' and seeting ',str(x))
-#    self.safeStore(dbkey, (key,val))
-#  except:
-#   vprint(2,'  .dbkeyCorr::fail2')
-#   self.safeStore(dbkey, (key,val))
-#  try:
-#   x=self.safeFetch(indexName(self.name,key))
-#   if str(x)!=str(n):
-#    vprint(2,'  .dbkeyCorr::fail1 Looking for ',+str(n),' and seeting ',str(x))
-#    self.safeStore(indexName(self.name,key), n)
-#  except:
-#   self.safeStore(indexName(self.name,key), n)
-#  try:
-#   x=self.safeFetch(countName(self.name))
-#   if str(x)!=str(n):
-#    vprint(2,'  .dbkeyCorr::fail1 Looking for ',+str(n),' and seeting ',str(x))
-#    self.safeStore(countName(self.name), n)
-#  except:
-#   self.safeStore(countName(self.name),n)
+ #def dbkeyCorresponds(self, dbkey, key, val):
+ # '''Helper for .getKey
+ # '''
+ # vprint(2,'[...rabbitHole...].dbkeyCorresponds()::')
+ # vprint(2,'  .dbkeyCorr::Integrity check for:dbkey=',dbkey,';key=',key,';val=',val)
 
  def inc(self, key, val):
   """Increment the value for key from the set.
@@ -308,47 +282,57 @@ class CrusherDict:
      The value is stored in the entry as an annotation.
      The key that is used to identify the key in the db
      is returned.
+
+     Example:
+     key: ['Office of Computer Science Research Grants', 'Zachary Edwards'] 
+     val: VOTER|wgpJsirh 
   """
   vprint(2,'crusherdict.py .inc()')
   vprint(2,'  .inc()::key:',key)
   vprint(2,'  .inc()::val:',val)
   #key=tuple(key) # cast as tuple (remove list [])
   try:
-   f=self.safeFetch(indexName(self.name,key))
-   dbkey=entryName(self.name,f)
-   v=self.safeFetch(dbkey)
-   # v is one of:
-   #   BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
-   #   BROKEN:  fetch(dbkey):16
-   #   BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
-   #   WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q0000DG0LZH70V000W0F0R006BP28M0500ES00XYO30C40I0JNU0A100T')
-   vprint(2,'  .inc()::check int')
    try:
-    x=str(int(v)) # Raises error when not int
-    if str(v)==x:
-     return self.inc(key,val) # Recursive..
-   except: # Well, not an int, so that is good
-     pass
-   vprint(2,'  .inc()::eval()')
-   try:
+    # f is: an int
+    f=self.safeFetch(indexName(self.name,key))
+    # dbkey is:
+    #   (dict, "__E__EntryName", n)
+    dbkey=entryName(self.name, f)
+    # v is one of:
+    #   BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
+    #   BROKEN:  fetch(dbkey):16
+    #   BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
+    #   WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q000')
+    v=self.safeFetch(dbkey)
+    # ...
+    if v.isdigit(): # When a string contains only digits
+     raise Exception('...')
     v=ast.literal_eval(v)
+    if len(v) != 3: # tuple len not three
+     raise Exception('...')
+    # If v is None
+    if v and v[1] and v[1] is None:
+     raise Exception('...')
+    if str(v[1])!=str(int(v[1])):
+     raise Exception('...')
+    self.safeStore(dbkey, (key,int(v[1])+1,val)) #1 now 100
+    #return dbkey
+    return {
+     'entry':dbkey,
+     'index':indexName(self.name,key),
+     #'countName':countName(self.name)
+     'valEntry':(key,int(v[1])+1,val),
+     'valIndex':f,
+     #'val-count':n+1
+    }
+   except KeyError:
+    raise KeyError # Send up
    except:
-    return self.inc(key,val) # Recursive...
-   vprint(2,'  .inc()::check len')
-   if len(v) != 3: # tuple len not three
-    return self.inc(key,val) # Recursive...
-   # If v is None
-   # Try again... eg...
-   if v and v[1] and v[1] is None:
-    return self.inc(key,val) # Recursive...
-   if str(v[1])!=str(int(v[1])):
-    return self.inc(key,val) # Recursive...
-   self.safeStore(dbkey, (key,int(v[1])+1,val)) #1 now 100
-   return dbkey
+    return self.inc(key,val) # Recurse
   except KeyError:
    try:
     n=self.safeFetch(countName(self.name))
-    if str(n)!=str(int(n)):
+    if not n.isdigit(): # If not a digit
      # Hm try again?
      return self.inc(key, val)
      #n=0 # Hm Reset...
@@ -361,7 +345,16 @@ class CrusherDict:
    self.safeStore(dbkey,(key,1,val)) # 1
    self.safeStore(indexName(self.name,key), n)
    self.safeStore(countName(self.name),n+1) #1 now 100
-   return dbkey
+   #return dbkey
+   return {
+    'entry':dbkey,
+    'index':indexName(self.name,key),
+    #'countName':countName(self.name)
+    'valEntry':(key,1,val),
+    'valIndex':n,
+    #'val-count':n+1
+   }
+
  def __iter__(self):
   vprint(2,'crusherdict.py __iter__()::')
   for i in range(self.__len__()):

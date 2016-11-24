@@ -22,7 +22,6 @@ random.seed()
 
 def conf(dbs, context, log, fields):
  """Perform CONF command."""
- plog.f.write('conf::')
  # vote on doExit
  for i in dbs:
   i.configure(fields[1])
@@ -50,7 +49,6 @@ def statusName(dict):
  return (dict, "__S__StatusName")
 
 def dbsdoexit(dbs):
- plog.f.write('dbsdoexit::')
  de={}
  decmd=None
  best=0
@@ -66,7 +64,6 @@ def dbsdoexit(dbs):
  return decmd
 
 def newVoterId(dbs):
- plog.f.write('newVoterId::')
  try:
   while True:
    amount=8 #6
@@ -82,7 +79,6 @@ def newVoterId(dbs):
 
 def voter(dbs, context, log, fields):
  """Perform VOTER command."""
- plog.f.write('voter::')
  context.clear()
  context["id"]=newVoterId(dbs)
  context["votes"]=[]
@@ -91,64 +87,99 @@ commands["VOTER"]=voter
 
 def vote(dbs, context, log, fields):
  """Perform VOTE command."""
- plog.f.write('vote::')
  context["votes"].append(fields)
  return False
 commands["VOTE"]=vote
 
-#threadFailed=False
-def threadVote(i,context,fields,stop_event,numberRecursions=0):
- '''Debug: numberRecursions
- '''
- plog.f.write('threadVote::'+str(context['id']))
- d=crusherdict3.CrusherDict(i,context["id"])
- t=crusherdict3.CrusherDict(i,"___T___")
- d.status("UNCAST")
+def makeVotes(i,d,context):
  checkvl=[] # array to match against
- ##     ## for vote in context["votes"]:
- #Only store an EntryName for each candidate/office pair one time.
  # Note: IndexName and EntryName stored for every vote processed.
  for j in range(len(context["votes"])):
   vote=context["votes"][j]
   key=vote[1:3] # Office,Cand
   d.safeStore(entryName(context["id"], j),   (key, None))
   d.safeStore(indexName(context["id"], key), j)
-  ###d.safeStore(countName(context["id"]), j+1)
-    #if str(key) not in storedPairs:
-    # vprint(2,'  threadVote::Store EntryName Pair:',key)
-    # d.safeStore(entryName(context["id"], j),   (key, None))
-    # storedPairs[str(key)] = True
-    #d.safeStore(indexName(context["id"], key), j)
-  ##   XXX ## Note: countName does not need to be added every run but only on the final run!
-  ##       ## d.safeStore(countName(context["id"]),      j+1)
-  ##   old ## d.getKey(vote[1:3])
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2])) # office, cand
- # Store the countname only one time, that is, the last entry.
+ # Store countName only one time, that is, the last entry.
  d.safeStore(countName(context["id"]), j+1)
  # Save to file debug....
  #i.db.save()
- if matchesVoteLog(i,checkvl,context['id']) is False:
-  numberRecursions+=1
-  d.status("UNCAST")
-  return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
-  """The votes have been added to the voter, but not the tallies."""
- #for j in range(len(context["votes"])):
+ if not matchesVoteLog(i,checkvl,context['id']):
+  #numberRecursions+=1
+  return makeVotes(i,d,context) # Recurse
+  #return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
 
+def threadVote(i,context,fields,stop_event,numberRecursions=0):
+ '''Debug: numberRecursions
+    .inc() ought to return a list of Key-Value database pairs (KVP).
+    Then demo.py adds these to a list to be checked later on when all .inc calls have been made.
+    Then demo.py will read all Keys from the Key-Value pairs (KVP) from the database to ensure that
+    they match the corresponding value.
+    If any KVP does not match then rewrite that Key-Value pair.
+    Also, you may want to run a MVL check (matchesVoteLog) here as well.
+ '''
+ d=crusherdict3.CrusherDict(i,context["id"])
+ t=crusherdict3.CrusherDict(i,"___T___")
+ d.status("UNCAST")
+ # Cast
+ makeVotes(i,d,context)
+ """The votes have been added to the voter, but not the tallies."""
+ entries={}
  for vote in context["votes"]:
-  t.inc(vote[1:3],context["id"])
+  rslt=t.inc(vote[1:3],context["id"])
+  entries[str(vote[1:3])]=rslt # When there are multiple key-value pairs the last vote will override the previous ones.
  """The votes have been tentatively tallied."""
- t.inc("voters",context["id"])
+ rslt=t.inc("voters",context["id"])
+ entries['voters']=rslt
+ inc_integrity(t,entries,False,{'i':i,'d':d,'context':context})
+  
  ###################################
- ## Recurse here on __T__.integrity.
- ################################### 
+ ## Recurse __T__.integrity.
+ ###################################
+ # t.inc:
+ # 	{
+ #	 'entry':dbkey,
+ #	 'index':indexName(self.name,key)
+ #	 'valEntry':(key,int(v[1])+1,val),
+ #	 'valIndex':f,
+ #	}
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  """The votes have been tallied."""
  return
 
+def inc_integrity(t,entries,dirty,mv):
+ for k,r in entries.items():
+  s=-1 # Debug output
+  try:
+   s=t.safeFetch(r['entry'])
+   if str(s) != str(r['valEntry']):
+    raise LookupError
+  except:
+   vprint(1,'  inc_integrity::No match1!')
+   #vprint(1,'  inc_integrity::Entry:',r)   
+   #vprint(1,'  inc_integrity::But fetch=',s)
+   t.safeStore(r['entry'], r['valEntry'])
+   return inc_integrity(t,entries,True,mv) # Recurse   
+  s=-1 # Debug output
+  try:
+   s=t.safeFetch(r['index'])
+   if str(s) != str(r['valIndex']):
+    raise LookupError
+  except:
+   vprint(1,'  inc_integrity::No match2!')
+   #vprint(1,'  inc_integrity::Entry:',r)
+   #vprint(1,'  inc_integrity::But fetch=',s)
+   t.safeStore(r['index'], r['valIndex'])
+   return inc_integrity(t,entries,True,mv) # Recurse
+ # Cast but only if T previously failed.
+ if dirty:
+  vprint(1,'  inc_integrity::makeVotes()')
+  makeVotes(mv['i'],mv['d'],mv['context'])
+ #return True # Made it!
+
 def cast(dbs, context, log, fields):
  """Perform CAST command."""
- plog.f.write('cast::')
  if len(context['votes']) == 0:
   return
  t_stop=threading.Event()
@@ -209,7 +240,6 @@ def pre_check_inq(c):
  return tmp_log
 
 def check_inq(c):
- plog.f.write('check_inq::')
  tmp=''
  for tup in c:
   try:
@@ -222,7 +252,6 @@ def check_inq(c):
 
 def inq(dbs, context, log, fields):
  """Perform INQ command."""
- plog.f.write('inq::'+str(fields[1]))
  voter_id = fields[1]
  context.clear()
  log.write("VOTER\n")
@@ -251,7 +280,6 @@ commands["INQ"]=inq
 
 def report(dbs, log):
  """Perform final report."""
- plog.f.write('report::')
  print('demo.py report()')
  # Get total voters
  voters={}
@@ -313,47 +341,6 @@ def report(dbs, log):
    if voters[tmp]>curr:
     curr=voters[tmp]
     best=tmp
-   #return
-   
-   #while done is False:
-   # tmp_distance=0
-   # try:
-   # 
-   #  for tup in t:
-   #   print('----')
-   #   print('  str-tup:',tup)
-   #   if tmp_distance<curr_distance: # Already read this so skip to next tup
-   #    print('  bypass:',tup)
-   #    tmp_distance+=1
-   #    continue
-   #   if tup is None:
-   #    # Restart
-   #    raise Exception('..going back..')
-   #   tup=ast.literal_eval(tup)
-   #   print('  ',tup)
-   #   print('  ', tup[0])
-   #   if str(tup[0])!="voters":
-   #    print('  ',tup[0],'!="voters"')
-   #    #print(tup[0][0])
-   #    tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
-   #   print('----')
-   #   tmp_distance+=1  # Increment both.
-   #   curr_distance+=1 # Made it through!
-   #  # Made it through the for loop!
-   #  # Exit the while loop.
-   #  done=True
-   # except:
-   #  vprint(1,'  check_inq::Exception:',sys.exc_info()[0])
-   #  print('  report::vote-log2 ...') 
-   # [[ continue # Skip db entirely ... ]]
-   # Add this result ...
-   #try:
-   # voters[tmp]+=1
-   #except:
-   # voters[tmp]=1
-   #if voters[tmp]>curr:
-   # curr=voters[tmp]
-   # best=tmp
   log.write(best)
  except:
   vprint(1,'  Exception:',sys.exc_info()[0])
@@ -375,13 +362,6 @@ log=open(basename+"-votelog.txt","w")
 cmd=open(filename,"r")
 context={}
 
-# create a profiling log
-# use a class to globalize it
-class PlogClass:
- pass
-plog=PlogClass()
-plog.f=open(basename+"-plog.txt","w")
-
 for line in cmd:
  if line[-1]=="\n":
   line=line[:-1]
@@ -394,7 +374,6 @@ cmd.close()
 log.close()
 results=open(basename+"-results.txt","w")
 report(dbs,results)
-plog.f.close()
 
 results.close()
 for i in dbs:
