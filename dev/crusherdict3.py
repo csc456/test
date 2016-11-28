@@ -2,17 +2,9 @@
 import sys
 from vprint import vprint
 import ast
+# Testing
 from time import sleep
-#debug=2
-#def vprint(str,level=0):
-# '''0=Always show
-#    1=Sometimes show
-#    2=Rarely show
-#    3=Rarely Rarely show
-# '''
-# #print(' debug is:',debug)
-# if level<=debug:
-#  print(str)
+
 def fletcher32(string):
  """Create a fletcher32 checksum and return it as 4 8bit characters"""
  a = list(map(ord, string))
@@ -44,11 +36,9 @@ def statusName(dict):
 class CrusherDict:
  def __init__(self, db, name):
   """Create a set named key in the database."""
-  #vprint('crusherdict.py CrusherDict.__init__()')
   self.db=db
   self.name=name
  def __len__(self):
-  #vprint('crusherdict.py .__len__()')
   vprint(2,'Loading .__len__() for ',self.name,' ... ')
   try:
    f=self.safeFetch(countName(self.name))
@@ -77,14 +67,15 @@ class CrusherDict:
   if stat!=None:
    self.safeStore(name,stat)
   return old
- def safeFetch(self, key, storing=False): # Default is read attempt. On Store increase required successRate. On fetch decrease required? If coming from a read then require a lower successRate?
+ def safeFetch(self, key, storing=False):
   '''Try a number of fetches with voting.
+     Default is read attempt. On Store increase required successRate. On fetch decrease required?
+     If coming from a read then require a lower successRate?
   '''
   vprint(2,'safeFetch::')
   vprint(2,'  safeFetch::key:',str(key))
   key=str(key)
-
-  # vars
+  # Some vars
   rslt_ke=0 #keyerror
   rslt_ck=0 #checksum
   rslt_nm=0 #integer must contain key
@@ -94,17 +85,14 @@ class CrusherDict:
   rslt_good_num={}
   rslt_num=0
   rslt_best=None
-  r=20  # Num entries
-  readMultiplier=60 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
+  r=200  # Num entries
+  readMultiplier=10 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
-  successRate=0.10*readAmount	# Num entries which must match in order to assume it is not a KeyError.
+  successRate=0.02*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
 				# correctly at least 0.05*2000 or 20 times. 
   if storing is True:
-   successRate=0.14*readAmount
-  #successRateNotInt=0.05*readAmount
-  #0.05 x r-100 rm-40 (4000)	works with small-lvl3
-  #0.05 x r-100 rm-100 (10000)	off by just *one* on small-lvl4-severe
+   successRate=0.02*readAmount
   found=False
   forceNum=False
   forceStr=False
@@ -113,29 +101,19 @@ class CrusherDict:
   else:
    forceStr=True
   fld=fletcher32(key)
-  key=key+fld
-  for i in range(readAmount): #0-...
+  tmpkey=key+fld
+  # Loop
+  for i in range(readAmount):
    try:
-    tmpk=key+'_'+str(i//readMultiplier)+'_'
+    tmpk=tmpkey+'_'+str((i//readMultiplier)*1000)+'_'
     k=self.db.fetch(tmpk)
     if k[-4:] != fletcher32(k[:-4]):
      raise AttributeError # BAD, no cs
     # Must have key in val
     if str(fld)*4 not in k:
-     #print(' key not in k ',key,' ',k)
      raise LookupError #BAD, no indexof
     # Replace checksum ... k=k[:-8]
     k=k[:-20]
-    # Check int
-    # Probably unnecessary at this point.
-    #isInt=False
-    #try:
-    # if str(k)==str(int(k)):
-    #  isInt=True
-    # else:
-    #  isInt=False
-    #except:
-    # pass
     if k.isdigit() and forceStr:
      raise LookupError
     elif not k.isdigit() and forceNum:
@@ -160,18 +138,11 @@ class CrusherDict:
      rslt_best='er'
      rslt_num=rslt_er
     continue
-   #if forceNum and not isinstance(k, int):
-   # continue
-   #if forceStr and isinstance(k, int):
-   # continue
-   #ix=k
-   # Is key=1 value=1 or key=0 value=0?
    try: #Success
     rslt_gd+=1
     rslt_good_num[k]+=1
    except:
     rslt_good_num[k]=1
-    #rslt_good[k]=k # For later ...
    if rslt_good_num[k]>successRate:
     found=True
   # Print the results here in v3...
@@ -185,24 +156,16 @@ class CrusherDict:
    #Loop. Could also sort dict by value desc.
    best=0
    rb=None
-   for key, value in rslt_good_num.items():
-    if value>best:
-     best=value
-     rb=key # Element
-     vprint(2,'  safeFetch:: new best value is ({}:{}%):'.format(value,round(100*value/readAmount,2)), rb)
+   for keyx, valx in rslt_good_num.items():
+    if valx>best:
+     best=valx
+     rb=keyx # Element
+     vprint(2,'  safeFetch:: new best value is ({}:{}%):'.format(valx,round(100*valx/readAmount,2)), rb)
    vprint(2,'  safeFetch:: final value is ', rb)
    return str(rb)
-  #else:
-  # 
   raise KeyError
  def safeStore(self, dbkey, key):
-  '''Next:...
-     Store each dbkey as eg dbkey + __[1-20]__
-
-     Note that pickle: It is changing data structures!
-      (['Lt. Governor', 'Microsoft'], None)
-      to
-      (('Lt. Governor', 'Microsoft'), None) 
+  '''Store each dbkey as eg dbkey + __[1-20]__
   '''
   vprint(2,'safeStore::')
   vprint(2,'  safeStore::dbkey='+str(dbkey))
@@ -210,16 +173,16 @@ class CrusherDict:
   # Put keys and values in with a marker
   # when they are beneath a threshold length.
   # And an int, eg 0-9.
-  r=20
+  r=200
   dbkey=str(dbkey)
   key=str(key)
   fld=fletcher32(dbkey)
   tmpkey=dbkey+fld
-  tmpval=key+fld+fld+fld+fld # Try adding Three straight...
+  tmpval=key+fld+fld+fld+fld # Adding four straight...
   tmpval+=fletcher32(tmpval) # Add cs(val) to val
   # Loop store
   for i in range(r):
-   self.db.store(tmpkey+'_'+str(i)+'_', tmpval)
+   self.db.store(tmpkey+'_'+str(i*1000)+'_', tmpval)
   # Now it is in there or else try again...
   try:
    n=self.safeFetch(dbkey, True)
@@ -231,7 +194,6 @@ class CrusherDict:
   except: #KeyError
     vprint(2,'  safeStore::Recurse(2)')
     self.safeStore(dbkey, key)
-  # ...
  def getKey(self, key, val=None):
   """**NOT USED**
      Get the db key for key from the set.
@@ -241,19 +203,11 @@ class CrusherDict:
      is returned.
   """
   vprint(2,'crusherdict.py CrusherDict.getKey()')
-  try: # If db key exists... Then do not update the db... Except for one odd case marked below ("When would this ever happen?")...
+  try: # If db key exists... Then do not update the db...
    f=self.safeFetch(indexName(self.name,key))
    dbkey=entryName(self.name,f)
-   if(val!=None): # When would this ever happen!?
+   if(val!=None):
     self.safeStore(dbkey, (key,val))
-   # Integrity check:
-   # Do all of these entries exist?
-   #    self.safeStore(dbkey, (key,val))
-   #    self.safeStore(indexName(self.name,key), n)
-   #    self.safeStore(countName(self.name),n+1)   
-   #    And then return ...
-   # Broken
-   #self.dbkeyCorresponds(dbkey,key,val)
    return dbkey
   except KeyError:
    try:
@@ -270,12 +224,6 @@ class CrusherDict:
    self.safeStore(countName(self.name),n+1)
    return dbkey
 
- #def dbkeyCorresponds(self, dbkey, key, val):
- # '''Helper for .getKey
- # '''
- # vprint(2,'[...rabbitHole...].dbkeyCorresponds()::')
- # vprint(2,'  .dbkeyCorr::Integrity check for:dbkey=',dbkey,';key=',key,';val=',val)
-
  def inc(self, key, val):
   """Increment the value for key from the set.
      If the key is not in the set, it is added to the set with value 1.
@@ -290,40 +238,31 @@ class CrusherDict:
   vprint(2,'crusherdict.py .inc()')
   vprint(2,'  .inc()::key:',key)
   vprint(2,'  .inc()::val:',val)
-  #key=tuple(key) # cast as tuple (remove list [])
   try:
    try:
-    # f is: an int
     f=self.safeFetch(indexName(self.name,key))
-    # dbkey is:
-    #   (dict, "__E__EntryName", n)
     dbkey=entryName(self.name, f)
-    # v is one of:
+    #  v is one of:
     #   BROKEN:  fetch(dbkey):(('Senator', 'Harry Weasley'), None)
     #   BROKEN:  fetch(dbkey):16
     #   BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
     #   WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q000')
     v=self.safeFetch(dbkey)
-    # ...
     if v.isdigit(): # When a string contains only digits
      raise Exception('...')
     v=ast.literal_eval(v)
     if len(v) != 3: # tuple len not three
      raise Exception('...')
-    # If v is None
     if v and v[1] and v[1] is None:
      raise Exception('...')
     if str(v[1])!=str(int(v[1])):
      raise Exception('...')
-    self.safeStore(dbkey, (key,int(v[1])+1,val)) #1 now 100
-    #return dbkey
+    self.safeStore(dbkey, (key,int(v[1])+1,val))
     return {
      'entry':dbkey,
      'index':indexName(self.name,key),
-     #'countName':countName(self.name)
      'valEntry':(key,int(v[1])+1,val),
      'valIndex':f,
-     #'val-count':n+1
     }
    except KeyError:
     raise KeyError # Send up
@@ -333,26 +272,21 @@ class CrusherDict:
    try:
     n=self.safeFetch(countName(self.name))
     if not n.isdigit(): # If not a digit
-     # Hm try again?
+     # Hm try again? Do not set to 0.
      return self.inc(key, val)
-     #n=0 # Hm Reset...
     else:
      n=int(n)
    except KeyError:
-    n=0 #works on easy
-    #n=100 #works with tiny?
+    n=0
    dbkey=entryName(self.name,n)
-   self.safeStore(dbkey,(key,1,val)) # 1
+   self.safeStore(dbkey,(key,1,val))
    self.safeStore(indexName(self.name,key), n)
-   self.safeStore(countName(self.name),n+1) #1 now 100
-   #return dbkey
+   self.safeStore(countName(self.name),n+1)
    return {
     'entry':dbkey,
     'index':indexName(self.name,key),
-    #'countName':countName(self.name)
     'valEntry':(key,1,val),
     'valIndex':n,
-    #'val-count':n+1
    }
 
  def __iter__(self):
@@ -380,23 +314,9 @@ if __name__=="__main__":
  for i in range(0,1000):
   test2.safeStore('x','99999')
   vprint(0,test2.safeFetch('x'))
-#   try:
-#  test2.getKey("H","5555000")
-#  test3.getKey("H","6666000")
-#  test4.getKey("H","7777000")
-#   except:
-#    pass
-  ##vprint(test.inc("Gov-Muller","voter-809809"))
-  ##vprint(test.inc("Gov-Muller","voter-8098091"))
-  ##vprint(test.inc("Gov-Muller","voter-8098092"))
-  ##vprint(test.inc("Gov-Muller","voter-8098093"))
-  ##vprint(test.inc("Gov-Muller","voter-8098094"))
  try:
   for tup in test2:
-#    try:
    vprint(0,tup)
-#    except:
-#     pass
  except:
   pass
  db.exit()

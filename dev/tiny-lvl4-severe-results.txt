@@ -1,4 +1,4 @@
-VOTERS	3
+VOTERS	2
 TALLY	Governor	Mickey Mouse	2
 TALLY	Lt. Governor	Microsoft	1
 TALLY	Governor	Paul Johnson	1

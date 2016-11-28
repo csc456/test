@@ -1,6 +1,6 @@
 # ...
 
-Writes=20<br>
+Writes=2000<br>
 Reads=(60 for every write)=(60*20)=1200<br>
 Write threshold string match>=14%<br>
 Read threshold string match>=10%

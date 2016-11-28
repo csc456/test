@@ -7,4 +7,3 @@ TALLY	Governor	Mary Potter	1
 TALLY	Office of Computer Science Research Grants	Stoned Jones	1
 TALLY	Governor	Mickey Mouse	2
 TALLY	Surgeon General	Say what?	1
-TALLY	Secretary of the Vote	Stoney Jackson	1

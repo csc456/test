@@ -203,20 +203,10 @@ class Broker:
     def interrupt(self, signal, frame):
         self.doExit=True
     def store(self,key,val):
-        #test1=key
-        #test2=val # A test.............
         key=self.keyIn.mangle(key)
         val=self.valIn.mangle(val)
         self.cache.store(self.keyCache.mangle(key),self.valCacheOut.mangle(val))
         self.db.store(self.keyDB.mangle(key),self.valDBOut.mangle(val))
-        #if test1!=key: # A test.............
-        #    print('crusher.py Broker:store ...test1')
-        #    print(test1)
-        #    print('crusher.py Broker:store: key1!=key2, key1='+str(test1)+', key2='+str(key))
-        #if test2!=val: # A test.............
-        #    print('crusher.py Broker:store ...test2')
-        #    print(test2)
-        #    print('crusher.py Broker:store: val1!=val2, val1='+str(test2)+', val2='+str(val))
     def fetch(self,key):
         key=self.keyIn.mangle(key)
         try:

@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-'''...
-   Note: sys.exc_info()[0]
+'''Note: sys.exc_info()[0]
 '''
 
 import crusher
@@ -28,25 +27,25 @@ def conf(dbs, context, log, fields):
  return dbsdoexit(dbs)
 commands["CONF"]=conf
 
-#from crusherdict.py
-def indexName(dict, key):
- vprint(3,'crusherdict.py indexName()')
- vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
- return (dict,"__X__IndexName",key)
-def countName(dict):
- vprint(3,'crusherdict.py countName()')
- vprint(3,'  dbkey=',str((dict,"__N__CountName")))
- return (dict,"__N__CountName")
-def entryName(dict, n):
- # Always make n an int
- n=int(n)
- vprint(3,'crusherdict.py entryName()')
- vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
- return (dict, "__E__EntryName", n)
-def statusName(dict):
- vprint(3,'crusherdict.py statusName()')
- vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
- return (dict, "__S__StatusName")
+# from crusherdict.py
+#def indexName(dict, key):
+# vprint(3,'crusherdict.py indexName()')
+# vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
+# return (dict,"__X__IndexName",key)
+#def countName(dict):
+# vprint(3,'crusherdict.py countName()')
+# vprint(3,'  dbkey=',str((dict,"__N__CountName")))
+# return (dict,"__N__CountName")
+#def entryName(dict, n):
+# # Always make n an int
+# n=int(n)
+# vprint(3,'crusherdict.py entryName()')
+# vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
+# return (dict, "__E__EntryName", n)
+#def statusName(dict):
+# vprint(3,'crusherdict.py statusName()')
+# vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
+# return (dict, "__S__StatusName")
 
 def dbsdoexit(dbs):
  de={}
@@ -91,25 +90,32 @@ def vote(dbs, context, log, fields):
  return False
 commands["VOTE"]=vote
 
-def makeVotes(i,d,context):
- checkvl=[] # array to match against
+def makeVotes(i,context):
+ '''For each voter save their votes, then check integrity of that process.
+    Do not run equivalent of .getKey as this we already know what needs to be written.
+    At the end save countName.
+    Then run .inc for each voter, then check integrity of that process.
+    
+    Note:Save to file debug is i.db.save()
+ '''
+ vprint(1,'  makeVotes()')
+ d=crusherdict3.CrusherDict(i,context["id"])
+ checkvl=[] # Array to match against
  # Note: IndexName and EntryName stored for every vote processed.
  for j in range(len(context["votes"])):
   vote=context["votes"][j]
   key=vote[1:3] # Office,Cand
   d.safeStore(entryName(context["id"], j),   (key, None))
   d.safeStore(indexName(context["id"], key), j)
-  checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2])) # office, cand
+  checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
  # Store countName only one time, that is, the last entry.
  d.safeStore(countName(context["id"]), j+1)
- # Save to file debug....
- #i.db.save()
  if not matchesVoteLog(i,checkvl,context['id']):
   #numberRecursions+=1
-  return makeVotes(i,d,context) # Recurse
+  return makeVotes(i,context) # Recurse
   #return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
 
-def threadVote(i,context,fields,stop_event,numberRecursions=0):
+def threadVote(db,context,fields,stop_event,numberRecursions=0):
  '''Debug: numberRecursions
     .inc() ought to return a list of Key-Value database pairs (KVP).
     Then demo.py adds these to a list to be checked later on when all .inc calls have been made.
@@ -118,11 +124,11 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
     If any KVP does not match then rewrite that Key-Value pair.
     Also, you may want to run a MVL check (matchesVoteLog) here as well.
  '''
- d=crusherdict3.CrusherDict(i,context["id"])
- t=crusherdict3.CrusherDict(i,"___T___")
+ d=crusherdict3.CrusherDict(db,context["id"])
+ t=crusherdict3.CrusherDict(db,"___T___")
  d.status("UNCAST")
  # Cast
- makeVotes(i,d,context)
+ makeVotes(db,context)
  """The votes have been added to the voter, but not the tallies."""
  entries={}
  for vote in context["votes"]:
@@ -131,8 +137,6 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
  """The votes have been tentatively tallied."""
  rslt=t.inc("voters",context["id"])
  entries['voters']=rslt
- inc_integrity(t,entries,False,{'i':i,'d':d,'context':context})
-  
  ###################################
  ## Recurse __T__.integrity.
  ###################################
@@ -143,12 +147,25 @@ def threadVote(i,context,fields,stop_event,numberRecursions=0):
  #	 'valEntry':(key,int(v[1])+1,val),
  #	 'valIndex':f,
  #	}
+ inc_integrity(entries,False,{'db':db,'context':context})
  """Number of voters has been tentatively incremented."""
  d.status("CAST")
  """The votes have been tallied."""
  return
 
-def inc_integrity(t,entries,dirty,mv):
+def inc_integrity(entries,dirty,mv,numRecursions=0):
+ '''Check integrity of the .inc command.
+ '''
+ vprint(1,'  inc_integrity()')
+ t=crusherdict3.CrusherDict(mv['db'],"___T___")
+ numRecursions+=1
+ nr=numRecursions
+ # Cast but only if T previously failed.
+ if dirty:
+  vprint(1,'  inc_integrity::mv')
+  d=crusherdict3.CrusherDict(mv['db'],context["id"])
+  makeVotes(mv['db'],mv['context'])
+ # Loop
  for k,r in entries.items():
   s=-1 # Debug output
   try:
@@ -156,32 +173,42 @@ def inc_integrity(t,entries,dirty,mv):
    if str(s) != str(r['valEntry']):
     raise LookupError
   except:
-   vprint(1,'  inc_integrity::No match1!')
-   #vprint(1,'  inc_integrity::Entry:',r)   
-   #vprint(1,'  inc_integrity::But fetch=',s)
+   vprint(1,'  inc_integrity::mv & recurse1')
    t.safeStore(r['entry'], r['valEntry'])
-   return inc_integrity(t,entries,True,mv) # Recurse   
+   t.safeStore(r['index'], r['valIndex'])
+   return inc_integrity(entries,True,mv,nr) # Recurse   
   s=-1 # Debug output
   try:
    s=t.safeFetch(r['index'])
    if str(s) != str(r['valIndex']):
     raise LookupError
   except:
-   vprint(1,'  inc_integrity::No match2!')
-   #vprint(1,'  inc_integrity::Entry:',r)
-   #vprint(1,'  inc_integrity::But fetch=',s)
+   vprint(1,'  inc_integrity::mv & recurse2')
+   t.safeStore(r['entry'], r['valEntry'])
    t.safeStore(r['index'], r['valIndex'])
-   return inc_integrity(t,entries,True,mv) # Recurse
- # Cast but only if T previously failed.
- if dirty:
-  vprint(1,'  inc_integrity::makeVotes()')
-  makeVotes(mv['i'],mv['d'],mv['context'])
- #return True # Made it!
+   return inc_integrity(entries,True,mv,nr) # Recurse
 
+def threadCastEmpty(db,context):
+  t=crusherdict3.CrusherDict(db,"___T___")
+  entries={}
+  rslt=t.inc("voters",context["id"])
+  entries['voters']=rslt
+  inc_integrity(entries,False,{'db':db,'context':context})
+ 
 def cast(dbs, context, log, fields):
  """Perform CAST command."""
+ # Empty voters
+ t_stop=threading.Event()
+ threads=[]
  if len(context['votes']) == 0:
+  for i in dbs:
+   n = threading.Thread(target=threadCastEmpty, args=(i,context,))
+   n.start()
+   threads.append(n)
+  for n in threads:
+   n.join()
   return
+ # Begin real voters
  t_stop=threading.Event()
  threads=[]
  for i in dbs:
@@ -191,27 +218,25 @@ def cast(dbs, context, log, fields):
  # Join all...
  for n in threads:
   n.join()
- #Made it
+ # Made it
  return inq(dbs, context, log, ("INQ",context["id"]))
 commands["CAST"]=cast
 
 def matchesVoteLog(db,checkvl,vid):
- # Check that successful write before continuing in... 
- # Needs to match eg:
- #  VOTE	President	Donald Trump
- #  VOTE	Governor	Mickey Mouse
- #  VOTE	Lt. Governor	Melinda Gates
- c = crusherdict3.CrusherDict(db,vid) #open db-X with vid-Y
+ '''Check that successful write before continuing on.
+    Needs to match eg:
+	VOTE	President	Donald Trump
+	VOTE	Governor	Mickey Mouse
+	VOTE	Lt. Governor	Melinda Gates
+ '''
+ c = crusherdict3.CrusherDict(db,vid) # Ppen db-X with vid-Y
  x = pre_check_inq(c)
- if x is False:# or x != checkvl:
+ if x is False:
   print('  mvl:Fails checka')
   print('  Looking for:')
   print(''.join(str(x) for x in checkvl))
   print('  Seeing:')
   print(x)
-  # Let's try changing to a new voter id
-  # since this one has not been casted yet.
-  #context['id']=newVoterId()
   return False
  else:
   for i in checkvl:
@@ -226,6 +251,7 @@ def matchesVoteLog(db,checkvl,vid):
  return True
 
 def pre_check_inq(c):
+ '''Pretend to make a log of the voter in order check integrity.'''
  tmp_log=''
  try:
   for tup in c:
@@ -240,6 +266,9 @@ def pre_check_inq(c):
  return tmp_log
 
 def check_inq(c):
+ '''Loop to retrieve the voter's votes for logging.
+    In the case of an errorneous fetch, try again.
+ '''
  tmp=''
  for tup in c:
   try:
@@ -305,7 +334,6 @@ def report(dbs, log):
  # Best
  head="VOTERS\t{}\n".format(best)
  log.write(head) 
-
  # Get tallies  
  try:
   voters={}
@@ -314,26 +342,26 @@ def report(dbs, log):
   for i in dbs:
    t=crusherdict3.CrusherDict(i,"___T___")
    j=0
-   print(len(t))
-   print(len(t))
-   print(len(t))
-   print(len(t))
-   print(j<len(t))
+   vprint(1,len(t))
+   vprint(1,len(t))
+   vprint(1,len(t))
+   vprint(1,len(t))
+   vprint(1,j<len(t))
    tmp=''
    while j<len(t): #calls __len__()
-    print(j,end=', ')
+    vprint(1,j,end=', ')
     try:
      n=t.safeFetch(entryName('___T___',j))
-     print('  str-tup:',n)
+     vprint(1,'  str-tup:',n)
      tup=ast.literal_eval(n)
-     print('  ',tup)
-     print('  ', tup[0])
+     vprint(1,'  ',tup)
+     vprint(1,'  ', tup[0])
      if str(tup[0])!="voters":
-      print('  ',tup[0],'!="voters"')
+      vprint(1,'  ',tup[0],'!="voters"')
       tmp+="TALLY\t{}\t{}\t{}\n".format(tup[0][0],tup[0][1],tup[1])
      j+=1
     except:
-     print('jx')
+     vprint(1,'jx')
    try:
     voters[tmp]+=1
    except:
@@ -344,7 +372,7 @@ def report(dbs, log):
   log.write(best)
  except:
   vprint(1,'  Exception:',sys.exc_info()[0])
-  print('  report::vote-log3 ...')
+  vprint(1,'  report::vote-log3 ...')
 
 try:
  filename=sys.argv[1]
@@ -366,7 +394,7 @@ for line in cmd:
  if line[-1]=="\n":
   line=line[:-1]
  line=line.split("\t")
- print('demo.py: Try cmd:' + line[0])
+ vprint(0,'demo.py: Try cmd:' + line[0])
  if commands[line[0]](dbs,context,log,line):
   break
 
