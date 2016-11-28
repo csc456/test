@@ -96,6 +96,9 @@ def cast(db, context, log, fields):
        and issues a receipt.
     """
     VID = context["id"]
+    if(len(context["votes"]) == 0):
+        if(DEBUG):
+            print("VOTED FOR NO ONE")
     for vote in context["votes"]:
         """Get the office id for current vote's office, do this the
            same way we got voterid earlier if it isn't already
@@ -153,10 +156,8 @@ def cast(db, context, log, fields):
         try:
             #Does it already exist?
             CID = "C"+str(db.fetch(str(OID)+"-CN-"+str(vote[2])))
-        except wrapper.InvalidChecksum:
-            """It does exist"""
-        except KeyError:
-            #It doesn't exist, make one
+        except:
+            #It doesn't exist or it's invalid, make a new one
             try:
                 #Get the last candidate id and increment it
                 LCID = db.fetch("LCID")
@@ -239,6 +240,8 @@ def cast(db, context, log, fields):
     #[:-1] to strip the last "-"
     if(officeIDs != ""):
         db.store(VID, officeIDs[:-1])
+    else:
+        db.store(VID, "%")
     #Also store the LVID as this VID
     db.store("LVID", VID)
     if(DEBUG):
@@ -260,6 +263,9 @@ def inq(db, context, log, fields):
         OIDS = db.fetch(VID)
     except (KeyError, wrapper.InvalidChecksum):
         log.write("FAILED RETRIEVAL FOR" + VID)
+        return db.doExit
+    if(OIDS == "%"):
+        log.write("NO VOTES FOR" + VID)
         return db.doExit
     OIDSList = OIDS.split("-")
     Votes = []
@@ -303,7 +309,7 @@ def report(db, log):
     CID = str(0)
     OID = str(0)
 
-    padding = 10
+    padding = 30
     failuresInARow = 0
     amountOfVoters = 0
     #Iterate through all expected VIDS and count how many voters there are

@@ -19,6 +19,7 @@ DEBUG = True
 ###crusher.Broker = wrapper.Broker
 ############
 
+#Increasing the number of replicas should increase the system reliability.
 NUMOFREPLICAS = 24
 
 class InvalidChecksum(Exception):
@@ -63,7 +64,8 @@ class Broker(Broken):
                 newVal = str(val) + self.fletcher32((str(key)+str(val)))
                 try:
                     if(DEBUG):
-                        print("  ::Broken.store", newKey, newVal)
+                        """"""
+                        #print("  ::Broken.store", newKey, newVal)
                     Broken.store(self, newKey, newVal)
                     if(DEBUG):
                         self.DEBUG_stored_in_db[newKey] = newVal
