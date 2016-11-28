@@ -9,7 +9,7 @@
 from crusher import Broker as Broken
 import sys
 
-DEBUG = False
+DEBUG = True
 #Turns on/off print statements for debugging
 
 ############
@@ -19,11 +19,7 @@ DEBUG = False
 ###crusher.Broker = wrapper.Broker
 ############
 
-NUMOFREPLICAS = 10
-#Increasing the number of duplicates seems to decrease reliability????
-#Something is clearly off here
-#TODO find that something
-
+NUMOFREPLICAS = 24
 
 class InvalidChecksum(Exception):
     pass
@@ -31,6 +27,8 @@ class InvalidChecksum(Exception):
 class Broker(Broken):
     def __init__(self, filename="demo.txt"):
         """Nothing changes for the initialization"""
+        if(DEBUG):
+            self.DEBUG_stored_in_db = {}
         return Broken.__init__(self, filename)
         
     def configure(self, s):
@@ -57,18 +55,26 @@ class Broker(Broken):
         it's almost certainly invalid in the db)"""
         for i in range(NUMOFREPLICAS):
             again = True
-            while(again):
+            againMax = 100 #Avoid infi loops (db is really screwed if this matters)
+            while(again == True and againMax > 0):
+                againMax = againMax - 1
                 again = False
-                newKey = (str(key) + str(i))
-                newVal = (str(val) + self.fletcher32((str(key)+str(val))))
+                newKey = str(key) + str(i)
+                newVal = str(val) + self.fletcher32((str(key)+str(val)))
                 try:
+                    if(DEBUG):
+                        print("  ::Broken.store", newKey, newVal)
                     Broken.store(self, newKey, newVal)
+                    if(DEBUG):
+                        self.DEBUG_stored_in_db[newKey] = newVal
                     if(Broken.fetch(self, newKey) != newVal):
                         #Likely corrupted if we cant even get it back right from the cache
                         #Try again
+                        if(DEBUG):
+                            print("Broken.fetch(self, newKey) != newVal")
                         again = True
                 
-                except:
+                except KeyError:
                     """Do nothing"""
                     #print(newKey + ": error 69")
                     again = True

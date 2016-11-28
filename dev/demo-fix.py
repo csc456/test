@@ -13,7 +13,8 @@ crusher.Broker = wrapper.Broker
 import os.path
 import sys
 
-DEBUG = False
+DEBUG = True
+PRINTDB = False
 #Turns on/off debugging print statements
 
 """The commands dictionary is a convenient way to map from a command string
@@ -357,5 +358,12 @@ cmd.close()
 log.close()
 results=open(basename+"-results.txt","w")
 report(db,results)
+if(PRINTDB):
+    try:
+        print("::DB STORAGE::")
+        for item in db.DEBUG_stored_in_db:
+            print(str(item), ":", db.DEBUG_stored_in_db[item])
+    except:
+        print("db not in debug mode!")
 results.close()
 db.exit()
