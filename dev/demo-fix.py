@@ -265,7 +265,8 @@ def inq(db, context, log, fields):
         log.write("FAILED RETRIEVAL FOR" + VID)
         return db.doExit
     if(OIDS == "%"):
-        log.write("NO VOTES FOR" + VID)
+        #They cast but didn't vote
+        log.write("CAST\n")
         return db.doExit
     OIDSList = OIDS.split("-")
     Votes = []
@@ -280,7 +281,7 @@ def inq(db, context, log, fields):
         except:
             """Do nothing"""
         log.write("VOTE\t{}\t{}\n".format(votedOffice, votedFor))
-    log.write("CAST\t{}\n".format(VID))
+    log.write("CAST\n")
     return db.doExit
 commands["INQ"]=inq
 
@@ -308,38 +309,42 @@ def report(db, log):
     #Set current candidate id and office id and voter id
     CID = str(0)
     OID = str(0)
+    VID = str(0)
 
     padding = 30
     failuresInARow = 0
     amountOfVoters = 0
-    #Iterate through all expected VIDS and count how many voters there are
-    while(padding > failuresInARow):
-        try:
-            db.fetch(VID)
-            failuresInARow = 0
-            amountOfVoters += 1
-        except:
-            failuresInARow += 1
-    failuresInARow = 0
+
+    #The last voter id should tell us how many voters there were
+    try:
+        LVID = int(db.fetch("LVID"))
+    except:
+        LVID = -1
+
     failedCandidates = 0
     #Iterate through all combinations of OID-CID up to LOID-LCID
     if(not failed):
-        for i in range(int(LCID)+1):
-            CID = "C"+str(i)
-            for j in range(int(LOID)+1):
-                OID = "O"+str(j)
+        for i in range(int(LOID)+1):
+            OID = "O"+str(i)
+            for j in range(int(LCID)+1):
+                CID = "C"+str(j)
                 try:
                     if(DEBUG):
                         print("CNAME,TALLY", db.fetch(OID+CID))
                     [CNAME, TALLY] = str(db.fetch(OID+CID)).rsplit("-")
                     ONAME = str(db.fetch(OID))
                     if(DEBUG):
+                        """"""
                         print("ONAME", ONAME)
                         print("CNAME", CNAME)
                         print("TALLY", TALLY)
                     log.write("TALLY\t{}\t{}\t{}\n".format(ONAME, CNAME, TALLY))
                 except:
                     """Failed for one reason or another, do nothing"""
+    if(LVID >= 0):
+        log.write("VOTERS\t"+str(LVID)+"\n")
+    else:
+        log.write("VOTERS\tERROR\n")
 
 try:
     filename=sys.argv[1]
