@@ -1,18 +1,18 @@
 VOTER
 VOTE	Mayor	Slimey Badguy
-CAST	VOTER|9v(gAxX$
+CAST	VOTER|*8We0gJh
 VOTER
 VOTE	Supreme Court Justice	Sherry Parkhurst
 VOTE	Secretary of the Vote	Charles Lindbergh
 VOTE	Governor	Vickey Walker
 VOTE	Governor	Mary Potter
-CAST	VOTER|v5VAWiHO
+CAST	VOTER|4dvJmB1y
 VOTER
 VOTE	Office of Computer Science Research Grants	Stoned Jones
 VOTE	Governor	Mickey Mouse
 VOTE	Surgeon General	Say what?
-CAST	VOTER|yqrM27Cn
+CAST	VOTER|jGDe2QP+
 VOTER
 VOTE	Governor	Mickey Mouse
 VOTE	Secretary of the Vote	Stoney Jackson
-CAST	VOTER|x0MU$j)o
+CAST	VOTER|Qj!k2NbY

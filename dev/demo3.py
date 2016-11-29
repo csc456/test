@@ -104,6 +104,7 @@ def makeVotes(i,context):
  d=crusherdict3.CrusherDict(i,context["id"])
  checkvl=[] # Array to match against
  # Note: IndexName and EntryName stored for every vote processed.
+ j=0
  for j in range(len(context["votes"])):
   vote=context["votes"][j]
   key=(vote[1], vote[2])#vote[1:3] # Office,Cand
@@ -111,11 +112,11 @@ def makeVotes(i,context):
   d.safeStore(indexName(context["id"], key), j)
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
  # Store countName only one time, that is, the last entry.
+ #if j==0: #Err
+ # return makeVotes(i,context) # Recurse  
  d.safeStore(countName(context["id"]), j+1)
  if not matchesVoteLog(i,checkvl,context['id']):
-  #numberRecursions+=1
   return makeVotes(i,context) # Recurse
-  #return threadVote(i,context,fields,stop_event,numberRecursions) # Recursive...
 
 def threadVote(db,context,fields,stop_event,numberRecursions=0):
  '''Debug: numberRecursions
