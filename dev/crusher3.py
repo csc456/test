@@ -34,10 +34,10 @@ class Cache(TestingCache):
    self.cache[k]=(key,val)
   except:
    vprint(3,sys.exc_info()[0],0)
-   vprint(3,'err',0)
-  vprint(3,'  hash:'+str(k))
-  vprint(3,'  key:'+str(key))
-  vprint(3,'  val:'+str(val))
+   #vprint(3,'err',0)
+  #vprint(3,'  hash:'+str(k))
+  #vprint(3,'  key:'+str(key))
+  #vprint(3,'  val:'+str(val))
   #return TestingCache.store(self, key, val) #NothingChanges
  def fetch(self,key):
   return TestingCache.fetch(self, key)  #NothingChanges

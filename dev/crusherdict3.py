@@ -42,7 +42,7 @@ class CrusherDict:
   vprint(2,'Loading .__len__() for ',self.name,' ... ')
   try:
    f=self.safeFetch(countName(self.name))
-   if not f.isdigit(): # Recurse
+   if not isinstance(f, int): # Recurse
     vprint(2,'  .__len__()::(Recurse), Seeing: ',f)
     return self.__len__() # Try again...
    else:
@@ -81,11 +81,12 @@ class CrusherDict:
   rslt_nm=0 #integer must contain key
   rslt_er=0
   rslt_gd=0
-  rslt_good={}
-  rslt_good_num={}
+  #rslt_good={}       
+  rslt_good_num={}   # Key=Str, Value=Int (count)
+  rslt_good_entry={} # Key=Str, Value=Tuple
   rslt_num=0
   rslt_best=None
-  r=40  # Num entries
+  r=200  # Num entries
   readMultiplier=2 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
   successRate=0.02*readAmount	# Num entries which must match in order to assume it is not a KeyError.
@@ -105,7 +106,7 @@ class CrusherDict:
   # Loop
   for i in range(readAmount):
    try:
-    tmpk=(key, '_'+str((i//readMultiplier)*1000)+'_')
+    tmpk=(key, '_'+str(i//readMultiplier)+'_', fld)
     k=self.db.fetch(tmpk) # (val, tmpval)
     if not isinstance(k, tuple):
      raise LookupError
@@ -145,12 +146,14 @@ class CrusherDict:
      rslt_best='er'
      rslt_num=rslt_er
     continue
-   try: #Success
+   # Success
+   try:
     rslt_gd+=1
-    rslt_good_num[k]+=1
+    rslt_good_num[str(k)]+=1
    except:
-    rslt_good_num[k]=1
-   if rslt_good_num[k]>successRate:
+    rslt_good_num[str(k)]=1
+    rslt_good_entry[str(k)]=k
+   if rslt_good_num[str(k)]>successRate:
     found=True
   # Print the results here in v3...
   vprint(3,'  safeFetch::key  error :',rslt_ke)
@@ -166,14 +169,15 @@ class CrusherDict:
    for keyx, valx in rslt_good_num.items():
     if valx>best:
      best=valx
-     rb=keyx # Element
+     #rb=keyx # Element
+     rb=rslt_good_entry[keyx] # Element
      vprint(2,'  safeFetch:: new best value is ({}:{}%):'.format(valx,round(100*valx/readAmount,2)), rb)
    vprint(2,'  safeFetch:: final value is ', rb)
    return rb
-   #return str(rb)
   raise KeyError
  def safeStore(self, dbkey, val):
   '''Store each dbkey as eg dbkey + __[1-20]__
+     (...Lists are not allowed as dict keys...)
   '''
   vprint(2,'  safeStore::')
   vprint(2,'    safeStore::dbkey='+str(dbkey))
@@ -182,7 +186,7 @@ class CrusherDict:
   # when they are beneath a threshold length.
   # And an int, eg 0-9.
   # Make a tuple...
-  r=40
+  r=200
   #dbkey=(dbkey)
   #key=str(key)
   fld=fletcher32(str(dbkey))
@@ -192,7 +196,7 @@ class CrusherDict:
   # Loop store
   for i in range(r):
    #self.db.store(tmpkey+'_'+str(i*1000)+'_', tmpval)
-   self.db.store((dbkey, '_'+str(i*1000)+'_'), (val, tmpval))
+   self.db.store((dbkey, '_'+str(i)+'_', fld), (val, tmpval))
   # Now it is in there or else try again...
   try:
    n=self.safeFetch(dbkey, True)
@@ -306,7 +310,7 @@ class CrusherDict:
     n=self.safeFetch(entryName(self.name,i))
    except:
     n=None
-   vprint(2,'  []iter::n:',i)
+   vprint(2,'  []iter::n:',n)
    yield n
 
 if __name__=="__main__":

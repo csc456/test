@@ -29,24 +29,24 @@ def conf(dbs, context, log, fields):
 commands["CONF"]=conf
 
 #from crusherdict.py
-#def indexName(dict, key):
-# vprint(3,'crusherdict.py indexName()')
-# vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
-# return (dict,"__X__IndexName",key)
-#def countName(dict):
-# vprint(3,'crusherdict.py countName()')
-# vprint(3,'  dbkey=',str((dict,"__N__CountName")))
-# return (dict,"__N__CountName")
-#def entryName(dict, n):
-# # Always make n an int
-# n=int(n)
-# vprint(3,'crusherdict.py entryName()')
-# vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
-# return (dict, "__E__EntryName", n)
-#def statusName(dict):
-# vprint(3,'crusherdict.py statusName()')
-# vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
-# return (dict, "__S__StatusName")
+def indexName(dict, key):
+ #vprint(3,'crusherdict.py indexName()')
+ #vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
+ return (dict,"__X__IndexName",key)
+def countName(dict):
+ #vprint(3,'crusherdict.py countName()')
+ #vprint(3,'  dbkey=',str((dict,"__N__CountName")))
+ return (dict,"__N__CountName")
+def entryName(dict, n):
+ # Always make n an int
+ n=int(n)
+ #vprint(3,'crusherdict.py entryName()')
+ #vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
+ return (dict, "__E__EntryName", n)
+def statusName(dict):
+ #vprint(3,'crusherdict.py statusName()')
+ #vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
+ return (dict, "__S__StatusName")
 
 def dbsdoexit(dbs):
  de={}
@@ -98,6 +98,7 @@ def makeVotes(i,context):
     Then run .inc for each voter, then check integrity of that process.
     
     Note:Save to file debug is i.db.save()
+    Note: Tuple is required for dict keys. Not lists.
  '''
  vprint(1,'  makeVotes()')
  d=crusherdict3.CrusherDict(i,context["id"])
@@ -105,7 +106,7 @@ def makeVotes(i,context):
  # Note: IndexName and EntryName stored for every vote processed.
  for j in range(len(context["votes"])):
   vote=context["votes"][j]
-  key=vote[1:3] # Office,Cand
+  key=(vote[1], vote[2])#vote[1:3] # Office,Cand
   d.safeStore(entryName(context["id"], j),   (key, None))
   d.safeStore(indexName(context["id"], key), j)
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
@@ -133,8 +134,9 @@ def threadVote(db,context,fields,stop_event,numberRecursions=0):
  """The votes have been added to the voter, but not the tallies."""
  entries={}
  for vote in context["votes"]:
-  rslt=t.inc(vote[1:3],context["id"])
-  entries[str(vote[1:3])]=rslt # When there are multiple key-value pairs the last vote will override the previous ones.
+  v=(vote[1],vote[2])
+  rslt=t.inc(v,context["id"])
+  entries[v]=rslt # When there are multiple key-value pairs the last vote will override the previous ones.
  """The votes have been tentatively tallied."""
  rslt=t.inc("voters",context["id"])
  entries['voters']=rslt
@@ -250,12 +252,13 @@ def pre_check_inq(c):
  try:
   for tup in c:
    try:
-    tup=ast.literal_eval(tup)
+    #tup=ast.literal_eval(tup)
     tmp_log += "VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
    except:
-    vprint(2,'  pre_check_inq exception::tmp_log=',str(tmp_log))
+    vprint(2,'  pre_check_inq::exception1:tmp_log=',str(tmp_log))
     return False
  except:
+  vprint(2,'  pre_check_inq::exception2:tmp_log=',str(tmp_log))
   return False
  return tmp_log
 
@@ -266,7 +269,7 @@ def check_inq(c):
  tmp=''
  for tup in c:
   try:
-   tup=ast.literal_eval(tup)
+   #tup=ast.literal_eval(tup)
    tmp+="VOTE\t{}\t{}\n".format(tup[0][0],tup[0][1])
   except:
    vprint(2,'  check_inq::Exception:',sys.exc_info()[0])
@@ -314,7 +317,7 @@ def report(dbs, log):
    n=t.getKey("voters")
    x=t.safeFetch(n)
    # eval here
-   x=ast.literal_eval(x)
+   #x=ast.literal_eval(x)
    x=x[1]
   except:
    continue
@@ -345,9 +348,9 @@ def report(dbs, log):
    while j<len(t): #calls __len__()
     vprint(1,j,end=', ')
     try:
-     n=t.safeFetch(entryName('___T___',j))
-     vprint(1,'  str-tup:',n)
-     tup=ast.literal_eval(n)
+     tup=t.safeFetch(entryName('___T___',j))
+     vprint(1,'  str-tup:',tup)
+     #tup=ast.literal_eval(n)
      vprint(1,'  ',tup)
      vprint(1,'  ', tup[0])
      if str(tup[0])!="voters":
