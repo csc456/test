@@ -1,12 +1,14 @@
+CONF	(0, 16, 0.001, 0.001, 0.001, 0.001)
+CONF	((1,2,3,4,5,6,7,8), 0.001, 0.001, 0.001)
 VOTER
 VOTE	Governor	Mickey Mouse
 VOTE	Lt. Governor	Microsoft
-CAST	VOTER|7&N$^qEv
+CAST	1
 VOTER
 VOTE	Governor	Paul Johnson
-CAST	VOTER|0vC2v3WI
+CAST	2
 VOTER
 VOTE	President	Donald Trump
 VOTE	Governor	Mickey Mouse
 VOTE	Lt. Governor	Melinda Gates
-CAST	VOTER|TanpF8UL
+CAST	3

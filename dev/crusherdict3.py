@@ -85,8 +85,8 @@ class CrusherDict:
   rslt_good_num={}
   rslt_num=0
   rslt_best=None
-  r=200  # Num entries
-  readMultiplier=10 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
+  r=20  # Num entries
+  readMultiplier=2 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
   successRate=0.02*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
@@ -173,7 +173,7 @@ class CrusherDict:
   # Put keys and values in with a marker
   # when they are beneath a threshold length.
   # And an int, eg 0-9.
-  r=200
+  r=20
   dbkey=str(dbkey)
   key=str(key)
   fld=fletcher32(dbkey)

@@ -46,7 +46,8 @@ class Cache(TestingCache):
 
 class DataBase(TestingDb):
  def __init__(self, filename="demo.txt"):
-  self.filename='data/'+filename # Prepend a folder name here
+  #self.filename='data/'+filename # Prepend a folder name here
+  self.filename=filename # Prepend a folder name here
   self.load()
  def store(self,key,val):
   return TestingDb.store(self, key, val) #NothingChanges
