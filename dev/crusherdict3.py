@@ -87,7 +87,7 @@ class CrusherDict:
   rslt_num=0
   rslt_best=None
   r=200  # Num entries
-  readMultiplier=2 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
+  readMultiplier=10 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
   successRate=0.02*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
@@ -102,49 +102,70 @@ class CrusherDict:
   else:
    forceStr=True
   fld=fletcher32(str(key))
-  #tmpkey=str(key)+fld
+  count={
+   'not tuple':0,
+   'len(tuple) not 2':0,
+   'tuple[1] not str':0,
+   'bad val checksum1':0,
+   'bad val checksum2':0,
+   'str but val is int':0,
+   'int but val is str':0,
+  }
+  secondChoices=[] # If necessary
   # Loop
   for i in range(readAmount):
    try:
-    tmpk=(key, '_'+str(i//readMultiplier)+'_', fld)
+    tmpk=(key, '_'+str(i*readMultiplier)+'_', fld) 
+    # Divide # tmpk=(key, '_'+str(i//readMultiplier)+'_', fld)
     k=self.db.fetch(tmpk) # (val, tmpval)
     if not isinstance(k, tuple):
-     raise LookupError
+     count['not tuple']+=1
+     continue
     if len(k) != 2:
-     raise LookupError
+     count['len(tuple) not 2']+=1
+     continue
     if not isinstance(k[1], str):
-     raise LookupError
-    if k[1][-4:] != fletcher32(k[1][:-4]):
-     raise AttributeError # BAD, no cs
+     count['tuple[1] not str']+=1
+     continue
+    
+    #if k[1][-4:] != fletcher32(k[1][:-4]):
+    #if fletcher32(str(k[0])) != k[1]:
+    # count['bad val checksum1']+=1
+    # secondChoices.append(k[0])
+    # continue
+    
     # Must have key in val
-    if str(fld)*4 not in k[1]:
-     raise LookupError #BAD, no indexof
-    # Replace checksum ... k=k[:-8]
-    #k=k[:-20]
+    if k[1] != fld:
+     count['bad val checksum2']+=1
+     #secondChoices.append(k[0])
+     continue
     k=k[0] # Assume value is now valid syntax ...
     if isinstance(k, int) and forceStr:
-     raise LookupError
+     #print(k)
+     count['str but val is int']+=1
+     continue
     elif not isinstance(k, int) and forceNum:
-     raise LookupError
+     count['int but val is str']+=1
+     continue
    except KeyError:
     rslt_ke+=1
-    if rslt_ke>rslt_num:
-     rslt_best='ke'
-     rslt_num=rslt_ke
+    #if rslt_ke>rslt_num:
+    # rslt_best='ke'
+    # rslt_num=rslt_ke
     continue
-   except AttributeError:
-    # Bad Checksum!
-    rslt_ck+=1
-    continue
-   except LookupError:
-    # Bad Integer! (Key does not match Key-Value pair.)
-    rslt_nm+=1
-    continue
+   #except AttributeError:
+   # # Bad Checksum!
+   # rslt_ck+=1
+   # continue
+   #except LookupError:
+   # # Bad Integer! (Key does not match Key-Value pair.)
+   # rslt_nm+=1
+   # continue
    except: #Other
     rslt_er+=1
-    if rslt_er>rslt_num:
-     rslt_best='er'
-     rslt_num=rslt_er
+    #if rslt_er>rslt_num:
+    # rslt_best='er'
+    # rslt_num=rslt_er
     continue
    # Success
    try:
@@ -156,11 +177,15 @@ class CrusherDict:
    if rslt_good_num[str(k)]>successRate:
     found=True
   # Print the results here in v3...
-  vprint(2,'  safeFetch::key  error :',rslt_ke)
-  vprint(2,'  safeFetch::chksm error:',rslt_ck)
-  vprint(2,'  safeFetch::int   error:',rslt_nm)
-  vprint(2,'  safeFetch::anon  error:',rslt_er)
-  vprint(2,'  safeFetch::good  key  :',rslt_gd)
+  vprint(2,'  safeFetch::key  error        :',rslt_ke)
+  vprint(2,'  safeFetch::len(tuple) not 2  :',count['len(tuple) not 2'])
+  vprint(2,'  safeFetch::tuple[1] not str  :',count['tuple[1] not str'])
+  vprint(2,'  safeFetch::chksm error1      :',count['bad val checksum1'])
+  vprint(2,'  safeFetch::chksm error2      :',count['bad val checksum2'])
+  vprint(2,'  safeFetch::str but val is int:',count['str but val is int'])
+  vprint(2,'  safeFetch::int but val is str:',count['int but val is str'])
+  vprint(2,'  safeFetch::anon  error       :',rslt_er)
+  vprint(2,'  safeFetch::good  key         :',rslt_gd)
   # Was it found (goes above threshold) ... ?
   if found is True:
    #Loop. Could also sort dict by value desc.
@@ -174,22 +199,52 @@ class CrusherDict:
      vprint(2,'  safeFetch:: new best value is ({}:{}%):'.format(valx,round(100*valx/readAmount,2)), rb)
    vprint(2,'  safeFetch:: final value is ', rb)
    return rb
+  elif count['bad val checksum1']+count['bad val checksum2'] > successRate: # TODO: And KeyError is below threshold ...
+   pass
+   # Is is possible to choose a second best option based on character or bit voting 
+   #print(secondChoices)   
+#   vprint(2,'  safeFetch:: Try combo...')
+#   newWordDict={}
+#   nwdCount={}
+#   for word in secondChoices:
+#    vprint(2,'  safeFetch:: x1')
+#    for i,letter in enumerate(str(word)):
+#    #for i,letter in word:
+#     vprint(2,'  safeFetch:: x2')
+#     try:
+#      newWordDict[i][letter]+=1
+#     except:
+#      try:
+#       newWordDict[i][letter]=1 # Letter does not exist
+#      except:
+#       newWordDict[i]={}        # Position does not exist
+#       newWordDict[i][letter]=1
+#     try:
+#      if newWordDict[i][letter] > nwdCount[i]['max']:
+#       nwdCount[i]['max']=newWordDict[i][letter]
+#       nwdCount[i]['letter']=letter
+#     except:
+#      nwdCount[i]={}
+#      nwdCount[i]['max']=newWordDict[i][letter]
+#      nwdCount[i]['letter']=letter
+#   # And now...
+#   finalWord=''
+#   for key,value in nwdCount.items():
+#    finalWord+=value['letter']
+#   vprint(2,'  safeFetch:: final word:',finalWord)
+#   return finalWord
+  # No good ...
   raise KeyError
  def safeStore(self, dbkey, val):
-  '''Store each dbkey as eg dbkey + __[1-20]__
-     (...Lists are not allowed as dict keys...)
+  '''Store a dbkey with replicas.
+     (Note: Lists are not allowed as dict keys.)
   '''
   vprint(2,'safeStore::')
   vprint(2,'    safeStore::dbkey='+str(dbkey))
   vprint(2,'    safeStore::val='+str(val))
-  # Put keys and values in with a marker
-  # when they are beneath a threshold length.
-  # And an int, eg 0-9.
-  # Make a tuple...
-  r=200
-  fld=fletcher32(str(dbkey))
-  tmpval=str(val)+fld+fld+fld+fld # Adding four straight...
-  tmpval+=fletcher32(tmpval) # Add cs(val) to val
+  r=2000
+  fld=str(fletcher32(str(dbkey)))
+  tmpval=str(fletcher32(str(dbkey)))
   # Loop store
   for i in range(r):
    self.db.store((dbkey, '_'+str(i)+'_', fld), (val, tmpval))
@@ -206,7 +261,7 @@ class CrusherDict:
     self.safeStore(dbkey, val)
 
  def getKey(self, key, val=None):
-  """**NOT USED**
+  """
      Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
      The value associated with key is updated unless val is None.

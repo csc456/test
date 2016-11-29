@@ -30,22 +30,14 @@ commands["CONF"]=conf
 
 #from crusherdict.py
 def indexName(dict, key):
- #vprint(3,'crusherdict.py indexName()')
- #vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
  return (dict,"__X__IndexName",key)
 def countName(dict):
- #vprint(3,'crusherdict.py countName()')
- #vprint(3,'  dbkey=',str((dict,"__N__CountName")))
  return (dict,"__N__CountName")
 def entryName(dict, n):
  # Always make n an int
  n=int(n)
- #vprint(3,'crusherdict.py entryName()')
- #vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
  return (dict, "__E__EntryName", n)
 def statusName(dict):
- #vprint(3,'crusherdict.py statusName()')
- #vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
  return (dict, "__S__StatusName")
 
 def dbsdoexit(dbs):
@@ -105,16 +97,22 @@ def makeVotes(i,context):
  checkvl=[] # Array to match against
  # Note: IndexName and EntryName stored for every vote processed.
  j=0
+ # unique
+ unique={}
  for j in range(len(context["votes"])):
   vote=context["votes"][j]
   key=(vote[1], vote[2])#vote[1:3] # Office,Cand
+  if key in unique:
+   continue # Only allow one unique Office,Cand vote
+  unique[key]=True
   d.safeStore(entryName(context["id"], j),   (key, None))
   d.safeStore(indexName(context["id"], key), j)
   checkvl.append("VOTE\t{}\t{}\n".format(vote[1],vote[2]))
  # Store countName only one time, that is, the last entry.
  #if j==0: #Err
  # return makeVotes(i,context) # Recurse  
- d.safeStore(countName(context["id"]), j+1)
+ #if j!=0:
+ d.safeStore(countName(context["id"]), j+1) # ?
  if not matchesVoteLog(i,checkvl,context['id']):
   return makeVotes(i,context) # Recurse
 
@@ -134,8 +132,12 @@ def threadVote(db,context,fields,stop_event,numberRecursions=0):
  makeVotes(db,context)
  """The votes have been added to the voter, but not the tallies."""
  entries={}
+ unique={}
  for vote in context["votes"]:
   v=(vote[1],vote[2])
+  if v in unique:
+   continue # Only allow one unique Office,Cand vote
+  unique[v]=True
   rslt=t.inc(v,context["id"])
   entries[v]=rslt # When there are multiple key-value pairs the last vote will override the previous ones.
  """The votes have been tentatively tallied."""
@@ -157,11 +159,12 @@ def inc_integrity(entries,dirty,mv,numRecursions=0):
  t=crusherdict3.CrusherDict(mv['db'],"___T___")
  numRecursions+=1
  nr=numRecursions
- # Cast but only if T previously failed.
- if dirty:
-  vprint(1,'  inc_integrity::mv')
-  d=crusherdict3.CrusherDict(mv['db'],context["id"])
-  makeVotes(mv['db'],mv['context'])
+ ## Cast but only if T previously failed.
+ ## BROKEN Needs to recognize empty voters
+ #if dirty:
+ # vprint(1,'  inc_integrity::mv')
+ # d=crusherdict3.CrusherDict(mv['db'],context["id"])
+ # makeVotes(mv['db'],mv['context'])
  # Loop
  for k,r in entries.items():
   s=-1 # Debug output

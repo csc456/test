@@ -1,4 +1,4 @@
-VOTERS	None
+VOTERS	5
 TALLY	Mayor	Slimey Badguy	1
 TALLY	Supreme Court Justice	Sherry Parkhurst	1
 TALLY	Secretary of the Vote	Charles Lindbergh	1
