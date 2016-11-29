@@ -30,8 +30,8 @@ def conf(db, context, log, fields):
     """
     """Configure the database."""
     db.configure(fields[1])
-    """Copy the configuration command to the log."""
-    log.write("{}\t{}\n".format(fields[0], fields[1]))
+    #"""Copy the configuration command to the log."""
+    #log.write("{}\t{}\n".format(fields[0], fields[1]))
     """This is an OK time to exit, so we check if CTRL-C has been pressed."""
     return db.doExit
 """Register this function to run when the CONF command is received."""
