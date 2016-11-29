@@ -270,6 +270,7 @@ def inq(db, context, log, fields):
         return db.doExit
     OIDSList = OIDS.split("-")
     Votes = []
+    votedOffices = []
     for OID in OIDSList:
         votedFor = "FAILED"
         votedOffice = "FAILED"
@@ -280,7 +281,11 @@ def inq(db, context, log, fields):
             votedFor = str(db.fetch(OID+CID)).rsplit("-")[0]
         except:
             """Do nothing"""
-        log.write("VOTE\t{}\t{}\n".format(votedOffice, votedFor))
+        #Only show the candidate actually voted for in the case
+        #of multiple office votes and only show it once
+        if(votedOffice not in votedOffices):
+            log.write("VOTE\t{}\t{}\n".format(votedOffice, votedFor))
+            votedOffices.append(votedOffice)
     log.write("CAST\n")
     return db.doExit
 commands["INQ"]=inq
