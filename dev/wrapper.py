@@ -292,5 +292,5 @@ class Broker(Broken):
         
     def exit(self):
         """Nothing changes on exit"""
-        return Broken.exit
+        return Broken.exit(self)
         
