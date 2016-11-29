@@ -42,7 +42,7 @@ class CrusherDict:
   vprint(2,'Loading .__len__() for ',self.name,' ... ')
   try:
    f=self.safeFetch(countName(self.name))
-   if str(f)!=str(int(f)): # Recurse
+   if not f.isdigit(): # Recurse
     vprint(2,'  .__len__()::(Recurse), Seeing: ',f)
     return self.__len__() # Try again...
    else:
@@ -74,7 +74,7 @@ class CrusherDict:
   '''
   vprint(2,'safeFetch::')
   vprint(2,'  safeFetch::key:',str(key))
-  key=str(key)
+  #key=str(key)
   # Some vars
   rslt_ke=0 #keyerror
   rslt_ck=0 #checksum
@@ -100,23 +100,30 @@ class CrusherDict:
    forceNum=True
   else:
    forceStr=True
-  fld=fletcher32(key)
-  tmpkey=key+fld
+  fld=fletcher32(str(key))
+  #tmpkey=str(key)+fld
   # Loop
   for i in range(readAmount):
    try:
-    tmpk=tmpkey+'_'+str((i//readMultiplier)*1000)+'_'
-    k=self.db.fetch(tmpk)
-    if k[-4:] != fletcher32(k[:-4]):
+    tmpk=(key, '_'+str((i//readMultiplier)*1000)+'_')
+    k=self.db.fetch(tmpk) # (val, tmpval)
+    if not isinstance(k, tuple):
+     raise LookupError
+    if len(k) != 2:
+     raise LookupError
+    if not isinstance(k[1], str):
+     raise LookupError
+    if k[1][-4:] != fletcher32(k[1][:-4]):
      raise AttributeError # BAD, no cs
     # Must have key in val
-    if str(fld)*4 not in k:
+    if str(fld)*4 not in k[1]:
      raise LookupError #BAD, no indexof
     # Replace checksum ... k=k[:-8]
-    k=k[:-20]
-    if k.isdigit() and forceStr:
+    #k=k[:-20]
+    k=k[0] # Assume value is now valid syntax ...
+    if isinstance(k, int) and forceStr:
      raise LookupError
-    elif not k.isdigit() and forceNum:
+    elif not isinstance(k, int) and forceNum:
      raise LookupError
    except KeyError:
     rslt_ke+=1
@@ -162,68 +169,71 @@ class CrusherDict:
      rb=keyx # Element
      vprint(2,'  safeFetch:: new best value is ({}:{}%):'.format(valx,round(100*valx/readAmount,2)), rb)
    vprint(2,'  safeFetch:: final value is ', rb)
-   return str(rb)
+   return rb
+   #return str(rb)
   raise KeyError
- def safeStore(self, dbkey, key):
+ def safeStore(self, dbkey, val):
   '''Store each dbkey as eg dbkey + __[1-20]__
   '''
-  vprint(2,'safeStore::')
-  vprint(2,'  safeStore::dbkey='+str(dbkey))
-  vprint(2,'  safeStore::key='+str(key))
+  vprint(2,'  safeStore::')
+  vprint(2,'    safeStore::dbkey='+str(dbkey))
+  vprint(2,'    safeStore::val='+str(val))
   # Put keys and values in with a marker
   # when they are beneath a threshold length.
   # And an int, eg 0-9.
+  # Make a tuple...
   r=40
-  dbkey=str(dbkey)
-  key=str(key)
-  fld=fletcher32(dbkey)
-  tmpkey=dbkey+fld
-  tmpval=key+fld+fld+fld+fld # Adding four straight...
+  #dbkey=(dbkey)
+  #key=str(key)
+  fld=fletcher32(str(dbkey))
+  #tmpkey=dbkey+fld
+  tmpval=str(val)+fld+fld+fld+fld # Adding four straight...
   tmpval+=fletcher32(tmpval) # Add cs(val) to val
   # Loop store
   for i in range(r):
-   self.db.store(tmpkey+'_'+str(i*1000)+'_', tmpval)
+   #self.db.store(tmpkey+'_'+str(i*1000)+'_', tmpval)
+   self.db.store((dbkey, '_'+str(i*1000)+'_'), (val, tmpval))
   # Now it is in there or else try again...
   try:
    n=self.safeFetch(dbkey, True)
    # Matches?
-   if n != key:
+   if n != val:
     vprint(2,'  safeStore::Recurse(1)')
-    vprint(1,'  safeStore::[Looking for ',key,' and seeing ',n,']')
-    self.safeStore(dbkey, key)
+    vprint(1,'  safeStore::[Looking for ',val,' and seeing ',n,']')
+    self.safeStore(dbkey, val)
   except: #KeyError
     vprint(2,'  safeStore::Recurse(2)')
-    self.safeStore(dbkey, key)
- def getKey(self, key, val=None):
-  """**NOT USED**
-     Get the db key for key from the set.
-     If the key is not in the set, it is added to the set.
-     The value associated with key is updated unless val is None.
-     The key that is used to identify the key in the db
-     is returned.
-  """
-  vprint(2,'crusherdict.py CrusherDict.getKey()')
-  try: # If db key exists... Then do not update the db...
-   f=self.safeFetch(indexName(self.name,key))
-   dbkey=entryName(self.name,f)
-   if(val!=None):
-    self.safeStore(dbkey, (key,val))
-   return dbkey
-  except KeyError:
-   try:
-    n=self.safeFetch(countName(self.name))
-    if str(n)!=str(int(n)):
-     # Hm try again?
-     return self.getKey(key, val)
-    n=int(n)
-   except KeyError:
-    n=0
-   dbkey=entryName(self.name,n)
-   self.safeStore(dbkey, (key,val))
-   self.safeStore(indexName(self.name,key), n)
-   self.safeStore(countName(self.name),n+1)
-   return dbkey
-
+    self.safeStore(dbkey, val)
+# def getKey(self, key, val=None):
+#  """**NOT USED**
+#     Get the db key for key from the set.
+#     If the key is not in the set, it is added to the set.
+#     The value associated with key is updated unless val is None.
+#     The key that is used to identify the key in the db
+#     is returned.
+#  """
+#  vprint(2,'crusherdict.py CrusherDict.getKey()')
+#  try: # If db key exists... Then do not update the db...
+#   f=self.safeFetch(indexName(self.name,key))
+#   dbkey=entryName(self.name,f)
+#   if(val!=None):
+#    self.safeStore(dbkey, (key,val))
+#   return dbkey
+#  except KeyError:
+#   try:
+#    n=self.safeFetch(countName(self.name))
+#    if str(n)!=str(int(n)):
+#     # Hm try again?
+#     return self.getKey(key, val)
+#    n=int(n)
+#   except KeyError:
+#    n=0
+#   dbkey=entryName(self.name,n)
+#   self.safeStore(dbkey, (key,val))
+#   self.safeStore(indexName(self.name,key), n)
+#   self.safeStore(countName(self.name),n+1)
+#   return dbkey
+#
  def inc(self, key, val):
   """Increment the value for key from the set.
      If the key is not in the set, it is added to the set with value 1.
@@ -248,14 +258,13 @@ class CrusherDict:
     #   BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
     #   WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q000')
     v=self.safeFetch(dbkey)
-    if v.isdigit(): # When a string contains only digits
+    if not isinstance(v, tuple): # When a string contains only digits
      raise Exception('...')
-    v=ast.literal_eval(v)
     if len(v) != 3: # tuple len not three
      raise Exception('...')
     if v and v[1] and v[1] is None:
      raise Exception('...')
-    if str(v[1])!=str(int(v[1])):
+    if not isinstance(v[1], int):
      raise Exception('...')
     self.safeStore(dbkey, (key,int(v[1])+1,val))
     return {
@@ -271,7 +280,7 @@ class CrusherDict:
   except KeyError:
    try:
     n=self.safeFetch(countName(self.name))
-    if not n.isdigit(): # If not a digit
+    if not isinstance(n, int): # If not a digit
      # Hm try again? Do not set to 0.
      return self.inc(key, val)
     else:
