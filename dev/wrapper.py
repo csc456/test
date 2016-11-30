@@ -9,7 +9,7 @@
 from crusher import Broker as Broken
 import sys
 
-DEBUG = True
+DEBUG = False
 #Turns on/off print statements for debugging
 
 ############
@@ -60,7 +60,7 @@ class Broker(Broken):
             while(again == True and againMax > 0):
                 againMax = againMax - 1
                 again = False
-                newKey = str(key) + str(i)
+                newKey = str(key) + "-" + str(i)
                 newVal = str(val) + self.fletcher32((str(key)+str(val)))
                 try:
                     if(DEBUG):
@@ -96,7 +96,7 @@ class Broker(Broken):
         key = str(key)
         for i in range(NUMOFREPLICAS):
             try:
-                value = str((Broken.fetch(self, (str(key)+str(i)))))
+                value = str((Broken.fetch(self, (str(key)+"-"+str(i)))))
                 values.append(value)
             
             except KeyError:

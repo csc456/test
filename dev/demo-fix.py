@@ -13,7 +13,7 @@ crusher.Broker = wrapper.Broker
 import os.path
 import sys
 
-DEBUG = True
+DEBUG = False
 PRINTDB = False
 #Turns on/off debugging print statements
 
@@ -54,7 +54,7 @@ def voter(db, context, log, fields):
         """
         try:
             LVID = db.fetch("LVID")
-        except KeyError:
+        except:
             LVID = "0"
         try:
             VID = str(int(LVID)+1)
@@ -241,7 +241,7 @@ def cast(db, context, log, fields):
     if(officeIDs != ""):
         db.store(VID, officeIDs[:-1])
     else:
-        db.store(VID, "%")
+        db.store(VID, "N")
     #Also store the LVID as this VID
     db.store("LVID", VID)
     if(DEBUG):
@@ -264,7 +264,7 @@ def inq(db, context, log, fields):
     except (KeyError, wrapper.InvalidChecksum):
         log.write("FAILED RETRIEVAL FOR" + VID)
         return db.doExit
-    if(OIDS == "%"):
+    if(OIDS == "N"):
         #They cast but didn't vote
         log.write("CAST\n")
         return db.doExit
@@ -326,6 +326,15 @@ def report(db, log):
     except:
         LVID = -1
 
+    for i in range(LVID+1):
+        try:
+            db.fetch(str(i))
+            amountOfVoters += 1
+        except:
+            """Do nothing"""
+            if(DEBUG):
+                print("VID", i, "FAILED")
+
     failedCandidates = 0
     #Iterate through all combinations of OID-CID up to LOID-LCID
     if(not failed):
@@ -347,7 +356,7 @@ def report(db, log):
                 except:
                     """Failed for one reason or another, do nothing"""
     if(LVID >= 0):
-        log.write("VOTERS\t"+str(LVID)+"\n")
+        log.write("VOTERS\t"+str(amountOfVoters)+"\n")
     else:
         log.write("VOTERS\tERROR\n")
 
@@ -378,7 +387,8 @@ if(PRINTDB):
     try:
         print("::DB STORAGE::")
         for item in db.DEBUG_stored_in_db:
-            print(str(item), ":", db.DEBUG_stored_in_db[item])
+            if(str(item).isdigit()):
+                print(str(item), ":", db.DEBUG_stored_in_db[item])
     except:
         print("db not in debug mode!")
 results.close()
