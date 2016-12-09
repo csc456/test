@@ -25,7 +25,9 @@ def conf(dbs, context, log, fields):
  # vote on doExit
  for i in dbs:
   i.configure(fields[1])
+ log.write("CONFT\t{}\n".format(fields[1]))
  return dbsdoexit(dbs)
+
 commands["CONF"]=conf
 
 #from crusherdict.py

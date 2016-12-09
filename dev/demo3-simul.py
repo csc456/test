@@ -28,24 +28,24 @@ def conf(dbs, context, log, fields):
 commands["CONF"]=conf
 
 # from crusherdict.py
-#def indexName(dict, key):
-# vprint(3,'crusherdict.py indexName()')
-# vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
-# return (dict,"__X__IndexName",key)
-#def countName(dict):
-# vprint(3,'crusherdict.py countName()')
-# vprint(3,'  dbkey=',str((dict,"__N__CountName")))
-# return (dict,"__N__CountName")
-#def entryName(dict, n):
-# # Always make n an int
-# n=int(n)
-# vprint(3,'crusherdict.py entryName()')
-# vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
-# return (dict, "__E__EntryName", n)
-#def statusName(dict):
-# vprint(3,'crusherdict.py statusName()')
-# vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
-# return (dict, "__S__StatusName")
+def indexName(dict, key):
+ vprint(3,'crusherdict.py indexName()')
+ vprint(3,'  dbkey=',str((dict,"__X__IndexName",key)))
+ return (dict,"__X__IndexName",key)
+def countName(dict):
+ vprint(3,'crusherdict.py countName()')
+ vprint(3,'  dbkey=',str((dict,"__N__CountName")))
+ return (dict,"__N__CountName")
+def entryName(dict, n):
+ # Always make n an int
+ n=int(n)
+ vprint(3,'crusherdict.py entryName()')
+ vprint(3,'  dbkey=',str((dict, "__E__EntryName", n)))
+ return (dict, "__E__EntryName", n)
+def statusName(dict):
+ vprint(3,'crusherdict.py statusName()')
+ vprint(3,'  dbkey=',str((dict, "__S__StatusName")))
+ return (dict, "__S__StatusName")
 
 def dbsdoexit(dbs):
  de={}

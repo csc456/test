@@ -1,0 +1,586 @@
+CONF	(0,0,0,0,0,0)
+CONF	((1,2,3,4,5,6,7,8),0,0,0)
+VOTER
+VOTE	Fremont USD Governing Board Members	NP - Hiu Ng
+VOTE	Mayor - Fremont	NP - Lily Mei
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	PF - Gloria Estela La Riva
+CAST
+VOTER
+VOTE	Bond Measure J1 - San Leandro USD	Bonds Yes
+VOTE	U.S. Representative, 17th Congressional	DEM - Mike Honda
+VOTE	East Bay Regional Park District Director, Ward 2	NP - Audree V. Jones-Taylor
+VOTE	State Assembly, 18th District	DEM - Rob Bonta
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Loretta L. Sanchez
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Member, City Council - Union City	NP - Jaime Patiño
+VOTE	Mayor - Union City	NP - Jim Navarro
+VOTE	Measure QQ - City of Union City	Yes
+VOTE	State Assembly, 25th District	DEM - Kansen Chu
+VOTE	State Assembly, 16th District	DEM - Cheryl Cook-Kallio
+VOTE	Washington Township Healthcare District Directors	NP - Patricia 'Pat' Danielson
+VOTE	AC Transit District Director, Ward 2	NP - Greg Harper
+VOTE	Bond Measure F1 - HARD	Bonds Yes
+VOTE	State Assembly, 20th District	DEM - Bill Quirk
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Representative, 15th Congressional	REP - Danny R. Turner
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	Write-in
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Rent Stabilization Board Commissioners - Berkeley	NP - Igor Tregub
+VOTE	School Directors - Berkeley	NP - Judy Appel
+VOTE	Measure X1 - City of Berkeley	Yes
+VOTE	Measure Z1 - City of Berkeley	Yes
+VOTE	Measure V1 - City of Berkeley	Yes
+VOTE	Measure AA - City of Berkeley	Yes
+VOTE	Measure CC - City of Berkeley	No
+VOTE	Measure BB - City of Berkeley	No
+VOTE	Measure Y1 - City of Berkeley	Yes
+VOTE	Measure DD - City of Berkeley	No
+VOTE	Measure U1 - City of Berkeley	Yes
+VOTE	Bond Measure T1 - City of Berkeley	Bonds Yes
+VOTE	Mayor - Berkeley (RCV)	NP - Zachary Runningwolf
+VOTE	Measure E1 - Berkeley USD	Yes
+VOTE	State Assembly, 18th District	DEM - Rob Bonta
+VOTE	BART Director, District 5	NP - John McPartland
+VOTE	State Senator, 9th District	DEM - Sandré R. Swanson
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Loretta L. Sanchez
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Measure EE - City of Hayward	Yes
+VOTE	East Bay Regional Park District Director, Ward 2	NP - Kent Fickett
+VOTE	BART Director, District 5	NP - John McPartland
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	REP, AI - Donald J. Trump
+CAST
+VOTER
+VOTE	Members, City Council - Livermore	NP - Chester A. Moore
+VOTE	Measure FF - City of Livermore	Yes
+VOTE	Oro Loma Sanitary District Director, 2 Year Term	NP - Rita Duncan
+VOTE	Washington Township Healthcare District Directors	NP - Chitra Ramanathan
+VOTE	AC Transit District Director, Ward 2	NP - Greg Harper
+VOTE	Bond Measure F1 - HARD	Bonds Yes
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	State Assembly, 15th District	DEM - Tony Thurmond
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	No
+VOTE	President and Vice President	REP, AI - Donald J. Trump
+CAST
+VOTER
+VOTE	Measure G1 - Oakland USD	Yes
+VOTE	City Attorney - Oakland (RCV)	NP - Barbara J. Parker
+VOTE	Measure II - City of Oakland	No
+VOTE	Measure LL - City of Oakland	No
+VOTE	Measure JJ - City of Oakland	Yes
+VOTE	Bond Measure KK - City of Oakland	Bonds Yes
+VOTE	Measure HH - City of Oakland	Yes
+VOTE	State Senator, 9th District	DEM - Sandré R. Swanson
+VOTE	U.S. Representative, 15th Congressional	REP - Danny R. Turner
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	AC Transit District Director, At Large	NP - Dollene C. Jones
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	REP, AI - Donald J. Trump
+CAST
+VOTER
+VOTE	Member, City Council, Dist. 6 - San Leandro (RCV)	NP - Pete Ballew
+VOTE	Member, City Council, Dist. 4 - San Leandro (RCV)	NP - Benny Lee
+VOTE	Member, City Council, Dist. 2 - San Leandro (RCV)	NP - Bryan Azevedo
+VOTE	Measure OO - City of San Leandro	No
+VOTE	Measure PP - City of San Leandro	Yes
+VOTE	Measure NN - City of San Leandro	No
+VOTE	U.S. Representative, 17th Congressional	DEM - Mike Honda
+VOTE	Washington Township Healthcare District Directors	NP - Patricia 'Pat' Danielson
+VOTE	Washington Township Healthcare District Directors	NP - William F. Nicholson
+VOTE	BART Director, District 3	NP - Rebecca Saltzman
+VOTE	AC Transit District Director, At Large	NP - Dollene C. Jones
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Loretta L. Sanchez
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	School Director, District 5 - Oakland (RCV)	NP - Huber Trenado
+VOTE	Member, City Council, Dist. 5 - Oakland (RCV)	NP - Viola Gonzales
+VOTE	East Bay Regional Park District Director, Ward 2	NP - Dee Rosario
+VOTE	BART Director, District 3	NP - Rebecca Saltzman
+VOTE	Measure G1 - Oakland USD	Yes
+VOTE	Member, City Council, At Large - Oakland (RCV)	NP - Peggy Moore
+VOTE	Measure LL - City of Oakland	Yes
+VOTE	Measure JJ - City of Oakland	Yes
+VOTE	Bond Measure KK - City of Oakland	Bonds Yes
+VOTE	Measure HH - City of Oakland	No
+VOTE	State Assembly, 18th District	DEM - Rob Bonta
+VOTE	BART Director, District 5	NP - John McPartland
+VOTE	State Assembly, 20th District	DEM - Bill Quirk
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	Measure C1 - AC Transit Special Dist 1	No
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Members, City Council - Livermore	NP - Robert W. Carling
+VOTE	Members, City Council - Livermore	NP - John Stein
+VOTE	Mayor - Livermore	NP - John P. Marchand
+VOTE	Measure FF - City of Livermore	Yes
+VOTE	Oro Loma Sanitary District Directors, 4 Year Term	NP - Diana Souza
+VOTE	AC Transit District Director, Ward 2	NP - Greg Harper
+VOTE	Bond Measure F1 - HARD	Bonds Yes
+VOTE	BART Director, District 3	NP - Rebecca Saltzman
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	School Director, District 3 - Oakland (RCV)	NP - Jumoke Hinton Hodge
+VOTE	Member, City Council, Dist. 3 - Oakland (RCV)	NP - Noni D. Session
+VOTE	Alameda County Water District Directors	NP - Aziz Akbari
+VOTE	State Assembly, 15th District	DEM - Tony Thurmond
+VOTE	East Bay Regional Park District Director, Ward 2	NP - Audree V. Jones-Taylor
+VOTE	BART Director, District 3	NP - Varun Paul
+VOTE	Measure G1 - Oakland USD	No
+VOTE	Member, City Council, At Large - Oakland (RCV)	NP - Rebecca Kaplan
+VOTE	Measure LL - City of Oakland	Yes
+VOTE	Measure JJ - City of Oakland	Yes
+VOTE	Bond Measure KK - City of Oakland	Bonds Yes
+VOTE	Measure HH - City of Oakland	Yes
+VOTE	State Assembly, 18th District	DEM - Rob Bonta
+VOTE	State Assembly, 20th District	DEM - Bill Quirk
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	No
+VOTE	President and Vice President	REP, AI - Donald J. Trump
+CAST
+VOTER
+VOTE	Measure EE - City of Hayward	Yes
+VOTE	Hayward USD Governing Board Members	NP - Robert Carlson
+VOTE	East Bay Regional Park District Director, Ward 2	NP - Dee Rosario
+VOTE	BART Director, District 5	NP - Jennifer Hosterman
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	AC Transit District Director, At Large	NP - Dollene C. Jones
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	REP, AI - Donald J. Trump
+CAST
+VOTER
+VOTE	Fremont USD Governing Board Members	NP - Michele G. Berke
+VOTE	Members, City Council -  Fremont	NP - Marty Froomin
+VOTE	Mayor - Fremont	NP - Bill Harrison
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Member, City Council, Dist. 5 - Berkeley (RCV)	NP - Sophie Hahn
+VOTE	Peralta CCD Trustee, Area #6	NP - Karen Weinstein
+VOTE	Rent Stabilization Board Commissioners - Berkeley	NP - Leah Simon-Weisberg
+VOTE	Rent Stabilization Board Commissioners - Berkeley	NP - Alejandro Soto-Vigil
+VOTE	School Directors - Berkeley	NP - Judy Appel
+VOTE	Measure X1 - City of Berkeley	No
+VOTE	Measure Z1 - City of Berkeley	Yes
+VOTE	Measure V1 - City of Berkeley	Yes
+VOTE	Measure CC - City of Berkeley	No
+VOTE	Measure BB - City of Berkeley	No
+VOTE	Measure W1 - City of Berkeley	No
+VOTE	Measure Y1 - City of Berkeley	Yes
+VOTE	Measure DD - City of Berkeley	No
+VOTE	Measure U1 - City of Berkeley	Yes
+VOTE	Bond Measure T1 - City of Berkeley	Bonds Yes
+VOTE	Mayor - Berkeley (RCV)	NP - Jesse Arreguín
+VOTE	Measure E1 - Berkeley USD	No
+VOTE	Alameda County Water District Directors	NP - Aziz Akbari
+VOTE	Alameda County Water District Directors	NP - John Weed
+VOTE	State Assembly, 15th District	DEM - Tony Thurmond
+VOTE	State Assembly, 18th District	REP - Roseann Slonsky-Breault
+VOTE	State Senator, 9th District	DEM - Sandré R. Swanson
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Members, City Council -  Dublin	NP - Arun Goel
+VOTE	Mayor - Dublin	NP - David G. Haubert
+VOTE	Dublin USD Governing Board Members, Full Term	NP - Amy Miller
+VOTE	Dublin USD Governing Board Member, Short Term	NP - Sameer Hakim
+VOTE	Castro Valley Sanitary District Directors	NP - Dave Sadoff
+VOTE	Castro Valley USD Governing Board Members	NP - Lavender Whitaker
+VOTE	State Assembly, 16th District	REP - Catharine Baker
+VOTE	State Senator, 7th District	DEM - Steve Glazer
+VOTE	AC Transit District Director, Ward 2	NP - Russ Tilleman
+VOTE	State Assembly, 18th District	DEM - Rob Bonta
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Fremont USD Governing Board Members	NP - Dax Choksi
+VOTE	Members, City Council -  Fremont	NP - Kathy Kimberlin
+VOTE	Mayor - Fremont	NP - Bill Harrison
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	Write-in
+CAST
+VOTER
+VOTE	Members, City Council -  Fremont	NP - Kathy Kimberlin
+VOTE	Mayor - Fremont	NP - Lily Mei
+VOTE	U.S. Representative, 13th Congressional	REP - Sue Caro
+VOTE	Measure C1 - AC Transit Special Dist 1	No
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Member, City Council, Dist. 6 - Berkeley (RCV)	NP - Fred Dodsworth
+VOTE	Peralta CCD Trustee, Area #6	Write-in
+VOTE	Rent Stabilization Board Commissioners - Berkeley	NP - Christina Murphy
+VOTE	Rent Stabilization Board Commissioners - Berkeley	NP - Alejandro Soto-Vigil
+VOTE	School Directors - Berkeley	NP - Judy Appel
+VOTE	Measure X1 - City of Berkeley	Yes
+VOTE	Measure Z1 - City of Berkeley	Yes
+VOTE	Measure V1 - City of Berkeley	Yes
+VOTE	Measure AA - City of Berkeley	Yes
+VOTE	Measure CC - City of Berkeley	No
+VOTE	Measure BB - City of Berkeley	No
+VOTE	Measure W1 - City of Berkeley	Yes
+VOTE	Measure Y1 - City of Berkeley	Yes
+VOTE	Measure U1 - City of Berkeley	No
+VOTE	Bond Measure T1 - City of Berkeley	Bonds Yes
+VOTE	Mayor - Berkeley (RCV)	NP - Jesse Arreguín
+VOTE	Measure E1 - Berkeley USD	Yes
+VOTE	Alameda County Water District Directors	NP - John Weed
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Members, City Council - Alameda	NP - Tony Daysog
+VOTE	Auditor - Alameda	NP - Mike McMahon
+VOTE	Treasurer - Alameda	NP - Kevin Kennedy
+VOTE	Measure K1 - City of Alameda	Yes
+VOTE	Measure M1 - City of Alameda	Yes
+VOTE	Measure L1 - City of Alameda	Yes
+VOTE	Alameda USD Governing Board Members	NP - Ardella Dailey
+VOTE	Measure B1 - Alameda USD	No
+VOTE	State Assembly, 16th District	DEM - Cheryl Cook-Kallio
+VOTE	East Bay Regional Park District Director, Ward 4	NP - Daniel Chesmore
+VOTE	State Assembly, 20th District	DEM - Bill Quirk
+VOTE	State Senator, 9th District	DEM - Sandré R. Swanson
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Loretta L. Sanchez
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	No
+VOTE	President and Vice President	DEM - Hillary Clinton
+VOTER
+VOTE	Member, City Council - Union City	NP - Jaime Patiño
+VOTE	Mayor - Union City	NP - Jim Navarro
+VOTE	Measure QQ - City of Union City	Yes
+VOTE	State Assembly, 25th District	DEM - Kansen Chu
+VOTE	State Assembly, 16th District	DEM - Cheryl Cook-Kallio
+VOTE	AC Transit District Director, Ward 2	NP - Russ Tilleman
+VOTE	Bond Measure F1 - HARD	Bonds Yes
+VOTE	State Assembly, 20th District	DEM - Bill Quirk
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Fremont USD Governing Board Members	NP - Dax Choksi
+VOTE	Members, City Council -  Fremont	NP - Raj Salwan
+VOTE	Mayor - Fremont	NP - Lily Mei
+VOTE	U.S. Representative, 13th Congressional	REP - Sue Caro
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Bond Measure J1 - San Leandro USD	Bonds Yes
+VOTE	U.S. Representative, 17th Congressional	DEM - Ro Khanna
+VOTE	East Bay Regional Park District Director, Ward 2	NP - Kent Fickett
+VOTE	State Assembly, 18th District	REP - Roseann Slonsky-Breault
+VOTE	State Assembly, 20th District	DEM - Bill Quirk
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	Measure C1 - AC Transit Special Dist 1	No
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	U.S. Senator	DEM - Loretta L. Sanchez
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	GRN - Jill Stein
+CAST
+VOTER
+VOTE	School Director, District 1 - Oakland (RCV)	NP - Jody London
+VOTE	Member, City Council, Dist. 1 - Oakland (RCV)	NP - Dan Kalb
+VOTE	AC Transit District Director, Ward 2	NP - Russ Tilleman
+VOTE	East Bay Regional Park District Director, Ward 4	NP - Ellen M. Corbett
+VOTE	Measure G1 - Oakland USD	Yes
+VOTE	City Attorney - Oakland (RCV)	NP - Barbara J. Parker
+VOTE	Measure II - City of Oakland	Yes
+VOTE	Member, City Council, At Large - Oakland (RCV)	NP - Bruce Quan
+VOTE	Measure LL - City of Oakland	Yes
+VOTE	Measure JJ - City of Oakland	No
+VOTE	Bond Measure KK - City of Oakland	Bonds Yes
+VOTE	Measure HH - City of Oakland	No
+VOTE	BART Director, District 5	NP - John McPartland
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	Measure C1 - AC Transit Special Dist 1	No
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	No
+VOTE	President and Vice President	LIB - Gary Johnson
+CAST
+VOTER
+VOTE	Auditor - Alameda	NP - Kevin R. Kearney
+VOTE	Measure K1 - City of Alameda	Yes
+VOTE	Measure M1 - City of Alameda	No
+VOTE	Measure L1 - City of Alameda	Yes
+VOTE	Measure B1 - Alameda USD	Yes
+VOTE	State Assembly, 16th District	DEM - Cheryl Cook-Kallio
+VOTE	East Bay Regional Park District Director, Ward 4	NP - Ellen M. Corbett
+VOTE	Bond Measure F1 - HARD	Bonds Yes
+VOTE	State Assembly, 20th District	REP - Luis A. Wong
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Members, City Council - Pleasanton	NP - Herb Ritter
+VOTE	Mayor - Pleasanton	NP - Jerry Thorne
+VOTE	Measure MM - City of Pleasanton	No
+VOTE	BART Director, District 7	NP - Will Roscoe
+VOTE	State Senator, 7th District	REP - Joseph Alexander Rubay
+VOTE	Washington Township Healthcare District Directors	NP - William F. Nicholson
+VOTE	East Bay Regional Park District Director, Ward 4	NP - Daniel Chesmore
+VOTE	Bond Measure F1 - HARD	Bonds No
+VOTE	State Assembly, 20th District	DEM - Bill Quirk
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Measure G1 - Oakland USD	Yes
+VOTE	City Attorney - Oakland (RCV)	NP - Barbara J. Parker
+VOTE	Measure II - City of Oakland	No
+VOTE	Member, City Council, At Large - Oakland (RCV)	NP - Rebecca Kaplan
+VOTE	Measure LL - City of Oakland	Yes
+VOTE	Measure JJ - City of Oakland	Yes
+VOTE	Bond Measure KK - City of Oakland	Bonds No
+VOTE	Measure HH - City of Oakland	No
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	U.S. Senator	DEM - Loretta L. Sanchez
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	No
+VOTE	President and Vice President	REP, AI - Donald J. Trump
+CAST
+VOTER
+VOTE	Measure G1 - Oakland USD	Yes
+VOTE	Measure II - City of Oakland	Yes
+VOTE	Member, City Council, At Large - Oakland (RCV)	NP - Rebecca Kaplan
+VOTE	Measure LL - City of Oakland	Yes
+VOTE	Measure JJ - City of Oakland	Yes
+VOTE	Bond Measure KK - City of Oakland	Bonds Yes
+VOTE	Measure HH - City of Oakland	Yes
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	Measure C1 - AC Transit Special Dist 1	No
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Loretta L. Sanchez
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Emery USD Governing Board Members	NP - Ken Bukowski
+VOTE	Members, City Council -  Emeryville	NP - Ally Medina
+VOTE	Members, City Council -  Emeryville	NP - Louise Engel
+VOTE	Castro Valley Sanitary District Directors	NP - Dave Sadoff
+VOTE	State Assembly, 25th District	DEM - Kansen Chu
+VOTE	Chabot-Las Positas CCD Trustee, Area #7	NP - Edralin ''Ed'' J Maduli
+VOTE	Castro Valley USD Governing Board Members	NP - Lavender Whitaker
+VOTE	Castro Valley USD Governing Board Members	NP - Jo A.s. Loss
+VOTE	Alameda County Water District Directors	NP - Martin L. Koller
+VOTE	State Senator, 7th District	DEM - Steve Glazer
+VOTE	State Assembly, 15th District	DEM - Tony Thurmond
+VOTE	East Bay Regional Park District Director, Ward 2	NP - John Roberts
+VOTE	State Assembly, 18th District	DEM - Rob Bonta
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	No
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Member, City Council, Dist. 6 - San Leandro (RCV)	NP - Pete Ballew
+VOTE	Member, City Council, Dist. 4 - San Leandro (RCV)	NP - Benny Lee
+VOTE	Member, City Council, Dist. 2 - San Leandro (RCV)	NP - Ed Hernandez
+VOTE	Measure OO - City of San Leandro	Yes
+VOTE	Measure PP - City of San Leandro	Yes
+VOTE	Measure NN - City of San Leandro	Yes
+VOTE	U.S. Representative, 17th Congressional	DEM - Mike Honda
+VOTE	Washington Township Healthcare District Directors	NP - Patricia 'Pat' Danielson
+VOTE	BART Director, District 5	NP - John McPartland
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Barbara Thomas
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Measure G1 - Oakland USD	Yes
+VOTE	City Attorney - Oakland (RCV)	NP - Barbara J. Parker
+VOTE	Measure II - City of Oakland	Yes
+VOTE	Member, City Council, At Large - Oakland (RCV)	NP - Rebecca Kaplan
+VOTE	Measure LL - City of Oakland	Yes
+VOTE	Measure JJ - City of Oakland	Yes
+VOTE	Bond Measure KK - City of Oakland	Bonds Yes
+VOTE	Measure HH - City of Oakland	Yes
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	U.S. Representative, 15th Congressional	DEM - Eric Swalwell
+VOTE	Measure C1 - AC Transit Special Dist 1	Yes
+VOTE	AC Transit District Director, At Large	NP - H. E. Christian (Chris) Peeples
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds No
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Member, City Council, Dist. 6 - San Leandro (RCV)	NP - Pete Ballew
+VOTE	Member, City Council, Dist. 2 - San Leandro (RCV)	NP - Bryan Azevedo
+VOTE	Measure OO - City of San Leandro	Yes
+VOTE	Measure PP - City of San Leandro	Yes
+VOTE	Measure NN - City of San Leandro	Yes
+VOTE	U.S. Representative, 17th Congressional	DEM - Ro Khanna
+VOTE	Bond Measure F1 - HARD	Bonds Yes
+VOTE	BART Director, District 3	NP - Rebecca Saltzman
+VOTE	BART Director, District 5	NP - John McPartland
+VOTE	State Senator, 9th District	DEM - Sandré R. Swanson
+VOTE	AC Transit District Director, At Large	NP - Dollene C. Jones
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	REP, AI - Donald J. Trump
+CAST
+VOTER
+VOTE	Measure G1 - Oakland USD	Yes
+VOTE	City Attorney - Oakland (RCV)	NP - Barbara J. Parker
+VOTE	Measure II - City of Oakland	No
+VOTE	Member, City Council, At Large - Oakland (RCV)	NP - Bruce Quan
+VOTE	Measure LL - City of Oakland	Yes
+VOTE	Measure JJ - City of Oakland	No
+VOTE	Bond Measure KK - City of Oakland	Bonds Yes
+VOTE	Measure HH - City of Oakland	Yes
+VOTE	State Senator, 9th District	DEM - Nancy Skinner
+VOTE	Measure C1 - AC Transit Special Dist 1	No
+VOTE	AC Transit District Director, At Large	NP - Dollene C. Jones
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST
+VOTER
+VOTE	Members, City Council -  Dublin	NP - Mona Lisa Ballesteros
+VOTE	Mayor - Dublin	NP - David G. Haubert
+VOTE	Dublin USD Governing Board Member, Short Term	NP - Dan Cherrier
+VOTE	Castro Valley Sanitary District Directors	NP - Dave Sadoff
+VOTE	State Assembly, 16th District	REP - Catharine Baker
+VOTE	State Senator, 7th District	REP - Joseph Alexander Rubay
+VOTE	AC Transit District Director, Ward 2	NP - Greg Harper
+VOTE	State Assembly, 18th District	DEM - Rob Bonta
+VOTE	U.S. Representative, 13th Congressional	DEM - Barbara Lee
+VOTE	U.S. Representative, 15th Congressional	REP - Danny R. Turner
+VOTE	Superior Court Judge, Office #1	NP - Scott Jackson
+VOTE	U.S. Senator	DEM - Kamala D. Harris
+VOTE	Bond Measure RR - BART	Bonds Yes
+VOTE	Bond Measure A1 - Alameda County	Yes
+VOTE	President and Vice President	DEM - Hillary Clinton
+CAST

@@ -42,7 +42,7 @@ class CrusherDict:
   vprint(2,'Loading .__len__() for ',self.name,' ... ')
   try:
    f=self.safeFetch(countName(self.name))
-   if not isinstance(f, int): # Recurse
+   if str(f)!=str(int(f)): # Recurse
     vprint(2,'  .__len__()::(Recurse), Seeing: ',f)
     return self.__len__() # Try again...
    else:
@@ -74,20 +74,20 @@ class CrusherDict:
   '''
   vprint(2,'safeFetch::')
   vprint(2,'  safeFetch::key:',str(key))
-  #key=str(key)
+  key=str(key)
+  #key=key.encode('utf-8')#.strip()
   # Some vars
   rslt_ke=0 #keyerror
   rslt_ck=0 #checksum
   rslt_nm=0 #integer must contain key
   rslt_er=0
   rslt_gd=0
-  #rslt_good={}       
-  rslt_good_num={}   # Key=Str, Value=Int (count)
-  rslt_good_entry={} # Key=Str, Value=Tuple
+  rslt_good={}
+  rslt_good_num={}
   rslt_num=0
   rslt_best=None
-  r=200  # Num entries
-  readMultiplier=10 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
+  r=40  # Num entries
+  readMultiplier=2 # Store100; Then  Read100*RecurseRead40=Read4000; # Works well: w=60,r=200*60
   readAmount=r*readMultiplier    # Eg twenty time the number of reads as writes. Bc writes corrupt db but reads probably do not.
   successRate=0.02*readAmount	# Num entries which must match in order to assume it is not a KeyError.
 				# If a KeyError occurs 500 out of 2000 and s=5% then a key must be fetched
@@ -101,91 +101,57 @@ class CrusherDict:
    forceNum=True
   else:
    forceStr=True
-  fld=fletcher32(str(key))
-  count={
-   'not tuple':0,
-   'len(tuple) not 2':0,
-   'tuple[1] not str':0,
-   'bad val checksum1':0,
-   'bad val checksum2':0,
-   'str but val is int':0,
-   'int but val is str':0,
-  }
-  secondChoices=[] # If necessary
+  fld=fletcher32(key)
+  tmpkey=key+fld
   # Loop
   for i in range(readAmount):
    try:
-    tmpk=(key, '_'+str(i*readMultiplier)+'_', fld) 
-    # Divide # tmpk=(key, '_'+str(i//readMultiplier)+'_', fld)
-    k=self.db.fetch(tmpk) # (val, tmpval)
-    if not isinstance(k, tuple):
-     count['not tuple']+=1
-     continue
-    if len(k) != 2:
-     count['len(tuple) not 2']+=1
-     continue
-    if not isinstance(k[1], str):
-     count['tuple[1] not str']+=1
-     continue
-    
-    #if k[1][-4:] != fletcher32(k[1][:-4]):
-    #if fletcher32(str(k[0])) != k[1]:
-    # count['bad val checksum1']+=1
-    # secondChoices.append(k[0])
-    # continue
-    
+    tmpk=tmpkey+'_'+str((i//readMultiplier)*1000)+'_'
+    k=self.db.fetch(tmpk)
+    if k[-4:] != fletcher32(k[:-4]):
+     raise AttributeError # BAD, no cs
     # Must have key in val
-    if k[1] != fld:
-     count['bad val checksum2']+=1
-     #secondChoices.append(k[0])
-     continue
-    k=k[0] # Assume value is now valid syntax ...
-    if isinstance(k, int) and forceStr:
-     #print(k)
-     count['str but val is int']+=1
-     continue
-    elif not isinstance(k, int) and forceNum:
-     count['int but val is str']+=1
-     continue
+    if str(fld)*4 not in k:
+     raise LookupError #BAD, no indexof
+    # Replace checksum ... k=k[:-8]
+    k=k[:-20]
+    if k.isdigit() and forceStr:
+     raise LookupError
+    elif not k.isdigit() and forceNum:
+     raise LookupError
    except KeyError:
     rslt_ke+=1
-    #if rslt_ke>rslt_num:
-    # rslt_best='ke'
-    # rslt_num=rslt_ke
+    if rslt_ke>rslt_num:
+     rslt_best='ke'
+     rslt_num=rslt_ke
     continue
-   #except AttributeError:
-   # # Bad Checksum!
-   # rslt_ck+=1
-   # continue
-   #except LookupError:
-   # # Bad Integer! (Key does not match Key-Value pair.)
-   # rslt_nm+=1
-   # continue
+   except AttributeError:
+    # Bad Checksum!
+    rslt_ck+=1
+    continue
+   except LookupError:
+    # Bad Integer! (Key does not match Key-Value pair.)
+    rslt_nm+=1
+    continue
    except: #Other
     rslt_er+=1
-    #if rslt_er>rslt_num:
-    # rslt_best='er'
-    # rslt_num=rslt_er
+    if rslt_er>rslt_num:
+     rslt_best='er'
+     rslt_num=rslt_er
     continue
-   # Success
-   try:
+   try: #Success
     rslt_gd+=1
-    rslt_good_num[str(k)]+=1
+    rslt_good_num[k]+=1
    except:
-    rslt_good_num[str(k)]=1
-    rslt_good_entry[str(k)]=k
-   if rslt_good_num[str(k)]>successRate:
+    rslt_good_num[k]=1
+   if rslt_good_num[k]>successRate:
     found=True
   # Print the results here in v3...
-  vprint(2,'  safeFetch::key  error        :',rslt_ke)
-  vprint(2,'  safeFetch::len(tuple) not 2  :',count['len(tuple) not 2'])
-  vprint(2,'  safeFetch::tuple[1] not str  :',count['tuple[1] not str'])
-  vprint(2,'  safeFetch::chksm error1      :',count['bad val checksum1'])
-  vprint(2,'  safeFetch::chksm error2      :',count['bad val checksum2'])
-  vprint(2,'  safeFetch::str but val is int:',count['str but val is int'])
-  vprint(2,'  safeFetch::int but val is str:',count['int but val is str'])
-  vprint(2,'  safeFetch::anon  error       :',rslt_er)
-  vprint(2,'  safeFetch::good  key         :',rslt_gd)
+  vprint(3,'  safeFetch::key  error :',rslt_ke)
+  vprint(3,'  safeFetch::chksm error:',rslt_ck)
+  vprint(3,'  safeFetch::int   error:',rslt_nm)
+  vprint(3,'  safeFetch::anon  error:',rslt_er)
+  vprint(3,'  safeFetch::good  key  :',rslt_gd)
   # Was it found (goes above threshold) ... ?
   if found is True:
    #Loop. Could also sort dict by value desc.
@@ -194,74 +160,43 @@ class CrusherDict:
    for keyx, valx in rslt_good_num.items():
     if valx>best:
      best=valx
-     #rb=keyx # Element
-     rb=rslt_good_entry[keyx] # Element
+     rb=keyx # Element
      vprint(2,'  safeFetch:: new best value is ({}:{}%):'.format(valx,round(100*valx/readAmount,2)), rb)
    vprint(2,'  safeFetch:: final value is ', rb)
-   return rb
-  elif count['bad val checksum1']+count['bad val checksum2'] > successRate: # TODO: And KeyError is below threshold ...
-   pass
-   # Is is possible to choose a second best option based on character or bit voting 
-   #print(secondChoices)   
-#   vprint(2,'  safeFetch:: Try combo...')
-#   newWordDict={}
-#   nwdCount={}
-#   for word in secondChoices:
-#    vprint(2,'  safeFetch:: x1')
-#    for i,letter in enumerate(str(word)):
-#    #for i,letter in word:
-#     vprint(2,'  safeFetch:: x2')
-#     try:
-#      newWordDict[i][letter]+=1
-#     except:
-#      try:
-#       newWordDict[i][letter]=1 # Letter does not exist
-#      except:
-#       newWordDict[i]={}        # Position does not exist
-#       newWordDict[i][letter]=1
-#     try:
-#      if newWordDict[i][letter] > nwdCount[i]['max']:
-#       nwdCount[i]['max']=newWordDict[i][letter]
-#       nwdCount[i]['letter']=letter
-#     except:
-#      nwdCount[i]={}
-#      nwdCount[i]['max']=newWordDict[i][letter]
-#      nwdCount[i]['letter']=letter
-#   # And now...
-#   finalWord=''
-#   for key,value in nwdCount.items():
-#    finalWord+=value['letter']
-#   vprint(2,'  safeFetch:: final word:',finalWord)
-#   return finalWord
-  # No good ...
+   return str(rb)
   raise KeyError
- def safeStore(self, dbkey, val):
-  '''Store a dbkey with replicas.
-     (Note: Lists are not allowed as dict keys.)
+ def safeStore(self, dbkey, key):
+  '''Store each dbkey as eg dbkey + __[1-20]__
   '''
   vprint(2,'safeStore::')
-  vprint(2,'    safeStore::dbkey='+str(dbkey))
-  vprint(2,'    safeStore::val='+str(val))
-  r=2000
-  fld=str(fletcher32(str(dbkey)))
-  tmpval=str(fletcher32(str(dbkey)))
+  vprint(2,'  safeStore::dbkey='+str(dbkey))
+  vprint(2,'  safeStore::key='+str(key))
+  # Put keys and values in with a marker
+  # when they are beneath a threshold length.
+  # And an int, eg 0-9.
+  r=40
+  dbkey=str(dbkey)
+  key=str(key)
+  fld=fletcher32(dbkey)
+  tmpkey=dbkey+fld
+  tmpval=key+fld+fld+fld+fld # Adding four straight...
+  tmpval+=fletcher32(tmpval) # Add cs(val) to val
   # Loop store
   for i in range(r):
-   self.db.store((dbkey, '_'+str(i)+'_', fld), (val, tmpval))
+   self.db.store(tmpkey+'_'+str(i*1000)+'_', tmpval)
   # Now it is in there or else try again...
   try:
    n=self.safeFetch(dbkey, True)
    # Matches?
-   if n != val:
+   if n != key:
     vprint(2,'  safeStore::Recurse(1)')
-    vprint(1,'  safeStore::[Looking for ',val,' and seeing ',n,']')
-    self.safeStore(dbkey, val)
+    vprint(1,'  safeStore::[Looking for ',key,' and seeing ',n,']')
+    self.safeStore(dbkey, key)
   except: #KeyError
     vprint(2,'  safeStore::Recurse(2)')
-    self.safeStore(dbkey, val)
-
+    self.safeStore(dbkey, key)
  def getKey(self, key, val=None):
-  """
+  """**NOT USED**
      Get the db key for key from the set.
      If the key is not in the set, it is added to the set.
      The value associated with key is updated unless val is None.
@@ -278,7 +213,7 @@ class CrusherDict:
   except KeyError:
    try:
     n=self.safeFetch(countName(self.name))
-    if not isinstance(n, str):
+    if str(n)!=str(int(n)):
      # Hm try again?
      return self.getKey(key, val)
     n=int(n)
@@ -314,13 +249,14 @@ class CrusherDict:
     #   BROKEN:  fetch(dbkey):(('T_____________________________________', '__E__EntryName', 3), (('Secretary of the Vote', 'Charles Lindbergh'), 1, 'VOTER|0THR000U040078B00K632EVIJF0X0Z0YO0DC05P0Q00M09N00AL0W01G0S00'))
     #   WORKING: fetch(dbkey):(('Governor', 'Jack'), 1, 'VOTER|9K0Q000')
     v=self.safeFetch(dbkey)
-    if not isinstance(v, tuple): # When a string contains only digits
+    if v.isdigit(): # When a string contains only digits
      raise Exception('...')
+    v=ast.literal_eval(v)
     if len(v) != 3: # tuple len not three
      raise Exception('...')
-    #if v and v[1] and v[1] is None:
-    # raise Exception('...')
-    if not isinstance(v[1], int):
+    if v and v[1] and v[1] is None:
+     raise Exception('...')
+    if str(v[1])!=str(int(v[1])):
      raise Exception('...')
     self.safeStore(dbkey, (key,int(v[1])+1,val))
     return {
@@ -336,7 +272,7 @@ class CrusherDict:
   except KeyError:
    try:
     n=self.safeFetch(countName(self.name))
-    if not isinstance(n, int): # If not a digit
+    if not n.isdigit(): # If not a digit
      # Hm try again? Do not set to 0.
      return self.inc(key, val)
     else:
@@ -362,7 +298,7 @@ class CrusherDict:
     n=self.safeFetch(entryName(self.name,i))
    except:
     n=None
-   vprint(2,'  []iter::n:',n)
+   vprint(2,'  []iter::n:',i)
    yield n
 
 if __name__=="__main__":

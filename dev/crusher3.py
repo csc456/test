@@ -28,17 +28,12 @@ class Cache(TestingCache):
   vprint(3,'  @return:'+str(h[-self.settings[0]:]))
   return h[-self.settings[0]:]
  def store(self,key,val):
-  vprint(3,'crusher.py::TestingCache::store')
-  try:
-   k=self.hash(key)
-   self.cache[k]=(key,val)
-  except:
-   vprint(3,sys.exc_info()[0],0)
-   #vprint(3,'err',0)
-  #vprint(3,'  hash:'+str(k))
-  #vprint(3,'  key:'+str(key))
-  #vprint(3,'  val:'+str(val))
-  #return TestingCache.store(self, key, val) #NothingChanges
+  #try:
+  # k=self.hash(key)
+  # self.cache[k]=(key,val)
+  #except:
+  # vprint(3,sys.exc_info()[0],0)
+  return TestingCache.store(self, key, val) #NothingChanges
  def fetch(self,key):
   return TestingCache.fetch(self, key)  #NothingChanges
  def remove(self,key):
